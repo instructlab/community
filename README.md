@@ -22,7 +22,8 @@ This work introduces LAB (Large-scale Alignment for chatBots), a novel methodolo
 
 ## Legal & Governance
 - [InstructLab Community Governance]()
-- [InstructLab Code of Conduct]()
+- [InstructLab Code of Conduct](https://github.com/instruct-lab/community/tree/main?tab=coc-ov-file
+- )
 
 
 ## Resources

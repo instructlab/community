@@ -32,7 +32,7 @@ This work introduces LAB (Large-scale Alignment for chatBots), a novel methodolo
 
 
 <!-- Questions can be useful but optional, this gives you a place to say, "This is how to contact this project maintainers or create PRs -->
-If you have any questions or issues you can create a new [issue here][https://github.com/instruct-lab/community/issues].
+If you have any questions or issues you can create a new [issue here](https://github.com/instruct-lab/community/issues).
 
 Pull requests are very welcome! Make sure your patches are well tested.
 Ideally create a topic branch for every separate change you make. For

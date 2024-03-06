@@ -12,8 +12,6 @@ This work introduces LAB (Large-scale Alignment for chatBots), a novel methodolo
 <!-- A more detailed Usage or detailed explaination of the repository here -->
 ## Usage
 
-This repository contains some example best practices for open source repositories:
-
 * [LICENSE](LICENSE)
 * [README.md](README.md)
 * [CONTRIBUTING.md](CONTRIBUTING.md)

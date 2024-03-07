@@ -1,13 +1,12 @@
 <!-- This should be the location of the title of the repository, normally the short name -->
-# InstructLab 🥼 Community 
+# InstructLab Community 
+![image](https://github.com/instruct-lab/community/assets/85503753/25fcefc7-a7ac-4511-90df-dc397ba741d5)
 
-<!-- Build Status, is a great thing to have at the top of your repository, it shows that you take your CI/CD as first class citizens -->
-<!-- [![Build Status](https://travis-ci.org/jjasghar/ibm-cloud-cli.svg?branch=master)](https://travis-ci.org/jjasghar/ibm-cloud-cli) -->
 
-<!-- Not always needed, but a scope helps the user understand in a short sentance like below, why this repo exists -->
 ## Overview
+InstructLab is an automated instruction-based model tuning method and toolset that accelerates and standardized model knowledge and skill composition and alignment to instruction following. It utilizes a model content and prompt behavior configuration standard to specify, and then generate and refine synthetic training data and deploy it through a novel training method. This process enables adding user-specified knowledge and skills (a “model pull request”) to various open model baselines, and merge various pull requests (model “merge”) into a single model. It also results in standardized and predictable prompting behavior even as the model content and alignment changes, Tests today have demonstrated rapid cycles of progress with small teams (~few developers) updating various open models with new skills and higher accuracy benchmarking (e.g. MT Bench). 
 
-This work introduces LAB (Large-scale Alignment for chatBots), a novel methodology designed to overcome the scalability challenges in the instruction-tuning phase of large language model (LLM) training. Leveraging a taxonomy-guided synthetic data generation process and a multi-phase tuning framework, LAB significantly reduces reliance on expensive human annotations and proprietary models like GPT-4. We demonstrate that LAB-trained models can achieve competitive performance across several benchmarks compared to models trained with traditional human-annotated or GPT-4 generated synthetic data. Thus offering a scalable, cost-effective solution for enhancing LLM capabilities and instruction-following behaviors without the drawbacks of catastrophic forgetting, marking a step forward in the efficient training of LLMs for a wide range of applications.
+
 
 <!-- A more detailed Usage or detailed explaination of the repository here -->
 ## Usage

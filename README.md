@@ -1,7 +1,7 @@
 <!-- This should be the location of the title of the repository, normally the short name -->
 # Welcome to the Lab 🔬
 There is a great need for rapid innovation on open models.
-There's AI in the open and then there's open source AI. 
+Cue open source AI. 
 
 ![image](https://github.com/instruct-lab/community/assets/85503753/25fcefc7-a7ac-4511-90df-dc397ba741d5)
 

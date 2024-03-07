@@ -7,8 +7,15 @@
 InstructLab is an automated instruction-based model tuning method and toolset that accelerates and standardized model knowledge and skill composition and alignment to instruction following. It utilizes a model content and prompt behavior configuration standard to specify, and then generate and refine synthetic training data and deploy it through a novel training method. This process enables adding user-specified knowledge and skills (a “model pull request”) to various open model baselines, and merge various pull requests (model “merge”) into a single model. It also results in standardized and predictable prompting behavior even as the model content and alignment changes, Tests today have demonstrated rapid cycles of progress with small teams (~few developers) updating various open models with new skills and higher accuracy benchmarking (e.g. MT Bench). 
 
 
+## Goals
+This open-source community effort must accomplish, at least, the following goals:
+* Build out, validate, and drive adoption of the InstructLab tooling and model API standard.
+* Grow ecosystem of open data (inputs) and open models (outputs) as enablers and proof points.
+* Establish deployable app patterns, practices and proof points for sophisticated use cases.
 
-<!-- A more detailed Usage or detailed explaination of the repository here -->
+
+
+
 ## Usage
 
 * [LICENSE](LICENSE)

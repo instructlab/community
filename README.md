@@ -1,5 +1,7 @@
 <!-- This should be the location of the title of the repository, normally the short name -->
 # InstructLab Community 
+Where input data, taxonomies and open models are fuel.
+
 ![image](https://github.com/instruct-lab/community/assets/85503753/25fcefc7-a7ac-4511-90df-dc397ba741d5)
 
 
@@ -12,8 +14,6 @@ This open-source community effort must accomplish, at least, the following goals
 * Build out, validate, and drive adoption of the InstructLab tooling and model API standard.
 * Grow ecosystem of open data (inputs) and open models (outputs) as enablers and proof points.
 * Establish deployable app patterns, practices and proof points for sophisticated use cases.
-
-
 
 
 ## Usage

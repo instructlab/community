@@ -1,6 +1,6 @@
 <!-- This should be the location of the title of the repository, normally the short name -->
 # InstructLab Community 
-Where input data, taxonomies and open models are fuel.
+Welcome to where input data, taxonomies and open models are fuel to ignite our community.
 
 ![image](https://github.com/instruct-lab/community/assets/85503753/25fcefc7-a7ac-4511-90df-dc397ba741d5)
 

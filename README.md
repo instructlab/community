@@ -1,11 +1,17 @@
 <!-- This should be the location of the title of the repository, normally the short name -->
 # InstructLab Community 
-Welcome to where input data, taxonomies and open models are the building blocks to our community.
+There is a great need for rapid innovation on open models.
+There's AI in the open and then there's open source AI. 
 
 ![image](https://github.com/instruct-lab/community/assets/85503753/25fcefc7-a7ac-4511-90df-dc397ba741d5)
 
+## Why InstructLab
+AI becomes stronger, more stable and secure with an open approach to large model development.There are many projects rapidly embracing and extending permissively licensed AI models, but they are faced with three main challenges:
+* Contribution to the models themselves is not possible directly.  They show up as forks, which forces consumers to choose a “best-fit” model that isn’t easily extensible, and the forks are expensive for model creators to maintain.
+* The ability to contribute ideas is limited by a lack of AI/ML expertise.  One has to learn how to fork, train, and refine models in order to see their idea move forward.  This is a very high barrier to entry.
+* There is no direct community governance or best practice around review, curation, and distribution of forked models.
 
-## Overview
+## Technical Overview
 InstructLab is an automated instruction-based model tuning method and toolset that accelerates and standardized model knowledge and skill composition and alignment to instruction following. It utilizes a model content and prompt behavior configuration standard to specify, and then generate and refine synthetic training data and deploy it through a novel training method. This process enables adding user-specified knowledge and skills (a “model pull request”) to various open model baselines, and merge various pull requests (model “merge”) into a single model. It also results in standardized and predictable prompting behavior even as the model content and alignment changes, Tests today have demonstrated rapid cycles of progress with small teams (~few developers) updating various open models with new skills and higher accuracy benchmarking (e.g. MT Bench). 
 
 

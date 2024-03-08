@@ -44,7 +44,6 @@ This open-source community effort must accomplish, at least, the following goals
 * [README.md](README.md)
 * [CONTRIBUTING.md](CONTRIBUTING.md)
 * [MAINTAINERS.md](MAINTAINERS.md)
-<!-- A Changelog allows you to track major changes and things that happen, https://github.com/github-changelog-generator/github-changelog-generator can help automate the process -->
 * [CHANGELOG.md](CHANGELOG.md)
 
 

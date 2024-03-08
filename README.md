@@ -18,7 +18,7 @@ A model would then include a "tree of skills" (taxonomy) composed on top.
 
 The way this technology has been built, it is not model-specific, so it could apply as easily to say the llama family of models as the IBM granite family. There is a potential to onboard other model creators (e.g. Mistral, Meta, etc.) as partners in following this approach to accepting upstream contributions back into the models. IBM has already released two "lab-enhanced" (via InstructLab) models on HuggingFace in the past week:
 
-[Labradorite](https://huggingface.co/ibm/labradorite-13b)(lab-enhanced llama2)
+[Labradorite](https://huggingface.co/ibm/labradorite-13b) (lab-enhanced llama2)
 [Merlinite](https://huggingface.co/ibm/merlinite-7b) (lab-enhanced Mistral)
 
 The technology gives model upstreams with sufficient infrastructure resources (e.g. IBM) the ability to create nightly builds of their open source licensed models (again, not rebuilding / retraining the entire model, but composing just the new skills into it.) They would accept pull requests to their models; these PRs would then be included in the next nightly build.

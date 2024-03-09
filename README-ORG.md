@@ -45,7 +45,7 @@ The infrastructure used to regularly train the model based on new contributions 
 
 - [community](): community content
 - [website](): StoneMason's website repository
-- [github-bots](): automated CI/CD bots and related conten
+- [github-bots](): automated CI/CD bots and related content
 
 ### Code of conduct
 Participation in the StoneMason community is governed by our [Code of Conduct]().

@@ -1,0 +1,12 @@
+#####################################################
+#
+# List of approvers for instruct-lab/community repository
+#
+#####################################################
+#
+# Learn about CODEOWNERS file format:
+#  https://help.github.com/en/articles/about-code-owners
+#
+
+* @instruct-lab/community-maintainers
+

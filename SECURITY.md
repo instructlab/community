@@ -1,7 +1,8 @@
 # Security Policy
 
-> THIS NEEDS TO BE UPDATED PER OUR PROJECT SECURITY POLICY
+The InstructLab team and community take security bugs seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
 
-## Reporting a Vulnerability
+To report a security issue, please use the GitHub Security Advisory "Report a Vulnerability" tab.
 
-To report a security issue, please email <TODO@ibm.com> with a description of the issue, the steps you took to create the issue, affected versions, and if known, mitigations for the issue. Our vulnerability management team will acknowledge receiving your email within 3 working days. This project follows a 90 day disclosure timeline.
+The InstructLab team will send a response indicating the next steps in handling your report. After the initial reply to your report, the security team will keep you informed of the progress towards a fix and full announcement, and may ask for additional information or guidance.
+

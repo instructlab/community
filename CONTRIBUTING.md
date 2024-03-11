@@ -99,3 +99,17 @@ git commit -s
 
 Please use our [Discussion Board](https://github.com/orgs/instruct-lab/discussions) to communicate with the maintainers.
 
+## Setup
+
+Please see each repo's README.md or CONTRIBUTING.md files for any testing guidelines and requirements.
+
+## Testing
+
+Please see each repo's README.md or CONTRIBUTING.md files for any testing guidelines and requirements.
+
+## Coding style guidelines
+
+Please see each repo's CONTRIBUTING.md file for any coding style guidelines and requirements.
+
+
+

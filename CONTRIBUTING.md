@@ -51,7 +51,7 @@ For a list of the maintainers, see the [MAINTAINERS.md](MAINTAINERS.md) page.
 
 ### Taxonomy
 
-We welcome contributions in the form of pull requests for documentation updates, skills contributions, knowledge contributions and more. 
+We welcome contributions in the form of pull requests for documentation updates, skills contributions, knowledge contributions and more. Note: knowledge contributions will not be considered at launch but will be accepted at a later date.
 See the [Taxonomy's contribution guide](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md) for more details.
 
 ### CLI

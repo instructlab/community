@@ -58,7 +58,7 @@ The infrastructure used to regularly train the model based on new contributions 
 Participation in the InstructLab community is governed by our [Code of Conduct](https://github.com/instruct-lab/community/edit/main/README-ORG.md#:~:text=CODEOWNERS-,CODE_OF_CONDUCT,-.md).
 
 ### Governance
-How the InstructLab project [governance]() operates
+How the InstructLab project [governance]() operates.
 
 ### Security
 Security policies and practices, including reporting vulnerabilities can be found in our [Security.md]().

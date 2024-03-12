@@ -1,6 +1,6 @@
 # Contributor ladder for instruct-lab 
 
-This document outlines the various roles to support contributors to grow responsibility in the various projects in the instruct-lab. The goal is to scale individual participation using transparent criteria. These criteria should be re-evaluated periodically to ensure we can meet the needs of the project with the resources available to contributor. Also, these criteria can be extended by a project to meet project specific need.
+This document outlines the various roles to support contributors to grow responsibility in the various projects in InstructLab. The goal is to scale individual participation using transparent criteria. These criteria should be re-evaluated periodically to ensure we can meet the needs of the project with the resources available to contributor. Also, these criteria can be extended by a project to meet project specific need.
 
 | Role       | Responsibilities                             | Requirements                                                  | Defined by                    |
 |------------|----------------------------------------------|---------------------------------------------------------------|-------------------------------|

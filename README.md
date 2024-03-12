@@ -7,12 +7,21 @@ This open-source community effort must accomplish, at least, the following goals
 * Grow ecosystem of open data (inputs) and open models (outputs) as enablers and proof points.
 * Establish deployable app patterns, practices and proof points for sophisticated use cases.
 
-## Workstreams
+## InstructLab Workstreams
 - [Taxonomy]()
 - [CLI]()
 
 ## Contribution
+We encourage contribution in the form of pull requests, documentation updates and comments on existing pull requests to help with Skills or Knowledge.
+- [Project Contribution Guidelines](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md)
+- [Taxonomy's contribution guide](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md)
+- [CLI's contribution guide](https://github.com/instruct-lab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md)
 
+### Contributor Ladder
+The project welcomes new contributors. Not all contributors are able to provide sustained contribution, but each contribution is always welcome. [The Contributor Ladder](https://github.com/instruct-lab/community/blob/main/CONTRIBUTOR_LADDER.md) outlines the various roles to support contributors to grow responsibility in the various InstructLab projects.
+
+### Maintainers
+See [Maintainers]() across the project and community
 
 
 ## Communications
@@ -20,17 +29,11 @@ This open-source community effort must accomplish, at least, the following goals
 - [InstructLab Mailing lists]() FORTHCOMING
 - In the meantime, feel free to start a [discussion](https://github.com/orgs/instruct-lab/discussions) or create a new [issue](https://github.com/instruct-lab/community/issues).
   
+
 ## Legal & Governance
 - [InstructLab Community Governance](governance.md)
 - [InstructLab Code of Conduct](https://github.com/instruct-lab/community/tree/main?tab=coc-ov-file)
 
-## Usage
-* [LICENSE](LICENSE)
-* [README](README.md)
-* [CONTRIBUTING](CONTRIBUTING.md)
-* [MAINTAINERS](MAINTAINERS.md)
-* [SECURITY](SECURITY.md)
-* [CHANGELOG](CHANGELOG.md)
 
 ## License
 
@@ -39,6 +42,14 @@ Distributed under the [Apache License, Version 2.0](http://www.apache.org/licens
 SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
 
 If you would like to see the detailed LICENSE click [here](LICENSE).
+
+## Quick Links
+* [LICENSE](LICENSE)
+* [README](README.md)
+* [CONTRIBUTING](CONTRIBUTING.md)
+* [MAINTAINERS](MAINTAINERS.md)
+* [SECURITY](SECURITY.md)
+* [CHANGELOG](CHANGELOG.md)
 
 
 

@@ -48,7 +48,7 @@ This open-source community effort must accomplish, at least, the following goals
 
 
 ## Legal & Governance
-- [InstructLab Community Governance](Need to create)
+- [InstructLab Community Governance](governance.md)
 - [InstructLab Code of Conduct](https://github.com/instruct-lab/community/tree/main?tab=coc-ov-file)
 
 

@@ -1,6 +1,8 @@
 # InstructLab Community 🔬
 The mission of the InstructLab project is to leverage innovative techniques to overcome the scalability challenges in the instruction-tuning phase of large language model (LLM) training. InstructLab leverages a taxonomy driven curation process and synthetic data generation to enable an open source community to submit contributions to existing LLMs without the need to fully fork and fine-tune.
 
+This repository shares InstructLab's governance and collaboration across the community. The You should be able to find most relevant and up to date information below (and your issues/pull requests are more than welcome to help us maintain this), but you can always email help@finos.org if you still can't find what you're looking for.
+
 ## Community Goals
 This open-source community effort must accomplish, at least, the following goals:
 * Build out, validate, and drive adoption of the InstructLab tooling and model API standard.
@@ -29,7 +31,7 @@ The project welcomes new contributors. Not all contributors are able to provide 
 See all Maintainers and Triagers for InstructLab [here](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md).
 
 
-## Communications
+## Resources
 - [InstructLab Slack]() FORTHCOMING
 - [InstructLab Mailing lists]() FORTHCOMING
 - In the meantime, feel free to start a [discussion](https://github.com/orgs/instruct-lab/discussions).

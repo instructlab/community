@@ -19,7 +19,7 @@ Our project welcomes external contributions.To contribute code or documentation,
 A good way to familiarize yourself with the codebase and contribution process is
 to look for and tackle low-hanging fruit in the [issue tracker](/issues).
 Before embarking on a more ambitious contribution, please quickly [get in touch](#communication) with us.
-Also important is that you need to agree to the terms of [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits. 
+Also important to note is that you need to agree to the terms of [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits. We automatically verify that all commit messages contain a `Signed-off-by:` line with your email address. We can only accept PRs that have all commits signed off.If you didn't sign off your commits before creating the pull request, no worries, you can fix that after the fact.
 
 **Note: We appreciate your effort, and want to avoid a situation where a contribution
 requires extensive rework (by you or by us), sits in backlog for a long time, or
@@ -36,34 +36,6 @@ are not interested in accepting into the code base.
 
 If you would like to fix a bug, please [raise an issue](/issues) before sending a
 pull request so it can be tracked.
-
-### Signing Off Commits After Submitting a Pull Request
-
-You must agree to the terms of [Developer Certificate of Origin](https://developercertificate.org/) by signing off your commits. We automatically verify that all commit messages contain a `Signed-off-by:` line with your email address. We can only accept PRs that have all commits signed off.
-
-If you didn't sign off your commits before creating the pull request, you can fix that after the fact.
-
-To sign off a single commit:
-
-`git commit --amend --signoff`
-
-To sign off one or multiple commits:
-
-`git rebase --signoff origin/master`
-
-Then force push your branch:
-
-`git push --force origin test-branch`
-
-### Useful tools to make doing DCO signoffs easier
-
-There are a number of great tools out there to manage DCO signoffs for developers to make it much easier to do signoffs.
-
-- DCO command line tool, which let's you do a single signoff for an entire repo ( <https://github.com/coderanger/dco> )
-- GitHub UI integrations for adding the signoff automatically ( <https://github.com/scottrigby/dco-gh-ui> )
-- Chrome - <https://chrome.google.com/webstore/detail/dco-github-ui/onhgmjhnaeipfgacbglaphlmllkpoijo>
-- Firefox - <https://addons.mozilla.org/en-US/firefox/addon/scott-rigby/?src=search>
-
 
 ### Merge approval
 
@@ -120,6 +92,15 @@ local git repository using the following command:
 ```
 git commit -s
 ```
+
+### Useful tools to make doing DCO signoffs easier
+
+There are a number of great tools out there to manage DCO signoffs for developers to make it much easier.
+
+- DCO command line tool, which let's you do a single signoff for an entire repo ( <https://github.com/coderanger/dco> )
+- GitHub UI integrations for adding the signoff automatically ( <https://github.com/scottrigby/dco-gh-ui> )
+- Chrome - <https://chrome.google.com/webstore/detail/dco-github-ui/onhgmjhnaeipfgacbglaphlmllkpoijo>
+- Firefox - <https://addons.mozilla.org/en-US/firefox/addon/scott-rigby/?src=search>
 
 ## Communication
 

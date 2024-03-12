@@ -1,4 +1,4 @@
-# Contributor Covenant Code of Conduct
+# InstructLab - Code of Conduct and Covenant
 
 ## Our Pledge
 

@@ -21,7 +21,7 @@ We encourage contribution in the form of pull requests, documentation updates an
 The project welcomes new contributors. Not all contributors are able to provide sustained contribution, but each contribution is always welcome. [The Contributor Ladder](https://github.com/instruct-lab/community/blob/main/CONTRIBUTOR_LADDER.md) outlines the various roles to support contributors to grow responsibility in the various InstructLab projects.
 
 ### Maintainers
-See [Maintainers]() across the project and community
+See all Maintainers and Triagers for InstructLab [here](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md).
 
 
 ## Communications

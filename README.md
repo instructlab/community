@@ -8,6 +8,10 @@ This open-source community effort must accomplish, at least, the following goals
 * Grow ecosystem of open data (inputs) and open models (outputs) as enablers and proof points.
 * Establish deployable app patterns, practices and proof points for sophisticated use cases.
 
+## Workstreams
+- [Taxonomy]()
+- [CLI]()
+
 ## Legal & Governance
 - [InstructLab Community Governance](governance.md)
 - [InstructLab Code of Conduct](https://github.com/instruct-lab/community/tree/main?tab=coc-ov-file)

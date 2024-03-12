@@ -1,5 +1,5 @@
 # InstructLab Community 🔬
-The Mission of the InstructLab project is to leverage innovative techniques to overcome the scalability challenges in the instruction-tuning phase of large language model (LLM) training. InstructLab leverages a taxonomy driven curation process and synthetic data generation to enable an open source community to submit contributions to existing LLMs without the need to fully fork and fine-tune.
+The mission of the InstructLab project is to leverage innovative techniques to overcome the scalability challenges in the instruction-tuning phase of large language model (LLM) training. InstructLab leverages a taxonomy driven curation process and synthetic data generation to enable an open source community to submit contributions to existing LLMs without the need to fully fork and fine-tune.
 
 ## Community Goals
 This open-source community effort must accomplish, at least, the following goals:

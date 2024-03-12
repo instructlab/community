@@ -27,12 +27,14 @@ See all Maintainers and Triagers for InstructLab [here](https://github.com/instr
 ## Communications
 - [InstructLab Slack]() FORTHCOMING
 - [InstructLab Mailing lists]() FORTHCOMING
-- In the meantime, feel free to start a [discussion](https://github.com/orgs/instruct-lab/discussions) or create a new [issue](https://github.com/instruct-lab/community/issues).
+- In the meantime, feel free to start a [discussion](https://github.com/orgs/instruct-lab/discussions).
   
 
 ## Legal & Governance
 - [InstructLab Community Governance](governance.md)
 - [InstructLab Code of Conduct](https://github.com/instruct-lab/community/tree/main?tab=coc-ov-file)
+- You must agree to the terms of [Developer Certificate of Origin](https://developercertificate.org/) by signing off your commits. 
+
 
 
 ## License

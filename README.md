@@ -26,11 +26,11 @@ This open-source community effort must accomplish, at least, the following goals
 
 ## Usage
 * [LICENSE](LICENSE)
-* [README.md](README.md)
-* [CONTRIBUTING.md](CONTRIBUTING.md)
-* [MAINTAINERS.md](MAINTAINERS.md)
+* [README](README.md)
+* [CONTRIBUTING](CONTRIBUTING.md)
+* [MAINTAINERS](MAINTAINERS.md)
 * [SECURITY](SECURITY.md)
-* [CHANGELOG.md](CHANGELOG.md)
+* [CHANGELOG](CHANGELOG.md)
 
 ## License
 

@@ -18,7 +18,7 @@ This open-source community effort must accomplish, at least, the following goals
 ## Communications
 - [InstructLab Slack]() FORTHCOMING
 - [InstructLab Mailing lists]() FORTHCOMING
-- In the meantime, feel free to start a [discussion]() or create a new [issue]().
+- In the meantime, feel free to start a [discussion](https://github.com/orgs/instruct-lab/discussions) or create a new [issue](https://github.com/instruct-lab/community/issues).
   
 ## Legal & Governance
 - [InstructLab Community Governance](governance.md)
@@ -29,6 +29,7 @@ This open-source community effort must accomplish, at least, the following goals
 * [README.md](README.md)
 * [CONTRIBUTING.md](CONTRIBUTING.md)
 * [MAINTAINERS.md](MAINTAINERS.md)
+* [SECURITY](SECURITY.md)
 * [CHANGELOG.md](CHANGELOG.md)
 
 ## License

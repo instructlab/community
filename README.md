@@ -11,6 +11,11 @@ This open-source community effort must accomplish, at least, the following goals
 - [Taxonomy]()
 - [CLI]()
 
+## Governance & Legal
+- [InstructLab Community Governance](governance.md)
+- [InstructLab Code of Conduct](https://github.com/instruct-lab/community/tree/main?tab=coc-ov-file)
+- You must agree to the terms of [Developer Certificate of Origin](https://developercertificate.org/) by signing off your commits.
+
 ## Contribution
 We encourage contribution in the form of pull requests, documentation updates and comments on existing pull requests to help with Skills or Knowledge.
 - [Project Contribution Guidelines](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md)
@@ -29,13 +34,6 @@ See all Maintainers and Triagers for InstructLab [here](https://github.com/instr
 - [InstructLab Mailing lists]() FORTHCOMING
 - In the meantime, feel free to start a [discussion](https://github.com/orgs/instruct-lab/discussions).
   
-
-## Legal & Governance
-- [InstructLab Community Governance](governance.md)
-- [InstructLab Code of Conduct](https://github.com/instruct-lab/community/tree/main?tab=coc-ov-file)
-- You must agree to the terms of [Developer Certificate of Origin](https://developercertificate.org/) by signing off your commits. 
-
-
 
 ## License
 

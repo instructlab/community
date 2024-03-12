@@ -24,58 +24,25 @@ The technology gives model upstreams with sufficient infrastructure resources (e
 
 Contributors that are currently creating their own forks of models like Mistral would be able to accelerate their work and avoid the costs of forking and retraining their models.  Once proven out, we expect this to attract an even broader set of contributors that have less AI expertise but have creative ideas on how to extend AI models.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-is centered around Labrador 🐶, which is a novel synthetic data-based alignment tuning method for Large 
-Language Models (LLMs.) The "**lab**" in **Lab**rador 🐶 stands for **L**arge-scale **A**lignment for Chat **B**ots.
-Read more in the taxonomy repo
-
 ---
 
 # InstructLab is composed of the following projects:
 
 ## [Taxonomy](https://github.com/instruct-lab/taxonomy)
 
-Labrador 🐶 is a novel synthetic data-based alignment tuning method for Large 
-Language Models (LLMs.) The "**lab**" in **Lab**rador 🐶 stands for **L**arge-scale **A**lignment for Chat **B**ots.
-
-The LAB method is driven by taxonomies, which are largely created manually and with care.
-
-This repository contains a taxonomy tree that will allow you to create models tuned with your data (enhanced via synthetic data generation) using Labrador 🐶 method.
+The InstructLab method is driven by taxonomies, which are largely created manually and with care. This repository contains a taxonomy tree that will allow you to create models tuned with your data (enhanced via synthetic data generation) using the InstructLab method.
 
 - [Repo]()
 - [Contributing]()
 
 ## [Command-line Interface](https://github.com/instruct-lab/cli)
 
-Labrador 🐶 is a novel synthetic data-based alignment tuning method for Large 
-Language Models (LLMs.) The "**lab**" in **Lab**rador 🐶 stands for **L**arge-scale **A**lignment for Chat **B**ots.
-
-This command-line interface for Labrador 🐶 (`lab`) will allow you to create models tuned 
-with your data using the Labrador 🐶 method on your laptop or workstation.
+This command-line interface for InstructLab will allow you to create models tuned with data you provide using the InstructLab method on your laptop or workstation.
 
 - [Repo]()
 - [Contributing]()
   
-## Model Training Infrasctructure
+## Model Training Infrastructure
 
 The infrastructure used to regularly train the model based on new contributions from the community is GPU intensive and generously donated and maintained by IBM.
 

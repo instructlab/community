@@ -1,11 +1,11 @@
-# Contributor ladder for instruct-lab 
+# Contributor Ladder for InstructLab 
 
 This document outlines the various roles to support contributors to grow responsibility in the various projects in InstructLab. The goal is to scale individual participation using transparent criteria. These criteria should be re-evaluated periodically to ensure we can meet the needs of the project with the resources available to contributor. Also, these criteria can be extended by a project to meet project specific need.
 
 | Role       | Responsibilities                             | Requirements                                                  | Defined by                    |
 |------------|----------------------------------------------|---------------------------------------------------------------|-------------------------------|
-| Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 maintainers            | Instruct-lab GitHub org member        |
-| Triager     | Actively triaging issues and PRs          | History of issue and PR triage and sponsored by 2 maintainers           | Instruct-lab GitHub Triage team member        |
+| Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 maintainers            | InstructLab GitHub org member        |
+| Triager     | Actively triaging issues and PRs          | History of issue and PR triage and sponsored by 2 maintainers           | InstructLab GitHub Triage team member        |
 | Reviewer   | Review contributions from other contributors      | History of review and contributions. Sponsored by 2 maintainers.                              | CODEOWNERS/MAINTAINER file reviewer entry  |
 | Maintainer | Set direction and priorities for the project | Demonstrated responsibility and excellent technical judgement. Nominated and approved by maintainers team. | CODEOWNERS/MAINTAINER file approver entry  |
 
@@ -15,7 +15,7 @@ The project welcomes new contributors. Not all contributors are able to provide 
 
 Members are active contributors in the community. They can have issues and PRs assigned to them. Members are expected to remain active contributors to the community.
 
-**Defined by:** Member of the instruct-lab GitHub organization.
+**Defined by:** Member of the InstructLab GitHub organization.
 
 ### Requirements
 
@@ -44,7 +44,7 @@ perform code reviews and work towards becoming a *reviewer*.
 
 Triagers are active contributors in the community through issue and PR triage. Triagers are expected to remain active contributors towards project’s good health.
 
-**Defined by:** Member of the instruct-lab GitHub Triage team.
+**Defined by:** Member of the InstructLab GitHub Triage team.
 
 ### Requirements
 

@@ -29,7 +29,7 @@ Members are active contributors in the community. They can have issues and PRs a
     - Contributing to community discussions (e.g. meetings, Slack).
 - Sponsored by two Maintainers or Reviewers
 
-Any person who meets the requirements may be nominated by an contributor (including themselves):
+Any person who meets the requirements may be nominated by a contributor (including themselves):
 - Open an issue in the repo of interest detailing your contributions to the project so far.
 - Ensure your sponsors are @mentioned on the issue.
 - Make sure that the list of contributions included is representative of your work on the project.

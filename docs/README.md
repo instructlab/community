@@ -18,8 +18,8 @@ If you would like to contribute any third-party data to either the Skills or Kno
 This applies to:
 
 * data embedded in `.md` files as knowledge
-* data offered as `context` in `qna.yml` files for skills
-* questions and answers sourced from elsewhere and used as `qna.yml` submissions
+* data offered as `context` in `qna.yaml` files for skills
+* questions and answers sourced from elsewhere and used as `qna.yaml` submissions
 
 The following licenses are permitted:
 

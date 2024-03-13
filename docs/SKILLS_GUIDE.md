@@ -188,7 +188,7 @@ Adversarial questions and answers will be rejected at this time.
 
 These are an edge case, but things like palindromes and regexes, where getting the right answer with a non-stochastic program would be easy, aren't good targets for the moment.
 
-Ask in the channel if you have an idea in this space before submitting a PR.
+Open an issue in the taxonomy repository if you have an idea in this space before submitting a PR.
 
 ### Small Changes to Original Response
 

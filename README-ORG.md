@@ -1,11 +1,9 @@
 # Welcome to the Lab 🔬
-There is a great need for rapid innovation on open models.
-Cue open source AI. 
 
 ![image](https://github.com/instruct-lab/community/assets/85503753/25fcefc7-a7ac-4511-90df-dc397ba741d5)
 
 ## Why InstructLab
-AI becomes stronger, more stable and secure with an open approach to large model development.There are many projects rapidly embracing and extending permissively licensed AI models, but they are faced with three main challenges:
+There are many projects rapidly embracing and extending permissively licensed AI models, but they are faced with three main challenges:
 * Contribution to the models themselves is not possible directly.  They show up as forks, which forces consumers to choose a “best-fit” model that isn’t easily extensible, and the forks are expensive for model creators to maintain.
 * The ability to contribute ideas is limited by a lack of AI/ML expertise.  One has to learn how to fork, train, and refine models in order to see their idea move forward.  This is a very high barrier to entry.
 * There is no direct community governance or best practice around review, curation, and distribution of forked models.

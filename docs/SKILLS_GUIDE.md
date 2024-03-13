@@ -4,56 +4,58 @@
 
 ### Core Skills
 
-    Core skills are foundational skills like math, reasoning, and coding.
+Core skills are foundational skills like math, reasoning, and coding.
 
-    > [!NOTE]  Unlike **knowledge** and **compositional skills**, core skills
-    > are not contributable to the tree. So when you see reference to contributing
-    > "skills" to the taxonomy from this point forward, it is **compositional
-    > skills** that are being referenced.
+> [!NOTE]
+> Unlike **knowledge** and **compositional skills**, core skills
+> are not contributable to the tree. So when you see reference to contributing
+> "skills" to the taxonomy from this point forward, it is **compositional
+> skills** that are being referenced.
+> 
 ### Compositional Skills
 
-    Skills are performative. When you create a skill for the model, you're
-    teaching it how to do something: "write me a song," "talk like a pirate," or
-    "summarize an email."
+Skills are performative. When you create a skill for the model, you're
+teaching it how to do something: "write me a song," "talk like a pirate," or
+"summarize an email."
 
 There are two types of compositional skills:
 
 #### Freeform Compositional Skills
 
-     Freeform compositional skills are performative and do **not** require
-     additional context. An example of a compositional skill is "talk like a
-     pirate." You could provide examples of "pirate-like" speech. By providing
-     those examples, you're essentially tickling the latent knowledge of the
-     LLM. In our "talk like a pirate" example, you're enabling the LLM to be
-     able to recall pirate-like speeches in its latent knowledge.
+Freeform compositional skills are performative and do **not** require
+additional context. An example of a compositional skill is "talk like a
+pirate." You could provide examples of "pirate-like" speech. By providing
+those examples, you're essentially tickling the latent knowledge of the
+LLM. In our "talk like a pirate" example, you're enabling the LLM to be
+able to recall pirate-like speeches in its latent knowledge.
 
-    Freeform skills include things like:
-      * Speak like Yoda
-      * Jokes about chickens
-      * Convert to camel case
-      * Write me a limerick
-      * Generate StabeDiffusion prompts
-      * ASCII art creation
+Freeform skills include things like:
+* Speak like Yoda
+* Jokes about chickens
+* Convert to camel case
+* Write me a limerick
+* Generate StabeDiffusion prompts
+* ASCII art creation
       
 #### Grounded Compositional Skills
 
-    [Example PR](https://github.com/instruct-lab/taxonomy/pull/250)
+[Example PR](https://github.com/instruct-lab/taxonomy/pull/250)
 
-     Grounded skills are performative and **do** require additional context. An
-     example of a grounded skill would be to read the value of a cell in a table
-     layout, or to parse a JSON file. To create a grounded skill to read a 
-     markdown formatted table layout, the additional context could be an example
-     table layout. This additional context is including in the YAML for the
-     skill and not external to it. 
+Grounded skills are performative and **do** require additional context. An
+example of a grounded skill would be to read the value of a cell in a table
+layout, or to parse a JSON file. To create a grounded skill to read a 
+markdown formatted table layout, the additional context could be an example
+table layout. This additional context is including in the YAML for the
+skill and not external to it. 
 
-     > [!NOTE]
-     > The content of the table layout will not be used in training
-     > or aligning the model; only the table layout format itself will be used.
+> [!NOTE]
+> The content of the table layout will not be used in training
+> or aligning the model; only the table layout format itself will be used.
 
-     Grounded skills include things like:
-       * Game creation like Sudoku or tic tac toe
-       * Count the number of punctuation marks in a paragraph
-       * Find unresolved items in a meeting transcript
+Grounded skills include things like:
+* Game creation like Sudoku or tic tac toe
+* Count the number of punctuation marks in a paragraph
+* Find unresolved items in a meeting transcript
 
 ## Building Your LLM Intuition
 

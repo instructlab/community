@@ -6,10 +6,10 @@
 
     Core skills are foundational skills like math, reasoning, and coding.
 
-    🗒️ **Note:** Unlike **knowledge** and **compositional skills**, core skills
-    are not contributable to the tree. So when you see reference to contributing
-    "skills" to the taxonomy from this point forward, it is **compositional
-    skills** that are being referenced.
+    > [!NOTE]  Unlike **knowledge** and **compositional skills**, core skills
+    > are not contributable to the tree. So when you see reference to contributing
+    > "skills" to the taxonomy from this point forward, it is **compositional
+    > skills** that are being referenced.
 ### Compositional Skills
 
     Skills are performative. When you create a skill for the model, you're
@@ -143,7 +143,7 @@ Anything related to trust and safety will be flagged for higher-level review.
 
 ### Searching, Extraction and Summarization
 
-Skills to select odd information in a document, draw conclusions, pull out information, draw insights or generate TODOs from information provided in the "Context" field are welcome.
+Skills to select odd information in a document, draw conclusions, pull out information, draw insights or generate TODOs from information provided in the "context" field are welcome.
 
 ### Complex Rulesets and Games
 

@@ -35,7 +35,7 @@ Any third party content contributed to this project undergoes modifications in o
 While the tuning process may eventually benefit from being used to help the models work with complex social topics, at this time this is an area of active research we do not want to take lightly. Therefore please keep your submissions clear of the following topics:
 
 * Religion
-* Politics - history is fine but current politics
+* Politics - history is fine but avoid current politics
 * PII
 * Violence
 * Cyber Bullying

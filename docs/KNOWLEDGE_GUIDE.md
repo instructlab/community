@@ -1,6 +1,6 @@
 # Knowledge Guide
 
-# What is "Knowledge"?
+## What is "Knowledge"?
 
 1. **Knowledge**:
 

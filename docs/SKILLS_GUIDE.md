@@ -2,7 +2,7 @@
 
 ## What is a "Skill"?
 
-### **Core Skills**:
+### Core Skills
 
     Core skills are foundational skills like math, reasoning, and coding.
 
@@ -10,7 +10,7 @@
     are not contributable to the tree. So when you see reference to contributing
     "skills" to the taxonomy from this point forward, it is **compositional
     skills** that are being referenced.
-### **Compositional Skills**:
+### Compositional Skills
 
     Skills are performative. When you create a skill for the model, you're
     teaching it how to do something: "write me a song," "talk like a pirate," or
@@ -18,7 +18,7 @@
 
 There are two types of compositional skills:
 
-#### **Freeform Compositional Skills**:
+#### Freeform Compositional Skills
 
      Freeform compositional skills are performative and do **not** require
      additional context. An example of a compositional skill is "talk like a
@@ -35,7 +35,7 @@ There are two types of compositional skills:
       * Generate StabeDiffusion prompts
       * ASCII art creation
       
-#### **Grounded Compositional Skills**:
+#### Grounded Compositional Skills
 
     [Example PR](https://github.com/instruct-lab/taxonomy/pull/250)
 

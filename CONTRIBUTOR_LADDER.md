@@ -1,13 +1,17 @@
 # Contributor Ladder for InstructLab
 
-This document outlines a default number of contributor roles for InstructLab projects. Promotion within the roles is based on individual participation using transparent criteria. These criteria should be re-evaluated periodically to ensure we can meet the needs of the projects with the resources available to contribute. Also, these criteria can be extended by an individual project to meet the project's specific needs.
+This document outlines a core number of contributor roles for InstructLab projects. Promotion within the roles is based on individual participation using transparent criteria. These criteria should be re-evaluated periodically to ensure we can meet the needs of the projects with the resources available to contribute.
+
+Each individual Project may add to these criteria and add additional roles as they require.  These additions will be spelled on in a Contributor Ladder file in the individual Project's main repository.
+
+Contributor roles are per-Project; being a Reviewer in CLI does not guarantee that you will have Reviewer rights in Taxonomy, for example.  Where applicable for InstructLab overall, contributor status is equal to the highest status they have on any Project.
 
 | Role       | Responsibilities                             | Requirements                                                  | Defined by                    |
 |------------|----------------------------------------------|---------------------------------------------------------------|-------------------------------|
-| Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 maintainers            | InstructLab GitHub org member        |
+| Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 Maintainers or Reviewers            | InstructLab GitHub org member        |
 | Triager    | Triaging issues and PRs                      | History of issue and PR triage and sponsored by 2 maintainers           | InstructLab GitHub Triage team member        |
 | Reviewer   | Reviews contributions from other contributors     | History of reviews and contributions. Sponsored by 2 maintainers.                             | CODEOWNERS/MAINTAINER file reviewer entry  |
-| Maintainer | Set direction and priorities for the project | Demonstrated responsibility and excellent technical judgement. Nominated and approved by maintainers team. | CODEOWNERS/MAINTAINER file approver entry  |
+| Maintainer | Set direction and priorities for a Project | Demonstrated responsibility and excellent technical judgement. Nominated and approved by maintainers team. | CODEOWNERS/MAINTAINER file approver entry  |
 
 The project welcomes new contributors. Not all contributors are able to provide sustained contribution, but each contribution is always welcome.  Established contributors are expected to demonstrate their adherence to the criteria in this document, familiarity with project organization, roles, policies, etc., and technical and/or writing ability. Role-specific expectations, responsibilities, and requirements are enumerated below.
 
@@ -23,10 +27,10 @@ Members are active contributors in the community. They can have issues and PRs a
     - Authoring or reviewing PRs on GitHub.
     - Filing or commenting on issues on GitHub.
     - Contributing to community discussions (e.g. meetings, Slack).
-- Sponsored by two maintainers.
+- Sponsored by two Maintainers or Reviewers
 
-If you meet the requirements, nominate yourself as below,
-- Open an issue in the repo of interest.
+Any person who meets the requirements may be nominated by an contributor (including themselves):
+- Open an issue in the repo of interest detailing your contributions to the project so far.
 - Ensure your sponsors are @mentioned on the issue.
 - Make sure that the list of contributions included is representative of your work on the project.
 
@@ -55,7 +59,7 @@ Triagers are active contributors in the community through issue and PR triage. T
 - Sponsored by two maintainers.
 
 If you meet the requirements, nominate yourself as below,
-- Open an issue in the repo of interest.
+- Open an issue in the repo of interest detailing your contributions to date.
 - Ensure your sponsors are @mentioned on the issue.
 - Make sure that the list of contributions included is representative of your work on the project.
 
@@ -74,14 +78,14 @@ Reviewers are the members with high quality code contributions and who have demo
 ### Requirements
 
 - Member for at least 1 month.
-- Primary reviewer for at least 5 PRs to the codebase with high quality reviews.
-- Knowledgeable about the codebase.
+- Primary reviewer for at least 5 PRs to the Project with high quality reviews.
+- Knowledgeable about the Project.
 - Sponsored by two maintainers.
 
-If you meet the requirements, nominate yourself to become a reviewer by sending an email to maintainers with your candidacy.
+If you meet the requirements, nominate yourself to become a reviewer by filing an issue in the appropriate Project:
 - Ensure your sponsors are @mentioned on the email.
-- Include a list of contributions representative of your work on the project.
-- Existing maintainers will vote privately and respond to the email with either acceptance or with feedback for suggested improvement.
+- Include a list of contributions representative of your work.
+- Existing maintainers will vote privately and respond to the issue with either acceptance or with feedback for suggested improvement.  Such feedback may be given privately.
 - Upon all maintainers agreement or lazy consensus among them in a three week time frame, a maintainer will create PR to add you in the CODEOWNERS/MAINTAINER file.
 
 ### Responsibilities and Privileges
@@ -95,7 +99,7 @@ If you meet the requirements, nominate yourself to become a reviewer by sending 
 
 ## Maintainer
 
-Maintainers are first and foremost contributors that have shown they are committed to the long term success of a project. Maintainership is about building trust with the current maintainers and being a person that they can depend on to make decisions in the best interest of the project in a consistent manner.
+Maintainers are first and foremost contributors that have shown they are committed to the long term success of a project. Maintainership is about building trust with the community and being a person that everyone can depend on to make consistent decisions in the best interest of the project.
 
 **Defined by:** *approvers* entry in the CODEOWNERS/MAINTAINER file.
 
@@ -129,11 +133,17 @@ If you meet the requirements, nominate yourself to become a maintainer by sendin
 - Work with other maintainers to maintain the project's overall health and success holistically.
 - Unless otherwise specified, maintainers of a project are the github users with permission to merge commits to the project repository branches.
 
-### Stepping Down/Emeritus Process
+## Stepping Down/Emeritus Process
 
-Life priorities, interests, and passions can change. Maintainers can retire and move to emeritus maintainers. If a maintainer needs to step down, they should inform other maintainers, if possible, help find someone to pick up the related work. At the very least, ensure the related work can be continued. Afterward they can remove themselves from the list of existing maintainers.
+Life priorities, interests, and passions can change. Contributors can retire and move to emeritus maintainers. If a contributor needs to step down from their current role, they should inform the appropriate Project Maintainers.  No vote is required for a contributor to remove themselves, and any maintainer can approve the PR.  Maintainers who step down become Emeritus Maintainers.
 
-If a maintainer has not been performing their duties for a consecutive period of 12 months, they can be removed by the other maintainers from the active maintainer list. In that case the inactive maintainer will be first notified via an email. If the situation doesn't improve, they will be moved from the active list to an emeritus list. If an emeritus maintainer wants to regain an active role, they can do so by renewing their contributions. Active maintainers should welcome such a move. Retiring of other maintainers or regaining the status should require approval of at least two active maintainers.
+If a contributor has not been performing the duties of their role for a consecutive period of 12 months, they can be removed by the appropriate Project Maintainers. The Maintainers will make reasonable efforts to contact the absent contributor. If the Code of Conduct Committee recommends that a contributor be removed from their role, this will also be carried out by the Project Maintainers.  
+
+If an emeritus maintainer or other retired contributor wants to regain an active role, they can do so by renewing their contributions, after which they can be re-enstated by a decision of the appropriate Project Maintainers.
+
+## Changes to this Contributor Ladder
+
+Changes to the Contributor Ladder must be approved via a vote of the Oversight Committee or a majority of existing Project Maintainer.
 
 ## Acknowledgements
 

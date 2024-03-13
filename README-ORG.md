@@ -61,4 +61,4 @@ Participation in the InstructLab community is governed by our [Code of Conduct](
 How the InstructLab project [governance](https://github.com/instruct-lab/community/blob/main/governance.md) operates.
 
 ### Security
-Security policies and practices, including reporting vulnerabilities can be found in our [Security.md]().
+Security policies and practices, including reporting vulnerabilities can be found in our [Security.md](https://github.com/instruct-lab/community/blob/main/SECURITY.md).

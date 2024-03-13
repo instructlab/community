@@ -55,7 +55,7 @@ The infrastructure used to regularly train the model based on new contributions 
 
 
 ### Code of Conduct & Covenant
-Participation in the InstructLab community is governed by our [Code of Conduct](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md).
+Participation in the InstructLab community is governed by our [Code of Conduct & Covenant](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md).
 
 ### Governance
 How the InstructLab project [governance](https://github.com/instruct-lab/community/blob/main/governance.md) operates.

@@ -36,7 +36,7 @@ While the tuning process may eventually benefit from being used to help the mode
 
 * Religion
 * Politics - history is fine but avoid current politics
-* PII
+* PII (personally identifiable information)
 * Violence
 * Cyber Bullying
 * Internal docs

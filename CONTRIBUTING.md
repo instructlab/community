@@ -14,10 +14,9 @@ Please report unacceptable behavior to one of the [Code Owners](./CODEOWNERS).
 
 ## Contributing in General
 
-Our project welcomes external contributions. To contribute code or documentation, please submit a [pull request](/pulls).
+Our project welcomes external contributions. To contribute code or documentation, please submit a [pull request](/pulls) here or in the relevant repository.
 
-A good way to familiarize yourself with the codebase and contribution process is
-to look for and tackle low-hanging fruit in the [issue tracker](/issues).
+A good way to familiarize yourself with the codebase and contribution process is to look for and tackle low-hanging fruit in the [issue tracker](/issues) of the repository you would like to contribute to.
 Before embarking on a more ambitious contribution, please quickly [get in touch](#communication) with us.
 
 Also important to note is that you need to agree to the terms of [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits. We automatically verify that all commit messages contain a `Signed-off-by:` line with your email address. We can only accept PRs that have all commits signed off. If you didn't sign off your commits before creating the pull request, no worries, you can fix that after the fact.
@@ -29,14 +28,14 @@ cannot be accepted at all!**
 ### Proposing new Features
 
 If you would like to implement a new feature, please [raise an issue](/issues)
-before sending a pull request so the feature can be discussed. This is to avoid
-you wasting your valuable time working on a feature that the project developers
-are not interested in accepting into the code base.
+in the appropriate respository before sending a pull request so that the feature can be
+discussed. This is to avoid you wasting your valuable time working on a feature that the
+project developers are not interested in accepting into the code base.
 
 ### Fixing Bugs
 
-If you would like to fix a bug, please [raise an issue](/issues) before sending a
-pull request so it can be tracked.
+If you would like to fix a bug, please [raise an issue](/issues) in the appropriate repository
+before sending a pull request so it can be tracked.
 
 ### Merge Approval
 

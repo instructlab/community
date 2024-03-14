@@ -3,7 +3,7 @@ Maintainers
 
 **CLI Maintainers**
 
-| Name                    | GitHub 
+| Name                    | GitHub
 |-------------------------|--------
 | Andrea Frittoli         | [afrittoli][afrittoli]
 | BJ Hargrave             | [bjhargrave][bjhargrave]
@@ -21,7 +21,7 @@ Maintainers
 
 **CLI Triagers**
 
-| Name                    | GitHub 
+| Name                    | GitHub
 |-------------------------|--------
 | Aakanksha Duggal        | [aakankshaduggal][aakankshaduggal]
 | Abhishek Bhandwaldar    | [abhi1092][abhi1092]
@@ -39,7 +39,7 @@ Maintainers
 
 **Community Maintainers**
 
-| Name                    | GitHub 
+| Name                    | GitHub
 |-------------------------|--------
 | Cara Delia              | [caradelia][caradelia]
 | Carol Chen              | [cybette][cybette]
@@ -49,27 +49,9 @@ Maintainers
 | Martin Hickey           | [hickeyma][hickeyma]
 | Mingxuan Zhao           | [mingxzhao][mingxzhao]
 
-**Instruct Lab Org Maintainers**
-
-| Name                    | GitHub 
-|-------------------------|--------
-| Akash Srivastava        | [akashgit][akashgit]
-| Aldo Pareja             | [aldopareja][aldopareja]
-| darrellreimer           | [darrellreimer][darrellreimer]
-| Jeremy Eder             | [jeremyeder][jeremyeder]
-| JJ Asghar               | [jjasghar][jjasghar]
-| Joe Sepi                | [joesepi][joesepi]
-| Kai Xu                  | [xukai92][xukai92]
-| luke-inglis             | [luke-inglis][luke-inglis]
-| Mairin Duffy            | [mairin][mairin]
-| Mark Sturdevant         | [markstur][markstur]
-| Martin Hickey           | [hickeyma][hickeyma]
-| Matt Hicks              | [matthicksj][matthicksj]
-| Shiv                    | [shivchander][shivchander]
-
 **Taxonomy Approvers**
 
-| Name                    | GitHub 
+| Name                    | GitHub
 |-------------------------|--------
 | Abhishek Bhandwaldar    | [abhi1092][abhi1092]
 | Akash Srivastava        | [akashgit][akashgit]
@@ -79,7 +61,7 @@ Maintainers
 
 **Taxonomy Maintainters**
 
-| Name                    | GitHub 
+| Name                    | GitHub
 |-------------------------|--------
 | Arnaud J Le Hors        | [lehors][lehors]
 | BJ Hargrave             | [bjhargrave][bjhargrave]
@@ -95,7 +77,7 @@ Maintainers
 
 **Taxonomy Triagers**
 
-| Name                    | GitHub 
+| Name                    | GitHub
 |-------------------------|--------
 | Abraham Daniels         | [abrahamdaniels][abrahamdaniels]
 | Arnaud J Le Hors        | [lehors][lehors]

@@ -9,7 +9,7 @@ There are many projects rapidly embracing and extending permissively licensed AI
 * There is no direct community governance or best practice around review, curation, and distribution of forked models.
 
 ## Unforking Models: The InstructLab Method
-IBM and Red Hat are working on a project that allows the establishment of a pull request-like upstream contribution acceptance workflow for models. These upstream contributions add additional "skills" or "knowledge" to the model. These skills can be built by providing a much smaller number of "example" data artifacts than would normally be required to influence an LLM. (E.g., 3 sample documents instead of 5,000.) The technique involves using generative AI to create synthetic data to "expand" the limited data artifact set to a scale that would influence the model. This generated data is then used in a training step, effectively teaching it a new skill that it previously could not do, or did not do well.  This skill can then be submitted upstream to the model, and if accepted, the model would not need to be rebuilt entirely, but the skill would be included by being built on top as a layer composed on top.
+IBM and Red Hat are working on a project that allows the establishment of a pull request-like upstream contribution acceptance workflow for models. These upstream contributions add additional "skills" or "knowledge" to the model. These skills can be built by providing a much smaller number of "example" data artifacts than would normally be required to influence an LLM. (E.g., 3 sample documents instead of 5,000.) The technique involves using generative AI to create synthetic data to "expand" the limited data artifact set to a scale that would influence the model. This generated data is then used in a training step, effectively teaching it a new skill that it previously could not do, or did not do well.  This skill can then be submitted upstream to the model, and if accepted, the model would not need to be rebuilt entirely, but the skill would be included as part of a layer on top.
 
 A model would then include a "tree of skills" (taxonomy) composed on top.
 
@@ -30,15 +30,15 @@ Contributors that are currently creating their own forks of models like Mistral 
 
 The InstructLab method is driven by taxonomies, which are largely created manually and with care. This repository contains a taxonomy tree that will allow you to create models tuned with your data (enhanced via synthetic data generation) using the InstructLab method.
 
-- [Repo]()
-- [Contributing]()
+- [Repo](https://github.com/instruct-lab/taxonomy)
+- [Contributing](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md)
 
 ## [Command-line Interface](https://github.com/instruct-lab/cli)
 
 This command-line interface for InstructLab will allow you to create models tuned with data you provide using the InstructLab method on your laptop or workstation.
 
-- [Repo]()
-- [Contributing]()
+- [Repo](https://github.com/instruct-lab/cli)
+- [Contributing](https://github.com/instruct-lab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md)
   
 ## Model Training Infrastructure
 
@@ -46,11 +46,12 @@ The infrastructure used to regularly train the model based on new contributions 
 
 ---
 
+<!--
 ## Additonal aspects of the project include:
 
 - [community](): community content
 - [github-bots](): automated CI/CD bots and related content
-
+-->
 
 ### Code of Conduct & Covenant
 Participation in the InstructLab community is governed by our [Code of Conduct & Covenant](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md).

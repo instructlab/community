@@ -23,7 +23,7 @@ There are two types of compositional skills:
 #### Freeform Compositional Skills
 
 Freeform compositional skills are performative and do **not** require
-additional context. An example of a compositional skill is "talk like a
+additional context. An example of a freeform skill is "talk like a
 pirate." You could provide examples of "pirate-like" speech. By providing
 those examples, you're essentially tickling the latent knowledge of the
 LLM. In our "talk like a pirate" example, you're enabling the LLM to be

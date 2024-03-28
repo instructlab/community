@@ -4,52 +4,77 @@
 
 The following is a set of guidelines for contributing. These are just guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
-## What to Know Before Getting Started
+## What to know before getting started
 
 ### Code of Conduct
 
-This project adheres to the [Contributor Covenant](./CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+This project adheres to a [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+
 
 Please report unacceptable behavior to one of the [Code Owners](./CODEOWNERS).
 
-## Contributing in General
+## Contributing in general
 
-Our project welcomes external contributions. To contribute code or documentation, please submit a [pull request](/pulls) here or in the relevant repository.
+The below workflow is designed to help you begin your first contribution journey. It will guide you through creating and picking up issues, working through them, having your work reviewed, and then merging.
 
-A good way to familiarize yourself with the codebase and contribution process is to look for and tackle low-hanging fruit in the [issue tracker](/issues) of the repository you would like to contribute to.
-Before embarking on a more ambitious contribution, please quickly [get in touch](#communication) with us.
+Help on open source projects is always welcome and there is always something that can be improved. For example, documentation (like the text you are reading now) can always use improvement, code can always be clarified, variables or functions can always be renamed or commented on, and there is always a need for more test coverage. If you see something that you think should be fixed, take ownership!
 
-Also important to note is that you need to agree to the terms of [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits. We automatically verify that all commit messages contain a `Signed-off-by:` line with your email address. We can only accept PRs that have all commits signed off. If you didn't sign off your commits before creating the pull request, no worries, you can fix that after the fact.
+To contribute code or documentation, please submit a [pull request](/pulls) in the relevant repository.
 
-**Note: We appreciate your effort, and want to avoid a situation where a contribution
-requires extensive rework (by you or by us), sits in backlog for a long time, or
-cannot be accepted at all!**
+> **IMPORTANT:** For all PRs, you need to agree to the terms of [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits. We automatically verify that all commit messages contain a `Signed-off-by`: line with your email address.
 
-### Proposing new Features
+You can include a signoff automatically when you commit a change to your local git repository using the following command:
 
-If you would like to implement a new feature, please [raise an issue](/issues)
+```shell
+git commit -s
+```
+We can only accept PRs that have all commits signed off. If you didn't sign off your commits before creating the pull request, no worries, you can fix that after the fact. For more information, see [Useful tools for doing DCO signoffs](#DCO).
+
+### How to get started
+
+When contributing, it's useful to start by looking at[issue tracker](/issues) of the repository you would like to contribute to. After picking up an issue, writing code, or updating a document, make a pull request and your work will be reviewed and merged.
+
+To contribute, you'll use the Fork and Pull model common in many open source repositories. For details on this process, check out [The GitHub Workflow
+Guide](https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md)
+from Kubernetes.
+
+When your contribution is ready, you can create a pull request. Pull requests are often referred to as "PR". In general, we follow the standard [GitHub pull request](https://help.github.com/en/articles/about-pull-requests) process. Follow the template to provide details about your pull request to the maintainers.
+
+Before sending pull requests, make sure your changes pass formatting, linting and unit tests.
+Before embarking on an ambitious contribution, please quickly [get in touch](#communication) with us.
+
+
+### Proposing new features
+If you're adding a new feature or find a bug, it's best to [raise an issue](/issues)
 in the appropriate respository before sending a pull request so that the feature can be
-discussed. This is to avoid you wasting your valuable time working on a feature that the
-project developers are not interested in accepting into the code base.
+discussed with the maintainers. Discussion helps us avoid wasting your valuable time working on a feature that the project developers are not interested in accepting into the code base.
 
-### Fixing Bugs
+### Fixing bugs
 
 If you would like to fix a bug, please [raise an issue](/issues) in the appropriate repository
 before sending a pull request so it can be tracked.
 
-### Merge Approval
+### Code review
 
-The project maintainers use LGTM (Looks Good To Me) in comments on the code
-review to indicate acceptance. A change requires LGTMs from two of the
+Once you've [created a pull request](#how-can-i-contribute), maintainers will review your code and may make suggestions to fix before merging. It will be easier for your pull request to receive reviews if you consider the criteria the reviewers follow while working. Remember to:
+
+- Run tests locally and ensure they pass
+- Follow the project coding conventions
+- Write detailed commit messages
+- Break large changes into a logical series of smaller patches, which are easy to understand individually and combine to solve a broader issue
+
+The project maintainers use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change requires LGTMs from two of the
 maintainers of each component affected.
 
 For a list of the maintainers and triagers, see the [MAINTAINERS.md](MAINTAINERS.md) page.
 
-## Ways to Contribute to InstructLab
+## Ways to contribute to InstructLab
 
 ### Taxonomy
 
-We welcome contributions in the form of pull requests for documentation updates, skills contributions, knowledge contributions and more. Note: knowledge contributions will not be considered at launch but will be accepted at a later date.
+We welcome contributions in the form of pull requests for documentation updates, skills contributions, knowledge contributions and more.
+
+>**NOTE:** knowledge contributions will not be considered at launch but will be accepted at a later date.
 See the [Taxonomy's contribution guide](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md) for more details.
 
 ### CLI
@@ -74,26 +99,23 @@ SPDX-License-Identifier: Apache-2.0
 ```
 ### DCO
 
-We have tried to make it as easy as possible to make contributions. This
-applies to how we handle the legal aspects of contribution. We use the
-same approach - the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertificate.org/) - that the Linux® Kernel [community](https://docs.kernel.org/process/submitting-patches.html#sign-your-work-the-developer-s-certificate-of-origin)
+We have tried to make it as easy as possible to make contributions. This applies to how we handle the legal aspects of contribution. We use the same approach - the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertificate.org/) - that the Linux® Kernel [community](https://docs.kernel.org/process/submitting-patches.html#sign-your-work-the-developer-s-certificate-of-origin)
 uses to manage code contributions.
 
-We simply ask that when submitting a patch for review, the developer
-must include a sign-off statement in the commit message.
+We ask that when submitting a patch for review, the developer must include a sign-off statement in the commit message.
 
-Here is an example Signed-off-by line, which indicates that the
-submitter accepts the DCO:
+Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
 
 ```
 Signed-off-by: John Doe <john.doe@example.com>
 ```
-If you set your `user.name` and `user.email` git configs, you can sign your
-commit automatically with `git commit -s`.
 
-### Useful Tools to Make Doing DCO Signoffs Easier
+If you set your `user.name` and `user.email` in your `git config` file, you can sign your
+commit automatically with `git commit -s` command.
 
-There are a number of great tools out there to manage DCO signoffs for developers to make it much easier.
+### Useful tools for doing DCO signoffs <DCO id="DCO resources"></DCO>
+
+There are a number of tools that make it much easier for developers to manage DCO signoffs.
 
 - DCO command line tool, which let's you do a single signoff for an entire repo ( <https://github.com/coderanger/dco> )
 - GitHub UI integrations for adding the signoff automatically ( <https://github.com/scottrigby/dco-gh-ui> )

@@ -1,6 +1,6 @@
 # Welcome to the InstructLab Community repository🔬
 
-The mission of the InstructLab (Large-scale Alignment for chatBots) project is to leverage innovative techniques that overcome challenges in Large Language Model (LLM) training. InstructLab uses a taxonomy based curation process, along with synthetic data generation, that allows the open source community to submit contributions to existing LLMs in an accessible way. 
+The mission of the InstructLab (**L**arge-scale **A**lignment for chat**B**ots) project is to leverage innovative techniques that overcome challenges in Large Language Model (LLM) training. InstructLab uses a taxonomy based curation process, along with synthetic data generation, that allows the open source community to submit contributions to existing LLMs in an accessible way. 
 
 This repository shares InstructLab's activity and collaboration details across the community. The most current information is included throughout this repository. Contributing issues/pull requests are more than welcome to help us maintain this information.
 
@@ -17,18 +17,18 @@ The goals of this open-source community includes the following:
 
 ## Getting Started with the InstructLab Project workstreams🥼
 
-InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open-source initiative by Red Hat and IBM. It provides a platform for easy engagement with Large Language Models (LLM) by using the `lab` command-line interface (CLI) tool. Users can augment the LLM’s capabilities by submitting the skills and knowledge that they have tested to the project’s taxonomy repository on GitHub by creating a pull request.
+InstructLab (Large-scale Alignment for chatBots) is an open-source initiative by Red Hat and IBM. It provides a platform for easy engagement with Large Language Models (LLM) by using the `ilab` command-line interface (CLI) tool. Users can augment the LLM’s capabilities by submitting the skills and knowledge that they have tested to the project’s taxonomy repository on GitHub by creating a pull request.
 
 The following documentation shows you an overview of the workflow, and the resources needed, to get started with InstructLab.
 
-## 💻 InstructLab (`lab`) Workflow 
-### Installing and interacting with the `lab` CLI tool
+## 💻 InstructLab (`ilab`) Workflow 
+### Installing and interacting with the `ilab` CLI tool
 
-The `lab` tool allows you to interact with the IBM AI model `Merlinite`, contribute your own information, and train the model locally. 
+The `ilab` tool allows you to interact with the IBM AI model `Merlinite`, contribute your own information, and train the model locally. 
 
-1. Navigate to the `lab` CLI repository and follow the instructions in the [README.md](https://github.com/instruct-lab/cli/blob/main/README.md). The README.md instructs you on how to perform the following: 
+1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instruct-lab/cli/blob/main/README.md). The README.md instructs you on how to perform the following: 
 
-    a. In the [Getting started](https://github.com/instruct-lab/cli/blob/main/README.md#-getting-started) section of the README.md file, you can install the `lab` tool, set up your local environment, and download the IBM `Merlinite` AI model.
+    a. In the [Getting started](https://github.com/instruct-lab/cli/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM `Merlinite` AI model.
 
     b. You can then create your own data sets to feed into and train the model. In the taxonomy project, there are two types of data you can serve to the model: skills and knowledge. There are a few different types of skills and knowledge you can create. For more detailed information on the types, see the Taxonomy [README.md](https://github.com/instruct-lab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions). 
 
@@ -104,6 +104,3 @@ If you would like to see the detailed LICENSE click [here](LICENSE).
 * [MAINTAINERS](MAINTAINERS.md)
 * [SECURITY](SECURITY.md)
 * [CHANGELOG](CHANGELOG.md)
-
-
-

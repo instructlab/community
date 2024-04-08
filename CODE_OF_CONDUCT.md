@@ -33,7 +33,7 @@ Examples of unacceptable behavior by participants include:
 
 ## Our Responsibilities
 
-Project maintainers are responsible for clarifying the standards of acceptable
+[Project maintainers](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md) are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
 response to any instances of unacceptable behavior.
 
@@ -55,8 +55,7 @@ further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the [project team](./MAINTAINERS.md (**TODO** reporting email address
-forthcoming). All complaints will be reviewed and investigated and will result in a
+reported by contacting the [Code of Conduct Committee](https://github.com/instruct-lab/community/blob/main/COCC.md). All complaints will be reviewed and investigated and will result in a
 response that is deemed necessary and appropriate to the circumstances. The project
 team is obligated to maintain confidentiality with regard to the reporter of an incident.
 Further details of specific enforcement policies may be posted separately.
@@ -64,6 +63,8 @@ Further details of specific enforcement policies may be posted separately.
 Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
+
+<!-- Future PR must add CoCC committee email addresses. -->
 
 ## Attribution
 

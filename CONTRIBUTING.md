@@ -92,7 +92,7 @@ The following sections detail important legal information that should be viewed 
 ### License and Copyright
 
 Each source file must include a license header for the [Apache
-Software License 2.0](https://github.com/stevsmit/community/blob/104-community-contributing-edits/LICENSE). Using the SPDX format is the simplest approach.
+Software License 2.0](https://github.com/instruct-lab/community/blob/main/LICENSE). Using the SPDX format is the simplest approach.
 For example:
 
 ```

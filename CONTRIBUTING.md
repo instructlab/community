@@ -10,85 +10,90 @@ The following is a set of guidelines for contributing. These are just guidelines
 
 This project adheres to a [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
+Please report unacceptable behavior to one of the Code of Conduct [Committee members](./COCC).
 
-Please report unacceptable behavior to one of the [Code Owners](./CODEOWNERS).
+### Related repositories
 
-## Contributing in general
+In addition to this repository, InstructLab has two related repositories: 
 
-The below workflow is designed to help you begin your first contribution journey. It will guide you through creating and picking up issues, working through them, having your work reviewed, and then merging.
+- [ilab CLI tool](https://github.com/instruct-lab/cli). This repository is responsible for the the `ilab` command-line interface (CLI) tool. 
+- [Taxonomy](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
 
-Help on open source projects is always welcome and there is always something that can be improved. For example, documentation (like the text you are reading now) can always use improvement, code can always be clarified, variables or functions can always be renamed or commented on, and there is always a need for more test coverage. If you see something that you think should be fixed, take ownership!
+The following sections provide a general overview for contributing to any of the InstructLab repositories.
 
-To contribute code or documentation, please submit a [pull request](/pulls) in the relevant repository.
+## Contributing overview
 
-> **IMPORTANT:** For all PRs, you need to agree to the terms of [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits. We automatically verify that all commit messages contain a `Signed-off-by`: line with your email address.
+Participating in the InstructLab project can come by contributing to any one of the repositories. The following workflow is designed to help you understand contribution best practices, and to help you begin your contribution journey. It will guide you through creating and picking up issues, working through them, having your work reviewed, and then getting your pull request merged. 
 
-You can include a signoff automatically when you commit a change to your local git repository using the following command:
+Help on open source projects is always welcome and there is always something that can be improved. For example, documentation (like the text you are reading now) can always use improvement, code can always be clarified, variables or functions can always be renamed or commented on, and there is always a need for more test coverage.  If you see something that you think should be fixed, take ownership!
 
-```shell
-git commit -s
-```
-We can only accept PRs that have all commits signed off. If you didn't sign off your commits before creating the pull request, no worries, you can fix that after the fact. For more information, see [Useful tools for doing DCO signoffs](#DCO).
+To contribute code or documentation, please submit a pull request to the relevant repository. Note that contribution to any repository has its own set of requirements and expectations, and users should familiar themselves with those expectations before contributing.
 
-### How to get started
+### ilab command-line interface (CLI) tool repository
 
-When contributing, it's useful to start by looking at[issue tracker](/issues) of the repository you would like to contribute to. After picking up an issue, writing code, or updating a document, make a pull request and your work will be reviewed and merged.
+We welcome contributions in the form of pull requests for documentation updates, code contributions and more. Prior to contribution, users should acquaint themselves with the [`ilab` CLI repository contribution guide](https://github.com/instruct-lab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md).
 
-To contribute, you'll use the Fork and Pull model common in many open source repositories. For details on this process, check out [The GitHub Workflow
-Guide](https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md)
-from Kubernetes.
+To submit a pull request to the `ilab` CLI tool repository, see the [pull request page](https://github.com/instruct-lab/cli/pulls).
 
-When your contribution is ready, you can create a pull request. Pull requests are often referred to as "PR". In general, we follow the standard [GitHub pull request](https://help.github.com/en/articles/about-pull-requests) process. Follow the template to provide details about your pull request to the maintainers.
+### Taxonomy repository
 
-Before sending pull requests, make sure your changes pass formatting, linting and unit tests.
-Before embarking on an ambitious contribution, please quickly [get in touch](#communication) with us.
+We welcome contributions in the form of pull requests for documentation updates, skills contributions, knowledge contributions and more. Prior to contribution, users should acquaint themselves with the [taxonomy repository contribution guide](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md). 
 
+To submit a pull request to the taxonomy repository, see the [pull request page](https://github.com/instruct-lab/taxonomy/pulls).
 
-### Proposing new features
-If you're adding a new feature or find a bug, it's best to [raise an issue](/issues)
-in the appropriate respository before sending a pull request so that the feature can be
-discussed with the maintainers. Discussion helps us avoid wasting your valuable time working on a feature that the project developers are not interested in accepting into the code base.
+### Community
 
-### Fixing bugs
+We welcome contributions in the form of pull requests for documentation. To submit a pull request to the community repository, see the [pull request page](https://github.com/instruct-lab/community/pulls).
 
-If you would like to fix a bug, please [raise an issue](/issues) in the appropriate repository
-before sending a pull request so it can be tracked.
+### Getting started with contribution
 
-### Code review
+The InstructLab project uses the _Fork and Pull_ model for contribution that is common in many open source repositories; this entails multiple steps, including forking and cloning the repository, creating a _pull request_, or PR, and more. For details on this process, check out [The GitHub Workflow
+Guide](https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md) from Kubernetes. If you are already familiar with this process, the taxonomy repository provides [detailed contribution instructions](https://github.com/instruct-lab/taxonomy/blob/main/README.md#detailed-contribution-instructions) as an example.
 
-Once you've [created a pull request](#how-can-i-contribute), maintainers will review your code and may make suggestions to fix before merging. It will be easier for your pull request to receive reviews if you consider the criteria the reviewers follow while working. Remember to:
+After you have forked and cloned the repository, you can start the contribution process by looking at the issue trackers of the [community repository](https://github.com/instruct-lab/community/pulls), [CLI repository](https://github.com/instruct-lab/cli/issues), or the [taxonomy repository](https://github.com/instruct-lab/taxonomy/issues). You can then pick up an issue by leaving a comment on said issue, and address the issue in a pull request (PR). Prior to submission, make sure that your changes pass formatting, linting, and unit tests. Additionally, all PRs must agree to the terms of [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits. Only PRs with commits signed off are accepted. If you didn't sign off your commits before creating the pull request, no worries, you can fix that after the fact. For more information about this process, see [Developer Certificate of Origin (DCO)](#DCO).
 
-- Run tests locally and ensure they pass
+Then, you can submit the PR to be reviewed. In general, we follow the standard [GitHub pull request](https://help.github.com/en/articles/about-pull-requests) process. Follow the provided template on your PR to include details about your pull request for the maintainers. 
+
+> **IMPORTANT:** If you are seeking to make a larger contribution, such as introducing a new feature or functionality, or refactoring a significant portion of the codebase to improve performance, readability, or maintainability, [get in touch](#communication) with us prior to starting. This helps ensure that your time is not wasted working on a change that the project developers will not accept into the codebase.
+
+### Pull request review
+
+Once you've created a pull request (PR), maintainers will review your code and may make suggestions to fix before merging. It will be easier for your PR to receive reviews if you consider the criteria the reviewers follow while working. Remember to:
+
+- Run tests locally and ensure that they pass
 - Follow the project coding conventions
 - Write detailed commit messages
 - Break large changes into a logical series of smaller patches, which are easy to understand individually and combine to solve a broader issue
 
-The project maintainers use LGTM (Looks Good To Me) in comments on the code review to indicate acceptance. A change requires LGTMs from two of the
+The project maintainers use `LGTM` (Looks Good To Me) in comments on the code review to indicate acceptance. A change requires LGTMs from two of the
 maintainers of each component affected.
 
 For a list of the maintainers and triagers, see the [MAINTAINERS.md](MAINTAINERS.md) page.
 
-## Ways to contribute to InstructLab
+### Proposing new features
 
-### Taxonomy
+To propose a new feature, it's best to raise an issue in the appropriate repository:
 
-We welcome contributions in the form of pull requests for documentation updates, skills contributions, knowledge contributions and more.
+- [CLI repository](https://github.com/instruct-lab/cli/issues)
+- [taxonomy repository](https://github.com/instruct-lab/taxonomy/issues)
 
->**NOTE:** knowledge contributions will not be considered at launch but will be accepted at a later date.
-See the [Taxonomy's contribution guide](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md) for more details.
+This way, features can be discussed with the project maintainers, ensuring that your time is not wasted working on a feature that the project developers will not accept into the codebase.
 
-### CLI
+### Submitting or fixing bugs
 
-We welcome contributions in the form of pull requests for documentation updates, code contributions and more.
-See the [CLI's contribution guide](https://github.com/instruct-lab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md) for more details.
+To submit a new bug, raise an issue in the approrpriate repository before creating a pull request. This ensures that the issue is appropriately tracked.
+
+To fix an existing bug, leave a comment on the issue that you are working on. Then, create a pull request and submit the pull request for review.
 
 ## Legal
 
+The following sections detail important legal information that should be viewed prior to contribution. 
+
 ### License and Copyright
 
-Each source file must include a license header for the Apache
-Software License 2.0. Using the SPDX format is the simplest approach.
-e.g.
+Each source file must include a license header for the [Apache
+Software License 2.0](https://github.com/stevsmit/community/blob/104-community-contributing-edits/LICENSE). Using the SPDX format is the simplest approach.
+For example:
 
 ```
 /*
@@ -97,25 +102,29 @@ Copyright <holder> All Rights Reserved.
 SPDX-License-Identifier: Apache-2.0
 */
 ```
+
 ### DCO
 
 We have tried to make it as easy as possible to make contributions. This applies to how we handle the legal aspects of contribution. We use the same approach - the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertificate.org/) - that the Linux® Kernel [community](https://docs.kernel.org/process/submitting-patches.html#sign-your-work-the-developer-s-certificate-of-origin)
 uses to manage code contributions.
 
-We ask that when submitting a patch for review, the developer must include a sign-off statement in the commit message.
+We ask that when submitting a patch for review, the developer must include a sign-off statement in the commit message. If you set your `user.name` and `user.email` in your `git config` file, you can sign your commit automatically by using the following command:
 
-Here is an example Signed-off-by line, which indicates that the submitter accepts the DCO:
+```shell
+git commit -s
+```
+
+The following example includes a `Signed-off-by:` line, which indicates that the submitter has accepted the DCO:
 
 ```
 Signed-off-by: John Doe <john.doe@example.com>
 ```
 
-If you set your `user.name` and `user.email` in your `git config` file, you can sign your
-commit automatically with `git commit -s` command.
+We automatically verify that all commit messages contain a `Signed-off-by:` line with your email address.
 
-### Useful tools for doing DCO signoffs <DCO id="DCO resources"></DCO>
+#### Useful tools for doing DCO signoffs <DCO id="DCO resources"></DCO>
 
-There are a number of tools that make it much easier for developers to manage DCO signoffs.
+There are a number of tools that make it easier for developers to manage DCO signoffs.
 
 - DCO command line tool, which let's you do a single signoff for an entire repo ( <https://github.com/coderanger/dco> )
 - GitHub UI integrations for adding the signoff automatically ( <https://github.com/scottrigby/dco-gh-ui> )
@@ -124,19 +133,20 @@ There are a number of tools that make it much easier for developers to manage DC
 
 ## Communication
 
-Please use our [Discussion Board](https://github.com/orgs/instruct-lab/discussions) to communicate with the maintainers.
+You can use the dedicated [Discussion Board](https://github.com/orgs/instruct-lab/discussions) for the InstructLab project to communicate with project maintainers.
 
-## Setup
+### Additional resources
 
-Please see each repo's README.md or CONTRIBUTING.md files for any testing guidelines and requirements.
+The following resources include additional information about each repository, such as setting up the environment, testing the environment, coding styles, etc. 
 
-## Testing
+### ilab CLI tool additional resources 
 
-Please see each repo's README.md or CONTRIBUTING.md files for any testing guidelines and requirements.
+- [`ilab` CLI tool README.md](https://github.com/instruct-lab/cli/blob/main/README.md#instructlab--ilab). This resources provides information about the `ilab` CLI tool, including an overview, getting started, training the model, submitting a pull request, etc. 
 
-## Coding style guidelines
+- [`ilab` CLI tool CONTRIBUTING.md](https://github.com/instruct-lab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md#contributing). This resources provides information about contributing to the `ilab` CLI tool repository, reporting bugs, testing, coding styles, etc. 
 
-Please see each repo's CONTRIBUTING.md file for any coding style guidelines and requirements.
+### Taxonomy additional resources 
 
+- [Taxonomy README.md](https://github.com/instruct-lab/taxonomy/blob/main/README.md). This resource provides information about the taxonomy repository, including getting started, YAML examples for skills and knowledge pull requests, how to contribute, etc.
 
-
+- [Taxonomy CONTRIBUTING.md](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md). This resource contains information and best practices for contributing to the taxonomy repository.

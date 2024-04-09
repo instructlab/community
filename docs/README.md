@@ -45,3 +45,5 @@ While the tuning process may eventually benefit from being used to help the mode
 * Gender Bias
 * Hostile Language, threats, slurs, derogatory or insensitive jokes or comments
 * Pornography
+* Jokes
+* Poems

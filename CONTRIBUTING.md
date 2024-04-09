@@ -16,8 +16,9 @@ Please report unacceptable behavior to one of the Code of Conduct [Committee mem
 
 In addition to this repository, InstructLab has two related repositories: 
 
-- [ilab CLI tool](https://github.com/instruct-lab/cli). This repository is responsible for the the `ilab` command-line interface (CLI) tool. 
-- [Taxonomy](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
+* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the the `ilab` command-line interface (CLI) tool. 
+* [taxonomoy tree](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
+* [community repository](https://github.com/instruct-lab/community). This repository is responsible for documentation efforts of the InstructLab project.
 
 The following sections provide a general overview for contributing to any of the InstructLab repositories.
 
@@ -103,7 +104,7 @@ SPDX-License-Identifier: Apache-2.0
 */
 ```
 
-### DCO
+### Developer Certificate of Origin (DCO)
 
 We have tried to make it as easy as possible to make contributions. This applies to how we handle the legal aspects of contribution. We use the same approach - the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertificate.org/) - that the Linux® Kernel [community](https://docs.kernel.org/process/submitting-patches.html#sign-your-work-the-developer-s-certificate-of-origin)
 uses to manage code contributions.
@@ -135,7 +136,7 @@ There are a number of tools that make it easier for developers to manage DCO sig
 
 You can use the dedicated [Discussion Board](https://github.com/orgs/instruct-lab/discussions) for the InstructLab project to communicate with project maintainers.
 
-### Additional resources
+## Additional resources
 
 The following resources include additional information about each repository, such as setting up the environment, testing the environment, coding styles, etc. 
 

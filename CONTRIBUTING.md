@@ -81,7 +81,7 @@ This way, features can be discussed with the project maintainers, ensuring that 
 
 ### Submitting or fixing bugs
 
-To submit a new bug, raise an issue in the approrpriate repository before creating a pull request. This ensures that the issue is appropriately tracked.
+To submit a new bug, raise an issue in the appropriate repository before creating a pull request. This ensures that the issue is appropriately tracked.
 
 To fix an existing bug, leave a comment on the issue that you are working on. Then, create a pull request and submit the pull request for review.
 

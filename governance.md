@@ -6,9 +6,8 @@ The following document outlines how the InstructLab project governance operates.
 
 InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. Currently, these projects include the following:
 
-* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the the `ilab` command-line interface (CLI) tool. 
+* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the the `ilab` CLI tool. 
 * [taxonomoy tree](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
-* [community repository](https://github.com/instruct-lab/community). This repository is responsible for documentation efforts of the InstructLab project.
 
 ## Governance Structure and Roadmap
 

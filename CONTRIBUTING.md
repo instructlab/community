@@ -16,9 +16,8 @@ Please report unacceptable behavior to one of the Code of Conduct [Committee mem
 
 In addition to this repository, InstructLab has two related repositories: 
 
-* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the the `ilab` command-line interface (CLI) tool. 
+* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the the `ilab` CLI tool. 
 * [taxonomoy tree](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
-* [community repository](https://github.com/instruct-lab/community). This repository is responsible for documentation efforts of the InstructLab project.
 
 The following sections provide a general overview for contributing to any of the InstructLab repositories.
 

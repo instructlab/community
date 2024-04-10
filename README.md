@@ -17,7 +17,7 @@ The goals of this open-source community includes the following:
 
 ## Getting Started with the InstructLab Project workstreams🥼
 
-InstructLab (Large-scale Alignment for chatBots) is an open-source initiative by Red Hat and IBM. It provides a platform for easy engagement with Large Language Models (LLM) by using the `ilab` command-line interface (CLI) tool. Users can augment the LLM’s capabilities by submitting the skills and knowledge that they have tested to the project’s taxonomy repository on GitHub by creating a pull request.
+InstructLab (Large-scale Alignment for chatBots) is an open-source initiative by Red Hat and IBM. It provides a platform for easy engagement with Large Language Models (LLM) by using the `ilab` CLI tool. Users can augment the LLM’s capabilities by submitting the skills and knowledge that they have tested to the project’s taxonomy repository on GitHub by creating a pull request.
 
 The following documentation shows you an overview of the workflow, and the resources needed, to get started with InstructLab.
 

@@ -24,7 +24,7 @@ For more specific questions about the taxonomy repository, see [Taxonomy reposit
 
 ## Question: What is InstructLab?
 
-**Answer:** InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open-source initiative by Red Hat and IBM. It provides a platform for easy engagement with the Merlinite -7b AI Large Language Model (LLM) by using the `ilab` command-line interface (CLI) tool. You can use the CLI to work with Merlinite-7b to test new skills and knowledge, for example, asking it to tell a joke or answer a question about a particular subject. Users can then augment the LLM’s capabilities by submitting the skills and knowledge they have tested to the project’s taxonomy repository on GitHub by creating a pull request. This approach encourages community-driven enhancements without the need for complex model forking or fine-tuning of the model, promoting rapid development through collaborative contributions.
+**Answer:** InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open-source initiative by Red Hat and IBM. It provides a platform for easy engagement with the Merlinite -7b AI Large Language Model (LLM) by using the `ilab` CLI tool. You can use the CLI to work with Merlinite-7b to test new skills and knowledge, for example, asking it to tell a joke or answer a question about a particular subject. Users can then augment the LLM’s capabilities by submitting the skills and knowledge they have tested to the project’s taxonomy repository on GitHub by creating a pull request. This approach encourages community-driven enhancements without the need for complex model forking or fine-tuning of the model, promoting rapid development through collaborative contributions.
 
 ##
 **Question:** What is LAB?

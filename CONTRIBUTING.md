@@ -16,7 +16,7 @@ Please report unacceptable behavior to one of the Code of Conduct [Committee mem
 
 In addition to this repository, InstructLab has two related repositories: 
 
-* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the the `ilab` CLI tool. 
+* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the `ilab` command-line interface (CLI) tool. 
 * [taxonomoy tree](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
 
 The following sections provide a general overview for contributing to any of the InstructLab repositories.
@@ -25,7 +25,7 @@ The following sections provide a general overview for contributing to any of the
 
 Participating in the InstructLab project can come by contributing to any one of the repositories. The following workflow is designed to help you understand contribution best practices, and to help you begin your contribution journey. It will guide you through creating and picking up issues, working through them, having your work reviewed, and then getting your pull request merged. 
 
-Help on open source projects is always welcome and there is always something that can be improved. For example, documentation (like the text you are reading now) can always use improvement, code can always be clarified, variables or functions can always be renamed or commented on, and there is always a need for more test coverage.  If you see something that you think should be fixed, take ownership!
+Help on open source projects is always welcome and there is always something that can be improved. For example, documentation (like the text you are reading now) can always use improvement, code can always be clarified, variables or functions can always be renamed or commented on, and there is always a need for more test coverage. If you see something that you think should be fixed, take ownership!
 
 To contribute code or documentation, please submit a pull request to the relevant repository. Note that contribution to any repository has its own set of requirements and expectations, and users should familiar themselves with those expectations before contributing.
 

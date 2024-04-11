@@ -1,0 +1,29 @@
+Backend:
+- name: Backend Maintainers
+  slug: backend-maintainers
+
+CLI:
+- name: CLI Maintainers
+  slug: cli-maintainers
+- name: CLI Triagers
+  slug: cli-triagers
+
+Community:
+- name: Community Maintainers
+  slug: community-maintainers
+
+InstructLabBot:
+- name: InstructLab Bot Maintainers
+  slug: instruct-lab-bot-maintainers
+
+Taxonomy:
+- name: Taxonomy Approvers
+  slug: taxonomy-approvers
+- name: Taxonomy Maintainers
+  slug: taxonomy-maintainers
+- name: Taxonomy Triagers
+  slug: taxonomy-triagers
+
+Admins:
+- name: Org Maintainers
+  slug: labrador-org-maintainers

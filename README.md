@@ -2,13 +2,15 @@
 
 The mission of the InstructLab (**L**arge-scale **A**lignment for chat**B**ots) project is to leverage innovative techniques that overcome challenges in Large Language Model (LLM) training. InstructLab uses a taxonomy based curation process, along with synthetic data generation, that allows the open source community to submit contributions to existing LLMs in an accessible way. 
 
-This repository shares InstructLab's activity and collaboration details across the community. The most current information is included throughout this repository. Contributing issues/pull requests are more than welcome to help us maintain this information.
+InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. This repository shares InstructLab's activity and collaboration details across the community and include the most current information about the project. Related repositories include the following:
 
-Related repositories include: 
-- [CLI](https://github.com/instruct-lab/cli)
-- [Taxonomy](https://github.com/instruct-lab/taxonomy)
+* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the `ilab` command-line interface (CLI) tool. 
+* [taxonomoy tree](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
 
-## Community Goals 
+Contributing new features, resolving bugs and issues, and refining the documentation experience through pull requests are welcome. More information about contributing to the InstructLab Project, contributor roles, governance and legal, and licenses can be found in proceeding sections of this document.
+
+## Community Goals
+
 The goals of this open-source community includes the following:
 
 - Drive adoption of the InstructLab tooling and model API standard.
@@ -22,9 +24,12 @@ InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open-source i
 The following documentation shows you an overview of the workflow, and the resources needed, to get started with InstructLab.
 
 ## 💻 InstructLab (`ilab`) Workflow 
+
 ### Installing and interacting with the `ilab` CLI tool
 
 The `ilab` tool allows you to interact with the IBM AI model `Merlinite`, contribute your own information, and train the model locally. 
+
+> **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations.
 
 1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instruct-lab/cli/blob/main/README.md). The README.md instructs you on how to perform the following: 
 
@@ -54,40 +59,46 @@ There are teams of contributors from Red Hat and IBM that will review your pull 
 
 The IBM model `Merlinite` builds regularly. Sometime after your pull request is merged, Merlinite is updated and you can see locally that the model improved with the skill or knowledge you taught it.
 
-## Governance & Legal
-- [InstructLab Community Governance](governance.md)
-- [InstructLab Code of Conduct](https://github.com/instruct-lab/community/tree/main?tab=coc-ov-file)
-- You must agree to the terms of [Developer Certificate of Origin](https://developercertificate.org/) by signing off your commits in your pull requests. 
-
-The Developer Certificate of Origin (DCO) is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project. Here is the full [text of the DCO](https://developercertificate.org/), reformatted for readability:
-
-> By making a contribution to this project, I certify that:
->
-> a. The contribution was created in whole or in part by me and I have the right to submit it under the open source license indicated in the file; or
->
-> b. The contribution is based upon previous work that, to the best of my knowledge, is covered under an appropriate open source license and I have the right under that license to submit that work with modifications, whether created in whole or in part by me, under the same open source license (unless I am permitted to submit under a different license), as indicated in the file; or
->
-> c. The contribution was provided directly to me by some other person who certified (a), (b) or (c) and I have not modified it.
->
-> d. I understand and agree that this project and the contribution are public and that a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely and may be redistributed consistent with this project or the open source license(s) involved.
-Contributors _sign-off_ that they adhere to these requirements by adding a `Signed-off-by` line to commit messages.
-
 ## Contribution
-We encourage contribution in the form of pull requests or comments on existing pull requests. For more information, see 
-- [Project Contribution Guidelines](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md)
-- [Taxonomy's contribution guide](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md)
-- [CLI's contribution guide](https://github.com/instruct-lab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md)
 
-### Contributor Ladder
-The project welcomes new contributors. Not all contributors are able to provide sustained contributions, but they are always welcome. [The Contributor Ladder](https://github.com/instruct-lab/community/blob/main/CONTRIBUTOR_LADDER.md) outlines the various roles to support contributors to grow responsibility in the various InstructLab projects.
+Help on open source projects is always welcome and there is always something that can be improved. For example, documentation (like the text you are reading now) can always use improvement, code can always be clarified, variables or functions can always be renamed or commented on, and there is always a need for more test coverage. If you see something that you think should be fixed, take ownership!
 
-### Maintainers
-To see all maintainers and triagers for InstructLab, see the [Maintainers](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md) file.
+To contribute code or documentation, please submit a pull request to the relevant repository. Note that contribution to any repository has its own set of requirements and expectations, and users should familiar themselves with those expectations before contributing.
 
-## Information resources
-- [InstructLab Slack]() FORTHCOMING
-- [InstructLab Mailing lists]() FORTHCOMING
-- In the meantime, feel free to start a [discussion](https://github.com/orgs/instruct-lab/discussions).
+To contribute code or documentation, please submit a pull request to the relevant repository. Note that contribution to any repository has its own set of requirements and expectations, and users should familiar themselves with those expectations before contributing.
+
+- For more information about general contribution practices, see the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide.
+- For more information about contributing to the taxonomy repository, see the [Taxonomy's contribution guide](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md).
+- For more information about contributing to the CLI repository, see the [CLI's contribution guide](https://github.com/instruct-lab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md).
+
+### Contributor roles
+
+The project welcomes new contributors. Not all contributors are able to provide sustained contributions, but they are always welcome. [The contributor roles](https://github.com/instruct-lab/community/blob/main/CONTRIBUTOR_ROLES.md) document outlines the various roles to support contributors and help them grow responsibility in the various InstructLab projects. These roles are subject to change, and new roles will be added as necessary. 
+
+####  Maintainers
+
+Project Maintainers are first and foremost contributors that have shown they are committed to the long term success of a project. Maintainership is about building trust with the community and being a person that everyone can depend on to make consistent decisions in the best interest of the project. With enough time and experience, contributors can apply to become Maintainers. The current list of Maintainers can be found in the 
+[Maintainers](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md) file.
+
+## Governance & Legal
+
+- [InstructLab Community Governance](governance.md)
+
+- [InstructLab Code of Conduct](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md)
+
+- You must agree to the terms of the [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits in your pull requests. The Developer Certificate of Origin (DCO) is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project. Here is the full [text of the DCO](https://developercertificate.org/), reformatted for readability:
+
+  > By making a contribution to this project, I certify that:
+  >
+  > a. The contribution was created in whole or in part by me and I have the right to submit it under the open source license indicated in the file; or
+  >
+  > b. The contribution is based upon previous work that, to the best of my knowledge, is covered under an appropriate open source license and I have the right under that license to submit that work with modifications, whether created in whole or in part by me, under the same open source license (unless I am permitted to submit under a different license), as indicated in the file; or
+  >
+  > c. The contribution was provided directly to me by some other person who certified (a), (b) or (c) and I have not modified it.
+  >
+  > d. I understand and agree that this project and the contribution are public and that a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely and may be redistributed consistent with this project or the open source license(s) involved.
+
+Contributors _sign-off_ that they adhere to these requirements by adding a `Signed-off-by` line to commit messages. For more information about how the DCO works with this project, see [Developer Certificate of Origin (DCO)](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md#developer-certificate-of-origin-dco).
   
 ## Licenses
 
@@ -97,7 +108,14 @@ SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
 
 If you would like to see the detailed LICENSE click [here](LICENSE).
 
+## Information resources
+
+- [InstructLab Slack]() FORTHCOMING
+- [InstructLab Mailing lists]() FORTHCOMING
+- In the meantime, feel free to start a [discussion](https://github.com/orgs/instruct-lab/discussions).
+
 ## Quick Links
+
 * [LICENSE](LICENSE)
 * [README](README.md)
 * [CONTRIBUTING](CONTRIBUTING.md)

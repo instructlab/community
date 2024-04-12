@@ -31,7 +31,7 @@ To be considered an _active project Maintainer_, it is required to be associated
 
 Project Maintainers do not need to be software developers; however they must be substantial contributors. For example, if a repository is for documentation it would be appropriate for a project Maintainer to be an editor or technical writer.
 
-Advancement to the project Maintainer position, removal or stepping down, and duties are detailed in the [Contributor Ladder](https://github.com/instruct-lab/community/blob/main/CONTRIBUTOR_LADDER.md). The list of current maintainers can be found [here](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md).
+Advancement to the project Maintainer position, removal or stepping down, and duties are detailed in the [Contributor Ladder](https://github.com/instruct-lab/community/blob/main/CONTRIBUTOR_ROLES.md). The list of current maintainers can be found [here](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md).
 
 ## InstructLab Oversight Committee overview
 

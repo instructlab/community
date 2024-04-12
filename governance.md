@@ -41,16 +41,20 @@ The Oversight Committee is responsible for the following duties:
 
 * Maintaining the mission, vision, values, and scope of the project
 * Refining the governance and charter as needed
-* Making project level decisions
+* Making project level decisions, including setting technical policies that apply across all components
 * Resolving escalated project decisions when the team responsible is blocked
 * Managing the InstructLab brand
-* Controlling access to InstructLab assets such as source repositories, hosting, project calendars
+* Controlling access to InstructLab assets such as source repositories and hosting
 * Appointing members to the [Code of Conduct Committee](https://github.com/instruct-lab/community/blob/main/COCC.md)
 * Deciding what projects are part of the InstructLab project
 * Overseeing the resolution and disclosure of security issues
 * Managing financial decisions related to the project
 
 Until the Oversight Committee is selected, these duties will be carried out by the project Maintainers.
+
+### InstructLab Cross-Component Technical Policies
+
+Cross-component technical policies are out of scope for this project governance document, but can be found in the [InstructLab Enhancements Repo](https://github.com/instruct-lab/enhancements/blob/main/README.md).
 
 ### Oversight Committee selection process 
 

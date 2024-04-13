@@ -27,6 +27,7 @@ For this project, unless the file says otherwise, or unless the attributed sourc
 - CC-BY-4.0
 - Apache 2.0
 - MIT
+
 Any third party content contributed to this project undergoes modifications in order to formulate it in the templated format required for submission to this project.
 
 ## Avoid These Topics

@@ -40,7 +40,7 @@ While the tuning process may eventually benefit from being used to help the mode
 * Internal documentation or other that is confidential to your employer or organization, e.g. trade secrets
 * Discrimination
 * Medical or health information
-* * Facts such as this one,  "[In mammals, pulmonary ventilation occurs via inhalation (breathing)](https://opentextbc.ca/biology/chapter/11-3-circulatory-and-respiratory-systems/)," are fine as a knowledge contribution. Tailored medical/health advice is not acceptable.
+* * Facts such as,  "[In mammals, pulmonary ventilation occurs via inhalation (breathing)](https://opentextbc.ca/biology/chapter/11-3-circulatory-and-respiratory-systems/)," are fine as a knowledge contribution. Tailored medical/health advice is not acceptable.
 * Financial information
 * * Facts such as "[laissez-faire economics ... argues that market forces alone should drive the economy and that governments should refrain from direct intervention in or moderation of the economic system](https://openstax.org/books/world-history-volume-2/pages/6-3-capitalism-and-the-first-industrial-revolution)," are fine as a knowledge contribution. Tailored financial advice is not acceptable.
 * Legal settlements/mitigations

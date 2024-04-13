@@ -8,8 +8,8 @@ We accept contributions of both Skills and Knowledge to InstructLab.
 
 ## Learning Topics
 
-* [Skills Guide] (https://github.com/instruct-lab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions)
-* [Knowledge Guide] (https://github.com/instruct-lab/taxonomy/blob/main/README.md#getting-started-with-knowledge-contributions)
+* [Skills Guide](https://github.com/instruct-lab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions)
+* [Knowledge Guide](https://github.com/instruct-lab/taxonomy/blob/main/README.md#getting-started-with-knowledge-contributions)
 
 ## License Limitations
 

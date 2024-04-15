@@ -1,6 +1,12 @@
 # Quick Start Guide
 
-## Scope
+
+## Table of contents
+1. [Install ilab](#install-ilab)
+2. [Initialize ilab](#%EF%B8%8F-initialize-ilab)
+3. [Download the model](#-download-the-model)
+4. [Serving the model](#-serving-the-model)
+5. [Train the model](#%EF%B8%8F-training-and-interacting-with-the-model)
 
 This document is the quickest of starting of the steps you need to do to get InstructLab
 working on your laptop or machine. If you need more details please take a look at:
@@ -186,73 +192,79 @@ Ask it a question (the base model gets this wrong, see https://github.com/instru
 
 This should be incorrect, lets add knowledge that teaches the mode the correct year (1953)
 
-- Verify you have the `taxonomy` directory in the working directory you are in.
-```bash
-ls -al taxonomy
-```
-- Create the directory for softball
-```
-mkdir -p taxonomy/knowledge/sports/overview/softball
-```
+1. Verify you have the `taxonomy` directory in the working directory you are in.
+    ```bash
+   ls -al taxonomy
+   ```
 
-- Pull down the example `qna.yaml` from the repository, and put it in `/tmp/` or the like:
-```bash
-wget -O /tmp/qna.yaml https://raw.githubusercontent.com/instruct-lab/taxonomy/094745b5067b68a5f780d6db241550d72310c196/knowledge/sports/overview/softball/qna.yaml
-head /tmp/qna.yaml
-```
+2. Create the directory for softball by running the following command:
+    ```
+    mkdir -p taxonomy/knowledge/sports/overview/softball
+    ```
 
-- Copy the file into the new directory:
-```bash
-cp /tmp/qna.yaml taxonomy/knowledge/sports/overview/softball/
-```
+3. Pull down the example `qna.yaml` from the repository, and put it in `/tmp/` or the like:
 
-- Verify the 1953 is in the file:
-```bash
-grep -B1 -A3 1953 taxonomy/knowledge/sports/overview/softball/qna.yaml
-```
+    ```bash
+    wget -O /tmp/qna.yaml https://raw.githubusercontent.com/instruct-lab/taxonomy/094745b5067b68a5f780d6db241550d72310c196/knowledge/sports/overview/softball/qna.yaml
+    head /tmp/qna.yaml
+    ```
 
-- Verify that the `yaml` file is correctly formatted and `ilab` can see that it's been changed.
-```bash
-ilab diff
-```
+4. Copy the file into the new directory:
+    ```bash
+    cp /tmp/qna.yaml taxonomy/knowledge/sports/overview/softball/
+    ```
 
-- Create some generated questions from the `qna.yaml` file, **Note**: Depending on the computer you are running this can take some time. ☕x(3 or 4)
-```bash
-time ilab generate
-```
+5. Verify the 1953 is in the file:
+    ```bash
+    grep -B1 -A3 1953 taxonomy/knowledge/sports/overview/softball/qna.yaml
+    ```
 
-- Take a look at the outputed questions, see what the model has come up with (TODO LINK)
+6. Verify that the `yaml` file is correctly formatted and that `ilab` can see that it's been changed by running the following command:
+    ```bash
+    ilab diff
+    ```
 
-- Now is the actual training time! If you have a non-gpu run the following command, if you have a GPU and want to use that the second command and configure to your setup:
+7. Create some generated questions from the `qna.yaml` file.
+    >**Note**: Depending on the computer you are running this can take some time. ☕x(3 or 4)
+    ```bash
+    time ilab generate
+    ```
 
-**Note**: Depending on the computer you are running this can take some time. ☕x(a lot)
-```bash
-time ilab train
-# or
-ilab train --help
-```
+8. Take a look at the output questions, see what the model has come up with (TODO LINK)
+
+9. Now is the actual training time! If you have a non-gpu run the following command, if you have a GPU and want to use that the second command and configure to your setup:
+
+   >**Note**: Depending on the computer you are running this can take some time. ☕x(a lot)
+    ```bash
+    time ilab train
+    ```
+   >Optional:
+    ```shell
+    ilab train --help
+    ```
 
 ### Converting the model and reserving serving it
-- Convert the model to the `gguf` so you can serve it with `ilab serve`:
-**Note**: this is only needed if you are on an M Mac, Linux you don't need this step.
-```bash
-time ilab convert
-```
+1. Convert the model to the `gguf` so you can serve it with `ilab serve` command by running the following command:
+   >**Note**: this is only needed if you are on an M Mac, Linux you don't need this step.
+    ```bash
+    time ilab convert
+    ```
 
-- Reserve your new model!
-```bash
-ilab serve --model-path ibm-merlinite-7b-mlx-q-fused-pt/ggml-model-Q4_K_M.gguf
-```
+2. Serve your new model by running the following command:
+    ```bash
+    ilab serve --model-path ibm-merlinite-7b-mlx-q-fused-pt/ggml-model-Q4_K_M.gguf
+    ```
 
-- Start up another chat session with it:
-```bash
-ilab chat
-```
-- Ask the original questions again:
+3. Start up another chat session with it:
+    ```bash
+    ilab chat
+    ```
 
-> When was the first British women's softball leauge established?
+4. Ask the original questions again:
 
-The answer should be 1953!
+   > When was the first British women's softball leauge established?
+
+   The answer should be 1953!
 
 ## Conclusion
 

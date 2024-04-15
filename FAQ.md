@@ -3,7 +3,7 @@
 **InstructLab FAQ**
 
 ##
-Last updated: March 2024
+Last updated: April 2024
 
 ##
 **Document summary**
@@ -24,7 +24,7 @@ For more specific questions about the taxonomy repository, see [Taxonomy reposit
 
 ## Question: What is InstructLab?
 
-**Answer:** InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open-source initiative by Red Hat and IBM. It provides a platform for easy engagement with the Merlinite -7b AI Large Language Model (LLM) by using the `lab` command-line interface (CLI) tool. You can use the CLI to work with Merlinite-7b to test new skills and knowledge, for example, asking it to tell a joke or answer a question about a particular subject. Users can then augment the LLM’s capabilities by submitting the skills and knowledge they have tested to the project’s taxonomy repository on GitHub by creating a pull request. This approach encourages community-driven enhancements without the need for complex model forking or fine-tuning of the model, promoting rapid development through collaborative contributions.
+**Answer:** InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open-source initiative by Red Hat and IBM. It provides a platform for easy engagement with the Merlinite -7b AI Large Language Model (LLM) by using the `ilab` command-line interface (CLI) tool. You can use the CLI to work with Merlinite-7b to test new skills and knowledge, for example, asking it to tell a joke or answer a question about a particular subject. Users can then augment the LLM’s capabilities by submitting the skills and knowledge they have tested to the project’s taxonomy repository on GitHub by creating a pull request. This approach encourages community-driven enhancements without the need for complex model forking or fine-tuning of the model, promoting rapid development through collaborative contributions.
 
 ##
 **Question:** What is LAB?
@@ -45,9 +45,9 @@ More information about the LAB method can be found on the [Hugging Face project 
 
 **Answer:** InstructLab is driven by taxonomies, or _trees of skills_, and works by empowering users to add new _skills_ and _knowledge_ to a pre-trained LLM.
 
-Contributors to InstructLab first [download](https://github.com/instruct-lab/cli?tab=readme-ov-file#-getting-started) the `lab` CLI, which allows them to chat with a pre-trained LLM. If a contributor finds that a specific knowledge domain of the LLM is lacking, they can add a [new skill or knowledge](https://github.com/instruct-lab/taxonomy?tab=readme-ov-file#getting-started-with-skill-contributions) (or build upon existing skills/knowledge) to the model and test it locally. This is done by creating a simple YAML file that includes information about the topic they seek to improve. After adding the YAML file to their local taxonomy repository, they can run the `lab generate` command and generate new synthetic training data based on the changes of the local taxonomy repository, which re-trains the LLM with new information. Users can then chat with the re-trained LLM to see the results.
+Contributors to InstructLab first [download](https://github.com/instruct-lab/cli?tab=readme-ov-file#-getting-started) the `ilab` CLI, which allows them to chat with a pre-trained LLM. If a contributor finds that a specific knowledge domain of the LLM is lacking, they can add a [new skill or knowledge](https://github.com/instruct-lab/taxonomy?tab=readme-ov-file#getting-started-with-skill-contributions) (or build upon existing skills/knowledge) to the model and test it locally. This is done by creating a simple YAML file that includes information about the topic they seek to improve. After adding the YAML file to their local taxonomy repository, they can run the `ilab generate` command and generate new synthetic training data based on the changes of the local taxonomy repository, which re-trains the LLM with new information. Users can then chat with the re-trained LLM to see the results.
 
-After testing the LLM locally to confirm the information is accurate, contributors can improve the AI model by[ submitting a pull request to InstructLab’s taxonomy repository on GitHub](https://github.com/instruct-lab/taxonomy?tab=readme-ov-file#detailed-contribution-instructions). This requires users to fork the taxonomy repository, create a pull request, and get the content of the pull request approved and merged by a repository administrator. After the pull request is merged, the AI model is upgraded during a nightly build. Contributors can then update their local deployment by running the `lab download` command to obtain the latest model.
+After testing the LLM locally to confirm the information is accurate, contributors can improve the AI model by[ submitting a pull request to InstructLab’s taxonomy repository on GitHub](https://github.com/instruct-lab/taxonomy?tab=readme-ov-file#detailed-contribution-instructions). This requires users to fork the taxonomy repository, create a pull request, and get the content of the pull request approved and merged by a repository administrator. After the pull request is merged, the AI model is upgraded during a nightly build. Contributors can then update their local deployment by running the `ilab download` command to obtain the latest model.
 
 ##
 **Question:** What are the goals of the InstructLab project?
@@ -148,6 +148,7 @@ For skills and knowledge PRs, your PR will be checked to ensure it is relevant, 
 * Does the skill have three or more examples?
 * Are the YAML fields correct?
 * No PII in content
+* Does this content include anything documented in the project's [Avoid these Topics](https://github.com/instruct-lab/community/blob/main/docs/README.md#avoid-these-topics) guidelines?
 * Does it adhere to the [code of conduct](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md#code-of-conduct) guidelines?
 * Was a response clearly generated by the LLM?
 
@@ -186,7 +187,7 @@ The InstructLab project follows the same approach (the [Developer's Certificate 
 ##
 **Question:** Where can I download updated models of InstructLab?
 
-**Answer:** The latest version of InstructLab can be downloaded using the `lab download` CLI command.
+**Answer:** The latest version of InstructLab can be downloaded using the `ilab download` CLI command.
 
 ##
 **Question:** What are the software and hardware requirements for using InstructLab?
@@ -196,7 +197,7 @@ The InstructLab project follows the same approach (the [Developer's Certificate 
 * A Linux-based operating system
 * An Apple Silicon M1, M2, or M3 system
 * Python 3.9 or later, including the development headers
-* Approximately 10GB of free disk space to get through the `lab generate` step.
+* Approximately 10GB of free disk space to get through the `ilab generate` step.
 * Approximately 60GB of free disk space is needed to run the entire process locally on Apple hardware.
 
 ##
@@ -217,6 +218,7 @@ The InstructLab project follows the same approach (the [Developer's Certificate 
 * [License](https://github.com/instruct-lab/cli/blob/main/LICENSE)
 * [Code of Conduct](https://github.com/instruct-lab/cli/blob/main/CODE_OF_CONDUCT.md)
 * [General lab CLI tool FAQs](https://github.com/instruct-lab/cli/discussions/648)
+* [Discussion board](https://github.com/instruct-lab/cli/discussions)
 
 [InstructLab Community Repository](https://github.com/instruct-lab/community)
 

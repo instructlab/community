@@ -4,29 +4,40 @@ The following document outlines how the InstructLab project governance operates.
 
 ## The InstructLab Project
 
-The InstructLab project is made up of several Projects, defined as codebases and services with different release cycles, that enable large model development. These Projects currently include:
+InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. Currently, these projects include the following:
 
-* cli - a tool to chat and train models
-* taxonomy - tree that enables model creation tuned with your data
-
-The services provided include:
-
-* Documentation for those who want to chat, and train models
-* Public taxonomy collaboration
+* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the `ilab` command-line interface (CLI) tool. 
+* [taxonomoy tree](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
 
 ## Governance Structure and Roadmap
 
-The InstructLab Project will evolve into a two-level governance structure with an Oversight Committee and Project Maintainers.  In order to avoid unnecessary overhead, at launch the project will not have a Oversight Committee. Once the majority of Project Maintainers feel that the project has grown to the point where an Oversight Committee is necessary, the Maintainers will vote to select one. Until the Oversight Committee is constituted, the duties of the Committee will be assumed by the collective Project Maintainers.
+The InstructLab Project will evolve into a two-level governance structure with an Oversight Committee and [Project Maintainers](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md). 
 
-Except where otherwise noted, decisions should always start at the most local level of project governance.  For example, decisions that affect only one Project should happen within that Project. Only escalate in the the event of problems.
+At launch, the InstructLab Project will not have an Oversight Committee to avoid unnecessary overhead. After the majority of project Maintainers agree that the project has grown to the point where an Oversight Committee is necessary, project Maintainers will begin establishment. Until the Oversight Committee is constituted, duties of the Oversight Committee will be assumed by project Maintainers.
+
+Except where otherwise noted, decisions should always start at the most local level of project governance. For example, decisions that affect only one project, such as the taxonomy repository and not the `ilab` CLI tool, can  happen within that project. While communication between the different project teams is important as they are all interconnected, minor decisions do not need organization-wide consensus and can be moved forward at the project level.
 
 Changes in maintainership and other governance are announced on the **TODO: InstructLab mailing list**.
 
-### InstructLab Oversight Committee
+## Project Maintainers overview
 
-The InstructLab Oversight Committee (OC) will consist of 3 to 9 of the leaders of the InstructLab project who have been chosen to serve on a team to supervise the general project and its health. The Oversight Committee are selected by the project Maintainers.
+Project Maintainers focus on a single codebase, a group of related codebases, a service (for example, a website), or project to support the other projects (such as marketing or community management).
 
-The Oversight Committee are responsible for:
+Project Maintainers are responsible for activities surrounding the development and release of code, the operation of any services that they own, or the tasks needed to execute their project (for example, community management or setting up an event booth). Technical decisions for code resides with the project Maintainers unless there is a decision related to cross maintainer groups that cannot be resolved by those groups. Those cases can be escalated to the [organization Maintainers](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md).
+
+In some cases, groups of maintainers are responsible for more than one repository, such as `ilab` CLI tool maintainers managing the [taxonomy repository](https://github.com/instruct-lab/taxonomy).
+
+To be considered an _active project Maintainer_, it is required to be associated with at least one active, non-archived project. If only listed on archived projects, they become _emeritus Maintainers_ and are no longer eligible to become an organization Maintainer.
+
+Project Maintainers do not need to be software developers; however they must be substantial contributors. For example, if a repository is for documentation it would be appropriate for a project Maintainer to be an editor or technical writer.
+
+Advancement to the project Maintainer position, removal or stepping down, and duties are detailed in the [Contributor Roles](https://github.com/instruct-lab/community/blob/main/CONTRIBUTOR_ROLES.md). The list of current maintainers can be found [here](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md).
+
+## InstructLab Oversight Committee overview
+
+The Oversight Committee is selected by project Maintainers and consists of 3 to 9 leaders on the InstructLab project; these members will serve to supervise the overall project and its health. It will also consist of a selected chair member who will set agendas and call meetings; these meetings can be public or private at the discretion of the Oversight Committee.
+
+The Oversight Committee is responsible for the following duties:
 
 * Maintaining the mission, vision, values, and scope of the project
 * Refining the governance and charter as needed
@@ -34,78 +45,75 @@ The Oversight Committee are responsible for:
 * Resolving escalated project decisions when the team responsible is blocked
 * Managing the InstructLab brand
 * Controlling access to InstructLab assets such as source repositories, hosting, project calendars
-* Appointing the Code of Conduct Committee
+* Appointing members to the [Code of Conduct Committee](https://github.com/instruct-lab/community/blob/main/COCC.md)
 * Deciding what projects are part of the InstructLab project
 * Overseeing the resolution and disclosure of security issues
 * Managing financial decisions related to the project
 
-Until the Oversight Committee is selected, the duties above will be carried out by the collective project Maintainers.
+Until the Oversight Committee is selected, these duties will be carried out by the project Maintainers.
 
-Once instantiated, the Oversight Committee will be selected and maintained using the following process:
+### Oversight Committee selection process 
 
-Any Maintainer of any active (non-archived) InstructLab organization project is eligible for a position as an org maintainer.  Once a year, the Oversight Committee will be re-elected.  The election will consist of a nomination period followed by an election period.  Any person who has made a contribution to any repo under the InstructLab GitHub org may nominate a suitable Project Maintainer of an active project.
+The Oversight Committee will be selected and maintained using the following process:
+
+A project Maintainer of any active (non-archived) InstructLab organization project is eligible for a position as an organization Maintainer. Once a year, the Oversight Committee will be re-elected. The election will consist of a nomination period followed by an election period. Any person who has made a contribution to any repository under the [InstructLab GitHub](https://github.com/instruct-lab) organization may nominate a suitable project Maintainer of an active project.
 
 The election will proceed according to the following process:
-* The nomination period will be three weeks starting the day after an org maintainer opening becomes available
-* The nomination must be made via the **TODO: InstructLab mailing list**
-* When nominated individual(s) agrees to be a candidate for maintainership, the project maintainers may vote
-* The voting period will be open for a minimum of three business days and will remain open until a super-majority of project maintainers has voted
-* Only current project maintainers of active projects are eligible to vote
-* When the number of nominated individuals matches the number of openings each individual needs to have a yes vote from a super-majority of those that voted
-* When there are more individuals than open positions voting will use a Ranked Choice voting mehtos, such as [Condorcet](https://en.wikipedia.org/wiki/Condorcet_method)
 
-Aside from the elections, the Oversight Committee members may leave the committee as follows:
+1. The nomination period will be three weeks. This period starts from the day after an organization Maintainer opening becomes available.
 
-* A member may step down by emailing the Oversight Committee mailing list. Within 7 calendar days the **TODO: InstructLab mailing list** will be notified of the change
-* Committee members MUST remain active on the project. If they are unexpectedly unresponsive for more than 3 months, or are otherwise not fulfilling their duties, or have violated the Code of Conduct, they may be removed by a vote of a [super-majority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) of the remaining OC members
-* After an OC member steps down, they become an emeritus maintainer
+1. The nomination must be made by the **TODO: InstructLab mailing list**.
 
-The Oversight Committee will select a chair to set agendas and call meetings.  Some meetings of the Oversight Committee will be public, and others will be private, at the OC's discretion.
+1. After a nominated individual(s) agrees to be a candidate for the Oversight Committee, project Maintainers will vote. The voting period will be open for a minimum of three business days. It will remain open until a [supermajority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) of project Maintainers has voted. Only current Maintainers of active projects are eligible to vote.
 
-### Project Maintainers
+1. When the number of nominated individuals matches the number of openings, each individual must have a _Yes_ vote from a supermajority of those that voted.
 
-Project Maintainers focus on a single codebase, a group of related codebases, a service (e.g., a website), or project to support the other projects (e.g., marketing or community management).
+1. When there are more individuals than open positions, voting will use a _Ranked Choice_ voting method, such as [Condorcet](https://en.wikipedia.org/wiki/Condorcet_method).
 
-Project maintainers are responsible for activities surrounding the development and release of code, the operation of any services they own (e.g., the documentation site), or the tasks needed to execute their project (e.g., community management, setting up an event booth). Technical decisions for code resides with the project maintainers unless there is a decision related to cross maintainer groups that cannot be resolved by those groups. Those cases can be escalated to the org maintainers.
+### Resignation or Departure from the Maintainer or the Oversight Committee role
 
-In some cases a groups of maintainers are responsible for more than one repo (e.g., cli maintainers managing taxonomy). In other cases the maintainers are responsible for a single project (e.g., cli).
+Project Maintainers or Oversight Committee members may resign or could be expelled as follows: 
 
-To be considered active maintainers, it is required for maintainers to be associated with at least one active, non-archived project. If only listed on archived projects, they become emeritus project maintainers and are no longer eligible to become org maintainers.
+* Maintainers or an Oversight Committee member may step down through email. Within 7 calendar days, organization contributors and Maintainers will be notified of the change through an email from **TODO: InstructLab mailing list**.
 
-Project maintainers do not need to be software developers, but they do need to be substantial contributors.  For example, if a repository is for documentation it would be appropriate for maintainers to be editors.
+* After an Oversight Committee member steps down, they become an emeritus Maintainer.
 
-Advancement to Project Maintainer position, removal, and duties are detailed in the [Contributor Ladder](/CONTRIBUTOR_LADDER.md).  The [current maintainers](/MAINTAINERS.md) are listed in this repository.
+* Maintainers and Committee members MUST remain active on the project. In the event that an Oversight Committee member or a Maintainer is unresponsive or inactive for more than 3 months, they may be removed by a supermajority vote. 
 
-## Decision Making at the InstructLab org level
+* Maintainers and Oversight Committee members who have violated the [Code of Conduct](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md) may be removed by a supermajority vote of the remaining Oversight Committee members. 
 
-When maintainers need to make decisions there are two ways decisions are made, unless described elsewhere.
+## Decision making at the InstructLab organization level
 
-The default decision making process is [lazy-consensus](http://communitymgt.wikia.com/wiki/Lazy_consensus). This means that any decision is considered supported by the team making it as long as no one objects. Silence on any consensus decision is implicit agreement and equivalent to explicit agreement. Explicit agreement may be stated at will.
+Generally, there are methods for decision making for the InstructLab project: by lazy consensus or by voting.
 
-When a consensus cannot be found a maintainer can call for a [majority](https://en.wikipedia.org/wiki/Majority) vote on a decision.
+The default decision making process is [_lazy-consensus_](http://communitymgt.wikia.com/wiki/Lazy_consensus). This means that any decision is considered supported by the team making it so long as no one objects. Silence on any consensus decision is implicit agreement, and equivalent to explicit agreement. Explicit agreement may be stated at will.
 
-Many of the day-to-day project maintenance can be done by a lazy consensus model. But the following items must be called to vote of the appropriate body:
+When a consensus cannot be met, a Maintainer can call for a [majority](https://en.wikipedia.org/wiki/Majority) vote on a decision.
 
-* Appointing or removing a member of the Code of Conduct Committee (super majority)
-* Carrying out Code of Conduct decisions requiring severe censure (majority)
-* Removing a maintainer for any reason other than inactivity (super majority)
-* Changing the governance rules (this document) (super majority)
-* Licensing and intellectual property changes (including new logos, wordmarks) (simple majority)
+Many of the day-to-day project maintenance can be done by through the lazy consensus model.
+
+The secondary decision making process is done by voting. The following items must be called to a vote and conducted by the appropriate body:
+
+* Appointing or removing a member of the [Code of Conduct Committee](https://github.com/instruct-lab/community/blob/main/COCC.md) (supermajority)
+* Carrying out [Code of Conduct](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md) decisions requiring severe censure (majority)
+* Removing a [Maintainer](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md) for any reason other than inactivity (supermajority)
+* Changing the governance (that is, this document's) rules (supermajority)
+* Licensing and intellectual property changes such as new logos or wordmarks (simple majority)
 * Adding, archiving, or removing projects (simple majority)
 
-Other decisions may, but do not need to be, called out and put up for decision on the **TODO: InstructLab mailing list** at any time and by anyone. By default, any decisions called to a vote will be for a _simple majority_ vote.
+Other decisions may, but do not need to be, called out and put up for decision on the **TODO: InstructLab mailing list**. This can be done by anyone at any time. By default, any decisions called to a vote will be for a _simple majority_ vote.
 
 ## Code of Conduct
 
-InstructLab's [Code of Conduct] is enforced by the Code of Conduct Committee (CoCC).  This committee will be appointed and removed by the Oversight Committee, or by the Project Maintainers before the OC is created, using a supermajority vote.  
+InstructLab's [Code of Conduct](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md) is enforced by the [Code of Conduct Committee (CoCC)](https://github.com/instruct-lab/community/blob/main/COCC.md). This committee will be appointed and removed by the Oversight Committee, or by the project Maintainers before the Oversight Committee is created, using a supermajority vote.  
 
-The CoCC is responsible for investigating, evaluating, and recommending remedies for substantiated Code of Conduct Incidents to the appropriate body. The CoCC will judge possible violations around principles of restorative justice rather than punishment. All teams within InstructLab are obligated to support the CoCC's recommendations on remedies.
+The CoCC is responsible for investigating, evaluating, and recommending remedies for substantiated Code of Conduct incidents to the appropriate body. The CoCC will judge possible violations around principles of restorative justice rather than punishment. All teams within InstructLab are obligated to support the CoCC's recommendations on remedies.
 
-These are the current members of the [Code of Conduct Committee](/CoCC.md).
+Current CoCC members can be found on the [Code of Conduct Committee](https://github.com/instruct-lab/community/blob/main/COCC.md) page.
 
-Possible code of conduct violations should be emailed to the CoCC at **TODO: Private CoC mailing list**.
+Possible Code of Conduct violations should be reported to the Code of Conduct Committee at **TODO: Private CoC mailing list**.
 
-## DCO and Licenses
+## Developer Certificate of Origin (DCO) and Licenses
 
 The following licenses and contributor agreements will be used for InstructLab projects:
 
@@ -115,4 +123,4 @@ The following licenses and contributor agreements will be used for InstructLab p
 
 ## Modifications to this Governance
 
-This governance may be modified by a super-majority of the Oversight Committee, or by a super-majority of all Project Maintainers.
+This governance may be modified by a supermajority of the Oversight Committee, or by a supermajority of all project Maintainers.

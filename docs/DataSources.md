@@ -58,3 +58,40 @@ generation pipeline.
 | Dataset Name | Knowledge Taxonomy Location | License and/or Copyright | Other Citiation Information |
 | ------------ | --------------------------- | --------------------- | --------- |
 |[IBM Redbooks](https://www.redbooks.ibm.com/) | ibm_redbooks | Copyright IBM [with some rights available](https://www.redbooks.ibm.com/copyright) | 
+
+The following openly licensed datasets were used as foundational and safety seeds in the skills synthetic data generation pipeline
+
+## [Foundational Skills](#Foundational-Skills)
+The following openly licensed datasets were used as foundational and safety seeds in the skills synthetic data generation pipeline
+
+|  Dataset Name | License  |
+| --------------|----------|
+| [GSM-8K](https://huggingface.co/datasets/gsm8k) | MIT  |
+| [AQuA-RAT](https://huggingface.co/datasets/aqua_rat) | Apache-2.0  |
+| [NumGLUE](https://github.com/allenai/numglue) | ODC |
+| [MathQA](https://huggingface.co/datasets/math_qa) | Apache-2.0  |
+| [CommitPack](https://huggingface.co/datasets/bigcode/commitpackft) | MIT  |
+| [PRM800K](https://github.com/openai/prm800k) |  MIT |
+| [SciBench](https://github.com/mandyyyyii/scibench) | MIT |
+| [TheoremQA](https://huggingface.co/datasets/wenhu/TheoremQA) | MIT |
+| [openbookQA](https://huggingface.co/datasets/openbookqa/viewer/additional/train?row=35) | Apache-2.0  |
+| [ARB](https://github.com/TheDuckAI/arb) | CC-BY-4.0  |
+| [TigerResearch](https://huggingface.co/datasets/TigerResearch/tigerbot-kaggle-leetcodesolutions-en-2k) | Apache 2.0  |
+| [Musique](https://github.com/StonyBrookNLP/musique) | Apache-2.0  |
+| [MMLU](https://huggingface.co/datasets/cais/mmlu) | MIT |
+| [Conala](https://huggingface.co/datasets/neulab/conala) | MIT |
+| [2wikimultihop](https://github.com/Alab-NII/2wikimultihop)  | Apache-2.0 |
+| [hotpot_qa](https://huggingface.co/datasets/hotpot_qa) | CC-BY-SA-4.0 |
+| [Helpsteer](https://huggingface.co/datasets/nvidia/HelpSteer) | CC-BY-4.0 |
+| [Squad v2](https://huggingface.co/datasets/squad_v2)  | CC-BY-SA-4.0 |
+| [HH-RHLF](https://huggingface.co/datasets/Anthropic/hh-rlhf) | MIT |
+| [Flan Collection](https://github.com/google-research/FLAN) | Apache-2.0 |
+| [Chatbot arena (Prompts Only)](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations)  | CC-BY-4.0 |
+
+## [Saftey Skills](#Saftey-Skills)
+
+|  Dataset Name | License  |
+| --------------|----------|
+| [OASST2](https://huggingface.co/datasets/OpenAssistant/oasst2) | Apache-2.0 |
+| [Prosocial-dialog](https://huggingface.co/datasets/allenai/prosocial-dialog) | CC-BY-4.0 |
+

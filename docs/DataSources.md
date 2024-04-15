@@ -1,4 +1,4 @@
-# Data Sources 
+# [Data Sources](#Data-Sources)
 The purpose of this document is to provide attribution required for data used in the InstructLab project including
 data for pre-training, knowledge data, and skills data. 
 
@@ -10,7 +10,7 @@ For data used to create the artifacts of the InsructLab project prior to its bei
 we are [aware that this list is not comprehensive](https://github.com/instruct-lab/taxonomy/issues/255) at the time of creating it. 
 The project maintainers will augment and update it over time to the best of our abilities.
 
-# Textbooks - Knowledge
+## [Textbooks: Knowledge](#Texbooks-Knowledge)
 The following openly licensed textbook works were used as knowledge source seeds in the knowledge synthetic data
 generation pipeline. 
 
@@ -50,8 +50,11 @@ generation pipeline.
 | [Introduction to Philosophy](https://openstax.org/details/books/introduction-philosophy) | philosophy | CC-BY-4.0 | **Senior Contributing Author**: Nathan Smith, Houston Community College |  Copyright 2022 Rice University |
 | [Principles of Financial Accounting](https://open.umn.edu/opentextbooks/textbooks/principles-of-financial-accounting) | financial_accounting | 	CC-BY-SA-4.0 | Christine Jonick | Copyright 2017 University of North Georgia Press |
 | [Intermediate Financial Accounting Volume 1](https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-1) | financial_accounting | CC-BY-4.0 | Glenn Arnold, Athabasca University and Suzanne Kyle | Copyright 2016 Lyryx |
-| [Intermediate Financial Accounting Volume 1]([https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-1](https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-2)) | financial_accounting | CC-BY-4.0 | Glenn Arnold, Athabasca University and Suzanne Kyle | Copyright 2017-2021 Lyryx |
+| [Intermediate Financial Accounting Volume 2](https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-2)) | financial_accounting | CC-BY-4.0 | Glenn Arnold, Athabasca University and Suzanne Kyle | Copyright 2017-2021 Lyryx |
 | [Introduction to Political Science](https://openstax.org/details/books/introduction-political-science) | political_science | CC-BY-2.0 | **Senior Contributing Authors**: Mark Carl Rom, Georgetown University; Masaki Hidaka, American University; Rachel Bzostek Walker, Collin College | Copyright 2022 Rice University|
 | [Introduction to Anthropology](https://openstax.org/details/books/introduction-anthropology) | anthropology | CC-BY-4.0 | **Senior Contributing Authors**: Jennifer Hasty, University of Pennsylvania; David G. Lewis, Oregon State University; Marjorie M. Snipes, University of West Georgia | Copright 2022 Rice University |
 
-# 
+## [Data Sets](#Data-Sets)
+| Dataset Name | Knowledge Taxonomy Location | License and/or Copyright | Other Citiation Information |
+| ------------ | --------------------------- | --------------------- | --------- |
+|[IBM Redbooks](https://www.redbooks.ibm.com/) | ibm_redbooks | Copyright IBM [with some rights available](https://www.redbooks.ibm.com/copyright) | 

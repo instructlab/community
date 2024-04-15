@@ -50,12 +50,14 @@ While the tuning process may eventually benefit from being used to help the mode
 * Hostile Language, threats, slurs, derogatory or insensitive jokes or comments
 * Profanity
 * Pornography and sexually explicit or suggestive content
-* Any contributions that would allow for automated decision making that affect an invidual's rights or well-being, e.g. social scoring
+* Any contributions that would allow for automated decision making that affect an individual's rights or well-being, e.g. social scoring
 * Any contributions that engage in political campaigning or lobbying
 
- We are also not accepting submissions 
+We are also not accepting submissions of the following content,
 * Jokes
 * Poems
+
+We received so many at the beginning, and with jokes being "in the eye of the beholder" and puns requiring nuance for native English speakers, we realized we were possibly unconsciously biasing our model. We have discovered that working with both topics has its own challenges, and if we want something generalized, finding consensus was unsuccessful.
 
 ## Works Cited on this Page
 * [Christianity in Nepal](https://en.wikipedia.org/wiki/Christianity_in_Nepal), Wikipedia, Wikimedia Foundation, 24 April 2024.

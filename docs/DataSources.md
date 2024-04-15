@@ -14,7 +14,7 @@ The project maintainers will augment and update it over time to the best of our 
 The following openly licensed textbook works were used as knowledge source seeds in the knowledge synthetic data
 generation pipeline. 
 
-| Dataset Name | Knowledge Taxonomy Location | License ([SPDX Identifier](https://spdx.org/licenses/)) | Creator Names | Copyright |
+| Dataset Name | Knowledge Taxonomy Location | License (where possible, use [SPDX License Identifier](https://spdx.org/licenses/)) | Creator Names | Copyright |
 | ------------ | --------------------------- | ------- | ------------- | --------- |
 |     [Anatomy and Physiology 2e.](https://openstax.org/details/books/anatomy-and-physiology-2e)         |                     anatomy        |   CC-BY-4.0      | **Senior Contributing Authors**: Kelly A. Young, California State University, Long Beach; James A. Wise, Hampton University; Eddie Johnson, Central Oregon Community College; Brandon Poe, Springfield Technical Community College; Dean H. Kruse, Portland Community College; Oksana Korol, Aims Community College; Jody E. Johnson, Arapahoe Community College; Mark Womble, Youngstown State University; Peter DeSaix, University of North Carolina at Chapel Hill | Copyright 2022 Rice University |
 | [Astronomy 2e.](https://openstax.org/details/books/astronomy-2e) | astronomy | CC-BY-4.0| **Senior Contributing Authors**: Andrew Fraknoi, Fromm Institute, University of San Francisco; David Morrison, NASA (Emeritus) and SETI Institute; Sidney Wolff, NOIRLab (Emerita) | Copyright 2022 Rice University |

@@ -51,6 +51,8 @@ While the tuning process may eventually benefit from being used to help the mode
 * Pornography and sexually explicit or suggestive content
 * Any contributions that would allow for automated decision making that affect an invidual's rights or well-being, e.g. social scoring
 * Any contributions that engage in political campaigning or lobbying
+* Jokes
+* Poems
 
 ## Works Cited on this Page
 * [Concepts of Biology - 1st Canadian Edition](https://opentextbc.ca/biology/), Chapter 11.3 _Circulatory and Respiratory Systems_. Copyright 2015 by Charles Molnar and Jane Gair, licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). No modications were made to the text.

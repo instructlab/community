@@ -179,7 +179,8 @@ $ilab chat
 ### 🏋️ Training and interacting with the model
 
 Now that you have a working environment, you should see how we need to give it new knowledge.
-- Ask it a question (the base model gets this wrong, see https://github.com/instruct-lab/taxonomy/pull/659):
+
+Ask it a question (the base model gets this wrong, see https://github.com/instruct-lab/taxonomy/pull/659):
 
 > When was the first British women's softball leauge established?
 

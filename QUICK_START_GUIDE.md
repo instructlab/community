@@ -184,7 +184,7 @@ Ask it a question (the base model gets this wrong, see https://github.com/instru
 
 > When was the first British women's softball leauge established?
 
-- This should be incorrect, lets add knowledge that teaches the mode the correct year (1953)
+This should be incorrect, lets add knowledge that teaches the mode the correct year (1953)
 
 - Verify you have the `taxonomy` directory in the working directory you are in.
 ```bash

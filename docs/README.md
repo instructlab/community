@@ -36,7 +36,7 @@ While the tuning process may eventually benefit from being used to help the mode
 
 * Religion
 * PII (personally identifiable information) or any content invasive of individual privacy rights
-* Violence
+* Violence including self-harm
 * Cyber Bullying
 * Internal documentation or other that is confidential to your employer or organization, e.g. trade secrets
 * Discrimination

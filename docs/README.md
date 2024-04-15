@@ -53,7 +53,7 @@ While the tuning process may eventually benefit from being used to help the mode
 * Any contributions that would allow for automated decision making that affect an individual's rights or well-being, e.g. social scoring
 * Any contributions that engage in political campaigning or lobbying
 
-We are also not accepting submissions of the following content,
+We are also not accepting submissions of the following content:
 * Jokes
 * Poems
 

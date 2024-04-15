@@ -52,9 +52,12 @@ While the tuning process may eventually benefit from being used to help the mode
 * Pornography and sexually explicit or suggestive content
 * Any contributions that would allow for automated decision making that affect an invidual's rights or well-being, e.g. social scoring
 * Any contributions that engage in political campaigning or lobbying
+
+ We are also not accepting submissions 
 * Jokes
 * Poems
 
 ## Works Cited on this Page
+* [Christianity in Nepal](https://en.wikipedia.org/wiki/Christianity_in_Nepal), Wikipedia, Wikimedia Foundation, 24 April 2024.
 * [Concepts of Biology - 1st Canadian Edition](https://opentextbc.ca/biology/), Chapter 11.3 _Circulatory and Respiratory Systems_. Copyright 2015 by Charles Molnar and Jane Gair, licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). No modications were made to the text.
 * [World History, volume 2: from 1400](https://openstax.org/details/books/world-history-volume-2), Chapter 6.3 _Capitalism and the First Industrial Revolution_. Copyright 2022 Rice University, licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). No modications were made to the text.

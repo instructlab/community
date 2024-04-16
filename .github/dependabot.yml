@@ -12,6 +12,10 @@ updates:
 
   # Maintain dependencies for Python scripts
   - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pip"
     directory: "/tools/maintainers"
     schedule:
       interval: "daily"

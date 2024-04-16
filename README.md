@@ -19,7 +19,7 @@ The goals of this open source community includes the following:
 
 ## Getting Started with the InstructLab Project workstreams🥼
 
-InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open source initiative by Red Hat and IBM. It provides a platform for easy engagement with Large Language Models (LLM) by using the `ilab` command-line interface (CLI) tool. Users can augment the LLM’s capabilities by submitting the skills and knowledge that they have tested to the project’s taxonomy repository on GitHub by creating a pull request.
+InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open source initiative by Red Hat and IBM. It provides a platform for easy engagement with Large Language Models (LLM) by using the `ilab` command-line interface (CLI) tool. Users can augment the LLM's capabilities by submitting the skills and knowledge that they have tested to the project’s taxonomy repository on GitHub by creating a pull request.
 
 The following documentation shows you an overview of the workflow, and the resources needed, to get started with InstructLab.
 
@@ -67,7 +67,7 @@ To contribute code or documentation, please submit a pull request to the relevan
 
 * For more information about general contribution practices, see the [Contributing](https://github.com/instructlab/community/blob/main/CONTRIBUTING.md) guide.
 * For more information about contributing to the taxonomy repository, see the [Taxonomy's contribution guide](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md).
-* For more information about contributing to the InstructLab CLI repository, see the [Instructlab contribution guide](https://github.com/instructlab/instructlab/blob/main/CONTRIBUTING/CONTRIBUTING.md).
+* For more information about contributing to the InstructLab CLI repository, see the [InstructLab contribution guide](https://github.com/instructlab/instructlab/blob/main/CONTRIBUTING/CONTRIBUTING.md).
 
 ### Contributor roles
 
@@ -108,7 +108,7 @@ If you would like to see the detailed LICENSE click, see [LICENSE](LICENSE).
 
 ## Contact resources
 
-* [InstructLab Slack](https://instruct-lab.slack.com). See the InstuctLab Slack Guide for directions on how to join.
+* [InstructLab Slack](https://instruct-lab.slack.com). See the InstructLab Slack Guide for directions on how to join.
 * [InstructLab Slack Guide](InstructLabSlackGuide.md)
 * [InstructLab Slack Moderation Guide](InstructLabSlackModerationGuide.md)
 * [InstructLab Mailing lists](https://github.com/instructlab/community/blob/main/Collaboration.md#aliases-and-mailing-lists-catalog)

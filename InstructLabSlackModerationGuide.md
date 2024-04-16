@@ -15,7 +15,7 @@ Moderation activities can only be performed by users who are designated as works
 
 ## Workspace Administrators
 
-At time of writing, our workspace adminstrators/moderators are as follows:
+At time of writing, our workspace administrators/moderators are as follows:
 
 * Aakanksha Duggal
 * Ali Maredia

@@ -1,1 +1,6 @@
-venv
+venv/
+.venv/
+.tox/
+dictionary.dic
+.vscode/
+.idea/

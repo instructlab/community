@@ -7,7 +7,7 @@ For new contributions to InstructLab that require data along with
 the submission, we have [thorough guidelines](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#for-your-attributiontxt-file) on how to provide
 attribution for these data sources.
 
-For data used to create the artifacts of the InsructLab project prior to its being open sourced,
+For data used to create the artifacts of the InstructLab project prior to its being open sourced,
 we are [aware that this list is not comprehensive](https://github.com/instructlab/taxonomy/issues/255) at the time of creating it.
 The project maintainers will augment and update it over time to the best of our abilities.
 
@@ -32,14 +32,14 @@ generation pipeline.
 | [University Physics volume 3](https://openstax.org/details/books/university-physics-volume-3)  | college_physics | CC-BY-4.0  |**Senior Contributing Authors**: William Moebs, Formerly of Loyola Marymount University; Samuel J. Ling, Truman State University; Jeff Sanny, Loyola Marymount University | Copyright 2021 Rice University |
 | [Introductory Business Statistics with Interactive Spreadsheets - 1st Canadian Edition](https://opentextbc.ca/introductorybusinessstatistics) | business_statistics | CC-BY-4.0 | Mohammad Mahbobi and Thomas K. Tiemann | Copyright 2015 by Mohammad Mahbobi and Thomas K. Tiemann |
 | [Principles of Macroeconomics 3e](https://openstax.org/details/books/principles-macroeconomics-3e) | econometrics | CC-BY-4.0 | **Senior Contributing Authors**: David Shapiro, Pennsylvania State University; Daniel MacDonald, California State University, San Bernardino; Steven A. Greenlaw, University of Mary Washington | Copyright 2022 Rice University |
-| [Algebra and Trigonometry 2e](https://openstax.org/details/books/algebra-and-trigonometry-2e) | high_school_mathematics | CC-BY-4.0 | **Senior Contributing Author**: Jay Abramson, Arizona State University | Copright 2021 Rice University |
-| [Precalculus 2e](https://openstax.org/details/books/precalculus-2e) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Author**: Jay Abramson, Arizona State University | Copright 2021 Rice University |
-| [Introductory Business Statistics](https://openstax.org/details/books/introductory-business-statistics) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Authors**: Alexander Holmes, The University of Oklahoma; Barbara Illowsky, De Anza College; Susan Dean, De Anza College | Copright 2018 Rice University |
-| [Contemporary Mathematics](https://openstax.org/details/books/contemporary-mathematics) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Author**: Donna Kirk, University of Wisconsin at Superior | Copright 2023 Rice University |
-| [Introductory Statistics](https://openstax.org/details/books/introductory-statistics) | high_school_mathmatics | CC-BY-4.0 |**Senior Contributing Authors**:  Barbara Illowsky, De Anza College; Susan Dean, De Anza College | Copright 2018 Rice University |
-| [Statistics](https://openstax.org/details/books/statistics) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Authors**:  Barbara Illowsky, De Anza College; Susan Dean, De Anza College | Copright 2020 Texas Education Agency (TEA) |
-| [College Algebra 2e](https://openstax.org/details/books/college-algebra-2e) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Author**: Jay Abramson, Arizona State University | Copright 2021 Rice University |
-| [Applied Calculus](https://mathbooks.unl.edu/BCalculus/colophon-1.html) | high_school_mathmatics | CC-BY-SA-4.0 | Kevin Gonzales, Eric Hopkins, Catherine Zimmitti, Cheryl Kane; Modified to fit Applied Calculus from Coordinated Calculus by Nathan Wakefield et. al.; Based upon Active Calculus by Matthew Boelkins | Copyright 2018 - 2021 University of Nebraska - Lincoln, Department of Mathematics|
+| [Algebra and Trigonometry 2e](https://openstax.org/details/books/algebra-and-trigonometry-2e) | high_school_mathematics | CC-BY-4.0 | **Senior Contributing Author**: Jay Abramson, Arizona State University | Copyright 2021 Rice University |
+| [Precalculus 2e](https://openstax.org/details/books/precalculus-2e) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Author**: Jay Abramson, Arizona State University | Copyright 2021 Rice University |
+| [Introductory Business Statistics](https://openstax.org/details/books/introductory-business-statistics) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Authors**: Alexander Holmes, The University of Oklahoma; Barbara Illowsky, De Anza College; Susan Dean, De Anza College | Copyright 2018 Rice University |
+| [Contemporary Mathematics](https://openstax.org/details/books/contemporary-mathematics) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Author**: Donna Kirk, University of Wisconsin at Superior | Copyright 2023 Rice University |
+| [Introductory Statistics](https://openstax.org/details/books/introductory-statistics) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Authors**:  Barbara Illowsky, De Anza College; Susan Dean, De Anza College | Copyright 2018 Rice University |
+| [Statistics](https://openstax.org/details/books/statistics) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Authors**:  Barbara Illowsky, De Anza College; Susan Dean, De Anza College | Copyright 2020 Texas Education Agency (TEA) |
+| [College Algebra 2e](https://openstax.org/details/books/college-algebra-2e) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Author**: Jay Abramson, Arizona State University | Copyright 2021 Rice University |
+| [Applied Calculus](https://mathbooks.unl.edu/BCalculus/colophon-1.html) | high_school_mathematics | CC-BY-SA-4.0 | Kevin Gonzales, Eric Hopkins, Catherine Zimmitti, Cheryl Kane; Modified to fit Applied Calculus from Coordinated Calculus by Nathan Wakefield et al.; Based upon Active Calculus by Matthew Boelkins | Copyright 2018 - 2021 University of Nebraska - Lincoln, Department of Mathematics|
 | [Coordinated Calculus](https://mathbooks.unl.edu/Calculus) | high_school_mathematics | CC-BY-SA-4.0 | Nathan Wakefield, Christine Kelley, Marla Williams, Michelle Haver, Lawrence Seminario-Romero, Robert Huben, Aurora Marks, Stephanie Prahl; Based upon Active Calculus by Matthew Boelkins | Copyright 2019 University of Nebraska - Lincoln, Department of Mathematics |
 | [Coordinated Multivariable Calculus](https://mathbooks.unl.edu/MultiVarCalc/colophon-1.html)| high_school_mathematics | CC-BY-NC-SA-4.0 | Steve Schlicker, Mitchel T. Keller, Nicholas Long, Zach Norwood, Audrey Goodnight; Based on Active Calculus | Copyright 2013 - 2022 Steven Schlicker, Mitchel T. Keller, and Nicholas Long |
 | [Principles of Economics 3e](https://openstax.org/details/books/principles-economics-3e) | high_school_microeconomics  | CC-BY-4.0 | **Senior Contributing Authors**: Steven A. Greenlaw, University of Mary Washington; David Shapiro, Pennsylvania State University; Daniel MacDonald, California State University, San Bernardino | Copyright 2022 Rice University |
@@ -54,11 +54,11 @@ generation pipeline.
 | [Intermediate Financial Accounting Volume 1](https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-1) | financial_accounting | CC-BY-4.0 | Glenn Arnold, Athabasca University and Suzanne Kyle | Copyright 2016 Vretta-Lyryx Inc. |
 | [Intermediate Financial Accounting Volume 2](https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-2)) | financial_accounting | CC-BY-4.0 | Glenn Arnold, Athabasca University and Suzanne Kyle | Copyright 2017-2021 Vretta-Lyryx Inc. |
 | [Introduction to Political Science](https://openstax.org/details/books/introduction-political-science) | political_science | CC-BY-2.0 | **Senior Contributing Authors**: Mark Carl Rom, Georgetown University; Masaki Hidaka, American University; Rachel Bzostek Walker, Collin College | Copyright 2022 Rice University|
-| [Introduction to Anthropology](https://openstax.org/details/books/introduction-anthropology) | anthropology | CC-BY-4.0 | **Senior Contributing Authors**: Jennifer Hasty, University of Pennsylvania; David G. Lewis, Oregon State University; Marjorie M. Snipes, University of West Georgia | Copright 2022 Rice University |
+| [Introduction to Anthropology](https://openstax.org/details/books/introduction-anthropology) | anthropology | CC-BY-4.0 | **Senior Contributing Authors**: Jennifer Hasty, University of Pennsylvania; David G. Lewis, Oregon State University; Marjorie M. Snipes, University of West Georgia | Copyright 2022 Rice University |
 
 ## [Data Sets](#data-sets)
 
-| Dataset Name | Knowledge Taxonomy Location | License and/or Copyright | Other Citiation Information |
+| Dataset Name | Knowledge Taxonomy Location | License and/or Copyright | Other Citation Information |
 | ------------ | --------------------------- | --------------------- | --------- |
 |[IBM Redbooks](https://www.redbooks.ibm.com/) | ibm_redbooks | Copyright IBM [with some rights available](https://www.redbooks.ibm.com/copyright) | |
 

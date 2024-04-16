@@ -11,15 +11,15 @@ Contributing new features, resolving bugs and issues, and refining the documenta
 
 ## Community Goals
 
-The goals of this open-source community includes the following:
+The goals of this open source community includes the following:
 
 - Drive adoption of the InstructLab tooling and model API standard.
-- Grow an ecosystem of open data (contributions) and open models (interactions).
+- Grow and an ecosystem of contribution driven open models
 - Establish deployable patterns, practices, and evidence for sophisticated use cases.
 
 ## Getting Started with the InstructLab Project workstreams🥼
 
-InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open-source initiative by Red Hat and IBM. It provides a platform for easy engagement with Large Language Models (LLM) by using the `ilab` command-line interface (CLI) tool. Users can augment the LLM’s capabilities by submitting the skills and knowledge that they have tested to the project’s taxonomy repository on GitHub by creating a pull request.
+InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open source initiative by Red Hat and IBM. It provides a platform for easy engagement with Large Language Models (LLM) by using the `ilab` command-line interface (CLI) tool. Users can augment the LLM’s capabilities by submitting the skills and knowledge that they have tested to the project’s taxonomy repository on GitHub by creating a pull request.
 
 The following documentation shows you an overview of the workflow, and the resources needed, to get started with InstructLab.
 
@@ -33,7 +33,7 @@ The `ilab` tool allows you to interact with the IBM AI model `Merlinite`, contri
 
 1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instructlab/cli/blob/main/README.md). The README.md instructs you on how to perform the following: 
 
-    a. In the [Getting started](https://github.com/instructlab/cli/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM `Merlinite` AI model.
+    a. In the [Getting started](https://github.com/instruct-lab/cli/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM `Merlinite` AI model. If you run into any issues, you can find many solutions in the [in the CLI repository's discussion board](https://github.com/instruct-lab/cli/discussions).
 
     b. You can then create your own data sets to feed into and train the model. In the taxonomy project, there are two types of data you can serve to the model: skills and knowledge. There are a few different types of skills and knowledge you can create. For more detailed information on the types, see the Taxonomy [README.md](https://github.com/instructlab/taxonomy/blob/main/README.md#welcome-to-the-instructlab-taxonomy). 
 

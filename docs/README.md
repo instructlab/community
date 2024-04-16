@@ -30,37 +30,6 @@ For this project, unless the file says otherwise, or unless the attributed sourc
 
 Any third party content contributed to this project undergoes modifications in order to formulate it in the templated format required for submission to this project.
 
-## Avoid These Topics
-
-While the tuning process may eventually benefit from being used to help the models work with complex social topics, at this time this is an area of active research we do not want to take lightly. Therefore please keep your submissions clear of the following topics:
-
-* PII (personally identifiable information) or any content invasive of individual privacy rights
-* Violence including self-harm
-* Cyber Bullying
-* Internal documentation or other that is confidential to your employer or organization, e.g. trade secrets
-* Discrimination
-* Religion
-  * Facts such as, "[Christianity is, according to the 2011 census, the fifth most practiced religion in Nepal, with 375,699 adherents, or 1.4% of the population](https://en.wikipedia.org/wiki/Christianity_in_Nepal)", are fine as a knowledge contribution. Advocating in favor of or against any religious faith is not acceptable.
-* Medical or health information
-  * Facts such as,  "[In mammals, pulmonary ventilation occurs via inhalation (breathing)](https://opentextbc.ca/biology/chapter/11-3-circulatory-and-respiratory-systems/)," are fine as a knowledge contribution. Tailored medical/health advice is not acceptable.
-* Financial information
-  * Facts such as "[laissez-faire economics ... argues that market forces alone should drive the economy and that governments should refrain from direct intervention in or moderation of the economic system](https://openstax.org/books/world-history-volume-2/pages/6-3-capitalism-and-the-first-industrial-revolution)," are fine as a knowledge contribution. Tailored financial advice is not acceptable.
-* Legal settlements/mitigations
-* Gender Bias
-* Hostile Language, threats, slurs, derogatory or insensitive jokes or comments
-* Profanity
-* Pornography and sexually explicit or suggestive content
-* Any contributions that would allow for automated decision making that affect an individual's rights or well-being, e.g. social scoring
-* Any contributions that engage in political campaigning or lobbying
-
-We are also not accepting submissions of the following content:
-* Jokes
-* Poems
-* Code
-  * Anything code-related that can be traced back to code for a computer. Not limited to `sed` or `bash` but `yaml`s for OpenShift or Kubernetes, to `python` snippets to `Java` suggestions. There are specific models focused on this space and this isn't for this model for the time being.
-
-We received so many at the beginning, and with jokes being "in the eye of the beholder" and puns requiring nuance for native English speakers, we realized we were possibly unconsciously biasing our model. We have discovered that working with both topics has its own challenges, and if we want something generalized, finding consensus was unsuccessful.
-
 ## Works Cited on this Page
 * [Christianity in Nepal](https://en.wikipedia.org/wiki/Christianity_in_Nepal), Wikipedia, Wikimedia Foundation, 24 April 2024.
 * [Concepts of Biology - 1st Canadian Edition](https://opentextbc.ca/biology/), Chapter 11.3 _Circulatory and Respiratory Systems_. Copyright 2015 by Charles Molnar and Jane Gair, licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). No modifications were made to the text.

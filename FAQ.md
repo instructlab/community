@@ -2,6 +2,32 @@
 
 Last updated: April 2024
 
+# Table of Contents
+
+- [Document summary](#document-summary)
+- [General FAQ](#general-faq)
+  - [What is InstructLab?](#what-is-instructlab)
+  - [What is LAB?](#what-is-lab)
+  - [How does InstructLab work?](#how-does-instructlab-work)
+  - [What are the goals of the InstructLab project?](#what-are-the-goals-of-the-instructlab-project)
+  - [Why should I contribute?](#why-should-i-contribute)
+  - [What large language models (LLMs) am I contributing to through the InstructLab project?](#what-large-language-models-llms-am-i-contributing-to-through-the-instructlab-project)
+  - [What is Merlinite-7b?](#what-is-merlinite-7b)
+  - [What is a “skill”?](#what-is-a-skill)
+  - [What is “knowledge”?](#what-is-knowledge)
+  - [What are the requirements for submitting a skill or knowledge?](#what-are-the-requirements-for-submitting-a-skill-or-knowledge)
+  - [Is the project looking for certain types of skill contributions?](#is-the-project-looking-for-certain-types-of-skill-contributions)
+  - [What are the acceptance criteria for a skills submission?](#what-are-the-acceptance-criteria-for-a-skills-submission)
+  - [What happens after you submit a pull request?](#what-happens-after-you-submit-a-pull-request)
+  - [How are submissions reviewed?](#how-are-submissions-reviewed)
+  - [How long will it take for my pull request to be reviewed?](#how-long-will-it-take-for-my-pull-request-to-be-reviewed)
+  - [If my pull request is accepted, how long will it take for my changes to appear in the next model update?](#if-my-pull-request-is-accepted-how-long-will-it-take-for-my-changes-to-appear-in-the-next-model-update)
+  - [What is the software license for InstructLab?](#what-is-the-software-license-for-instructlab)
+  - [Am I required to license code submissions to InstructLab under the Apache 2.0 license?](#am-i-required-to-license-code-submissions-to-instructlab-under-the-apache-20-license)
+  - [My contribution requires submitting data along with code. What data is permissible to include?](#my-contribution-requires-submitting-data-along-with-code-what-data-is-permissible-to-include)
+  - [Where can I download updated models of InstructLab?](#where-can-i-download-updated-models-of-instructlab)
+  - [What are the software and hardware requirements for using InstructLab?](#what-are-the-software-and-hardware-requirements-for-using-instructlab)
+
 ## Document summary
 
 This page serves as a comprehensive FAQ for the InstructLab project, detailing how it works, how to contribute, and the goals behind the project. Key information includes:
@@ -14,6 +40,7 @@ This page serves as a comprehensive FAQ for the InstructLab project, detailing h
 For more specific questions about the InstructLab CLI and troubleshooting common issues, see [General lab CLI tool FAQs](https://github.com/instruct-lab/cli/discussions/648).
 
 For more specific questions about the taxonomy repository, see [Taxonomy repository FAQ](https://github.com/instruct-lab/taxonomy/discussions/538).
+
 
 ## General FAQ
 

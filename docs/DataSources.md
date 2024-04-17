@@ -3,7 +3,7 @@ The purpose of this document is to provide attribution required for data used in
 data for pre-training, knowledge data, and skills data. 
 
 For new contributions to InstructLab that require data along with 
-the submission, we have thorough guidelines [TODO LINK TO GUIDELINES FOR CONTRIBUTING KNOWLEDGE] on how to provide 
+the submission, we have [thorough guidelines](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md#for-your-attributiontxt-file) on how to provide 
 attribution for these data sources. 
 
 For data used to create the artifacts of the InsructLab project prior to its being open sourced,

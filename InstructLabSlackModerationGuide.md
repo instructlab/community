@@ -64,7 +64,7 @@ If a user is a repeat offender, after being warned, their account can be [deacti
 - By default, Workspace Owners and Admins can remove people from public channels, and members can remove people from private channels.
 - Anyone can be removed from a channel by those with permission.
 - All members and guests need to be added back to a private channel to rejoin it, and guests also need to be added back to a public channel to rejoin it.
-- It's not possible to remove people from the #general channel. However we plan to rename #general to #announce with posting permissions restricted to admins.
+- It's not possible to remove people from the #announce channel. However, posting in this channel is restricted to workspace administrators by default.
 
 ![image](https://github.com/instruct-lab/community/assets/615883/2e1bac77-4674-4f9f-ab48-dcd2a5f590d0)
 

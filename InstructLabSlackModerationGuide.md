@@ -5,13 +5,13 @@ abuse in the Slack workspace and to provide space administrators with an easy to
 
 # Reporting Abuse
 
-Should any community members using the InstructLab Slack workspace feel that they have experienced behavior that violates our [project code of conduct](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md), they are welcome and encouraged to contact the members of the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md) for help. Mentioning <code>@cocc</code> will page all members of the committee so that they can assist you.
+Should any community members using the InstructLab Slack workspace feel that they have experienced behavior that violates our [project Code of Conduct](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md), they are welcome and encouraged to contact the members of the [Code of Conduct Committee](https://github.com/instruct-lab/community/blob/main/COCC.md) for help. Mentioning <code>@cocc</code> will page all members of the committee so that they can assist you.
 
 In the event that you do not receive help within a timely fashion - and we will do our very best to respond right away - you can ask for help from the workspace admins by either joining channel <code>#admin</code> or mentioning <code>@admins</code>.
 
 # Moderation Guide
 
-Moderation activities can only be performed by users who are designated as workspace adminstrators.
+Moderation activities can only be performed by users who are designated as workspace administrators.
 
 ## Workspace Administrators
 
@@ -41,9 +41,9 @@ At time of writing, our workspace adminstrators/moderators are as follows:
 ## How We Moderate
 
 ## Deleting Inappropriate Comments 
-Upon report of abuse to the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md) or, alternatively if needed to the workspace adminstrators due to a coverage gap, the appropriate parties will assess the situation.
+Upon report of abuse to the [Code of Conduct Committee](https://github.com/instruct-lab/community/blob/main/COCC.md) or, alternatively if needed to the workspace administrators due to a coverage gap, the appropriate parties will assess the situation.
 
-The first step will be to remind folks to abide by the [project code of conduct](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md).  
+The first step will be to remind folks to abide by the [project Code of Conduct](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md).  
 
 Inappropriate or offensive messages [will be deleted](https://slack.com/help/articles/202395258-Edit-or-delete-messages#delete-a-message).
 

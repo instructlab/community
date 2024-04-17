@@ -3,11 +3,11 @@ The purpose of this document is to provide attribution required for data used in
 data for pre-training, knowledge data, and skills data. 
 
 For new contributions to InstructLab that require data along with 
-the submission, we have [thorough guidelines](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md#for-your-attributiontxt-file) on how to provide 
+the submission, we have [thorough guidelines](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#for-your-attributiontxt-file) on how to provide 
 attribution for these data sources. 
 
 For data used to create the artifacts of the InsructLab project prior to its being open sourced,
-we are [aware that this list is not comprehensive](https://github.com/instruct-lab/taxonomy/issues/255) at the time of creating it. 
+we are [aware that this list is not comprehensive](https://github.com/instructlab/taxonomy/issues/255) at the time of creating it. 
 The project maintainers will augment and update it over time to the best of our abilities.
 
 ## [Textbooks: Knowledge](#Texbooks-Knowledge)

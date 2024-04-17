@@ -2,8 +2,8 @@
 
 InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. Currently, these projects include the following:
 
-* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the the `ilab` CLI tool. 
-* [taxonomoy tree](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
+* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/cli). This repository is responsible for the the `ilab` CLI tool. 
+* [taxonomoy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
 
 This document outlines a core number of contributor roles for InstructLab projects, such as _Member_, _Triager_, _Reviewer_, and _Maintainer_. In the future, an _Oversight Committee_ will be formed, which will serve to supervise the overall InstructLab project and its health. Using transparent criteria, the journey between roles is based on individual participation.
 
@@ -21,8 +21,8 @@ The following table provides information about the current roles available to th
 |------------|----------------------------------------------|---------------------------------------------------------------|-------------------------------|
 | Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 Maintainers or Reviewers            | InstructLab GitHub org member        |
 | Triager    | Triaging issues and PRs                      | History of issue and PR triage and sponsored by 2 Maintainers           | InstructLab GitHub Triage team member        |
-| Reviewer   | Reviews contributions from other contributors     | History of reviews and contributions. Sponsored by 2 Maintainers.                             | [MAINTAINERS file](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md) Reviewer entry  |
-| Maintainer | Sets direction and priorities for a project | Demonstrated responsibility and excellent technical judgement. Nominated and approved by Maintainers team. | [MAINTAINERS file](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md) Maintainer entry  |
+| Reviewer   | Reviews contributions from other contributors     | History of reviews and contributions. Sponsored by 2 Maintainers.                             | [MAINTAINERS file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) Reviewer entry  |
+| Maintainer | Sets direction and priorities for a project | Demonstrated responsibility and excellent technical judgement. Nominated and approved by Maintainers team. | [MAINTAINERS file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) Maintainer entry  |
 
 ### Member
 
@@ -95,7 +95,7 @@ As a project Triager, you have the following responsibilities and privileges:
 
 Reviewers are Members with high quality code contributions and who have demonstrated greater skill in reviewing the code. They are knowledgeable about both the codebase and software engineering principles. Their `LGTM` counts towards merging a code change by Maintainers.
 
-**Defined by:** *Reviewers* entry in the [MAINTAINER file](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md).
+**Defined by:** *Reviewers* entry in the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md).
 
 #### Reviewer Requirements
 
@@ -113,7 +113,7 @@ If you meet the requirements, nominate yourself to become a Reviewer by filing a
 
 Maintainers will vote privately and respond to the issue with either acceptance or with feedback for suggested improvement. Feedback may be given privately.
 
-After a [decision has been made](https://github.com/instruct-lab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will create a PR to add you in the [MAINTAINER file](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md) within three weeks.
+After a [decision has been made](https://github.com/instructlab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will create a PR to add you in the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) within three weeks.
 
 #### Reviewer responsibilities and Privileges
 
@@ -130,7 +130,7 @@ As a project Reviewer, you have the following responsibilities and privileges:
 
 Maintainers are first and foremost contributors that have shown they are committed to the long term success of a project. Maintainership is about building trust with the community and being a person that everyone can depend on to make consistent decisions in the best interest of the project.
 
-**Defined by:** *Maintainers* entry in the [MAINTAINER file](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md).
+**Defined by:** *Maintainers* entry in the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md).
 
 #### Maintainer requirements
 
@@ -152,7 +152,7 @@ If you meet the requirements, nominate yourself to become a Maintainer by sendin
 
 Maintainers will vote privately and respond to the issue with either acceptance or with feedback for suggested improvement. Feedback may be given privately.
 
-After a [decision has been made](https://github.com/instruct-lab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will create a PR to add you in the [MAINTAINER file](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md) within three weeks.
+After a [decision has been made](https://github.com/instructlab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will create a PR to add you in the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) within three weeks.
 
 #### Maintainer responsibilities and Privileges
 
@@ -173,7 +173,7 @@ As a project Maintainer, you have the following responsibilities and privileges:
 
 Life priorities, interests, and passions can change. Contributors can retire and move to _emeritus Maintainers_. If a contributor needs to step down from their current role, they should inform the appropriate project Maintainers.  No vote is required for a contributor to remove themselves, and any project Maintainer can approve the PR. Maintainers who step down become emeritus Maintainers.
 
-If a contributor has not been performing the duties of their role for a consecutive period of 12 months, they can be removed by the appropriate project's Maintainers. Maintainers will make reasonable efforts to contact the absent contributor. If the [Code of Conduct Committee](https://github.com/instruct-lab/community/blob/main/COCC.md) recommends that a contributor be removed from their role, this will also be carried out by the project Maintainers.  
+If a contributor has not been performing the duties of their role for a consecutive period of 12 months, they can be removed by the appropriate project's Maintainers. Maintainers will make reasonable efforts to contact the absent contributor. If the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md) recommends that a contributor be removed from their role, this will also be carried out by the project Maintainers.  
 
 If an emeritus Maintainer or other retired contributor wants to regain an active role, they can do so by renewing their contributions, after which they can be re-instated by a decision of the appropriate project's Maintainers.
 

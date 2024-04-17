@@ -39,7 +39,7 @@ Freeform skills include things like:
       
 #### Grounded Compositional Skills
 
-[Example PR](https://github.com/instruct-lab/taxonomy/pull/250)
+[Example PR](https://github.com/instructlab/taxonomy/pull/250)
 
 Grounded skills are performative and **do** require additional context. An
 example of a grounded skill would be to read the value of a cell in a table

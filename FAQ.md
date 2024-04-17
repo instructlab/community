@@ -37,9 +37,9 @@ This page serves as a comprehensive FAQ for the InstructLab project, detailing h
 * **Contribution Process**: Contributors can add skills or knowledge to the LLM by creating YAML files and testing changes locally before submitting a pull request to InstructLab’s GitHub repository.
 * **Project Goals**: To democratize contributions to AI and LLMs, allowing rapid model development through community collaboration facilitated by nightly builds integrating community contributions.
 
-For more specific questions about the InstructLab CLI and troubleshooting common issues, see [General lab CLI tool FAQs](https://github.com/instruct-lab/cli/discussions/648).
+For more specific questions about the InstructLab CLI and troubleshooting common issues, see [General lab CLI tool FAQs](https://github.com/instructlab/cli/discussions/648).
 
-For more specific questions about the taxonomy repository, see [Taxonomy repository FAQ](https://github.com/instruct-lab/taxonomy/discussions/538).
+For more specific questions about the taxonomy repository, see [Taxonomy repository FAQ](https://github.com/instructlab/taxonomy/discussions/538).
 
 
 ## General FAQ
@@ -65,9 +65,9 @@ More information about the LAB method can be found on the [Hugging Face project 
 
 InstructLab is driven by taxonomies, or _trees of skills_, and works by empowering users to add new _skills_ and _knowledge_ to a pre-trained LLM.
 
-Contributors to InstructLab first [download](https://github.com/instruct-lab/cli?tab=readme-ov-file#-getting-started) the `ilab` CLI, which allows them to chat with a pre-trained LLM. If a contributor finds that a specific knowledge domain of the LLM is lacking, they can add a [new skill or knowledge](https://github.com/instruct-lab/taxonomy?tab=readme-ov-file#getting-started-with-skill-contributions) (or build upon existing skills/knowledge) to the model and test it locally. This is done by creating a simple YAML file that includes information about the topic they seek to improve. After adding the YAML file to their local taxonomy repository, they can run the `ilab generate` command and generate new synthetic training data based on the changes of the local taxonomy repository, which re-trains the LLM with new information. Users can then chat with the re-trained LLM to see the results.
+Contributors to InstructLab first [download](https://github.com/instructlab/cli?tab=readme-ov-file#-getting-started) the `ilab` CLI, which allows them to chat with a pre-trained LLM. If a contributor finds that a specific knowledge domain of the LLM is lacking, they can add a [new skill or knowledge](https://github.com/instructlab/taxonomy?tab=readme-ov-file#getting-started-with-skill-contributions) (or build upon existing skills/knowledge) to the model and test it locally. This is done by creating a simple YAML file that includes information about the topic they seek to improve. After adding the YAML file to their local taxonomy repository, they can run the `ilab generate` command and generate new synthetic training data based on the changes of the local taxonomy repository, which re-trains the LLM with new information. Users can then chat with the re-trained LLM to see the results.
 
-After testing the LLM locally to confirm the information is accurate, contributors can improve the AI model by[ submitting a pull request to InstructLab’s taxonomy repository on GitHub](https://github.com/instruct-lab/taxonomy?tab=readme-ov-file#detailed-contribution-instructions). This requires users to fork the taxonomy repository, create a pull request, and get the content of the pull request approved and merged by a repository administrator. After the pull request is merged, the AI model is upgraded during a nightly build. Contributors can then update their local deployment by running the `ilab download` command to obtain the latest model.
+After testing the LLM locally to confirm the information is accurate, contributors can improve the AI model by[ submitting a pull request to InstructLab’s taxonomy repository on GitHub](https://github.com/instructlab/taxonomy?tab=readme-ov-file#detailed-contribution-instructions). This requires users to fork the taxonomy repository, create a pull request, and get the content of the pull request approved and merged by a repository administrator. After the pull request is merged, the AI model is upgraded during a nightly build. Contributors can then update their local deployment by running the `ilab download` command to obtain the latest model.
 
 ### What are the goals of the InstructLab project?
 
@@ -104,8 +104,8 @@ InstructLab skills are broken down into two main categories:
 
 Skills are written in a YAML file and submitted to the InstructLab upstream project for review. The following pull requests can  serve as models for your own skills submission:
 
-* Freeform skill: [Introducing Gen Z phrases](https://github.com/instruct-lab/taxonomy/pull/79)
-* Grounded skill: [Finding unresolved items in a meeting transcript](https://github.com/instruct-lab/taxonomy/pull/250)
+* Freeform skill: [Introducing Gen Z phrases](https://github.com/instructlab/taxonomy/pull/79)
+* Grounded skill: [Finding unresolved items in a meeting transcript](https://github.com/instructlab/taxonomy/pull/250)
 
 ### What is “knowledge”?
 
@@ -113,8 +113,8 @@ Knowledge consists of data and facts. When creating knowledge for an AI model, y
 
 Like skills, knowledge submissions are submitted in YAML format to the InstructLab upstream project for review. The following pull requests can  serve as models for your own skills submission:
 
-* [Add QnA about music theory](https://github.com/instruct-lab/taxonomy/pull/230)
-* [Add information about the 7 wonders of the world](https://github.com/instruct-lab/taxonomy/pull/50)
+* [Add QnA about music theory](https://github.com/instructlab/taxonomy/pull/230)
+* [Add information about the 7 wonders of the world](https://github.com/instructlab/taxonomy/pull/50)
 
 ### What are the requirements for submitting a skill or knowledge?
 
@@ -122,10 +122,10 @@ To submit a skill or knowledge contribution, you must have a GitHub account and 
 
 While there are no strict guidelines for skills submissions, they should seek to address gaps in the knowledge domains of the LLM. Generally speaking, recognizing a knowledge gap comes from using and testing the model locally. After you have identified a gap in a specific skill or knowledge, you can contribute in one of two ways:
 
-* You can make a public contribution directly to the [taxonomy repository](https://github.com/instruct-lab/taxonomy).
-* You can [fork](https://github.com/instruct-lab/taxonomy?tab=readme-ov-file#detailed-contribution-instructions) this repository under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+* You can make a public contribution directly to the [taxonomy repository](https://github.com/instructlab/taxonomy).
+* You can [fork](https://github.com/instructlab/taxonomy?tab=readme-ov-file#detailed-contribution-instructions) this repository under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-For more information about forking the repository, see [Detailed Contribution Instructions](https://github.com/instruct-lab/taxonomy?tab=readme-ov-file#detailed-contribution-instructions).
+For more information about forking the repository, see [Detailed Contribution Instructions](https://github.com/instructlab/taxonomy?tab=readme-ov-file#detailed-contribution-instructions).
 
 ### Is the project looking for certain types of skill contributions?
 
@@ -144,7 +144,7 @@ Skills submissions that are unlikely to be accepted include submitting a knowled
 After a pull request is submitted, a review is conducted by both the Taxonomy Triage team and the Taxonomy Approvers team to ensure that they are relevant, actionable, and have all of the required information needed to be a valuable addition to the AI model. Triagers might provide feedback and use labels to manage the state of the submitted pull request. Triagers also might provide informative feedback and helpful comments to improve the submission. After the pull request is approved, a Taxonomy Approver merges the skill.
 
 
-More information regarding basic review questions, subjective review questions, labels, and the reasons for approval, further review requirements, or rejection can be found on the [Triaging Skills](https://github.com/instruct-lab/taxonomy/blob/main/docs/skills-triage.md) page of the GitHub repository.
+More information regarding basic review questions, subjective review questions, labels, and the reasons for approval, further review requirements, or rejection can be found on the [Triaging Skills](https://github.com/instructlab/taxonomy/blob/main/docs/skills-triage.md) page of the GitHub repository.
 
 ### How are submissions reviewed?
 
@@ -157,8 +157,8 @@ For skills and knowledge PRs, your PR will be checked to ensure it is relevant, 
 * Does the skill have three or more examples?
 * Are the YAML fields correct?
 * No PII in content
-* Does this content include anything documented in the project's [Avoid these Topics](https://github.com/instruct-lab/community/blob/main/docs/README.md#avoid-these-topics) guidelines?
-* Does it adhere to the [code of conduct](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md#code-of-conduct) guidelines?
+* Does this content include anything documented in the project's [Avoid these Topics](https://github.com/instructlab/community/blob/main/docs/README.md#avoid-these-topics) guidelines?
+* Does it adhere to the [code of conduct](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#code-of-conduct) guidelines?
 * Was a response clearly generated by the LLM?
 
 ### How long will it take for my pull request to be reviewed?
@@ -187,7 +187,7 @@ It is recommended that third-party content be licensed with an open data license
 * Apache 2.0
 * MIT
 
-The InstructLab project follows the same approach (the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertificate.org/)) that [the Linux Kernel community uses](https://docs.kernel.org/process/submitting-patches.html#sign-your-work-the-developer-s-certificate-of-origin) to manage code contributions. Unless the file says otherwise for this project, the relevant open source license is [the Apache License, Version 2.0](https://github.com/instruct-lab/taxonomy/blob/main/LICENSE).  When submitting a patch for review, you must include a sign-off statement in the commit message. See the [“legal” ](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md#legal)section of the “[Contributing.md](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md)” document.
+The InstructLab project follows the same approach (the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertificate.org/)) that [the Linux Kernel community uses](https://docs.kernel.org/process/submitting-patches.html#sign-your-work-the-developer-s-certificate-of-origin) to manage code contributions. Unless the file says otherwise for this project, the relevant open source license is [the Apache License, Version 2.0](https://github.com/instructlab/taxonomy/blob/main/LICENSE).  When submitting a patch for review, you must include a sign-off statement in the commit message. See the [“legal” ](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#legal)section of the “[Contributing.md](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md)” document.
 
 ### Where can I download updated models of InstructLab?
 
@@ -205,23 +205,23 @@ To run InstructLab locally, you must meet the following requirements:
 
 ## Additional Resources
 
-[InstructLab Taxonomy Repository](https://github.com/instruct-lab/taxonomy)
+[InstructLab Taxonomy Repository](https://github.com/instructlab/taxonomy)
 
-* [ReadMe](https://github.com/instruct-lab/taxonomy/blob/main/README.md)
-* [Contributing](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md)
-* [License](https://github.com/instruct-lab/taxonomy/blob/main/LICENSE)
-* [Code of Conduct](https://github.com/instruct-lab/taxonomy/blob/main/CODE_OF_CONDUCT.md)
-* [Taxonomy repository FAQ](https://github.com/instruct-lab/taxonomy/discussions/538)
+* [ReadMe](https://github.com/instructlab/taxonomy/blob/main/README.md)
+* [Contributing](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md)
+* [License](https://github.com/instructlab/taxonomy/blob/main/LICENSE)
+* [Code of Conduct](https://github.com/instructlab/taxonomy/blob/main/CODE_OF_CONDUCT.md)
+* [Taxonomy repository FAQ](https://github.com/instructlab/taxonomy/discussions/538)
 
-[InstructLab CLI Repository](https://github.com/instruct-lab/cli)
+[InstructLab CLI Repository](https://github.com/instructlab/cli)
 
-* [ReadMe](https://github.com/instruct-lab/cli/blob/main/README.md)
-* [Contributing](https://github.com/instruct-lab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md)
-* [License](https://github.com/instruct-lab/cli/blob/main/LICENSE)
-* [Code of Conduct](https://github.com/instruct-lab/cli/blob/main/CODE_OF_CONDUCT.md)
-* [General lab CLI tool FAQs](https://github.com/instruct-lab/cli/discussions/648)
-* [Discussion board](https://github.com/instruct-lab/cli/discussions)
+* [ReadMe](https://github.com/instructlab/cli/blob/main/README.md)
+* [Contributing](https://github.com/instructlab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md)
+* [License](https://github.com/instructlab/cli/blob/main/LICENSE)
+* [Code of Conduct](https://github.com/instructlab/cli/blob/main/CODE_OF_CONDUCT.md)
+* [General lab CLI tool FAQs](https://github.com/instructlab/cli/discussions/648)
+* [Discussion board](https://github.com/instructlab/cli/discussions)
 
-[InstructLab Community Repository](https://github.com/instruct-lab/community)
+[InstructLab Community Repository](https://github.com/instructlab/community)
 
 * Getting started

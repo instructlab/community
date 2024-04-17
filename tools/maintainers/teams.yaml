@@ -14,9 +14,19 @@ Community:
 - name: Community Maintainers
   slug: community-maintainers
 
+Enhancements:
+- name: Enhancements Triagers
+  slug: enhancements-triagers
+
 InstructLabBot:
 - name: InstructLab Bot Maintainers
   slug: instruct-lab-bot-maintainers
+- name: InstructLab Bot Triagers
+  slug: instruct-lab-bot-triagers
+
+Schema:
+- name: Schema Maintainers
+  slug: schema-maintainers
 
 Taxonomy:
 - name: Taxonomy Approvers
@@ -25,6 +35,10 @@ Taxonomy:
   slug: taxonomy-maintainers
 - name: Taxonomy Triagers
   slug: taxonomy-triagers
+
+Website:
+- name: Website Maintainers
+  slug: website-maintainers
 
 Admins:
 - name: Org Maintainers

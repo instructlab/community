@@ -79,6 +79,14 @@
 - [JoeAldinger](https://github.com/JoeAldinger)
 
 
+## Enhancements
+
+### Enhancements Triagers
+
+- [russellb](https://github.com/russellb)
+- [nathan-weinberg](https://github.com/nathan-weinberg)
+
+
 ## InstructLabBot
 
 ### InstructLab Bot Maintainers
@@ -87,6 +95,22 @@
 - [nerdalert](https://github.com/nerdalert)
 - [vishnoianil](https://github.com/vishnoianil)
 - [dave-tucker](https://github.com/dave-tucker)
+
+
+### InstructLab Bot Triagers
+
+- [russellb](https://github.com/russellb)
+- [cdoern](https://github.com/cdoern)
+- [nathan-weinberg](https://github.com/nathan-weinberg)
+- [alinaryan](https://github.com/alinaryan)
+
+
+## Schema
+
+### Schema Maintainers
+
+- [bjhargrave](https://github.com/bjhargrave)
+- [jjasghar](https://github.com/jjasghar)
 
 
 ## Taxonomy
@@ -148,6 +172,15 @@
 - [abrahamdaniels](https://github.com/abrahamdaniels)
 - [caradelia](https://github.com/caradelia)
 - [katesoule](https://github.com/katesoule)
+
+
+## Website
+
+### Website Maintainers
+
+- [joesepi](https://github.com/joesepi)
+- [sstano](https://github.com/sstano)
+- [connor-leech](https://github.com/connor-leech)
 
 
 ## Admins

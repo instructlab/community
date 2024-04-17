@@ -9,7 +9,7 @@ The InstructLab Slack workspace resides at https://instruct-lab.slack.com
 
 You can join using this [invitation link](https://join.slack.com/t/instruct-lab/shared_invite/zt-2ginke0oz-SxvNYZCqBTDy5wzAi9WRlA)
 
-Upon joining, you will automatically be added to our <code>announce</code> channel. You are welcome and encouraged to join other channels.
+Upon joining, you will automatically be added to our <code>#announce</code> channel. You are welcome and encouraged to join other channels.
 
 All discussions in the InstructLab Slack are governed by our [project code of conduct](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md).
 

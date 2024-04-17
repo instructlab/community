@@ -27,7 +27,7 @@ All discussions in the InstructLab Slack are governed by our [project code of co
 
 ## Moderation and Reporting Abuse
 
-We are an open, welcoming, and inclusive community and expect our members to kind and respectful in all discourse.
+We are an open, welcoming, and inclusive community and expect our members to be kind and respectful in all discourse.
 
 We take reports of harassment very seriously and will action any reports of inappropriate behavior as quickly as possible.
 

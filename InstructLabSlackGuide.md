@@ -22,7 +22,7 @@ All discussions in the InstructLab Slack are governed by our [project code of co
 - <code>#docs</code> Documentation team discussions and questions about documentation.
 - <code>#frontend</code> Frontend work for the InstructLab project, including the CLI tool and User Interface
 - <code>#help</code> General technical questions and getting started. This channel is the place to go if you need help with your first pull request.
-- <code>#social</code> Place to chat and enjoy camaraderie with fellow community memories.
+- <code>#social</code> Place to chat and enjoy camaraderie with fellow community members.
 - <code>#triage</code> Triage team discussions.
 
 ## Moderation and Reporting Abuse

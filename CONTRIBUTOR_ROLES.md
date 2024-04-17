@@ -21,7 +21,6 @@ The following table provides information about the current roles available to th
 |------------|----------------------------------------------|---------------------------------------------------------------|-------------------------------|
 | Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 Maintainers or Reviewers            | InstructLab GitHub org member        |
 | Triager    | Triaging issues and PRs                      | History of issue and PR triage and sponsored by 2 Maintainers           | InstructLab GitHub Triage team member        |
-| Reviewer   | Reviews contributions from other contributors     | History of reviews and contributions. Sponsored by 2 Maintainers.                             | [MAINTAINERS file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) Reviewer entry  |
 | Maintainer | Sets direction and priorities for a project | Demonstrated responsibility and excellent technical judgement. Nominated and approved by Maintainers team. | [MAINTAINERS file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) Maintainer entry  |
 
 ### Member
@@ -40,7 +39,7 @@ To become a project Member, you must meet the following requirements:
     - Filing or commenting on issues on GitHub.
     - Contributing to community discussion, for example, meetings or on Slack.
 
-- You have been sponsored by two Maintainers or Reviewers.
+- You have been sponsored by two Maintainers.
 
 If you have met these expectations and wish to become an established member, you can be nominated by a contributor, or you can nominate yourself. To nominate a contributor or yourself:
 
@@ -91,41 +90,6 @@ As a project Triager, you have the following responsibilities and privileges:
 - You consistently assign, close, and reopen issues or PRs.
 - You actively triage issues and PRs with high quality.
 
-### Reviewer
-
-Reviewers are Members with high quality code contributions and who have demonstrated greater skill in reviewing the code. They are knowledgeable about both the codebase and software engineering principles. Their `LGTM` counts towards merging a code change by Maintainers.
-
-**Defined by:** *Reviewers* entry in the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md).
-
-#### Reviewer Requirements
-
-To become a project Reviewer, you must meet the following requirements:
-
-- You have been a Member for at least 1 month.
-- You have served as the primary Reviewer for at least 5 pull requests (PRs) to the project, and provided high quality reviews.
-- You are knowledgeable about the project.
-- You have been sponsored by two Maintainer.
-
-If you meet the requirements, nominate yourself to become a Reviewer by filing an issue in the appropriate project:
-
-- Ensure your sponsors are `@mentioned` on the email.
-- Include a list of contributions that are representative of your work.
-
-Maintainers will vote privately and respond to the issue with either acceptance or with feedback for suggested improvement. Feedback may be given privately.
-
-After a [decision has been made](https://github.com/instructlab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will create a PR to add you in the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) within three weeks.
-
-#### Reviewer responsibilities and Privileges
-
-As a project Reviewer, you have the following responsibilities and privileges: 
-
-- You are responsible for project quality control via code reviews.
-- You focus on quality and correctness, including testing code and factoring content.
-- You are responsive to review requests.
-- You review assigned PRs that are related to your area of expertise.
-- You test bugs that are assigned to you that are related to your area of expertise.
-- You are given `LGTM` privileges, which are considered one of the `LGTMs` required to merge a commit for a project.
-
 ### Maintainer
 
 Maintainers are first and foremost contributors that have shown they are committed to the long term success of a project. Maintainership is about building trust with the community and being a person that everyone can depend on to make consistent decisions in the best interest of the project.
@@ -136,7 +100,7 @@ Maintainers are first and foremost contributors that have shown they are committ
 
 To become a project Maintainer, you must meet the following requirements:
 
-- You have been a Reviewer for at least 1 month.
+- You have been a Member for at least 1 month.
 - You have a deep understanding of the technical goals and direction of the project.
 - You have a deep understanding of the technical domain of the project.
 - You have made sustained contributions to design and direction by:
@@ -144,6 +108,7 @@ To become a project Maintainer, you must meet the following requirements:
     - Initiating, contributing, and resolving discussions, such as emails, Slack, GitHub issues, meetings.
     - Identifying subtle or complex issues in designs and implementation pull requests.
 - You have directly contributed to the project through implementation and/or review.
+- You have been sponsored by two Maintainers.
 
 If you meet the requirements, nominate yourself to become a Maintainer by sending an email to the Maintainers with your candidacy. You must:
 
@@ -161,8 +126,12 @@ As a project Maintainer, you have the following responsibilities and privileges:
 - You make and approve technical design decisions.
 - You set technical direction and priorities.
 - You define milestones and releases.
-- You mentor and guide Reviewers, and contributors to the project.
+- You mentor and guide contributors to the project.
 - You ensure the continued health of the project.
+- You are responsive to review requests.
+- You review assigned PRs that are related to your area of expertise.
+- You focus on quality and correctness, including testing code and factoring content.
+- You are responsible for project quality control via code reviews.
 - You perform adequate test coverage to confidently release.
 - The tests that you perform are passing reliably (i.e. not flaky) and are fixed when they fail.
 - You ensure that a healthy process for discussion and decision making is in place.

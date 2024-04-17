@@ -3,7 +3,7 @@
 ## Requirements
 
 * `pip install -r requirements.txt`
-* A working install of the `gh` command line utility
+* A working install of the [`gh` command line utility](https://github.com/cli/cli#installation).
 
 ## Usage
 

@@ -4,8 +4,8 @@ The mission of the InstructLab (**L**arge-scale **A**lignment for chat**B**ots) 
 
 InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. This repository shares InstructLab's activity and collaboration details across the community and include the most current information about the project. Related repositories include the following:
 
-* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/cli). This repository is responsible for the `ilab` command-line interface (CLI) tool. 
-* [taxonomy tree](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
+* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/cli). This repository is responsible for the `ilab` command-line interface (CLI) tool. 
+* [taxonomy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
 
 Contributing new features, resolving bugs and issues, and refining the documentation experience through pull requests are welcome. More information about contributing to the InstructLab Project, contributor roles, governance and legal, and licenses can be found in proceeding sections of this document.
 
@@ -29,31 +29,31 @@ The following documentation shows you an overview of the workflow, and the resou
 
 The `ilab` tool allows you to interact with the IBM AI model `Merlinite`, contribute your own information, and train the model locally. 
 
-> **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations.
+> **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instructlab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations.
 
-1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instruct-lab/cli/blob/main/README.md). The README.md instructs you on how to perform the following: 
+1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instructlab/cli/blob/main/README.md). The README.md instructs you on how to perform the following: 
 
-    a. In the [Getting started](https://github.com/instruct-lab/cli/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM `Merlinite` AI model.
+    a. In the [Getting started](https://github.com/instructlab/cli/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM `Merlinite` AI model.
 
-    b. You can then create your own data sets to feed into and train the model. In the taxonomy project, there are two types of data you can serve to the model: skills and knowledge. There are a few different types of skills and knowledge you can create. For more detailed information on the types, see the Taxonomy [README.md](https://github.com/instruct-lab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions). 
+    b. You can then create your own data sets to feed into and train the model. In the taxonomy project, there are two types of data you can serve to the model: skills and knowledge. There are a few different types of skills and knowledge you can create. For more detailed information on the types, see the Taxonomy [README.md](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions). 
 
-    c. In your local taxonomy repository, generated after the [Initialize lab](https://github.com/instruct-lab/cli/blob/main/README.md#%EF%B8%8F-initialize-lab) step, navigate to the path that you want to add information to. You can see a flow chart of the paths in this file [taxonomy_diagram](https://github.com/instruct-lab/taxonomy/blob/main/docs/taxonomy_diagram.png). Create a `qna.yaml` file in that path with your contributions. 
+    c. In your local taxonomy repository, generated after the [Initialize lab](https://github.com/instructlab/cli/blob/main/README.md#%EF%B8%8F-initialize-lab) step, navigate to the path that you want to add information to. You can see a flow chart of the paths in this file [taxonomy_diagram](https://github.com/instructlab/taxonomy/blob/main/docs/taxonomy_diagram.png). Create a `qna.yaml` file in that path with your contributions. 
 
-    d. [Serve and train the model](https://github.com/instruct-lab/cli/blob/main/README.md#-train-the-model) with your contributions to see if the model can answer questions more accurately. 
+    d. [Serve and train the model](https://github.com/instructlab/cli/blob/main/README.md#-train-the-model) with your contributions to see if the model can answer questions more accurately. 
 
     e. Congratulations! You trained an AI model locally! 
 
 ### Opening a pull request in the taxonomy repository with your new skills or knowledge! 
 
-If your contributions improved the model locally, you can contribute your files to the main AI model through the taxonomy repository. For more information see [CONTRIBUTING.md](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md#pr-review) in the taxonomy repository.
+If your contributions improved the model locally, you can contribute your files to the main AI model through the taxonomy repository. For more information see [CONTRIBUTING.md](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#pr-review) in the taxonomy repository.
 
-1. To contribute your knowledge and skills to the taxonomy repository, follow the documentation in [Contribute knowledge and skills to the taxonomy](https://github.com/instruct-lab/taxonomy/blob/main/README.md#contribute-knowledge-and-skills-to-the-taxonomy). 
+1. To contribute your knowledge and skills to the taxonomy repository, follow the documentation in [Contribute knowledge and skills to the taxonomy](https://github.com/instructlab/taxonomy/blob/main/README.md#contribute-knowledge-and-skills-to-the-taxonomy). 
 
-    > **IMPORTANT:** Ensure that your files and contributions follow the proper YAML format, see examples in the [YAML format](https://github.com/instruct-lab/taxonomy/blob/main/README.md#yaml-format) file.
+    > **IMPORTANT:** Ensure that your files and contributions follow the proper YAML format, see examples in the [YAML format](https://github.com/instructlab/taxonomy/blob/main/README.md#yaml-format) file.
 
 ### Getting reviews on pull requests
 
-There are teams of contributors from Red Hat and IBM that will review your pull request and determine if it can be merged in the taxonomy repository. For more information, see the [Triaging skills](https://github.com/instruct-lab/taxonomy/blob/main/docs/skills-triage.md) documentation. 
+There are teams of contributors from Red Hat and IBM that will review your pull request and determine if it can be merged in the taxonomy repository. For more information, see the [Triaging skills](https://github.com/instructlab/taxonomy/blob/main/docs/skills-triage.md) documentation. 
 
 ### See your contributions impact an AI model!
 
@@ -65,24 +65,24 @@ Help on open source projects is always welcome and there is always something tha
 
 To contribute code or documentation, please submit a pull request to the relevant repository. Note that contribution to any repository has its own set of requirements and expectations, and users should familiar themselves with those expectations before contributing.
 
-- For more information about general contribution practices, see the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide.
-- For more information about contributing to the taxonomy repository, see the [Taxonomy's contribution guide](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md).
-- For more information about contributing to the CLI repository, see the [CLI's contribution guide](https://github.com/instruct-lab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md).
+- For more information about general contribution practices, see the [Contributing](https://github.com/instructlab/community/blob/main/CONTRIBUTING.md) guide.
+- For more information about contributing to the taxonomy repository, see the [Taxonomy's contribution guide](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md).
+- For more information about contributing to the CLI repository, see the [CLI's contribution guide](https://github.com/instructlab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md).
 
 ### Contributor roles
 
-The project welcomes new contributors. Not all contributors are able to provide sustained contributions, but they are always welcome. [The contributor roles](https://github.com/instruct-lab/community/blob/main/CONTRIBUTOR_ROLES.md) document outlines the various roles to support contributors and help them grow responsibility in the various InstructLab projects. These roles are subject to change, and new roles will be added as necessary. 
+The project welcomes new contributors. Not all contributors are able to provide sustained contributions, but they are always welcome. [The contributor roles](https://github.com/instructlab/community/blob/main/CONTRIBUTOR_ROLES.md) document outlines the various roles to support contributors and help them grow responsibility in the various InstructLab projects. These roles are subject to change, and new roles will be added as necessary. 
 
 ####  Maintainers
 
 Project Maintainers are first and foremost contributors that have shown they are committed to the long term success of a project. Maintainership is about building trust with the community and being a person that everyone can depend on to make consistent decisions in the best interest of the project. With enough time and experience, contributors can apply to become Maintainers. The current list of Maintainers can be found in the 
-[Maintainers](https://github.com/instruct-lab/community/blob/main/MAINTAINERS.md) file.
+[Maintainers](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) file.
 
 ## Governance & Legal
 
 - [InstructLab Community Governance](governance.md)
 
-- [InstructLab Code of Conduct](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md)
+- [InstructLab Code of Conduct](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md)
 
 - You must agree to the terms of the [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits in your pull requests. The Developer Certificate of Origin (DCO) is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project. Here is the full [text of the DCO](https://developercertificate.org/), reformatted for readability:
 
@@ -96,7 +96,7 @@ Project Maintainers are first and foremost contributors that have shown they are
   >
   > d. I understand and agree that this project and the contribution are public and that a record of the contribution (including all personal information I submit with it, including my sign-off) is maintained indefinitely and may be redistributed consistent with this project or the open source license(s) involved.
 
-Contributors _sign-off_ that they adhere to these requirements by adding a `Signed-off-by` line to commit messages. For more information about how the DCO works with this project, see [Developer Certificate of Origin (DCO)](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md#developer-certificate-of-origin-dco).
+Contributors _sign-off_ that they adhere to these requirements by adding a `Signed-off-by` line to commit messages. For more information about how the DCO works with this project, see [Developer Certificate of Origin (DCO)](https://github.com/instructlab/community/blob/main/CONTRIBUTING.md#developer-certificate-of-origin-dco).
   
 ## Licenses
 
@@ -110,7 +110,7 @@ If you would like to see the detailed LICENSE click [here](LICENSE).
 
 - [InstructLab Slack]() FORTHCOMING
 - [InstructLab Mailing lists]() FORTHCOMING
-- In the meantime, feel free to start a [discussion](https://github.com/orgs/instruct-lab/discussions).
+- In the meantime, feel free to start a [discussion](https://github.com/orgs/instructlab/discussions).
 
 ## Quick Links
 

@@ -11,6 +11,6 @@
 
 TODO: Replace when there are actual Knowledge PRs coming in that are correctly formatted. However this one has been identified as an example of a good one.
 
-[Example knowledge contribution](https://github.com/instruct-lab/taxonomy/pull/50)
+[Example knowledge contribution](https://github.com/instructlab/taxonomy/pull/50)
 
 -->

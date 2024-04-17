@@ -1,6 +1,6 @@
 # Welcome to the Lab 🔬
 
-![image](https://github.com/instruct-lab/community/assets/85503753/25fcefc7-a7ac-4511-90df-dc397ba741d5)
+![image](https://github.com/instructlab/community/assets/85503753/25fcefc7-a7ac-4511-90df-dc397ba741d5)
 
 ## Why InstructLab
 There are many projects rapidly embracing and extending permissively licensed AI models, but they are faced with three main challenges:
@@ -26,19 +26,19 @@ Contributors that are currently creating their own forks of models like Mistral 
 
 # InstructLab is composed of the following projects:
 
-## [Taxonomy](https://github.com/instruct-lab/taxonomy)
+## [Taxonomy](https://github.com/instructlab/taxonomy)
 
 The InstructLab method is driven by taxonomies, which are largely created manually and with care. This repository contains a taxonomy tree that will allow you to create models tuned with your data (enhanced via synthetic data generation) using the InstructLab method.
 
-- [Repo](https://github.com/instruct-lab/taxonomy)
-- [Contributing](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md)
+- [Repo](https://github.com/instructlab/taxonomy)
+- [Contributing](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md)
 
-## [Command-line Interface](https://github.com/instruct-lab/cli)
+## [Command-line Interface](https://github.com/instructlab/cli)
 
 This command-line interface for InstructLab will allow you to create models tuned with data you provide using the InstructLab method on your laptop or workstation.
 
-- [Repo](https://github.com/instruct-lab/cli)
-- [Contributing](https://github.com/instruct-lab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md)
+- [Repo](https://github.com/instructlab/cli)
+- [Contributing](https://github.com/instructlab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md)
   
 ## Model Training Infrastructure
 
@@ -54,10 +54,10 @@ The infrastructure used to regularly train the model based on new contributions 
 -->
 
 ### Code of Conduct & Covenant
-Participation in the InstructLab community is governed by our [Code of Conduct & Covenant](https://github.com/instruct-lab/community/blob/main/CODE_OF_CONDUCT.md).
+Participation in the InstructLab community is governed by our [Code of Conduct & Covenant](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md).
 
 ### Governance
-How the InstructLab project [governance](https://github.com/instruct-lab/community/blob/main/governance.md) operates.
+How the InstructLab project [governance](https://github.com/instructlab/community/blob/main/governance.md) operates.
 
 ### Security
-Security policies and practices, including reporting vulnerabilities can be found in our [Security.md](https://github.com/instruct-lab/community/blob/main/SECURITY.md).
+Security policies and practices, including reporting vulnerabilities can be found in our [Security.md](https://github.com/instructlab/community/blob/main/SECURITY.md).

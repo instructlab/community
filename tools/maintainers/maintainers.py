@@ -10,7 +10,7 @@ import yaml
 
 
 def get_team_members(team_slug):
-    org = 'instruct-lab'
+    org = 'instructlab'
     result = subprocess.run(['gh', 'api', '--method', 'GET',
                              f'/orgs/{org}/teams/{team_slug}/members'],
                              stdout=subprocess.PIPE)

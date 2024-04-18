@@ -33,15 +33,12 @@ Team which has full maintainer access to the CLI repository
 - [russellb](https://github.com/russellb)
 - [soltysh](https://github.com/soltysh)
 - [mairin](https://github.com/mairin)
-- [afrittoli](https://github.com/afrittoli)
 - [anik120](https://github.com/anik120)
 - [alimaredia](https://github.com/alimaredia)
-- [rawkintrevo](https://github.com/rawkintrevo)
 - [xukai92](https://github.com/xukai92)
 - [spzala](https://github.com/spzala)
 - [markstur](https://github.com/markstur)
 - [mrutkows](https://github.com/mrutkows)
-- [Tomcli](https://github.com/Tomcli)
 - [hickeyma](https://github.com/hickeyma)
 - [cdoern](https://github.com/cdoern)
 - [nathan-weinberg](https://github.com/nathan-weinberg)
@@ -56,7 +53,6 @@ Team that can manage Issues and Pull Requests but cannot merge code to the CLI r
 - [cybette](https://github.com/cybette)
 - [anik120](https://github.com/anik120)
 - [alimaredia](https://github.com/alimaredia)
-- [rawkintrevo](https://github.com/rawkintrevo)
 - [abhi1092](https://github.com/abhi1092)
 - [hickeyma](https://github.com/hickeyma)
 - [jaideepr97](https://github.com/jaideepr97)
@@ -64,7 +60,6 @@ Team that can manage Issues and Pull Requests but cannot merge code to the CLI r
 - [oindrillac](https://github.com/oindrillac)
 - [JamesKunstle](https://github.com/JamesKunstle)
 - [juliadenham](https://github.com/juliadenham)
-- [tharapalanivel](https://github.com/tharapalanivel)
 
 
 ## Community
@@ -81,7 +76,6 @@ Team which has full maintainer access to the Community repository
 - [ckadner](https://github.com/ckadner)
 - [hickeyma](https://github.com/hickeyma)
 - [mingxzhao](https://github.com/mingxzhao)
-- [stevsmit](https://github.com/stevsmit)
 - [caradelia](https://github.com/caradelia)
 - [kelbrown20](https://github.com/kelbrown20)
 - [JoeAldinger](https://github.com/JoeAldinger)
@@ -145,7 +139,6 @@ Team which has approval permissions to the Taxonomy repository
 - [aakankshaduggal](https://github.com/aakankshaduggal)
 - [oindrillac](https://github.com/oindrillac)
 - [shivchander](https://github.com/shivchander)
-- [darrellreimer](https://github.com/darrellreimer)
 - [mingxzhao](https://github.com/mingxzhao)
 
 
@@ -164,7 +157,6 @@ Team which has full maintainer access to the Taxonomy repository
 - [xukai92](https://github.com/xukai92)
 - [lehors](https://github.com/lehors)
 - [markstur](https://github.com/markstur)
-- [Tomcli](https://github.com/Tomcli)
 - [ckadner](https://github.com/ckadner)
 - [hickeyma](https://github.com/hickeyma)
 - [mingxzhao](https://github.com/mingxzhao)
@@ -189,11 +181,8 @@ Team that can manage Issues and Pull Requests but cannot merge code to the Taxon
 - [ckadner](https://github.com/ckadner)
 - [hickeyma](https://github.com/hickeyma)
 - [oindrillac](https://github.com/oindrillac)
-- [spacew](https://github.com/spacew)
 - [mingxzhao](https://github.com/mingxzhao)
-- [abrahamdaniels](https://github.com/abrahamdaniels)
 - [caradelia](https://github.com/caradelia)
-- [katesoule](https://github.com/katesoule)
 
 
 ## Website
@@ -204,7 +193,6 @@ Team which has full maintainer access to the Website repository
 
 - [joesepi](https://github.com/joesepi)
 - [sstano](https://github.com/sstano)
-- [connor-leech](https://github.com/connor-leech)
 
 
 ## Admins
@@ -233,7 +221,6 @@ Team which has full maintainer access to the InstructLab organization
 - [nathan-weinberg](https://github.com/nathan-weinberg)
 - [oindrillac](https://github.com/oindrillac)
 - [shivchander](https://github.com/shivchander)
-- [darrellreimer](https://github.com/darrellreimer)
 - [JamesKunstle](https://github.com/JamesKunstle)
 - [khaledsulayman](https://github.com/khaledsulayman)
 - [luke-inglis](https://github.com/luke-inglis)
@@ -242,5 +229,8 @@ Team which has full maintainer access to the InstructLab organization
 - [kelbrown20](https://github.com/kelbrown20)
 - [juliadenham](https://github.com/juliadenham)
 - [RobotSail](https://github.com/RobotSail)
+- [ckadner](https://github.com/ckadner)
+- [n1hility](https://github.com/n1hility)
+- [vishnoianil](https://github.com/vishnoianil)
 
 

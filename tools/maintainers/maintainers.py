@@ -37,7 +37,8 @@ def main(argv=None):
                 print("### %s\n" % t["name"])
                 print("%s\n" % t["desc"])
                 members = get_team_members(t["slug"])
-                for m in members:
+                members_sorted = sorted(members, key=lambda d: d['login'].lower())
+                for m in members_sorted:
                     print("- [%s](https://github.com/%s)" % (m["login"], m["login"]))
                 print("\n")
 

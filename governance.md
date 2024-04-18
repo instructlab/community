@@ -17,7 +17,7 @@ At launch, the InstructLab Project will not have an Oversight Committee to avoid
 
 Except where otherwise noted, decisions should always start at the most local level of project governance. For example, decisions that affect only one project, such as the taxonomy repository and not the `ilab` CLI tool, can  happen within that project. While communication between the different project teams is important as they are all interconnected, minor decisions do not need organization-wide consensus and can be moved forward at the project level.
 
-Changes in maintainership and other governance are announced on the **TODO: InstructLab mailing list**.
+Changes in maintainership and other governance are currently announced on the InstructLab community Slack channel. Directions to join the Slack channel can be found [here](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md). In the future, a mailing list will be established. 
 
 ## Project Maintainers overview
 
@@ -66,7 +66,7 @@ The election will proceed according to the following process:
 
 1. The nomination period will be three weeks. This period starts from the day after an organization Maintainer opening becomes available.
 
-1. The nomination must be made by the **TODO: InstructLab mailing list**.
+1. The nomination must be made on the InstructLab community Slack channel. Directions to join the Slack channel can be found [here](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md). In the future, a mailing list will be established for nominations.
 
 1. After a nominated individual(s) agrees to be a candidate for the Oversight Committee, project Maintainers will vote. The voting period will be open for a minimum of three business days. It will remain open until a [supermajority](https://en.wikipedia.org/wiki/Supermajority#Two-thirds_vote) of project Maintainers has voted. Only current Maintainers of active projects are eligible to vote.
 
@@ -78,7 +78,7 @@ The election will proceed according to the following process:
 
 Project Maintainers or Oversight Committee members may resign or could be expelled as follows: 
 
-* Maintainers or an Oversight Committee member may step down through email. Within 7 calendar days, organization contributors and Maintainers will be notified of the change through an email from **TODO: InstructLab mailing list**.
+* Maintainers or an Oversight Committee member may step down through email. Within 7 calendar days, organization contributors and Maintainers will be notified on the InstructLab community Slack channel. Directions to join the Slack channel can be found [here](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md). In the future, a mailing list will be established. 
 
 * After an Oversight Committee member steps down, they become an emeritus Maintainer.
 
@@ -105,7 +105,7 @@ The secondary decision making process is done by voting. The following items mus
 * Licensing and intellectual property changes such as new logos or wordmarks (simple majority)
 * Adding, archiving, or removing projects (simple majority)
 
-Other decisions may, but do not need to be, called out and put up for decision on the **TODO: InstructLab mailing list**. This can be done by anyone at any time. By default, any decisions called to a vote will be for a _simple majority_ vote.
+Other decisions may, but do not need to be, called out and put up for decision  on the InstructLab community Slack channel. Directions to join the Slack channel can be found [here](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md). In the future, a mailing list will be established. This can be done by anyone at any time. By default, any decisions called to a vote will be for a _simple majority_ vote.
 
 ## Code of Conduct
 
@@ -115,7 +115,7 @@ The CoCC is responsible for investigating, evaluating, and recommending remedies
 
 Current CoCC members can be found on the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md) page.
 
-Possible Code of Conduct violations should be reported to the Code of Conduct Committee at **TODO: Private CoC mailing list**.
+Possible Code of Conduct violations should be reported to the Code of Conduct Committee on the InstructLab community Slack channel. Directions to join the Slack channel can be found [here](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md). In the future, a mailing list will be established.
 
 ## Developer Certificate of Origin (DCO) and Licenses
 

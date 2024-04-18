@@ -29,15 +29,15 @@ The following documentation shows you an overview of the workflow, and the resou
 
 The `ilab` tool allows you to interact with the IBM AI model `Merlinite`, contribute your own information, and train the model locally. 
 
-> **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instructlab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations.
+> **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations. Additionally, you should consider joining the [InstructLab community Slack channel](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md).
 
 1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instructlab/cli/blob/main/README.md). The README.md instructs you on how to perform the following: 
 
     a. In the [Getting started](https://github.com/instructlab/cli/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM `Merlinite` AI model.
 
-    b. You can then create your own data sets to feed into and train the model. In the taxonomy project, there are two types of data you can serve to the model: skills and knowledge. There are a few different types of skills and knowledge you can create. For more detailed information on the types, see the Taxonomy [README.md](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions). 
+    b. You can then create your own data sets to feed into and train the model. In the taxonomy project, there are two types of data you can serve to the model: skills and knowledge. There are a few different types of skills and knowledge you can create. For more detailed information on the types, see the Taxonomy [README.md](https://github.com/instructlab/taxonomy/blob/main/README.md#welcome-to-the-instructlab-taxonomy). 
 
-    c. In your local taxonomy repository, generated after the [Initialize lab](https://github.com/instructlab/cli/blob/main/README.md#%EF%B8%8F-initialize-lab) step, navigate to the path that you want to add information to. You can see a flow chart of the paths in this file [taxonomy_diagram](https://github.com/instructlab/taxonomy/blob/main/docs/taxonomy_diagram.png). Create a `qna.yaml` file in that path with your contributions. 
+    c. In your local taxonomy repository, generated after the [Initialize lab](https://github.com/instructlab/instructlab/blob/main/README.md#-installing-ilab) step, navigate to the path that you want to add information to. You can see a flow chart of the paths in this file [taxonomy_diagram](https://github.com/instruct-lab/taxonomy/blob/main/docs/taxonomy_diagram.png). Create a `qna.yaml` file in that path with your contributions. 
 
     d. [Serve and train the model](https://github.com/instructlab/cli/blob/main/README.md#-train-the-model) with your contributions to see if the model can answer questions more accurately. 
 
@@ -106,14 +106,17 @@ SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
 
 If you would like to see the detailed LICENSE click [here](LICENSE).
 
-## Information resources
+## Contact resources
 
-- [InstructLab Slack]() FORTHCOMING
+- [InstructLab Slack](https://instruct-lab.slack.com). See the InstuctLab Slack Guide for directions on how to join.
+- [InstructLab Slack Guide](https://github.com/instruct-lab/community/blob/main/InstructLabSlackGuide.md)
+- [InstructLab Slack Moderation Guide](https://github.com/instruct-lab/community/blob/main/InstructLabSlackModerationGuide.md)
 - [InstructLab Mailing lists]() FORTHCOMING
-- In the meantime, feel free to start a [discussion](https://github.com/orgs/instructlab/discussions).
+- [Discussion](https://github.com/orgs/instruct-lab/discussions).
 
 ## Quick Links
 
+# [FAQ](FAQ.md)
 * [LICENSE](LICENSE)
 * [README](README.md)
 * [CONTRIBUTING](CONTRIBUTING.md)

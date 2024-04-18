@@ -63,5 +63,5 @@ We received so many at the beginning, and with jokes being "in the eye of the be
 
 ## Works Cited on this Page
 * [Christianity in Nepal](https://en.wikipedia.org/wiki/Christianity_in_Nepal), Wikipedia, Wikimedia Foundation, 24 April 2024.
-* [Concepts of Biology - 1st Canadian Edition](https://opentextbc.ca/biology/), Chapter 11.3 _Circulatory and Respiratory Systems_. Copyright 2015 by Charles Molnar and Jane Gair, licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). No modications were made to the text.
-* [World History, volume 2: from 1400](https://openstax.org/details/books/world-history-volume-2), Chapter 6.3 _Capitalism and the First Industrial Revolution_. Copyright 2022 Rice University, licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). No modications were made to the text.
+* [Concepts of Biology - 1st Canadian Edition](https://opentextbc.ca/biology/), Chapter 11.3 _Circulatory and Respiratory Systems_. Copyright 2015 by Charles Molnar and Jane Gair, licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). No modifications were made to the text.
+* [World History, volume 2: from 1400](https://openstax.org/details/books/world-history-volume-2), Chapter 6.3 _Capitalism and the First Industrial Revolution_. Copyright 2022 Rice University, licensed under a [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/). No modifications were made to the text.

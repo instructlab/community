@@ -31,6 +31,7 @@ def main(argv=None):
     with open(teams_yaml, 'r') as f:
         teams = yaml.load(f, Loader=yaml.FullLoader)
         print("# Maintainers\n")
+        print("*To update see [tools/maintainers/README.md](tools/maintainers/README.md)*\n")
         for section, teams in teams.items():
             print("## %s\n" % section)
             for t in teams:

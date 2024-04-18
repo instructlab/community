@@ -112,7 +112,7 @@ If you would like to see the detailed LICENSE click [here](LICENSE).
 - [InstructLab Slack Guide](https://github.com/instruct-lab/community/blob/main/InstructLabSlackGuide.md)
 - [InstructLab Slack Moderation Guide](https://github.com/instruct-lab/community/blob/main/InstructLabSlackModerationGuide.md)
 - [InstructLab Mailing lists]() FORTHCOMING
-- [Discussion](https://github.com/orgs/instruct-lab/discussions).
+- [Discussion](https://github.com/orgs/instructlab/discussions).
 
 ## Quick Links
 

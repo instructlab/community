@@ -35,6 +35,7 @@ def main(argv=None):
             print("## %s\n" % section)
             for t in teams:
                 print("### %s\n" % t["name"])
+                print("%s\n" % t["desc"])
                 members = get_team_members(t["slug"])
                 for m in members:
                     print("- [%s](https://github.com/%s)" % (m["login"], m["login"]))

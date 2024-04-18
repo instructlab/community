@@ -25,6 +25,10 @@ All discussions in the InstructLab Slack are governed by our [project code of co
 - <code>#social</code> Place to chat and enjoy camaraderie with fellow community members.
 - <code>#triage</code> Triage team discussions.
 
+## Usings Threaded Replies in Slack
+
+By default, we use [threaded messages](https://slack.com/help/articles/115000769927-Use-threads-to-organize-discussions) in Slack so as to keep all responses to a particular topic grouped together. Please reply to specific messages by replying in thread.
+
 ## Moderation and Reporting Abuse
 
 We are an open, welcoming, and inclusive community and expect our members to be kind and respectful in all discourse.

@@ -65,9 +65,6 @@ Once you've created a pull request (PR), maintainers will review your code and m
 - Write detailed commit messages
 - Break large changes into a logical series of smaller patches, which are easy to understand individually and combine to solve a broader issue
 
-The project maintainers use `LGTM` (Looks Good To Me) in comments on the code review to indicate acceptance. A change requires LGTMs from two of the
-maintainers of each component affected.
-
 For a list of the maintainers and triagers, see the [MAINTAINERS.md](MAINTAINERS.md) page.
 
 ### Proposing new features

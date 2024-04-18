@@ -4,7 +4,7 @@ The mission of the InstructLab (**L**arge-scale **A**lignment for chat**B**ots) 
 
 InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. This repository shares InstructLab's activity and collaboration details across the community and include the most current information about the project. Related repositories include the following:
 
-* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/cli). This repository is responsible for the `ilab` command-line interface (CLI) tool. 
+* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/instructlab). This repository is responsible for the `ilab` command-line interface (CLI) tool. 
 * [taxonomy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
 
 Contributing new features, resolving bugs and issues, and refining the documentation experience through pull requests are welcome. More information about contributing to the InstructLab Project, contributor roles, governance and legal, and licenses can be found in proceeding sections of this document.
@@ -31,7 +31,7 @@ The `ilab` tool allows you to interact with the IBM AI model `Merlinite`, contri
 
 > **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations. Additionally, you should consider joining the [InstructLab community Slack channel](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md).
 
-1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instructlab/cli/blob/main/README.md). The README.md instructs you on how to perform the following: 
+1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instructlab/instructlab/blob/main/README.md). The README.md instructs you on how to perform the following: 
 
     a. In the [Getting started](https://github.com/instruct-lab/cli/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM `Merlinite` AI model. If you run into any issues, you can find many solutions in the [in the CLI repository's discussion board](https://github.com/instruct-lab/cli/discussions).
 
@@ -39,7 +39,7 @@ The `ilab` tool allows you to interact with the IBM AI model `Merlinite`, contri
 
     c. In your local taxonomy repository, generated after the [Initialize lab](https://github.com/instructlab/instructlab/blob/main/README.md#-installing-ilab) step, navigate to the path that you want to add information to. You can see a flow chart of the paths in this file [taxonomy_diagram](https://github.com/instruct-lab/taxonomy/blob/main/docs/taxonomy_diagram.png). Create a `qna.yaml` file in that path with your contributions. 
 
-    d. [Serve and train the model](https://github.com/instructlab/cli/blob/main/README.md#-train-the-model) with your contributions to see if the model can answer questions more accurately. 
+    d. [Serve and train the model](https://github.com/instructlab/instructlab/blob/main/README.md#-train-the-model) with your contributions to see if the model can answer questions more accurately. 
 
     e. Congratulations! You trained an AI model locally! 
 
@@ -67,7 +67,7 @@ To contribute code or documentation, please submit a pull request to the relevan
 
 - For more information about general contribution practices, see the [Contributing](https://github.com/instructlab/community/blob/main/CONTRIBUTING.md) guide.
 - For more information about contributing to the taxonomy repository, see the [Taxonomy's contribution guide](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md).
-- For more information about contributing to the CLI repository, see the [CLI's contribution guide](https://github.com/instructlab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md).
+- For more information about contributing to the CLI repository, see the [CLI's contribution guide](https://github.com/instructlab/instructlab/blob/main/CONTRIBUTING/CONTRIBUTING.md).
 
 ### Contributor roles
 

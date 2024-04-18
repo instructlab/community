@@ -16,8 +16,8 @@ Please report unacceptable behavior to one of the Code of Conduct [Committee mem
 
 In addition to this repository, InstructLab has two related repositories:
 
-* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/cli). This repository is responsible for the `ilab` command-line interface (CLI) tool.
-* [taxonomoy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data.
+* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/instructlab). This repository is responsible for the `ilab` command-line interface (CLI) tool.
+* [taxonomy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data.
 
 The following sections provide a general overview for contributing to any of the InstructLab repositories.
 
@@ -31,9 +31,9 @@ To contribute code or documentation, please submit a pull request to the relevan
 
 ### ilab command-line interface (CLI) tool repository
 
-We welcome contributions in the form of pull requests for documentation updates, code contributions and more. Prior to contribution, users should acquaint themselves with the [`ilab` CLI repository contribution guide](https://github.com/instructlab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md).
+We welcome contributions in the form of pull requests for documentation updates, code contributions and more. Prior to contribution, users should acquaint themselves with the [`ilab` CLI repository contribution guide](https://github.com/instructlab/instructlab/blob/main/CONTRIBUTING/CONTRIBUTING.md).
 
-To submit a pull request to the `ilab` CLI tool repository, see the [pull request page](https://github.com/instructlab/cli/pulls).
+To submit a pull request to the `ilab` CLI tool repository, see the [pull request page](https://github.com/instructlab/instructlab/pulls).
 
 ### Taxonomy repository
 
@@ -50,7 +50,7 @@ We welcome contributions in the form of pull requests for documentation. To subm
 The InstructLab project uses the _Fork and Pull_ model for contribution that is common in many open source repositories; this entails multiple steps, including forking and cloning the repository, creating a _pull request_, or PR, and more. For details on this process, check out [The GitHub Workflow
 Guide](https://github.com/kubernetes/community/blob/master/contributors/guide/github-workflow.md) from Kubernetes. If you are already familiar with this process, the taxonomy repository provides [detailed contribution instructions](https://github.com/instructlab/taxonomy/blob/main/README.md#detailed-contribution-instructions) as an example.
 
-After you have forked and cloned the repository, you can start the contribution process by looking at the issue trackers of the [community repository](https://github.com/instructlab/community/pulls), [CLI repository](https://github.com/instructlab/cli/issues), or the [taxonomy repository](https://github.com/instructlab/taxonomy/issues). You can then pick up an issue by leaving a comment on said issue, and address the issue in a pull request (PR). Prior to submission, make sure that your changes pass formatting, linting, and unit tests. Additionally, all PRs must agree to the terms of [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits. Only PRs with commits signed off are accepted. If you didn't sign off your commits before creating the pull request, no worries, you can fix that after the fact. For more information about this process, see [Developer Certificate of Origin (DCO)](#DCO).
+After you have forked and cloned the repository, you can start the contribution process by looking at the issue trackers of the [community repository](https://github.com/instructlab/community/pulls), [CLI repository](https://github.com/instructlab/instructlab/issues), or the [taxonomy repository](https://github.com/instructlab/taxonomy/issues). You can then pick up an issue by leaving a comment on said issue, and address the issue in a pull request (PR). Prior to submission, make sure that your changes pass formatting, linting, and unit tests. Additionally, all PRs must agree to the terms of [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits. Only PRs with commits signed off are accepted. If you didn't sign off your commits before creating the pull request, no worries, you can fix that after the fact. For more information about this process, see [Developer Certificate of Origin (DCO)](#DCO).
 
 Then, you can submit the PR to be reviewed. In general, we follow the standard [GitHub pull request](https://help.github.com/en/articles/about-pull-requests) process. Follow the provided template on your PR to include details about your pull request for the maintainers.
 
@@ -74,7 +74,7 @@ For a list of the maintainers and triagers, see the [MAINTAINERS.md](MAINTAINERS
 
 To propose a new feature, it's best to raise an issue in the appropriate repository:
 
-- [CLI repository](https://github.com/instructlab/cli/issues)
+- [CLI repository](https://github.com/instructlab/instructlab/issues)
 - [taxonomy repository](https://github.com/instructlab/taxonomy/issues)
 
 This way, features can be discussed with the project maintainers, ensuring that your time is not wasted working on a feature that the project developers will not accept into the codebase.
@@ -135,9 +135,9 @@ The following resources include additional information about each repository, su
 
 ### ilab CLI tool additional resources
 
-- [`ilab` CLI tool README.md](https://github.com/instructlab/cli/blob/main/README.md#instructlab--ilab). This resources provides information about the `ilab` CLI tool, including an overview, getting started, training the model, submitting a pull request, etc.
+- [`ilab` CLI tool README.md](https://github.com/instructlab/instructlab/blob/main/README.md#instructlab--ilab). This resources provides information about the `ilab` CLI tool, including an overview, getting started, training the model, submitting a pull request, etc.
 
-- [`ilab` CLI tool CONTRIBUTING.md](https://github.com/instructlab/cli/blob/main/CONTRIBUTING/CONTRIBUTING.md#contributing). This resources provides information about contributing to the `ilab` CLI tool repository, reporting bugs, testing, coding styles, etc.
+- [`ilab` CLI tool CONTRIBUTING.md](https://github.com/instructlab/instructlab/blob/main/CONTRIBUTING/CONTRIBUTING.md#contributing). This resources provides information about contributing to the `ilab` CLI tool repository, reporting bugs, testing, coding styles, etc.
 
 ### Taxonomy additional resources
 

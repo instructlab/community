@@ -2,8 +2,8 @@
 
 InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. Currently, these projects include the following:
 
-* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/cli). This repository is responsible for the the `ilab` CLI tool. 
-* [taxonomoy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
+* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/instructlab). This repository is responsible for the the `ilab` CLI tool. 
+* [taxonomy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
 
 This document outlines a core number of contributor roles for InstructLab projects, such as _Member_, _Triager_, _Reviewer_, and _Maintainer_. In the future, an _Oversight Committee_ will be formed, which will serve to supervise the overall InstructLab project and its health. Using transparent criteria, the journey between roles is based on individual participation.
 

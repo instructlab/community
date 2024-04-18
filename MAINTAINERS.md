@@ -4,6 +4,8 @@
 
 ### Backend Maintainers
 
+Team which has full maintainer access to the Backend repositories
+
 - [russellb](https://github.com/russellb)
 - [anik120](https://github.com/anik120)
 - [alimaredia](https://github.com/alimaredia)
@@ -23,6 +25,8 @@
 ## CLI
 
 ### CLI Maintainers
+
+Team which has full maintainer access to the CLI repository
 
 - [joesepi](https://github.com/joesepi)
 - [bjhargrave](https://github.com/bjhargrave)
@@ -46,6 +50,8 @@
 
 ### CLI Triagers
 
+Team that can manage Issues and Pull Requests but cannot merge code to the CLI repository
+
 - [mairin](https://github.com/mairin)
 - [cybette](https://github.com/cybette)
 - [anik120](https://github.com/anik120)
@@ -65,6 +71,8 @@
 
 ### Community Maintainers
 
+Team which has full maintainer access to the Community repository
+
 - [jberkus](https://github.com/jberkus)
 - [joesepi](https://github.com/joesepi)
 - [bjhargrave](https://github.com/bjhargrave)
@@ -83,6 +91,8 @@
 
 ### Enhancements Triagers
 
+Team which has full maintainer access to the Enhancements repository
+
 - [russellb](https://github.com/russellb)
 - [nathan-weinberg](https://github.com/nathan-weinberg)
 
@@ -91,6 +101,8 @@
 
 ### InstructLab Bot Maintainers
 
+Team which has full maintainer access to the InstructLab Bot repository
+
 - [russellb](https://github.com/russellb)
 - [nerdalert](https://github.com/nerdalert)
 - [vishnoianil](https://github.com/vishnoianil)
@@ -98,6 +110,8 @@
 
 
 ### InstructLab Bot Triagers
+
+Team that can manage Issues and Pull Requests but cannot merge code to the InstructLab Bot repository
 
 - [russellb](https://github.com/russellb)
 - [cdoern](https://github.com/cdoern)
@@ -109,6 +123,8 @@
 
 ### Schema Maintainers
 
+Team which has full maintainer access to the Schema repository
+
 - [bjhargrave](https://github.com/bjhargrave)
 - [jjasghar](https://github.com/jjasghar)
 
@@ -116,6 +132,8 @@
 ## Taxonomy
 
 ### Taxonomy Approvers
+
+Team which has approval permissions to the Taxonomy repository
 
 - [obuzek](https://github.com/obuzek)
 - [bjhargrave](https://github.com/bjhargrave)
@@ -132,6 +150,8 @@
 
 
 ### Taxonomy Maintainers
+
+Team which has full maintainer access to the Taxonomy repository
 
 - [joesepi](https://github.com/joesepi)
 - [obuzek](https://github.com/obuzek)
@@ -156,6 +176,8 @@
 
 ### Taxonomy Triagers
 
+Team that can manage Issues and Pull Requests but cannot merge code to the Taxonomy repository
+
 - [joesepi](https://github.com/joesepi)
 - [lhawthorn](https://github.com/lhawthorn)
 - [mairin](https://github.com/mairin)
@@ -178,6 +200,8 @@
 
 ### Website Maintainers
 
+Team which has full maintainer access to the Website repository
+
 - [joesepi](https://github.com/joesepi)
 - [sstano](https://github.com/sstano)
 - [connor-leech](https://github.com/connor-leech)
@@ -186,6 +210,8 @@
 ## Admins
 
 ### Org Maintainers
+
+Team which has full maintainer access to the InstructLab organization
 
 - [matthicksj](https://github.com/matthicksj)
 - [joesepi](https://github.com/joesepi)

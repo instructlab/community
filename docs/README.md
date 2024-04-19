@@ -8,18 +8,23 @@ We accept contributions of both Skills and Knowledge to InstructLab.
 
 ## Learning Topics
 
-* [Skills Guide](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions)
-* [Knowledge Guide](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-knowledge-contributions)
+Skills
+- [Getting started with Skill contributions](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions)
+- [Skills guide](SKILLS_GUIDE.md)
 
+Knowledge
+- [Getting started with Knowledge contributions](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-knowledge-contributions)
+- [Knowledge guide](KNOWLEDGE_GUIDE.md)
 ## License Limitations
 
 If you would like to contribute any third-party data to either the Skills or Knowledge taxonomies, you must ensure the license on the data is unrestricted for commercial use.
 
 This applies to:
 
-* data embedded in `.md` files as knowledge
-* data offered as `context` in `qna.yaml` files for skills
-* questions and answers sourced from elsewhere and used as `qna.yaml` submissions
+* Data embedded in `.md` files as knowledge
+* Data offered as `context` in `qna.yaml` files for skills
+* Citing your sources in your `attribution.txt` file
+* Questions and answers sourced from elsewhere and used as `qna.yaml` submissions
 
 For this project, unless the file says otherwise, or unless the attributed source provided in the file says otherwise, the relevant open source license is the Apache License, Version 2.0. All contributions that leverage third party content should either come from the public domain (e.g. out of copyright, or .gov sites) or be licensed with an open data license that does not restrict commercial use or the creation of derivative works, including the following license types:
 - CC0

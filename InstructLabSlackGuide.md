@@ -20,12 +20,13 @@ All discussions in the InstructLab Slack are governed by our [project code of co
 - <code>#announce</code> Project wide announcements such as releases, reminders about community calls, and celebrating new maintainers. This channel is moderated (only [Workspace Adminstrators](https://github.com/instructlab/community/blob/main/InstructLabSlackModerationGuide.md#workspace-administrators) can post) and low-traffic.
 - <code>#backend</code> Backend work for the InstructLab project, including pipeline for synthetic data generation, training, model evaluation, and publishing.
 - <code>#community</code> Place to discuss community matters such as improving the contributor experience, getting help reviewing a presentation about InstructLab you want to give at a meetup, or learning how you can contribute to InstructLab beyond software development.
+- <code>#contrihelp</code> General questions about getting started as an InstructLab contributor. This channel is the place to go if you need help with your first pull request.
 - <code>#docs</code> Documentation team discussions and questions about documentation.
 - <code>#infra</code> Topics related to project infrastructure, such as repo maintenance, planned outages, or who has the keys to the social media accounts.
 - <code>#frontend</code> Frontend work for the InstructLab project, including the CLI tool and User Interface
-- <code>#help</code> General technical questions and getting started. This channel is the place to go if you need help with your first pull request.
 - <code>#social</code> Place to chat and enjoy camaraderie with fellow community members.
 - <code>#triage</code> Triage team discussions.
+- <code>#users</code> InstructLab users forum for troubleshooting and sharing tips and tricks.
 
 ## Usings Threaded Replies in Slack
 

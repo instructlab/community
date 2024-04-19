@@ -33,11 +33,11 @@ The `ilab` tool allows you to interact with the IBM AI model `Merlinite`, contri
 
 1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instructlab/instructlab/blob/main/README.md). The README.md instructs you on how to perform the following: 
 
-    a. In the [Getting started](https://github.com/instruct-lab/cli/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM `Merlinite` AI model. If you run into any issues, you can find many solutions in the [in the CLI repository's discussion board](https://github.com/instruct-lab/cli/discussions).
+    a. In the [Getting started](https://github.com/instructlab/instructlab/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM `Merlinite` AI model. If you run into any issues, you can find many solutions in the [in the CLI repository's discussion board](https://github.com/instructlab/instructlab/discussions).
 
     b. You can then create your own data sets to feed into and train the model. In the taxonomy project, there are two types of data you can serve to the model: skills and knowledge. There are a few different types of skills and knowledge you can create. For more detailed information on the types, see the Taxonomy [README.md](https://github.com/instructlab/taxonomy/blob/main/README.md#welcome-to-the-instructlab-taxonomy). 
 
-    c. In your local taxonomy repository, generated after the [Initialize lab](https://github.com/instructlab/instructlab/blob/main/README.md#-installing-ilab) step, navigate to the path that you want to add information to. You can see a flow chart of the paths in this file [taxonomy_diagram](https://github.com/instruct-lab/taxonomy/blob/main/docs/taxonomy_diagram.png). Create a `qna.yaml` file in that path with your contributions. 
+    c. In your local taxonomy repository, generated after the [Initialize ilab](https://github.com/instructlab/instructlab/blob/main/README.md#%EF%B8%8F-initialize-ilab) step, navigate to the path that you want to add information to. You can see a flow chart of the paths in this file [taxonomy_diagram](https://github.com/instructlab/taxonomy/blob/main/docs/taxonomy_diagram.png). Create a `qna.yaml` file in that path with your contributions. 
 
     d. [Serve and train the model](https://github.com/instructlab/instructlab/blob/main/README.md#-train-the-model) with your contributions to see if the model can answer questions more accurately. 
 
@@ -45,15 +45,15 @@ The `ilab` tool allows you to interact with the IBM AI model `Merlinite`, contri
 
 ### Opening a pull request in the taxonomy repository with your new skills or knowledge! 
 
-If your contributions improved the model locally, you can contribute your files to the main AI model through the taxonomy repository. For more information see [CONTRIBUTING.md](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#pr-review) in the taxonomy repository.
+If your contributions improved the model locally, you can contribute your files to the main AI model through the taxonomy repository. For more information see [CONTRIBUTING.md](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#pull-request-review) in the taxonomy repository.
 
 1. To contribute your knowledge and skills to the taxonomy repository, follow the documentation in [Contribute knowledge and skills to the taxonomy](https://github.com/instructlab/taxonomy/blob/main/README.md#contribute-knowledge-and-skills-to-the-taxonomy). 
 
-    > **IMPORTANT:** Ensure that your files and contributions follow the proper YAML format, see examples in the [YAML format](https://github.com/instructlab/taxonomy/blob/main/README.md#yaml-format) file.
+    > **IMPORTANT:** Ensure that your files and contributions follow the proper YAML format, see examples in the [Skills: YAML format](https://github.com/instructlab/taxonomy/blob/main/README.md#skills-yaml-examples) file.
 
 ### Getting reviews on pull requests
 
-There are teams of contributors from Red Hat and IBM that will review your pull request and determine if it can be merged in the taxonomy repository. For more information, see the [Triaging skills](https://github.com/instructlab/taxonomy/blob/main/docs/skills-triage.md) documentation. 
+There are teams of contributors from Red Hat and IBM that will review your pull request and determine if it can be merged in the taxonomy repository. For more information, see the [Triaging contributions](https://github.com/instructlab/taxonomy/blob/main/docs/triaging/triaging-contributions.md) documentation. 
 
 ### See your contributions impact an AI model!
 
@@ -67,7 +67,7 @@ To contribute code or documentation, please submit a pull request to the relevan
 
 - For more information about general contribution practices, see the [Contributing](https://github.com/instructlab/community/blob/main/CONTRIBUTING.md) guide.
 - For more information about contributing to the taxonomy repository, see the [Taxonomy's contribution guide](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md).
-- For more information about contributing to the CLI repository, see the [CLI's contribution guide](https://github.com/instructlab/instructlab/blob/main/CONTRIBUTING/CONTRIBUTING.md).
+- For more information about contributing to the InstructLab CLI repository, see the [Instructlab contribution guide](https://github.com/instructlab/instructlab/blob/main/CONTRIBUTING/CONTRIBUTING.md).
 
 ### Contributor roles
 
@@ -82,7 +82,7 @@ Project Maintainers are first and foremost contributors that have shown they are
 
 - [InstructLab Community Governance](governance.md)
 
-- [InstructLab Code of Conduct](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md)
+- [InstructLab Code of Conduct](CODE_OF_CONDUCT.md)
 
 - You must agree to the terms of the [Developer Certificate of Origin (DCO)](https://developercertificate.org/) by signing off your commits in your pull requests. The Developer Certificate of Origin (DCO) is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project. Here is the full [text of the DCO](https://developercertificate.org/), reformatted for readability:
 
@@ -104,13 +104,13 @@ Distributed under the [Apache License, Version 2.0](http://www.apache.org/licens
 
 SPDX-License-Identifier: [Apache-2.0](https://spdx.org/licenses/Apache-2.0)
 
-If you would like to see the detailed LICENSE click [here](LICENSE).
+If you would like to see the detailed LICENSE click, see [LICENSE](LICENSE).
 
 ## Contact resources
 
 - [InstructLab Slack](https://instruct-lab.slack.com). See the InstuctLab Slack Guide for directions on how to join.
-- [InstructLab Slack Guide](https://github.com/instruct-lab/community/blob/main/InstructLabSlackGuide.md)
-- [InstructLab Slack Moderation Guide](https://github.com/instruct-lab/community/blob/main/InstructLabSlackModerationGuide.md)
+- [InstructLab Slack Guide](InstructLabSlackGuide.md)
+- [InstructLab Slack Moderation Guide](InstructLabSlackModerationGuide.md)
 - [InstructLab Mailing lists]() FORTHCOMING
 - [Discussion](https://github.com/orgs/instructlab/discussions).
 

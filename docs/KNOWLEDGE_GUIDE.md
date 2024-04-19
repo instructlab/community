@@ -4,11 +4,11 @@
 Knowledge consists of data and facts and is backed by documents. When you create knowledge for a model, you're giving it additional data to more accurately answer questions.
 
 Knowledge contributions in this project contain a few things. 
-- A file in a git repository that holds your information. For example, Oscar 2024 winners, Law books, Shakespeare. 
+- A file in a git repository that holds your information. For example, these repositories can include markdown versions of information on: Oscar 2024 winners, Law books, Shakespeare, Sports, Chemistry, etc. 
 - A `qna.yaml` file that asks and answers questions about the information in the git repository.  
 - A `attribution.txt` that includes the sources for the information used in the `qna.yaml`.
 
-You can learn more about the knowledge structure in Getting Started with [Knowledge contributions](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-knowledge-contributions).
+You can learn more about the knowledge structure in [Getting Started with Knowledge contributions](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-knowledge-contributions).
 
 ## Accepted Knowledge 
 
@@ -112,9 +112,10 @@ LLMs have inherent limitations that make certain tasks extremely difficult, like
 An LLM with knowledge helps it create a basis of information that it can learn from, then you can teach it to use this knowledge via the `qna.yaml` files. 
 
 For example, you can give an LLM the entire periodic table, then in a `qna.yaml` add something like: 
-question: What is the symbol and atomic number for chlorine?
+
+question: What is the symbol and atomic number for Chlorine?
 answer: | 
-        The symbol for chlorine is Cl and the atomic number is 17
+        The symbol for chlorine is Cl and the atomic number is 17.
 
 With a few of these qna's, the model will learn the periodic table because it has the knowledge data. 
 ### LLMs are great at

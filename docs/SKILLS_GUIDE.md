@@ -1,25 +1,14 @@
 # Skills Guide
+## What is a "Skill"? 
 
-## What is a "Skill"?
-
-### Core Skills
-
-Core skills are foundational skills like math, reasoning, and coding.
-
-> [!NOTE]
-> Unlike **knowledge** and **compositional skills**, core skills
-> are not contributable to the tree. So when you see reference to contributing
-> "skills" to the taxonomy from this point forward, it is **compositional
-> skills** that are being referenced.
-> 
+There are various types of skills that you can contribute to the taxonomy.
 ### Compositional Skills
 
 Skills are performative. When you create a skill for the model, you're
-teaching it how to do something: "write me a song," "talk like a pirate," or
+teaching it how to do something: "write me a song," "rearrange words in a sentance" or
 "summarize an email."
 
 There are two types of compositional skills:
-
 #### Freeform Compositional Skills
 
 Freeform compositional skills are performative and do **not** require additional context. An example of a freeform skill is teaching the model words that rhyme. You could provide examples of "words that rhyme with 'tool'". By providing those examples, you're essentially tickling the latent knowledge of the LLM. In our example, you're enabling the LLM to be able to identify words that rhyme in its latent knowledge.
@@ -32,8 +21,6 @@ Freeform skills include things like:
 * ASCII art creation
       
 #### Grounded Compositional Skills
-
-[Example PR](https://github.com/instructlab/taxonomy/pull/250)
 
 Grounded skills are performative and **do** require additional context. An
 example of a grounded skill would be to read the value of a cell in a table
@@ -50,6 +37,18 @@ Grounded skills include things like:
 * Game creation like Sudoku or tic tac toe
 * Count the number of punctuation marks in a paragraph
 * Find unresolved items in a meeting transcript
+
+[Example Grounded compositional skill pull request](https://github.com/instructlab/taxonomy/pull/250)
+### Core Skills
+
+Core skills are foundational skills like math, reasoning, and coding.
+
+> [!NOTE]
+> Unlike **knowledge** and **compositional skills**, core skills
+> are not contributable to the tree. So when you see reference to contributing
+> "skills" to the taxonomy from this point forward, it is **compositional
+> skills** that are being referenced.
+
 ## Accepted Skills
 
 ### Creative Writing / Poetics
@@ -75,12 +74,12 @@ Consider:
 
 ### Qualitative Inference and Chain-of-Thought Reasoning
 
-e.g.
+*Example*
 > Mary is taller than John.
 > John is taller than Anna.
 > Is Anna taller than Mary?
 
-e.g.
+*Example*
 > An elephant, a mouse and a horse are in a room. How would they be ordered if they were standing in order by size?
 
 Great skills in this category should include the correct line of reasoning in the answer, not just what the answer is.
@@ -107,12 +106,7 @@ Skills to select odd information in a document, draw conclusions, pull out infor
 > 
 > Context added when tuning a grounded skill would need to be again provided by the end user at inference time. The skill here is better adherence to the rule set.
  
-To add a skill for a structured game or other task with a complex rule set, use a grounded skill.
-
-Add the rules to the game as "context" in every example.
-
-Add the interpretation as a question.
-
+To add a skill for a structured game or other task with a complex rule set, use a grounded skill. Add the rules to the game as "context" in every example. Add the interpretation as a question.
 ### Writing Style and Personalities
 
 When adding a skill, expect that you're tuning a fairly general purpose LLM to behave better given particular circumstances.

@@ -124,7 +124,7 @@ There are a number of tools that make it easier for developers to manage DCO sig
 
 ## Communication
 
-You can use the dedicated [Discussion Board](https://github.com/orgs/instructlab/discussions) for the InstructLab project to communicate with project maintainers.
+You can join the [InstructLab Slack workspace](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md) to communicate with project maintainers and your fellow users.
 
 ## Additional resources
 

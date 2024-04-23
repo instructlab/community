@@ -32,16 +32,21 @@ Create the Modelfile
 FROM ./merlinite-7b-lab/merlinite-7b-lab.gguf
 
 
-TEMPLATE """
-<|im_start|>system
+TEMPLATE """{{ if .System }}<|im_start|>system
 {{ .System }}<|im_end|>
-<|im_start|>user
+{{ end }}{{ if .Prompt }}<|im_start|>user
 {{ .Prompt }}<|im_end|>
-<|im_start|>assistant
+{{ end }}<|im_start|>assistant
 """
 
-PARAMETER stop "<|im_start|>"
-PARAMETER stop "<|im_end|>"
+SYSTEM """
+You are an AI language model developed by IBM Research.
+You are a cautious assistant.
+You carefully follow instructions.
+You are helpful and harmless and you follow ethical guidelines and promote positive behavior.
+"""
+
+PARAMETER stop '<|endoftext|>'
 ```
 
 Create the model for ollama

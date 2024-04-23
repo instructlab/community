@@ -47,6 +47,7 @@ You are helpful and harmless and you follow ethical guidelines and promote posit
 """
 
 PARAMETER stop '<|endoftext|>'
+PARAMETER stop '<|im_start|>'
 ```
 
 Create the model for ollama

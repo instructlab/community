@@ -14,6 +14,7 @@ Team which has full maintainer access to the Backend repositories
 - [alinaryan](https://github.com/alinaryan)
 - [anik120](https://github.com/anik120)
 - [cdoern](https://github.com/cdoern)
+- [hemajv](https://github.com/hemajv)
 - [jaideepr97](https://github.com/jaideepr97)
 - [JamesKunstle](https://github.com/JamesKunstle)
 - [khaledsulayman](https://github.com/khaledsulayman)
@@ -82,6 +83,7 @@ Team which has full maintainer access to the Community repository
 - [joesepi](https://github.com/joesepi)
 - [kelbrown20](https://github.com/kelbrown20)
 - [mingxzhao](https://github.com/mingxzhao)
+- [mmcelaney](https://github.com/mmcelaney)
 - [stevsmit](https://github.com/stevsmit)
 
 
@@ -221,7 +223,6 @@ Team which has full maintainer access to the InstructLab organization
 - [jeremyeder](https://github.com/jeremyeder)
 - [jjasghar](https://github.com/jjasghar)
 - [joesepi](https://github.com/joesepi)
-- [juliadenham](https://github.com/juliadenham)
 - [kelbrown20](https://github.com/kelbrown20)
 - [khaledsulayman](https://github.com/khaledsulayman)
 - [lhawthorn](https://github.com/lhawthorn)
@@ -229,6 +230,7 @@ Team which has full maintainer access to the InstructLab organization
 - [mairin](https://github.com/mairin)
 - [markstur](https://github.com/markstur)
 - [matthicksj](https://github.com/matthicksj)
+- [mmcelaney](https://github.com/mmcelaney)
 - [n1hility](https://github.com/n1hility)
 - [nathan-weinberg](https://github.com/nathan-weinberg)
 - [oindrillac](https://github.com/oindrillac)

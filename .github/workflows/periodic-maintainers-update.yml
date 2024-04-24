@@ -29,7 +29,7 @@ jobs:
       run: |
         git config --global user.name 'Maintainers Update Bot'
         git config --global user.email 'ci@instructlab.io'
-        git commit -am "MAINTAINERS.md: automated update"
+        git commit -a -s -m "MAINTAINERS.md: automated update"
         git push -f origin HEAD:maintainers-update
 
     - name: Create Pull Request

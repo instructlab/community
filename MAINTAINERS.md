@@ -78,6 +78,7 @@ Team which has full maintainer access to the Community repository
 - [joesepi](https://github.com/joesepi)
 - [kelbrown20](https://github.com/kelbrown20)
 - [mingxzhao](https://github.com/mingxzhao)
+- [mmcelaney](https://github.com/mmcelaney)
 - [stevsmit](https://github.com/stevsmit)
 
 
@@ -219,6 +220,7 @@ Team which has full maintainer access to the InstructLab organization
 - [mairin](https://github.com/mairin)
 - [markstur](https://github.com/markstur)
 - [matthicksj](https://github.com/matthicksj)
+- [mmcelaney](https://github.com/mmcelaney)
 - [nathan-weinberg](https://github.com/nathan-weinberg)
 - [oindrillac](https://github.com/oindrillac)
 - [RobotSail](https://github.com/RobotSail)

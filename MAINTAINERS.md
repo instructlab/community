@@ -37,6 +37,7 @@ Team which has full maintainer access to the CLI repository
 - [hickeyma](https://github.com/hickeyma)
 - [joesepi](https://github.com/joesepi)
 - [kelbrown20](https://github.com/kelbrown20)
+- [khaledsulayman](https://github.com/khaledsulayman)
 - [mairin](https://github.com/mairin)
 - [markstur](https://github.com/markstur)
 - [mrutkows](https://github.com/mrutkows)
@@ -55,6 +56,7 @@ Team that can manage Issues and Pull Requests but cannot merge code to the CLI r
 - [abhi1092](https://github.com/abhi1092)
 - [alimaredia](https://github.com/alimaredia)
 - [anik120](https://github.com/anik120)
+- [cybette](https://github.com/cybette)
 - [hickeyma](https://github.com/hickeyma)
 - [jaideepr97](https://github.com/jaideepr97)
 - [JamesKunstle](https://github.com/JamesKunstle)
@@ -70,7 +72,9 @@ Team that can manage Issues and Pull Requests but cannot merge code to the CLI r
 Team which has full maintainer access to the Community repository
 
 - [bjhargrave](https://github.com/bjhargrave)
+- [caradelia](https://github.com/caradelia)
 - [ckadner](https://github.com/ckadner)
+- [cybette](https://github.com/cybette)
 - [hickeyma](https://github.com/hickeyma)
 - [jberkus](https://github.com/jberkus)
 - [jjasghar](https://github.com/jjasghar)
@@ -148,14 +152,15 @@ Team which has approval permissions to the Taxonomy repository
 Team which has full maintainer access to the Taxonomy repository
 
 - [bjhargrave](https://github.com/bjhargrave)
+- [caradelia](https://github.com/caradelia)
 - [ckadner](https://github.com/ckadner)
+- [cybette](https://github.com/cybette)
 - [hickeyma](https://github.com/hickeyma)
 - [jeremyeder](https://github.com/jeremyeder)
 - [jjasghar](https://github.com/jjasghar)
 - [joesepi](https://github.com/joesepi)
 - [juliadenham](https://github.com/juliadenham)
 - [kelbrown20](https://github.com/kelbrown20)
-- [lehors](https://github.com/lehors)
 - [luke-inglis](https://github.com/luke-inglis)
 - [mairin](https://github.com/mairin)
 - [markstur](https://github.com/markstur)
@@ -163,17 +168,19 @@ Team which has full maintainer access to the Taxonomy repository
 - [obuzek](https://github.com/obuzek)
 - [russellb](https://github.com/russellb)
 - [xukai92](https://github.com/xukai92)
+- [yhwang](https://github.com/yhwang)
 
 
 ### Taxonomy Triagers
 
 Team that can manage Issues and Pull Requests but cannot merge code to the Taxonomy repository
 
+- [caradelia](https://github.com/caradelia)
 - [ckadner](https://github.com/ckadner)
+- [cybette](https://github.com/cybette)
 - [hickeyma](https://github.com/hickeyma)
 - [jjasghar](https://github.com/jjasghar)
 - [joesepi](https://github.com/joesepi)
-- [lehors](https://github.com/lehors)
 - [lhawthorn](https://github.com/lhawthorn)
 - [mairin](https://github.com/mairin)
 - [markstur](https://github.com/markstur)
@@ -188,7 +195,9 @@ Team that can manage Issues and Pull Requests but cannot merge code to the Taxon
 
 Team which has full maintainer access to the Website repository
 
+- [cybette](https://github.com/cybette)
 - [joesepi](https://github.com/joesepi)
+- [mairin](https://github.com/mairin)
 
 
 ## Admins
@@ -202,9 +211,10 @@ Team which has full maintainer access to the InstructLab organization
 - [aldopareja](https://github.com/aldopareja)
 - [alimaredia](https://github.com/alimaredia)
 - [alinaryan](https://github.com/alinaryan)
+- [caradelia](https://github.com/caradelia)
 - [cdoern](https://github.com/cdoern)
+- [ckadner](https://github.com/ckadner)
 - [danmcp](https://github.com/danmcp)
-- [darrellreimer](https://github.com/darrellreimer)
 - [hickeyma](https://github.com/hickeyma)
 - [jaideepr97](https://github.com/jaideepr97)
 - [JamesKunstle](https://github.com/JamesKunstle)
@@ -219,11 +229,12 @@ Team which has full maintainer access to the InstructLab organization
 - [mairin](https://github.com/mairin)
 - [markstur](https://github.com/markstur)
 - [matthicksj](https://github.com/matthicksj)
+- [n1hility](https://github.com/n1hility)
 - [nathan-weinberg](https://github.com/nathan-weinberg)
 - [oindrillac](https://github.com/oindrillac)
-- [RobotSail](https://github.com/RobotSail)
 - [russellb](https://github.com/russellb)
 - [shivchander](https://github.com/shivchander)
+- [vishnoianil](https://github.com/vishnoianil)
 - [xukai92](https://github.com/xukai92)
 
 

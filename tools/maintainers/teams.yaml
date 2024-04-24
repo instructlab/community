@@ -1,10 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
 
-Backend:
-- name: Backend Maintainers
-  desc: Team which has full maintainer access to the Backend repositories
-  slug: backend-maintainers
-
 CLI:
 - name: CLI Maintainers
   desc: Team which has full maintainer access to the CLI repository

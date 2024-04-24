@@ -2,29 +2,6 @@
 
 *To update see [tools/maintainers/README.md](tools/maintainers/README.md)*
 
-## Backend
-
-### Backend Maintainers
-
-Team which has full maintainer access to the Backend repositories
-
-- [aakankshaduggal](https://github.com/aakankshaduggal)
-- [abhi1092](https://github.com/abhi1092)
-- [alimaredia](https://github.com/alimaredia)
-- [alinaryan](https://github.com/alinaryan)
-- [anik120](https://github.com/anik120)
-- [cdoern](https://github.com/cdoern)
-- [hemajv](https://github.com/hemajv)
-- [jaideepr97](https://github.com/jaideepr97)
-- [JamesKunstle](https://github.com/JamesKunstle)
-- [khaledsulayman](https://github.com/khaledsulayman)
-- [nathan-weinberg](https://github.com/nathan-weinberg)
-- [oindrillac](https://github.com/oindrillac)
-- [RobotSail](https://github.com/RobotSail)
-- [russellb](https://github.com/russellb)
-- [xukai92](https://github.com/xukai92)
-
-
 ## CLI
 
 ### CLI Maintainers

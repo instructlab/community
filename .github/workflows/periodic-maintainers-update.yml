@@ -1,0 +1,43 @@
+name: Periodic update of MAINTAINERS.md
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at 00:00 UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-maintainers:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Run script
+      run: ./tools/maintainers/maintainers.py tools/maintainers/teams.yaml > MAINTAINERS.md
+      env:
+        GH_TOKEN: ${{ secrets.ORG_ACCESS_TOKEN }}
+
+    - name: Check for changes
+      id: git-diff
+      run: echo "CHANGED=$(if git diff --quiet --exit-code; then echo "false"; else echo "true"; fi)" >> "$GITHUB_ENV"
+
+    - name: Commit and push if changed
+      if: env.CHANGED == 'true'
+      run: |
+        git config --global user.name 'Maintainers Update Bot'
+        git config --global user.email 'ci@instructlab.io'
+        git commit -am "MAINTAINERS.md: automated update"
+        git push -f origin HEAD:maintainers-update
+
+    - name: Create Pull Request
+      if: env.CHANGED == 'true'
+      uses: peter-evans/create-pull-request@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "Commit message"
+        title: "MAINTAINERS.md: automated update"
+        body: "Automated update of MAINTAINERS.md"
+        branch: "maintainers-update"

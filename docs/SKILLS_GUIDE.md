@@ -5,7 +5,7 @@ There are various types of skills that you can contribute to the taxonomy.
 ### Compositional Skills
 
 Skills are performative. When you create a skill for the model, you're
-teaching it how to do something: "write me a song," "rearrange words in a sentance" or
+teaching it how to do something: "write me a song," "rearrange words in a sentence" or
 "summarize an email."
 
 There are two types of compositional skills:

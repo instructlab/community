@@ -54,14 +54,12 @@ Team which has full maintainer access to the Community repository
 - [ckadner](https://github.com/ckadner)
 - [cybette](https://github.com/cybette)
 - [hickeyma](https://github.com/hickeyma)
-- [jberkus](https://github.com/jberkus)
 - [jjasghar](https://github.com/jjasghar)
-- [JoeAldinger](https://github.com/JoeAldinger)
 - [joesepi](https://github.com/joesepi)
 - [kelbrown20](https://github.com/kelbrown20)
+- [lhawthorn](https://github.com/lhawthorn)
 - [mingxzhao](https://github.com/mingxzhao)
 - [mmcelaney](https://github.com/mmcelaney)
-- [stevsmit](https://github.com/stevsmit)
 
 
 ## Enhancements

@@ -18,7 +18,6 @@ Freeform skills include things like:
 * Convert to camel case
 * Write me a limerick
 * Generate StabeDiffusion prompts
-* ASCII art creation
       
 #### Grounded Compositional Skills
 
@@ -35,7 +34,7 @@ skill and not external to it.
 
 Grounded skills include things like:
 * Game creation like Sudoku or tic tac toe
-* Count the number of punctuation marks in a paragraph
+* Summarizing or extracting from a piece of text
 * Find unresolved items in a meeting transcript
 
 [Example Grounded compositional skill pull request](https://github.com/instructlab/taxonomy/pull/250)

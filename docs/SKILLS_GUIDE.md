@@ -1,5 +1,5 @@
 # Skills Guide
-## What is a "Skill"? 
+## What is a "Skill"?
 
 There are various types of skills that you can contribute to the taxonomy.
 ### Compositional Skills
@@ -18,15 +18,15 @@ Freeform skills include things like:
 * Convert to camel case
 * Write me a limerick
 * Generate StabeDiffusion prompts
-      
+
 #### Grounded Compositional Skills
 
 Grounded skills are performative and **do** require additional context. An
 example of a grounded skill would be to read the value of a cell in a table
-layout, or to parse a JSON file. To create a grounded skill to read a 
+layout, or to parse a JSON file. To create a grounded skill to read a
 markdown formatted table layout, the additional context could be an example
 table layout. This additional context is including in the YAML for the
-skill and not external to it. 
+skill and not external to it.
 
 > [!NOTE]
 > The content of the table layout will not be used in training
@@ -102,9 +102,9 @@ Skills to select odd information in a document, draw conclusions, pull out infor
 
 > [!NOTE]
 > This is a good example of the need for a _grounded skill_. Grounded skills require the user to provide context containing information that the model is expected to take into account during processing. This is different from _knowledge_, where the model is expected to gain facts and background knowledge from the tuning process.
-> 
+>
 > Context added when tuning a grounded skill would need to be again provided by the end user at inference time. The skill here is better adherence to the rule set.
- 
+
 To add a skill for a structured game or other task with a complex rule set, use a grounded skill. Add the rules to the game as "context" in every example. Add the interpretation as a question.
 ### Writing Style and Personalities
 
@@ -170,6 +170,8 @@ We are also not accepting submissions of the following content:
 * Poems
 * Code
   * Anything code-related that can be traced back to code for a computer. Not limited to `sed` or `bash` but `yaml`s for OpenShift or Kubernetes, to `python` snippets to `Java` suggestions. There are specific models focused on this space and this isn't for this model for the time being.
+* "Guard Rails" for AI
+  * We expect our upstream engineering team to create these types of skills and safe guards. We appriciate our community wanting to help with this, but there are underlying engineering decisions and taking this from the community may conflict with these.
 
 We received so many at the beginning, and with jokes being "in the eye of the beholder" and puns requiring nuance for native English speakers, we realized we were possibly unconsciously biasing our model. We have discovered that working with both topics has its own challenges, and if we want something generalized, finding consensus was unsuccessful.
 ## Building Your LLM Intuition

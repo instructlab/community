@@ -46,7 +46,7 @@ Name | Topic(s)
 [security-reporting](mailto:security-reporting@instructlab.ai) | email alias to report a possible security vulnerability to project security team
 [users](https://groups.google.com/a/instructlab.ai/g/users) | user feedback on project or help getting started, e.g. "my first PR"
 
-### [Who Can Post and Read Each Mailing List](#List-Permissions)
+### [Who Can Post to and Read Each Mailing List](#List-Permissions)
 
 This table describes who can join each email list, view posts, etc. Some lists, such as the <code>coc</code> and <code>security</code> lists are private so that reporting may be handled with discretion.
 

@@ -175,6 +175,7 @@ Team which has full maintainer access to the Website repository
 - [cybette](https://github.com/cybette)
 - [joesepi](https://github.com/joesepi)
 - [mairin](https://github.com/mairin)
+- [mscherer](https://github.com/mscherer)
 
 
 ## Admins

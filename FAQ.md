@@ -52,6 +52,8 @@ There are currently three repositories that contain documentation crucial to get
 
 As this project grows, documentation and its organization will change. Members of this project will be made aware of significant changes and updates made to documentation.
 
+Unless otherwise noted, all documentation for the InstructLab project is licensed under the [CC-BY-4.0 license](https://creativecommons.org/licenses/by/4.0/deed.en).
+
 ## General FAQ
 
 ### What is InstructLab?

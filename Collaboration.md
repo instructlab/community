@@ -30,37 +30,34 @@ We use the following email lists for project communications. Subscriptions requi
 
 To join any of these lists, click the list name in the table below to visit the list subscription page. 
 
-<b>TODO: add mailing list links and fix spacing after removing this TODO</b>
+### [Aliases and Mailing Lists Catalog](#List-Catalog)
 
-### [List Catalog](#List-Catalog)
-
-Mailing list | List topic(s) 
+Name | Topic(s) 
 -- | --
-announce | announcements only list for news about releases and other project wide updates; very low traffic
-community | community discussions, such as sharing a tutorial link or getting help with a meetup talk
-dev | developer discussions, both front and backend
-maintainers |  maintainer only discussions, private & used extremely sparingly
-users | user feedback on project or help getting started, e.g. "my first PR"
-security  | reporting alias for security vulnerability disclosures
-pypi | publishing to PyPI
-coc  | [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md) email alias, to be used to reach this group privately
-website | website administration and maintenance e.g. analytics
+[announce](https://groups.google.com/a/instructlab.ai/g/announce) | announcements only list for news about releases and other project wide updates; very low traffic
+[coc](mailto:coc@instructlab.ai) | email alias for the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md), used to report violations privately to the committee
+[community](https://groups.google.com/a/instructlab.ai/g/community) | community discussions, such as sharing a tutorial link or getting help with a meetup talk
+[dev](https://groups.google.com/a/instructlab.ai/g/dev) | developer discussions, both front and backend
+[maintainers](https://groups.google.com/a/instructlab.ai/g/maintainers) | maintainer only discussions that must be private, to be used very sparingly
+[PyPI](https://groups.google.com/a/instructlab.ai/g/pypi) | maintainers only list used for PyPI packaging
+[security](https://groups.google.com/a/instructlab.ai/g/security)  | security disclosure notifications 
+[security-reporting](mailto:security-reporting@instructlab.ai) | email alias to report a possible security vulnerability to project security team
+[users](https://groups.google.com/a/instructlab.ai/g/users) | user feedback on project or help getting started, e.g. "my first PR"
 
-### [List Permissions](#List-Permissions)
+### [Who Can Post and Read Each Mailing List](#List-Permissions)
 
 This table describes who can join each email list, view posts, etc. Some lists, such as the <code>coc</code> and <code>security</code> lists are private so that reporting may be handled with discretion.
 
-Mailing list | who can join group | who can view posts | who can post to group | who can post as group 
+List Name | who can join group | who can view posts | who can post to group | who can post as group 
 -- | -- | -- | -- | -- 
-announce | anyone | anyone | admins | admins | Where we announce releases and other project wide updates
-community | anyone | anyone | anyone | admins | community discussions, such as sharing a tutorial link or getting help with a meetup talk
-dev | anyone | anyone | members | noone | developer discussions, both front and backend
-maintainers | invite only | members | members | admins | maintainer only discussions, private & used extremely sparingly
-users | anyone | anyone | members | noone | user feedback on project or help getting started, e.g. "my first PR"
-security | invite only | members | anyone | admins | reporting alias for vulnerabilities 
-pypi | invite only | members | members | admins | publishing to PyPI
-coc | invite only | members | anyone | admins | code of conduct reporting and communication
-website | invite only | members | anyone | admins | website administration and maintenance e.g. analytics
+announce | anyone | anyone | admins | admins 
+community | anyone | anyone | anyone | admins 
+dev | anyone | anyone | members | noone 
+maintainers | invite only - project maintainers | members | members | admins 
+pypi | invite only - project maintainers | members | members | admins 
+security | anyone | anyone | admins | admins 
+users | anyone | anyone | members | noone 
+
 
 ## [Social Media](#Social-Media)
 
@@ -82,6 +79,6 @@ Subscribe to the [InstructLab YouTube channel](https://www.youtube.com/@Instruct
 
 Have you made a video tutorial, how to document, or other content that would be helpful to folks involved in the InstructLab community? Thank you! 
 
-We would love to help you share it. Please [file an issue in the Community Repo](https://github.com/instructlab/community/issues) or send a note to the community email list to let us know about what you have created. 
+We would love to help you share it. Please [file an issue in the Community Repo](https://github.com/instructlab/community/issues) or send a note to the [community email](https://groups.google.com/a/instructlab.ai/g/community) list to let us know about what you have created. 
 
-<b>TODO: link community email list and fix spacing after removing this TODO</b>
+

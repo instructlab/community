@@ -16,7 +16,7 @@ If you are new to the InstructLab project, the weekly community meeting is a gre
 
 We also plan on having dedicated Office Hours on Thursday, which will be updated_real_soon_now.
 
-The project will host more meetings as it evolves. To stay up to date on when meetings are added and how to join them, subscribe to the [InstructLab project calendar](https://calendar.google.com/calendar/embed?src=c_23c2f092cd6d147c45a9d2b79f815232d6c3e550b56c3b49da24c4b5d2090e8f%40group.calendar.google.com&ctz=Europe%2FBerlin). 
+The project will host more meetings as it evolves. To stay up to date on when meetings are added and how to join them, subscribe to the [InstructLab project calendar](https://calendar.google.com/calendar/embed?src=c_23c2f092cd6d147c45a9d2b79f815232d6c3e550b56c3b49da24c4b5d2090e8f%40group.calendar.google.com). 
 
 ## [Chat](#Chat)
 

@@ -24,7 +24,7 @@ The project will host more meetings as it evolves. To stay up to date on when me
 
 For real-time chat discussions, please join our [InstructLab Slack workspace](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md).
 
-Slack history is deleted after 90 days, so for conversations that should preserved for a longer period use the project mailing lists.
+Slack history is deleted after 90 days, so for conversations that should preserved for a longer period use the project mailing lists. It is good to say that if you want to add feedback or think there is a "large issue" to discuss, the mailing list or the specific repository issue tracker is a good place to put this type of text. If you are unsure of where to put it <users@instructlab.ai> is the best place to start.
 
 ## [Email Lists](#Email-Lists)
 

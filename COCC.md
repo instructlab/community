@@ -2,7 +2,7 @@
 
 We take reports of violations to our project [Code of Conduct](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md) with the utmost seriousness and will act upon them as quickly as possible. 
 
-To report a Code of Conduct violation to our Code of Conduct Committee, you may reach out to us by email at [instructlab-cocc@osci.io](mailto:coc@instructlab.ai). The email will be read and acted upon by our Code of Conduct Committee members.
+To report a Code of Conduct violation to our Code of Conduct Committee, you may reach out to us by email at [coc@instructlab.ai](mailto:coc@instructlab.ai). The email will be read and acted upon by our Code of Conduct Committee members.
 
 If you experience a Code of Conduct violation in our InstructLab Slack workspace, please follow the [instructions in our moderation guide](https://github.com/instructlab/community/blob/main/InstructLabSlackModerationGuide.md#reporting-abuse) to get immediate help in Slack.
 

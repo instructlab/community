@@ -4,34 +4,33 @@ We have a number of ways for folks to learn more about InstructLab, communicate 
 
 ## Getting Started with InstructLab
 
-If you need help getting started with using or contributing to InstructLab, the best way to do so is via our [project Slack workspace](#chat) or [email lists](#list-catalog) rather than posts on social media.   
+If you need help getting started with using or contributing to InstructLab, the best way to do so is via our [project Slack workspace](#chat) or [email lists](#email-lists) rather than posts on social media.   
 
 ## [Project Meetings](#Project-Meetings)
 
 We host weekly community meetings each Tuesday at 14:00 UTC. ([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=14&hour=14&min=0&sec=0&p1=37&p2=43&p3=101&p4=224&p5=213&p6=771&p7=248&p8=2)) 
 
-Weekly community meetings will feature regular updates on project happenings, including announcements, demos, places to meet with the project maintainers, and more. 
-The second half of the hour will be dedicated to community organization and maintenance. 
-
-We plan on having dedicated Office Hours on Thursday, which will be <TODO>.
+Weekly community meetings will feature regular updates on project happenings, including announcements, demos, places to meet with the project maintainers, and more. The second half of the hour will be dedicated to community organization and maintenance. 
 
 If you are new to the InstructLab project, the weekly community meeting is a great place to get started!
 
-The project will host more meetings as it evolves. To stay up to date on when meetings are added and how to join them, subscribe to the InstructLab project calendar. 
+We also plan on having dedicated Office Hours on Thursday, which will be updated_real_soon_now.
 
-<b>TODO: Add calendar link and fix spacing after fixing this todo.</b>
+The project will host more meetings as it evolves. To stay up to date on when meetings are added and how to join them, subscribe to the [InstructLab project calendar](https://calendar.google.com/calendar/embed?src=c_23c2f092cd6d147c45a9d2b79f815232d6c3e550b56c3b49da24c4b5d2090e8f%40group.calendar.google.com&ctz=Europe%2FBerlin). 
 
 ## [Chat](#Chat)
 
 For real-time chat discussions, please join our [InstructLab Slack workspace](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md).
 
-Slack history is deleted after 90 days, so for conversations that should preserved for a longer period use the project mailing lists. It is good to say that if you want to add feedback or think there is a "large issue" to discuss, the mailing list or the specific repository issue tracker is a good place to put this type of text. If you are unsure of where to put it <users@instructlab.ai> is the best place to start.
+Slack history is deleted after 90 days, so for conversations that should preserved for a longer period use the [project mailing lists](#email-lists). 
+
+If you want to add feedback or think there is a "large issue" to discuss, a mailing list or a specific repository issue tracker is a good place to have the conversation rather than Slack. If you are unsure of where to comment, [users@instructlab.ai](https://groups.google.com/a/instructlab.ai/g/users)  is the best place to start.
 
 ## [Email Lists](#Email-Lists)
 
 We use the following email lists for project communications. Subscriptions requires a [Google account](https://www.google.com/account/about/).
 
-To join any of these lists, click the list name in the table below to visit the list subscription page. 
+To join a list, click the list name in the table below to visit the list subscription page. If an entry below is noted as an email alias or private to a specific group, you will not be able to join.
 
 ### [Aliases and Mailing Lists Catalog](#List-Catalog)
 
@@ -51,6 +50,7 @@ Name | Topic(s)
 
 This table describes who can join each email list, view posts, etc. Some lists, such as the <code>coc</code> and <code>security</code> lists are private so that reporting may be handled with discretion.
 
+
 List Name | who can join group | who can view posts | who can post to group | who can post as group 
 -- | -- | -- | -- | -- 
 announce | anyone | anyone | admins | admins 
@@ -60,7 +60,6 @@ maintainers | invite only - project maintainers | members | members | admins
 pypi | invite only - project maintainers | members | members | admins 
 security | anyone | anyone | admins | admins 
 users | anyone | anyone | members | noone 
-
 
 ## [Social Media](#Social-Media)
 

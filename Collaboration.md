@@ -12,6 +12,7 @@ We host weekly community meetings each Tuesday at 14:00 UTC. ([time zone convert
 
 Weekly community meetings will feature regular updates on project happenings, including announcements, demos, places to meet with the project maintainers, and more. 
 The second half of the hour will be dedicated to community organization and maintenance. 
+
 We plan on having dedicated Office Hours on Thursday, which will be <TODO>.
 
 If you are new to the InstructLab project, the weekly community meeting is a great place to get started!

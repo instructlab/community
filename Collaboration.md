@@ -61,7 +61,7 @@ pypi | invite only - project maintainers | members | members | admins
 security | anyone | anyone | admins | admins 
 users | anyone | anyone | members | noone 
 
-## GitHub Discussions
+## [GitHub Discussions](#GitHub-Discussions)
 
 We are using the GitHub discussion boards in each repo for cases where we need to document things quickly but emphemerally, such as working together as a community to squash a nasty bug. In that case, a link to the appropriate discussion board post will be sent to the relevant project mailing lists so folks can follow along on GitHub. Rather than use the discussion boards to discuss proposals for enhancements or to request help with using InstructLab, please reach out on the project [email lists](#email-lists) or [Slack](#Chat).
 

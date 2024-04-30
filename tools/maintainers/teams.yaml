@@ -46,8 +46,3 @@ Website:
 - name: Website Maintainers
   desc: Team which has full maintainer access to the Website repository
   slug: website-maintainers
-
-Admins:
-- name: Org Maintainers
-  desc: Team which has full maintainer access to the InstructLab organization
-  slug: labrador-org-maintainers

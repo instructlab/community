@@ -46,9 +46,9 @@ This page serves as a comprehensive FAQ for the InstructLab project, detailing h
 
 There are currently three repositories that contain documentation crucial to getting users starting with the project:
 
-* [Community](https://github.com/instruct-lab/community) This repository shares InstructLab's activity and collaboration details across the community and include the most current information about the project. It should be approached as the primary repository for getting started, and contains procedures and links to relevant information to make the process as simple as possible.
-* [`ilab` command-line interface (CLI) tool](https://github.com/instruct-lab/instructlab). This repository is responsible for the `ilab` CLI tool. It provides information about how to download the `ilab` CLI, how to contribute to the `ilab` CLI tool, among others.
-* [Taxonomy Tree](https://github.com/instruct-lab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. It provides information about what skills and knowledge are, how to create a pull request to contribute to the AI model, and expectations for pull request review. 
+* [Community](https://github.com/instructlab/community) This repository shares InstructLab's activity and collaboration details across the community and include the most current information about the project. It should be approached as the primary repository for getting started, and contains procedures and links to relevant information to make the process as simple as possible.
+* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/instructlab). This repository is responsible for the `ilab` CLI tool. It provides information about how to download the `ilab` CLI, how to contribute to the `ilab` CLI tool, among others.
+* [Taxonomy Tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. It provides information about what skills and knowledge are, how to create a pull request to contribute to the AI model, and expectations for pull request review. 
 
 As this project grows, documentation and its organization will change. Members of this project will be made aware of significant changes and updates made to documentation.
 

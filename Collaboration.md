@@ -8,15 +8,24 @@ If you need help getting started with using or contributing to InstructLab, the 
 
 ## [Project Meetings](#Project-Meetings)
 
+To stay up to date on when meetings are added and how to join them, subscribe to the [InstructLab project calendar](https://calendar.google.com/calendar/embed?src=c_23c2f092cd6d147c45a9d2b79f815232d6c3e550b56c3b49da24c4b5d2090e8f%40group.calendar.google.com). 
+
+The project will host more meetings as it evolves, but those we have already set up are listed here.
+
+### [Weekly All Community Meeting](#all-community-meeting)
 We host weekly community meetings each Tuesday at 14:00 UTC. ([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=14&hour=14&min=0&sec=0&p1=37&p2=43&p3=101&p4=224&p5=213&p6=771&p7=248&p8=2)) 
 
 Weekly community meetings will feature regular updates on project happenings, including announcements, demos, places to meet with the project maintainers, and more. The second half of the hour will be dedicated to community organization and maintenance. 
 
 If you are new to the InstructLab project, the weekly community meeting is a great place to get started!
 
-We also plan on having dedicated Office Hours on Thursday, which will be updated_real_soon_now.
+### [Office Hours](#Office-Hours)
+We have two dedicated Office Hours slots each Thursday so we're able to meet with folks across different time zones. See the InstructLab project calendar to select which time works best for you.
 
-The project will host more meetings as it evolves. To stay up to date on when meetings are added and how to join them, subscribe to the [InstructLab project calendar](https://calendar.google.com/calendar/embed?src=c_23c2f092cd6d147c45a9d2b79f815232d6c3e550b56c3b49da24c4b5d2090e8f%40group.calendar.google.com). 
+### [Triager Standup](#Triager-Standup)
+We host daily Triage Team stand up meetings at 18:30 UTC. ([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=29&hour=18&min=30&sec=0&p1=37&p2=43&p3=224&p4=213&p5=771&p6=248&p7=2&p8=101&iv=1800)). In this meeting, [triagers](https://github.com/instructlab/community/blob/main/CONTRIBUTOR_ROLES.md#triager) speak and discuss possible issues or successes with the different PRs put into the https://github.com/instructlab/taxonomy repo.
+
+If you have questions or ideas, we have an open door policy and would love for you to join us.
 
 ## [Chat](#Chat)
 
@@ -64,6 +73,10 @@ users | anyone | anyone | members | noone
 ## [GitHub Discussions](#GitHub-Discussions)
 
 We are using the GitHub discussion boards in each repo for cases where we need to document things quickly but emphemerally, such as working together as a community to squash a nasty bug. In that case, a link to the appropriate discussion board post will be sent to the relevant project mailing lists so folks can follow along on GitHub. Rather than use the discussion boards to discuss proposals for enhancements or to request help with using InstructLab, please reach out on the project [email lists](#email-lists) or [Slack](#Chat).
+
+## [Hugging Face](#Hugging-Face)
+
+We regularly post model builds on the project's [Hugging Face page](https://huggingface.co/instructlab). 
 
 ## [Social Media](#Social-Media)
 

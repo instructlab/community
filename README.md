@@ -111,7 +111,7 @@ If you would like to see the detailed LICENSE click, see [LICENSE](LICENSE).
 - [InstructLab Slack](https://instruct-lab.slack.com). See the InstuctLab Slack Guide for directions on how to join.
 - [InstructLab Slack Guide](InstructLabSlackGuide.md)
 - [InstructLab Slack Moderation Guide](InstructLabSlackModerationGuide.md)
-- [InstructLab Mailing lists]() FORTHCOMING
+- [InstructLab Mailing lists](https://github.com/instructlab/community/blob/main/Collaboration.md#aliases-and-mailing-lists-catalog)
 - [Discussion](https://github.com/orgs/instructlab/discussions).
 
 ## Quick Links

@@ -10,11 +10,11 @@ We accept contributions of both Skills and Knowledge to InstructLab.
 
 Skills
 - [Getting started with Skill contributions](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions)
-- [Skills guide](SKILLS_GUIDE.md)
+- [Skills guide](https://github.com/instructlab/taxonomy/blob/main/docs/SKILLS_GUIDE.md)
 
 Knowledge
 - [Getting started with Knowledge contributions](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-knowledge-contributions)
-- [Knowledge guide](KNOWLEDGE_GUIDE.md)
+- [Knowledge guide](https://github.com/instructlab/taxonomy/blob/main/docs/KNOWLEDGE_GUIDE.md)
 ## License Limitations
 
 If you would like to contribute any third-party data to either the Skills or Knowledge taxonomies, you must ensure the license on the data is unrestricted for commercial use.

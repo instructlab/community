@@ -1,6 +1,7 @@
 # Quick Start Guide
 
 ## Table of contents
+
 1. [Install ilab](#install-ilab)
 2. [Initialize ilab](#%EF%B8%8F-initialize-ilab)
 3. [Download the model](#-download-the-model)
@@ -10,7 +11,6 @@
 This Quick Start Guide will help you get InstructLab
 working on your laptop or machine and is expected to take approximately XX minutes. If you'd like more details on this process, see [the Taxonomy README](https://github.com/instructlab/taxonomy/blob/main/README.md) or if you'd like more information on the `cli`, please see [the ilab CLI README](https://github.com/instructlab/instructlab/blob/main/README.md)
 
-
 ### Install `ilab`
 
 ## 📋 Requirements
@@ -19,7 +19,6 @@ working on your laptop or machine and is expected to take approximately XX minut
 - C++ compiler
 - Python 3.9+
 - Approximately 60GB disk space (entire process)
-
 
 ## ✅ Getting started
 
@@ -43,6 +42,7 @@ working on your laptop or machine and is expected to take approximately XX minut
    mkdir instructlab
    cd instructlab
    ```
+
    > **NOTE:** The following steps in this document use [Python venv](https://docs.python.org/3/library/venv.html) for virtual environments. However, if you use another tool such as [pyenv](https://github.com/pyenv/pyenv) or [Miniforge](https://github.com/conda-forge/miniforge) for managing Python environments on your machine continue to use that tool instead. Otherwise, you may have issues with packages that are installed but not found in `venv`.
 
 3. Install and activate your `venv` environment by running the following command:
@@ -52,6 +52,7 @@ working on your laptop or machine and is expected to take approximately XX minut
    source venv/bin/activate
    pip install https://github.com/instructlab/instructlab.git@stable
    ```
+
    > **NOTE**: ⏳ `pip install` may take some time, depending on your internet connection.
 
 4. From your `venv` environment, verify `ilab` is installed correctly, by running the `ilab` command.
@@ -60,8 +61,9 @@ working on your laptop or machine and is expected to take approximately XX minut
    ilab
    ```
 
-   #### Example output:
-   ```
+#### Example output
+
+   ```shell
    (venv) $ ilab
    Usage: ilab [OPTIONS] COMMAND [ARGS]...
 
@@ -101,8 +103,7 @@ working on your laptop or machine and is expected to take approximately XX minut
    ilab init
    ```
 
-
-   #### Example output:
+   Example output:
 
    ```bash
    Welcome to InstructLab CLI. This guide will help you set up your environment.
@@ -116,7 +117,7 @@ working on your laptop or machine and is expected to take approximately XX minut
 
    **Optional**: If you want to point to an existing local clone of the `taxonomy` repository, you can pass the path interactively or alternatively with the `--taxonomy-path` flag.
 
-   #### Example output:
+   Example output:
 
    ```bash
    (venv) $ ilab init
@@ -128,11 +129,12 @@ working on your laptop or machine and is expected to take approximately XX minut
    Generating `config.yaml` in the current directory...
    Initialization completed successfully, you're ready to start using `lab`. Enjoy!
    ```
+
    `ilab` will use the default configuration file unless otherwise specified. You can override this behavior with the `--config` parameter for any `ilab` command.
 
 ### 📥 Download the model
 
-* Run the `ilab download`command.
+- Run the `ilab download`command.
 
   ```bash
   ilab download
@@ -151,7 +153,7 @@ working on your laptop or machine and is expected to take approximately XX minut
 
 ### 🍴 Serving the model
 
-* Serve the model by running the following command:
+- Serve the model by running the following command:
 
    ```bash
    ilab serve
@@ -182,7 +184,7 @@ Because you're serving the model in one terminal window, you will have to create
 
 Now that you have a working environment, you should see how we need to give it new knowledge.
 
-Ask it a question (the default downloaded  model (from `ilab download` and `ilab chat`) gets this wrong, see https://github.com/instructlab/taxonomy/pull/659):
+Ask it a question (the default downloaded  model (from `ilab download` and `ilab chat`) gets this wrong, see <https://github.com/instructlab/taxonomy/pull/659>):
 
 > When was the first British women's softball league established?
 
@@ -267,6 +269,7 @@ The answer may be incorrect, so lets add knowledge that teaches the model the co
    ```bash
    ilab chat
    ```
+
 - Ask the original questions again:
 
 > When was the first British women's softball league established?

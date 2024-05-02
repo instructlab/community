@@ -2,7 +2,7 @@
 
 Last updated: April 2024
 
-# Table of Contents
+## Table of Contents
 
 - [Document summary](#document-summary)
 - [General FAQ](#general-faq)
@@ -37,18 +37,18 @@ Last updated: April 2024
 
 This page serves as a comprehensive FAQ for the InstructLab project, detailing how it works, how to begin contribution, and the goals behind the project. Key information includes:
 
-* **InstructLab Overview**: This open source project allows users to interact with and train the Merlinite-7b AI Large Language Model (LLM) by contributing skills and knowledge.
-* **LAB Method**: A synthetic data-based tuning method for LLMs consisting of a taxonomy-driven data curation process, a synthetic data generator, and two-phased training with replay buffers.
-* **Contribution Process**: Contributors can add skills or knowledge to the LLM by creating YAML files and testing changes locally before submitting a pull request to InstructLab’s GitHub repository.
-* **Project Goals**: To democratize contributions to AI and LLMs, allowing rapid model development through community collaboration facilitated by weekly builds that integrate community contributions.
+- **InstructLab Overview**: This open source project allows users to interact with and train the Merlinite-7b AI Large Language Model (LLM) by contributing skills and knowledge.
+- **LAB Method**: A synthetic data-based tuning method for LLMs consisting of a taxonomy-driven data curation process, a synthetic data generator, and two-phased training with replay buffers.
+- **Contribution Process**: Contributors can add skills or knowledge to the LLM by creating YAML files and testing changes locally before submitting a pull request to InstructLab’s GitHub repository.
+- **Project Goals**: To democratize contributions to AI and LLMs, allowing rapid model development through community collaboration facilitated by weekly builds that integrate community contributions.
 
 ## Documentation disclaimer
 
 There are currently three repositories that contain documentation crucial to getting users starting with the project:
 
-* [Community](https://github.com/instructlab/community) This repository shares InstructLab's activity and collaboration details across the community and include the most current information about the project. It should be approached as the primary repository for getting started, and contains procedures and links to relevant information to make the process as simple as possible.
-* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/instructlab). This repository is responsible for the `ilab` CLI tool. It provides information about how to download the `ilab` CLI, how to contribute to the `ilab` CLI tool, among others.
-* [Taxonomy Tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. It provides information about what skills and knowledge are, how to create a pull request to contribute to the AI model, and expectations for pull request review. 
+- [Community](https://github.com/instructlab/community) This repository shares InstructLab's activity and collaboration details across the community and include the most current information about the project. It should be approached as the primary repository for getting started, and contains procedures and links to relevant information to make the process as simple as possible.
+- [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/instructlab). This repository is responsible for the `ilab` CLI tool. It provides information about how to download the `ilab` CLI, how to contribute to the `ilab` CLI tool, among others.
+- [Taxonomy Tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. It provides information about what skills and knowledge are, how to create a pull request to contribute to the AI model, and expectations for pull request review.
 
 As this project grows, documentation and its organization will change. Members of this project will be made aware of significant changes and updates made to documentation.
 
@@ -88,11 +88,11 @@ You can begin your contribution journey by reading over the [Contributing](https
 
 When you're ready to start contributing, you can follow the [Getting started](https://github.com/instruct-lab/community/blob/main/README.md#getting-started-with-the-instructlab-project-workstreams) guide. This guide shows you how to
 
-* Install the `ilab` CLI.
-* Deploy the LLM locally.
-* Add skills or knowledge and train to the local LLM with your data.
-* Create a pull request and add your information to the InstructLab taxonomy. 
-* Get reviews on your pull requests
+- Install the `ilab` CLI.
+- Deploy the LLM locally.
+- Add skills or knowledge and train to the local LLM with your data.
+- Create a pull request and add your information to the InstructLab taxonomy.
+- Get reviews on your pull requests
 
 ### I'm having problems with the `ilab` CLI tool. What should I do?
 
@@ -120,20 +120,19 @@ In the context of InstructLab, a [_skill_](https://github.com/instruct-lab/taxon
 
 InstructLab skills are broken down into two main categories:
 
-* [**Composition skills.**](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#compositional-skills) Composition or _performative_ skills allow AI models to perform specific tasks or functions. With InstructLab, there are two types of composition skills:
-    * [**Freeform compositional skills**](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#freeform-compositional-skills) are performative skills that do not require additional context. For example, to train an AI model to write a poem, you would provide examples of poems.
-    * [**Grounded compositional skills**](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#grounded-compositional-skills) are performative skills that require additional context. One example is how an AI model reads the value of a cell in a table layout. To create the grounded skill to read a table formatted in Markdown, the additional context might be an example table layout.
-* **Foundational skills.** Foundational skills are skills like math, reasoning, and coding.
+- [**Composition skills.**](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#compositional-skills) Composition or _performative_ skills allow AI models to perform specific tasks or functions. With InstructLab, there are two types of composition skills:
+  - [**Freeform compositional skills**](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#freeform-compositional-skills) are performative skills that do not require additional context. For example, to train an AI model to write a poem, you would provide examples of poems.
+  - [**Grounded compositional skills**](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#grounded-compositional-skills) are performative skills that require additional context. One example is how an AI model reads the value of a cell in a table layout. To create the grounded skill to read a table formatted in Markdown, the additional context might be an example table layout.
+- **Foundational skills.** Foundational skills are skills like math, reasoning, and coding.
 **Note**: Foundational skills are not currently being accepted.
 
-
-Skills are written in a YAML file and submitted to the InstructLab upstream project for review. See the [Skills: YAML examples](https://github.com/instruct-lab/taxonomy/blob/main/README.md#skills-yaml-examples) for different types of examples. 
+Skills are written in a YAML file and submitted to the InstructLab upstream project for review. See the [Skills: YAML examples](https://github.com/instruct-lab/taxonomy/blob/main/README.md#skills-yaml-examples) for different types of examples.
 
 ### What is “knowledge”?
 
 [_Knowledge_](https://github.com/instruct-lab/taxonomy/blob/main/README.md#getting-started-with-knowledge-contributions) consists of data and facts. When creating knowledge for an AI model, you are providing it with additional data and information to answer questions more accurately. Whereas skills are the information that trains an AI model on how to do something, knowledge is based on the AI model’s ability to answer questions that involve facts, data, or references.
 
-Like skills, knowledge submissions are submitted in YAML format to the InstructLab upstream project for review. See the [Knowledge: YAML examples](https://github.com/instruct-lab/taxonomy/blob/main/README.md#knowledge-yaml-examples) for different types of examples. 
+Like skills, knowledge submissions are submitted in YAML format to the InstructLab upstream project for review. See the [Knowledge: YAML examples](https://github.com/instruct-lab/taxonomy/blob/main/README.md#knowledge-yaml-examples) for different types of examples.
 
 ### Is the project looking for certain types of skill contributions?
 
@@ -169,15 +168,15 @@ For code review, the project maintainers use LGTM (Looks Good to Me) in comments
 
 For skills and knowledge PRs, your PR will be checked to ensure it is relevant, actionable, and has all the information necessary for the approval team to review and merge the PR. The Triage team will use labels to manage the state and action of PRs as well as provide feedback to contributors based upon the following review guidelines:
 
-* Does the PR have the pull request template information filled out?
-* Did all the PR checks pass?
-* Does the skill have three or more examples?
-* Are the YAML fields correct?
-* No PII in content
-* Does this content include anything documented in the project's [Avoid these Topics](https://github.com/instruct-lab/community/blob/main/docs/README.md#avoid-these-topics) guidelines?
-* Does it adhere to the [Code of Conduct](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md#code-of-conduct) guidelines?
-* Was a response clearly generated by the LLM?
-  
+- Does the PR have the pull request template information filled out?
+- Did all the PR checks pass?
+- Does the skill have three or more examples?
+- Are the YAML fields correct?
+- No PII in content
+- Does this content include anything documented in the project's [Avoid these Topics](https://github.com/instruct-lab/community/blob/main/docs/README.md#avoid-these-topics) guidelines?
+- Does it adhere to the [Code of Conduct](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md#code-of-conduct) guidelines?
+- Was a response clearly generated by the LLM?
+
 ### How long will it take for my pull request to be reviewed?
 
 Due to the large number of contributions currently being received, it is difficult to provide an exact timeline for reviewing your pull request.
@@ -192,7 +191,7 @@ InstructLab and the Merlinite-7b project are distributed under [Apache License, 
 
 ### What is the content license for InstructLab documentation?
 
-Unless otherwise specified, all documentation for InstructLab is licensed under the [CC-BY-4.0 license from Creative Commons](https://creativecommons.org/licenses/by/4.0/). 
+Unless otherwise specified, all documentation for InstructLab is licensed under the [CC-BY-4.0 license from Creative Commons](https://creativecommons.org/licenses/by/4.0/).
 
 ### Am I required to license code submissions to InstructLab under the Apache 2.0 license?
 
@@ -202,16 +201,16 @@ Yes. Code contributions to the InstructLab project are subject to the terms and 
 
 It is recommended that third-party content be licensed with an open data license that does not restrict commercial use or the creation of derivative works, including the following licenses:
 
-* CC0
-* CDLA-Permissive
-* CC-BY-4.0
-* CC-BY-4.0 SA
-* Apache 2.0
-* MIT
+- CC0
+- CDLA-Permissive
+- CC-BY-4.0
+- CC-BY-4.0 SA
+- Apache 2.0
+- MIT
 
 ### Do submissions to the project require a contributor license agreement of some kind?
 
-The InstructLab project follows the same approach (the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertificate.org/)) that [the Linux Kernel community uses](https://docs.kernel.org/process/submitting-patches.html#sign-your-work-the-developer-s-certificate-of-origin) to manage code contributions. Unless the file says otherwise for this project, the relevant open source license is [the Apache License, Version 2.0](https://github.com/instruct-lab/taxonomy/blob/main/LICENSE).  When submitting a patch for review, you must include a sign-off statement in the commit message. See the ["Legal" ](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md#legal) section of the Contributing document.
+The InstructLab project follows the same approach (the [Developer's Certificate of Origin 1.1 (DCO)](https://developercertificate.org/)) that [the Linux Kernel community uses](https://docs.kernel.org/process/submitting-patches.html#sign-your-work-the-developer-s-certificate-of-origin) to manage code contributions. Unless the file says otherwise for this project, the relevant open source license is [the Apache License, Version 2.0](https://github.com/instruct-lab/taxonomy/blob/main/LICENSE).  When submitting a patch for review, you must include a sign-off statement in the commit message. See the ["Legal"](https://github.com/instruct-lab/taxonomy/blob/main/CONTRIBUTING.md#legal) section of the Contributing document.
 
 You can find more information about useful tools for managing DCO sign-off in our [Community Contributions Guide](https://github.com/instructlab/community/blob/main/CONTRIBUTING.md#developer-certificate-of-origin-dco).
 
@@ -223,7 +222,7 @@ The latest version of InstructLab can be downloaded using the `ilab download` CL
 
 Currently, the best method for communicating with peers and project maintainers is in the Community Slack Channel. Visit our [InstructLab Slack Workspace Guide](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md) for information on how to join.
 
-TODO: Update with mailing list details once these are created. Related issue https://github.com/instructlab/community/issues/89
+TODO: Update with mailing list details once these are created. Related issue <https://github.com/instructlab/community/issues/89>
 
 ### What are the software and hardware requirements for using InstructLab?
 
@@ -231,15 +230,16 @@ The local training is the most hardware intensive part of this process. Your har
 
 To run and train InstructLab locally, you must meet the following requirements:
 
-* A Linux-based operating system
-* An Apple Silicon M1, M2, or M3 system
-* Python 3.9 or later, including the development headers
-* Approximately 10GB of free disk space to get through the `ilab generate` step
-* Approximately 60GB of free disk space is needed to run the entire process locally on Apple hardware
-* About 32 GB RAM
+- A Linux-based operating system
+- An Apple Silicon M1, M2, or M3 system
+- Python 3.9 or later, including the development headers
+- Approximately 10GB of free disk space to get through the `ilab generate` step
+- Approximately 60GB of free disk space is needed to run the entire process locally on Apple hardware
+- About 32 GB RAM
+
 ## Additional Resources
 
-Additional resources, including the Code of Conduct, Code of Conduct Committee members, how to contribute, how to join the Slack channel, and more, can be found in the following repositories: 
+Additional resources, including the Code of Conduct, Code of Conduct Committee members, how to contribute, how to join the Slack channel, and more, can be found in the following repositories:
 
 [InstructLab Taxonomy Repository](https://github.com/instructlab/taxonomy)
 
@@ -249,6 +249,5 @@ Additional resources, including the Code of Conduct, Code of Conduct Committee m
 
 Slack and communication
 
-* [Joining the Slack Channel](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md)
-* [Slack Moderation](https://github.com/instructlab/community/blob/main/InstructLabSlackModerationGuide.md)
-
+- [Joining the Slack Channel](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md)
+- [Slack Moderation](https://github.com/instructlab/community/blob/main/InstructLabSlackModerationGuide.md)

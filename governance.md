@@ -6,18 +6,18 @@ The following document outlines how the InstructLab project governance operates.
 
 InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. Currently, these projects include the following:
 
-* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/instructlab). This repository is responsible for the `ilab` command-line interface (CLI) tool. 
-* [taxonomy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data. 
+* [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/instructlab). This repository is responsible for the `ilab` command-line interface (CLI) tool.
+* [taxonomy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data.
 
 ## Governance Structure and Roadmap
 
-The InstructLab Project will evolve into a two-level governance structure with an Oversight Committee and [Project Maintainers](https://github.com/instructlab/community/blob/main/MAINTAINERS.md). 
+The InstructLab Project will evolve into a two-level governance structure with an Oversight Committee and [Project Maintainers](https://github.com/instructlab/community/blob/main/MAINTAINERS.md).
 
 At launch, the InstructLab Project will not have an Oversight Committee to avoid unnecessary overhead. After the majority of project Maintainers agree that the project has grown to the point where an Oversight Committee is necessary, project Maintainers will begin establishment. Until the Oversight Committee is constituted, duties of the Oversight Committee will be assumed by project Maintainers.
 
 Except where otherwise noted, decisions should always start at the most local level of project governance. For example, decisions that affect only one project, such as the taxonomy repository and not the `ilab` CLI tool, can  happen within that project. While communication between the different project teams is important as they are all interconnected, minor decisions do not need organization-wide consensus and can be moved forward at the project level.
 
-Changes in maintainership and other governance are currently announced on the InstructLab community Slack channel. Directions to join the Slack channel can be found [here](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md). In the future, a mailing list will be established. 
+Changes in maintainership and other governance are currently announced on the InstructLab community Slack channel. Directions to join the Slack channel can be found [here](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md). In the future, a mailing list will be established.
 
 ## Project Maintainers overview
 
@@ -56,7 +56,7 @@ Until the Oversight Committee is selected, these duties will be carried out by t
 
 Cross-component technical policies are out of scope for this project governance document, but can be found in the [InstructLab Enhancements Repo](https://github.com/instructlab/enhancements/blob/main/README.md).
 
-### Oversight Committee selection process 
+### Oversight Committee selection process
 
 The Oversight Committee will be selected and maintained using the following process:
 
@@ -76,15 +76,15 @@ The election will proceed according to the following process:
 
 ### Resignation or Departure from the Maintainer or the Oversight Committee role
 
-Project Maintainers or Oversight Committee members may resign or could be expelled as follows: 
+Project Maintainers or Oversight Committee members may resign or could be expelled as follows:
 
-* Maintainers or an Oversight Committee member may step down through email. Within 7 calendar days, organization contributors and Maintainers will be notified on the InstructLab community Slack channel. Directions to join the Slack channel can be found [here](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md). In the future, a mailing list will be established. 
+* Maintainers or an Oversight Committee member may step down through email. Within 7 calendar days, organization contributors and Maintainers will be notified on the InstructLab community Slack channel. Directions to join the Slack channel can be found [here](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md). In the future, a mailing list will be established.
 
 * After an Oversight Committee member steps down, they become an emeritus Maintainer.
 
-* Maintainers and Committee members MUST remain active on the project. In the event that an Oversight Committee member or a Maintainer is unresponsive or inactive for more than 3 months, they may be removed by a supermajority vote. 
+* Maintainers and Committee members MUST remain active on the project. In the event that an Oversight Committee member or a Maintainer is unresponsive or inactive for more than 3 months, they may be removed by a supermajority vote.
 
-* Maintainers and Oversight Committee members who have violated the [Code of Conduct](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md) may be removed by a supermajority vote of the remaining Oversight Committee members. 
+* Maintainers and Oversight Committee members who have violated the [Code of Conduct](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md) may be removed by a supermajority vote of the remaining Oversight Committee members.
 
 ## Decision making at the InstructLab organization level
 

@@ -1,18 +1,20 @@
-# [Data Sources](#Data-Sources)
-The purpose of this document is to provide attribution required for data used in the InstructLab project including
-data for pre-training, knowledge data, and skills data. 
+# [Data Sources](#data-sources)
 
-For new contributions to InstructLab that require data along with 
-the submission, we have [thorough guidelines](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#for-your-attributiontxt-file) on how to provide 
-attribution for these data sources. 
+The purpose of this document is to provide attribution required for data used in the InstructLab project including
+data for pre-training, knowledge data, and skills data.
+
+For new contributions to InstructLab that require data along with
+the submission, we have [thorough guidelines](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#for-your-attributiontxt-file) on how to provide
+attribution for these data sources.
 
 For data used to create the artifacts of the InsructLab project prior to its being open sourced,
-we are [aware that this list is not comprehensive](https://github.com/instructlab/taxonomy/issues/255) at the time of creating it. 
+we are [aware that this list is not comprehensive](https://github.com/instructlab/taxonomy/issues/255) at the time of creating it.
 The project maintainers will augment and update it over time to the best of our abilities.
 
-## [Textbooks: Knowledge](#Texbooks-Knowledge)
+## [Textbooks: Knowledge](#textbooks-knowledge)
+
 The following openly licensed textbook works were used as knowledge source seeds in the knowledge synthetic data
-generation pipeline. 
+generation pipeline.
 
 | Dataset Name | Knowledge Taxonomy Location | License (where possible, use [SPDX License Identifier](https://spdx.org/licenses/)) | Creator Names | Copyright |
 | ------------ | --------------------------- | ------- | ------------- | --------- |
@@ -37,7 +39,7 @@ generation pipeline.
 | [Introductory Statistics](https://openstax.org/details/books/introductory-statistics) | high_school_mathmatics | CC-BY-4.0 |**Senior Contributing Authors**:  Barbara Illowsky, De Anza College; Susan Dean, De Anza College | Copright 2018 Rice University |
 | [Statistics](https://openstax.org/details/books/statistics) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Authors**:  Barbara Illowsky, De Anza College; Susan Dean, De Anza College | Copright 2020 Texas Education Agency (TEA) |
 | [College Algebra 2e](https://openstax.org/details/books/college-algebra-2e) | high_school_mathematics | CC-BY-4.0 |**Senior Contributing Author**: Jay Abramson, Arizona State University | Copright 2021 Rice University |
-| [Applied Calculus](https://mathbooks.unl.edu/BCalculus/colophon-1.html) | high_school_mathmatics | CC-BY-SA-4.0 | Kevin Gonzales, Eric Hopkins, Catherine Zimmitti, Cheryl Kane; Modified to fit Applied Calculus from Coordinated Calculus by Nathan Wakefield et. al.; Based upon Active Calculus by Matthew Boelkins | Copyright 2018 - 2021 University of Nebraska - Lincoln, Department of Mathematics| 
+| [Applied Calculus](https://mathbooks.unl.edu/BCalculus/colophon-1.html) | high_school_mathmatics | CC-BY-SA-4.0 | Kevin Gonzales, Eric Hopkins, Catherine Zimmitti, Cheryl Kane; Modified to fit Applied Calculus from Coordinated Calculus by Nathan Wakefield et. al.; Based upon Active Calculus by Matthew Boelkins | Copyright 2018 - 2021 University of Nebraska - Lincoln, Department of Mathematics|
 | [Coordinated Calculus](https://mathbooks.unl.edu/Calculus) | high_school_mathematics | CC-BY-SA-4.0 | Nathan Wakefield, Christine Kelley, Marla Williams, Michelle Haver, Lawrence Seminario-Romero, Robert Huben, Aurora Marks, Stephanie Prahl; Based upon Active Calculus by Matthew Boelkins | Copyright 2019 University of Nebraska - Lincoln, Department of Mathematics |
 | [Coordinated Multivariable Calculus](https://mathbooks.unl.edu/MultiVarCalc/colophon-1.html)| high_school_mathematics | CC-BY-NC-SA-4.0 | Steve Schlicker, Mitchel T. Keller, Nicholas Long, Zach Norwood, Audrey Goodnight; Based on Active Calculus | Copyright 2013 - 2022 Steven Schlicker, Mitchel T. Keller, and Nicholas Long |
 | [Principles of Economics 3e](https://openstax.org/details/books/principles-economics-3e) | high_school_microeconomics  | CC-BY-4.0 | **Senior Contributing Authors**: Steven A. Greenlaw, University of Mary Washington; David Shapiro, Pennsylvania State University; Daniel MacDonald, California State University, San Bernardino | Copyright 2022 Rice University |
@@ -48,20 +50,22 @@ generation pipeline.
 | [World History, Volume 1: to 1500](https://openstax.org/details/books/world-history-volume-1) | high_school_world_history  | CC-BY-4.0 | **Senior Contributing Authors**: Ann Kordas, Johnson & Wales University; Ryan J. Lynch, Columbus State University; Brooke Nelson, formerly California State University; Julie Tatlock, Mount Mary University | Copyright 2023 Rice University |
 | [World History, Volume 2: from 1400](https://openstax.org/details/books/world-history-volume-2) | high_school_world_history  | CC-BY-4.0 | **Senior Contributing Authors**: Ann Kordas, Johnson & Wales University; Ryan J. Lynch, Columbus State University; Brooke Nelson, formerly California State University; Julie Tatlock, Mount Mary University | Copyright 2022 Rice University |
 | [Introduction to Philosophy](https://openstax.org/details/books/introduction-philosophy) | philosophy | CC-BY-4.0 | **Senior Contributing Author**: Nathan Smith, Houston Community College |  Copyright 2022 Rice University |
-| [Principles of Financial Accounting](https://open.umn.edu/opentextbooks/textbooks/principles-of-financial-accounting) | financial_accounting | 	CC-BY-SA-4.0 | Christine Jonick | Copyright 2017 University of North Georgia Press |
+| [Principles of Financial Accounting](https://open.umn.edu/opentextbooks/textbooks/principles-of-financial-accounting) | financial_accounting |  CC-BY-SA-4.0 | Christine Jonick | Copyright 2017 University of North Georgia Press |
 | [Intermediate Financial Accounting Volume 1](https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-1) | financial_accounting | CC-BY-4.0 | Glenn Arnold, Athabasca University and Suzanne Kyle | Copyright 2016 Vretta-Lyryx Inc. |
 | [Intermediate Financial Accounting Volume 2](https://open.umn.edu/opentextbooks/textbooks/intermediate-financial-accounting-volume-2)) | financial_accounting | CC-BY-4.0 | Glenn Arnold, Athabasca University and Suzanne Kyle | Copyright 2017-2021 Vretta-Lyryx Inc. |
 | [Introduction to Political Science](https://openstax.org/details/books/introduction-political-science) | political_science | CC-BY-2.0 | **Senior Contributing Authors**: Mark Carl Rom, Georgetown University; Masaki Hidaka, American University; Rachel Bzostek Walker, Collin College | Copyright 2022 Rice University|
 | [Introduction to Anthropology](https://openstax.org/details/books/introduction-anthropology) | anthropology | CC-BY-4.0 | **Senior Contributing Authors**: Jennifer Hasty, University of Pennsylvania; David G. Lewis, Oregon State University; Marjorie M. Snipes, University of West Georgia | Copright 2022 Rice University |
 
-## [Data Sets](#Data-Sets)
+## [Data Sets](#data-sets)
+
 | Dataset Name | Knowledge Taxonomy Location | License and/or Copyright | Other Citiation Information |
 | ------------ | --------------------------- | --------------------- | --------- |
-|[IBM Redbooks](https://www.redbooks.ibm.com/) | ibm_redbooks | Copyright IBM [with some rights available](https://www.redbooks.ibm.com/copyright) | 
+|[IBM Redbooks](https://www.redbooks.ibm.com/) | ibm_redbooks | Copyright IBM [with some rights available](https://www.redbooks.ibm.com/copyright) | |
 
 The following openly licensed datasets were used as foundational and safety seeds in the skills synthetic data generation pipeline
 
-## [Foundational Skills](#Foundational-Skills)
+## [Foundational Skills](#foundational-skills)
+
 The following openly licensed datasets were used as foundational and safety seeds in the skills synthetic data generation pipeline
 
 |  Dataset Name | License  |
@@ -88,10 +92,9 @@ The following openly licensed datasets were used as foundational and safety seed
 | [Flan Collection](https://github.com/google-research/FLAN) | Apache-2.0 |
 | [Chatbot arena (Prompts Only)](https://huggingface.co/datasets/lmsys/chatbot_arena_conversations)  | CC-BY-4.0 |
 
-## [Saftey Skills](#Saftey-Skills)
+## [Saftey Skills](#saftey-skills)
 
 |  Dataset Name | License  |
 | --------------|----------|
 | [OASST2](https://huggingface.co/datasets/OpenAssistant/oasst2) | Apache-2.0 |
 | [Prosocial-dialog](https://huggingface.co/datasets/allenai/prosocial-dialog) | CC-BY-4.0 |
-

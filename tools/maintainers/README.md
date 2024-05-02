@@ -19,6 +19,6 @@ Changes to team membership should happen in this way:
 
 From the root of the repo:
 
-```
+```shell
 tools/maintainers/maintainers.py tools/maintainers/teams.yaml > MAINTAINERS.md
 ```

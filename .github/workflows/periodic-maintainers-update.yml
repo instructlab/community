@@ -1,9 +1,18 @@
+# SPDX-License-Identifier: Apache-2.0
+
 name: Periodic update of MAINTAINERS.md
 
 on:
   schedule:
     - cron: '0 0 * * *' # Runs every day at 00:00 UTC
   workflow_dispatch: # Allow manual trigger
+
+env:
+  LC_ALL: en_US.UTF-8
+
+defaults:
+  run:
+    shell: bash
 
 jobs:
   update-maintainers:
@@ -12,32 +21,47 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v2
+    - name: "Harden Runner"
+      uses: step-security/harden-runner@a4aa98b93cab29d9b1101a6143fb8bce00e2eac4 # v2.7.1
+      with:
+        egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
-    - name: Run script
-      run: ./tools/maintainers/maintainers.py tools/maintainers/teams.yaml > MAINTAINERS.md
+    - name: "Checkout"
+      uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
+      with:
+        fetch-depth: 0
+
+    - name: "Setup Python"
+      uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5.1.0
+      with:
+        python-version: "3.11"
+
+    - name: "Install Python Packages"
+      run: |
+        pip install -r tools/maintainers/requirements.txt
+
+    - name: Update maintainers page
+      run: |
+        tools/maintainers/maintainers.py tools/maintainers/teams.yaml > MAINTAINERS.md
       env:
         GH_TOKEN: ${{ secrets.ORG_ACCESS_TOKEN }}
 
     - name: Check for changes
       id: git-diff
-      run: echo "CHANGED=$(if git diff --quiet --exit-code; then echo "false"; else echo "true"; fi)" >> "$GITHUB_ENV"
-
-    - name: Commit and push if changed
-      if: env.CHANGED == 'true'
       run: |
-        git config --global user.name 'Maintainers Update Bot'
-        git config --global user.email 'ci@instructlab.io'
-        git commit -a -s -m "MAINTAINERS.md: automated update"
-        git push -f origin HEAD:maintainers-update
+        echo "changed=$(git diff --quiet --exit-code -- MAINTAINERS.md; echo "$?")" >> "$GITHUB_OUTPUT"
 
     - name: Create Pull Request
-      if: env.CHANGED == 'true'
-      uses: peter-evans/create-pull-request@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        commit-message: "Commit message"
-        title: "MAINTAINERS.md: automated update"
-        body: "Automated update of MAINTAINERS.md"
-        branch: "maintainers-update"
+      if: steps.git-diff.outputs.changed == '1'
+      run: |
+        git config --global user.name 'Maintainers Update Bot'
+        git config --global user.email 'ci@instructlab.ai'
+        git checkout -b maintainers-update
+        git add -- MAINTAINERS.md
+        git commit -s -m "MAINTAINERS.md: automated update"
+        git push -u -f origin maintainers-update
+        if ! (gh pr list --head maintainers-update --json number | grep -q "number") ; then
+          gh pr create --title "MAINTAINERS.md: automated update" --body "Automated update of MAINTAINERS.md"
+        fi
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

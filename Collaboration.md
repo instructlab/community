@@ -8,7 +8,7 @@ If you need help getting started with using or contributing to InstructLab, the 
 
 ## [Project Meetings](#project-meetings)
 
-To stay up to date on when meetings are added and how to join them, subscribe to the [InstructLab project calendar](https://calendar.google.com/calendar/ical/c_23c2f092cd6d147c45a9d2b79f815232d6c3e550b56c3b49da24c4b5d2090e8f%40group.calendar.google.com/public/basic.ics).
+To stay up to date on when meetings are added and how to join them, subscribe to the [InstructLab project calendar](https://calendar.google.com/calendar/embed?src=c_23c2f092cd6d147c45a9d2b79f815232d6c3e550b56c3b49da24c4b5d2090e8f%40group.calendar.google.com) by clicking the button in the bottom right of the calendar view or simply add the [InstructLab calendar ics feed URL](https://calendar.google.com/calendar/ical/c_23c2f092cd6d147c45a9d2b79f815232d6c3e550b56c3b49da24c4b5d2090e8f%40group.calendar.google.com/public/basic.ics) to your preferred mail app.
 
 The project will host more meetings as it evolves, but those we have already set up are listed here.
 

@@ -15,6 +15,7 @@ Last updated: April 2024
   - [Why should I contribute?](#why-should-i-contribute)
   - [What large language models (LLMs) am I contributing to through the InstructLab project?](#what-large-language-models-llms-am-i-contributing-to-through-the-instructlab-project)
   - [What is Merlinite-7b?](#what-is-merlinite-7b)
+  - [What is Granite-7b-lab?](#what-is-granite-7-lab)
   - [What is a “skill”?](#what-is-a-skill)
   - [What is “knowledge”?](#what-is-knowledge)
   - [Is the project looking for certain types of skill contributions?](#is-the-project-looking-for-certain-types-of-skill-contributions)
@@ -37,7 +38,7 @@ Last updated: April 2024
 
 This page serves as a comprehensive FAQ for the InstructLab project, detailing how it works, how to begin contribution, and the goals behind the project. Key information includes:
 
-- **InstructLab Overview**: This open source project allows users to interact with and train the Merlinite-7b AI Large Language Model (LLM) by contributing skills and knowledge.
+- **InstructLab Overview**: This open source project allows users to interact with and train the Merlinite-7b (default) or Granite-7b AI Large Language Models (LLMs) by contributing skills and knowledge.
 - **LAB Method**: A synthetic data-based tuning method for LLMs consisting of a taxonomy-driven data curation process, a synthetic data generator, and two-phased training with replay buffers.
 - **Contribution Process**: Contributors can add skills or knowledge to the LLM by creating YAML files and testing changes locally before submitting a pull request to InstructLab’s GitHub repository.
 - **Project Goals**: To democratize contributions to AI and LLMs, allowing rapid model development through community collaboration facilitated by weekly builds that integrate community contributions.
@@ -58,7 +59,7 @@ Unless otherwise noted, all documentation for the InstructLab project is license
 
 ### What is InstructLab?
 
-InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open source initiative that provides a platform for easy engagement with the Merlinite -7b AI Large Language Model (LLM) by using the `ilab` command-line interface (CLI) tool. You can use the CLI to work with Merlinite-7b to test new skills and knowledge, for example, asking it to write a poem or answer a question about a particular subject. Users can then augment the LLM’s capabilities by submitting the skills and knowledge they have tested to the project’s taxonomy repository on GitHub by creating a pull request. This approach encourages community-driven enhancements without the need for complex model forking or fine-tuning of the model, promoting rapid development through collaborative contributions.
+InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open source initiative that provides a platform for easy engagement with AI Large Language Models (LLM) by using the `ilab` command-line interface (CLI) tool. You can use the CLI to work with Merlinite-7b or Granite-7b to test new skills and knowledge, for example, asking it to write a poem or answer a question about a particular subject. Users can then augment the LLM’s capabilities by submitting the skills and knowledge they have tested to the project’s taxonomy repository on GitHub by creating a pull request. This approach encourages community-driven enhancements without the need for complex model forking or fine-tuning of the model, promoting rapid development through collaborative contributions.
 
 ### What is LAB?
 
@@ -70,7 +71,7 @@ LAB (**L**arge-scale **A**lignment for chat**B**ots) is a novel synthetic data-b
 
 The LAB approach allows incrementally adding new knowledge and skills to an already pre-trained model without catastrophic forgetting.
 
-More information about the LAB method can be found on this [Hugging Face project page](https://huggingface.co/ibm/merlinite-7b).
+More information about the LAB method can be found on the [Hugging Face project page](https://huggingface.co/instructlab).
 
 ### How does InstructLab work?
 
@@ -100,19 +101,25 @@ A list of common problems associated with downloading the `ilab` CLI tool can be
 
 ### Why should I contribute?
 
-InstructLab is designed to enable collaboration around Merlinite-7b, an open source LLM that contributors can access through [Hugging Face](https://huggingface.co/collections/ibm/large-language-models-65d8bb0fa7d935c9c49b4104). Participating is an opportunity to contribute to open source AI regardless of technical background.
+InstructLab is designed to enable collaboration around Merlinite-7b and Granite-7b, an open source licensed LLM that contributors can access through [Hugging Face](https://huggingface.co/instructlab). Participating is an opportunity to contribute to open source AI regardless of technical background.
 
-When contributors write an extension to the existing taxonomy, make a pull request, and get it reviewed and merged, their changes are rolled out in the next build. This update strategy expedites the model’s capabilities and allows contributors to see the impact that they have made on the model much sooner than other LLMs.
+When contributors write an addition to the existing taxonomy, make a pull request, and get it reviewed and merged, their changes are rolled out in the next build. This update strategy expedites the model’s capabilities and allows contributors to see the impact that they have made on the model much sooner than other LLMs.
 
 ### What large language models (LLMs) am I contributing to through the InstructLab project?
 
-Contributions to the InstructLab project update Merlinite-7b, an open source LLM. Contributors have direct access to the model they are improving through [Hugging Face](https://huggingface.co/collections/ibm/large-language-models-65d8bb0fa7d935c9c49b4104).
+Contributions to the InstructLab project fine-tune Merlinite-7b or Granite-7b, an open source licensed LLM. Contributors have direct access to the model they are improving through [Hugging Face](https://huggingface.co/instructlab).
 
 ### What is Merlinite-7b?
 
-Merlinite-7b is a Mistral-7b derivative model trained with the LAB (**L**arge-scale **A**lignment for chat**B**ots) using Mixtral-8x7b-Instruct as a teacher model.
+Merlinite-7b is a Mistral-7b derivative model fine tuned with the LAB (**L**arge-scale **A**lignment for chat**B**ots) method using Mixtral-8x7b-Instruct as a teacher model.
 
-More information about the Merlinite-7b can be found on the [Hugging Face project page](https://huggingface.co/collections/ibm/large-language-models-65d8bb0fa7d935c9c49b4104).
+More information about the Merlinite-7b can be found on the [Hugging Face project page](https://huggingface.co/instructlab/merlinite-7b-lab).
+
+### What is Granite-7-lab?
+
+Granite-7b-lab is a model that was built from scratch by IBM and fine tuned with the LAB (**L**arge-scale **A**lignment for chat**B**ots) method.
+
+More information about the Granite-7b can be found on the [Hugging Face project page](https://huggingface.co/instructlab/granite-7b-lab).
 
 ### What is a “skill”?
 
@@ -187,7 +194,7 @@ After a pull request is accepted, the changes are regularly incorporated into In
 
 ### What is the software license for InstructLab?
 
-InstructLab and the Merlinite-7b project are distributed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+The InstructLab project as well as the Merlinite-7b and Granite-7b models are distributed under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ### What is the content license for InstructLab documentation?
 

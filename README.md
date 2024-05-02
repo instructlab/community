@@ -27,13 +27,13 @@ The following documentation shows you an overview of the workflow, and the resou
 
 ### Installing and interacting with the `ilab` CLI tool
 
-The `ilab` tool allows you to interact with the IBM AI model `Merlinite`, contribute your own information, and train the model locally.
+The `ilab` tool allows you to interact with the IBM AI model `Merlinite` or `Granite`, contribute your own information, and train the model locally.
 
 > **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations. Additionally, you should consider joining the [InstructLab community Slack channel](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md).
 
 1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instructlab/instructlab/blob/main/README.md). The README.md instructs you on how to perform the following:
 
-    a. In the [Getting started](https://github.com/instructlab/instructlab/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM `Merlinite` AI model. If you run into any issues, you can find many solutions in the [in the CLI repository's discussion board](https://github.com/instructlab/instructlab/discussions).
+    a. In the [Getting started](https://github.com/instructlab/instructlab/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM Merlinite-7b (default) AI model. If you run into any issues, you can find many solutions in the [in the CLI repository's discussion board](https://github.com/instructlab/instructlab/discussions).
 
     b. You can then create your own data sets to feed into and train the model. In the taxonomy project, there are two types of data you can serve to the model: skills and knowledge. There are a few different types of skills and knowledge you can create. For more detailed information on the types, see the Taxonomy [README.md](https://github.com/instructlab/taxonomy/blob/main/README.md#welcome-to-the-instructlab-taxonomy).
 
@@ -57,7 +57,7 @@ There are teams of contributors from Red Hat and IBM that will review your pull 
 
 ### See your contributions impact an AI model
 
-The IBM model `Merlinite` builds regularly. Sometime after your pull request is merged, Merlinite is updated and you can see locally that the model improved with the skill or knowledge you taught it.
+The Merlinite-7b and Granite-7b models are built regularly. Sometime after your pull request is merged, Merlinite is updated and you can see locally that the model improved with the skill or knowledge you taught it.
 
 ## Contribution
 

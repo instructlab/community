@@ -10,7 +10,7 @@ The following is a set of guidelines for contributing. These are just guidelines
 
 This project adheres to a [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
-Please report unacceptable behavior to one of the Code of Conduct [Committee members](./COCC).
+Please report unacceptable behavior to one of the Code of Conduct [Committee members](./COCC.md).
 
 ### Related repositories
 

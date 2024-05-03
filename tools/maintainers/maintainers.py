@@ -10,11 +10,12 @@ import yaml
 
 
 def get_team_members(team_slug):
-    org = 'instructlab'
-    result = subprocess.run(['gh', 'api', '--method', 'GET',
-                             f'/orgs/{org}/teams/{team_slug}/members'],
-                             stdout=subprocess.PIPE)
-    output = result.stdout.decode('utf-8')
+    org = "instructlab"
+    output = subprocess.check_output(
+        ["gh", "api", "--method", "GET", f"/orgs/{org}/teams/{team_slug}/members"],
+        text=True,
+        encoding="utf-8",
+    )
     return json.loads(output)
 
 
@@ -28,23 +29,24 @@ def main(argv=None):
 
     teams_yaml = argv[1]
 
-    with open(teams_yaml, 'r') as f:
+    with open(teams_yaml, "r", encoding="utf-8") as f:
         teams = yaml.load(f, Loader=yaml.FullLoader)
         print("# Maintainers\n")
-        print("*To update see [tools/maintainers/README.md](tools/maintainers/README.md)*\n")
+        print(
+            "*To update see [tools/maintainers/README.md](tools/maintainers/README.md)*"
+        )
         for section, teams in teams.items():
-            print("## %s\n" % section)
+            print("\n## %s" % section)
             for t in teams:
-                print("### %s\n" % t["name"])
+                print("\n### %s\n" % t["name"])
                 print("%s\n" % t["desc"])
                 members = get_team_members(t["slug"])
-                members_sorted = sorted(members, key=lambda d: d['login'].lower())
+                members_sorted = sorted(members, key=lambda d: d["login"].lower())
                 for m in members_sorted:
                     print("- [%s](https://github.com/%s)" % (m["login"], m["login"]))
-                print("\n")
 
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.exit(main())

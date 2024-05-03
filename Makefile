@@ -20,3 +20,7 @@ endif
 md-lint: ## Lint markdown files
 	$(ECHO_PREFIX) printf "  %-12s ./...\n" "[MD LINT]"
 	$(CMD_PREFIX) podman run --rm -v $(CURDIR):/workdir --security-opt label=disable docker.io/davidanson/markdownlint-cli2:latest > /dev/null
+
+.PHONY: spellcheck-sort
+spellcheck-sort: .spellcheck-en-custom.txt
+	sort -d -f -o $< $<

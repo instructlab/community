@@ -72,7 +72,7 @@ For a list of the maintainers and triagers, see the [MAINTAINERS.md](MAINTAINERS
 
 To propose a new feature, it's best to raise an issue in the appropriate repository:
 
-* [Instructlab CLI repository](https://github.com/instructlab/instructlab/issues)
+* [InstructLab CLI repository](https://github.com/instructlab/instructlab/issues)
 * [Taxonomy repository](https://github.com/instructlab/taxonomy/issues)
 
 This way, features can be discussed with the project maintainers, ensuring that your time is not wasted working on a feature that the project developers will not accept into the codebase.

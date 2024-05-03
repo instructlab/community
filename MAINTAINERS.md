@@ -25,6 +25,7 @@ Team which has full maintainer access to the CLI repository
 - [spzala](https://github.com/spzala)
 - [xukai92](https://github.com/xukai92)
 
+
 ### CLI Triagers
 
 Team that can manage Issues and Pull Requests but cannot merge code to the CLI repository
@@ -40,6 +41,7 @@ Team that can manage Issues and Pull Requests but cannot merge code to the CLI r
 - [juliadenham](https://github.com/juliadenham)
 - [mairin](https://github.com/mairin)
 - [oindrillac](https://github.com/oindrillac)
+
 
 ## Community
 
@@ -59,6 +61,7 @@ Team which has full maintainer access to the Community repository
 - [mingxzhao](https://github.com/mingxzhao)
 - [mmcelaney](https://github.com/mmcelaney)
 
+
 ## Enhancements
 
 ### Enhancements Triagers
@@ -67,6 +70,7 @@ Team which has full maintainer access to the Enhancements repository
 
 - [nathan-weinberg](https://github.com/nathan-weinberg)
 - [russellb](https://github.com/russellb)
+
 
 ## InstructLabBot
 
@@ -79,6 +83,7 @@ Team which has full maintainer access to the InstructLab Bot repository
 - [russellb](https://github.com/russellb)
 - [vishnoianil](https://github.com/vishnoianil)
 
+
 ### InstructLab Bot Triagers
 
 Team that can manage Issues and Pull Requests but cannot merge code to the InstructLab Bot repository
@@ -88,6 +93,7 @@ Team that can manage Issues and Pull Requests but cannot merge code to the Instr
 - [nathan-weinberg](https://github.com/nathan-weinberg)
 - [russellb](https://github.com/russellb)
 
+
 ## Schema
 
 ### Schema Maintainers
@@ -96,6 +102,7 @@ Team which has full maintainer access to the Schema repository
 
 - [bjhargrave](https://github.com/bjhargrave)
 - [jjasghar](https://github.com/jjasghar)
+
 
 ## Taxonomy
 
@@ -115,6 +122,7 @@ Team which has approval permissions to the Taxonomy repository
 - [oindrillac](https://github.com/oindrillac)
 - [shivchander](https://github.com/shivchander)
 - [xukai92](https://github.com/xukai92)
+
 
 ### Taxonomy Maintainers
 
@@ -139,6 +147,7 @@ Team which has full maintainer access to the Taxonomy repository
 - [xukai92](https://github.com/xukai92)
 - [yhwang](https://github.com/yhwang)
 
+
 ### Taxonomy Triagers
 
 Team that can manage Issues and Pull Requests but cannot merge code to the Taxonomy repository
@@ -156,6 +165,7 @@ Team that can manage Issues and Pull Requests but cannot merge code to the Taxon
 - [oindrillac](https://github.com/oindrillac)
 - [xukai92](https://github.com/xukai92)
 
+
 ## Website
 
 ### Website Maintainers
@@ -166,3 +176,5 @@ Team which has full maintainer access to the Website repository
 - [joesepi](https://github.com/joesepi)
 - [mairin](https://github.com/mairin)
 - [mscherer](https://github.com/mscherer)
+
+

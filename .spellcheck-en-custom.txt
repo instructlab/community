@@ -9,6 +9,7 @@ Acknowledgements
 Adminstrators
 akashgit
 al
+aldopareja
 alimaredia
 Alina
 alinaryan
@@ -47,6 +48,7 @@ Conala
 Corbett
 curation
 cybette
+danmcp
 darrellreimer
 Dataset
 datasets

@@ -14,7 +14,7 @@ Contributing new features, resolving bugs and issues, and refining the documenta
 The goals of this open source community includes the following:
 
 * Drive adoption of the InstructLab tooling and model API standard.
-* Grow and an ecosystem of contribution driven open models
+* Grow an ecosystem of contribution driven open models
 * Establish deployable patterns, practices, and evidence for sophisticated use cases.
 
 ## Getting Started with the InstructLab Project workstreams🥼

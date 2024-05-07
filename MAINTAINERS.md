@@ -2,6 +2,20 @@
 
 *To update see [tools/maintainers/README.md](tools/maintainers/README.md)*
 
+## InstructLab
+
+### Oversight Committee
+
+The project-wide oversight committee
+
+- [aldopareja](https://github.com/aldopareja)
+- [danmcp](https://github.com/danmcp)
+- [jjasghar](https://github.com/jjasghar)
+- [lhawthorn](https://github.com/lhawthorn)
+- [mairin](https://github.com/mairin)
+- [russellb](https://github.com/russellb) - Chair
+- [xukai92](https://github.com/xukai92)
+
 ## CLI
 
 ### CLI Maintainers

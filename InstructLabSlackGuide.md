@@ -25,6 +25,7 @@ All discussions in the InstructLab Slack are governed by our [project code of co
 - `#social` Place to chat and enjoy camaraderie with fellow community members.
 - `#triage` Triage team discussions.
 - `#users` InstructLab users forum for troubleshooting and sharing tips and tricks.
+- `#github-bot` Place to discuss, brainstorm and hack code for [InstructLab GitHub Bot](https://github.com/instructlab/instructlab-bot).
 
 ## Usings Threaded Replies in Slack
 

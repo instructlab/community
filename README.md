@@ -4,8 +4,8 @@ The mission of the InstructLab (**L**arge-scale **A**lignment for chat**B**ots) 
 
 InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. This repository shares InstructLab's activity and collaboration details across the community and include the most current information about the project. Related repositories include the following:
 
+* [taxonomy tree](https://github.com/instructlab/taxonomy) of knowlege and skils.
 * [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/instructlab). This repository is responsible for the `ilab` command-line interface (CLI) tool.
-* [taxonomy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data.
 
 Contributing new features, resolving bugs and issues, and refining the documentation experience through pull requests are welcome. More information about contributing to the InstructLab Project, contributor roles, governance and legal, and licenses can be found in proceeding sections of this document.
 

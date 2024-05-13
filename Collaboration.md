@@ -32,7 +32,7 @@ If you have questions or ideas, we have an open door policy and would love for y
 
 ## [Chat](#chat)
 
-For real-time chat discussions, please join our [InstructLab Slack workspace](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md).
+For real-time chat discussions, please join our [InstructLab Slack workspace](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md).
 
 Slack history is deleted after 90 days, so for conversations that should preserved for a longer period use the [project mailing lists](#email-lists).
 

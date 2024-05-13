@@ -29,7 +29,7 @@ The following documentation shows you an overview of the workflow, and the resou
 
 The `ilab` tool allows you to interact with the IBM AI model `Merlinite` or `Granite`, contribute your own information, and train the model locally.
 
-> **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations. Additionally, you should consider joining the [InstructLab community Slack channel](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md).
+> **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations. Additionally, you should consider joining the [InstructLab community Slack channel](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md).
 
 1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instructlab/instructlab/blob/main/README.md). The README.md instructs you on how to perform the following:
 
@@ -80,7 +80,7 @@ Project Maintainers are first and foremost contributors that have shown they are
 
 ## Governance & Legal
 
-* [InstructLab Community Governance](governance.md)
+* [InstructLab Community Governance](GOVERNANCE.md)
 
 * [InstructLab Code of Conduct](CODE_OF_CONDUCT.md)
 

@@ -75,7 +75,7 @@ More information about the LAB method can be found on the [Hugging Face project 
 
 ### How does InstructLab work?
 
-InstructLab is driven by taxonomies and works by empowering users to add new [_skills_ and _knowledge_](https://github.com/instruct-lab/taxonomy/blob/main/README.md#learning) to a pre-trained LLM.
+InstructLab is driven by taxonomies and works by empowering users to add new [_skills_ and _knowledge_](https://github.com/instructlab/community/blob/main/docs/README.md) to a pre-trained LLM.
 
 ### What are the goals of the InstructLab project?
 

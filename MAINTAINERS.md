@@ -89,6 +89,7 @@ Team which has full maintainer access to the Enhancements repository
 Team which has full maintainer access to the InstructLab Bot repository
 
 - [dave-tucker](https://github.com/dave-tucker)
+- [Gregory-Pereira](https://github.com/Gregory-Pereira)
 - [nerdalert](https://github.com/nerdalert)
 - [russellb](https://github.com/russellb)
 - [vishnoianil](https://github.com/vishnoianil)

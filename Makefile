@@ -22,9 +22,9 @@ md-lint: ## Lint markdown files
 	$(CMD_PREFIX) podman run --rm -v $(CURDIR):/workdir --security-opt label=disable docker.io/davidanson/markdownlint-cli2:latest > /dev/null
 
 .PHONY: spellcheck
-spellcheck:
+spellcheck: ## Spellcheck markdown files
 	$(CMD_PREFIX) python -m pyspelling --config .spellcheck.yml --spellchecker aspell
 
 .PHONY: spellcheck-sort
-spellcheck-sort: .spellcheck-en-custom.txt
+spellcheck-sort: .spellcheck-en-custom.txt ## Sort spellcheck directory
 	sort -d -f -o $< $<

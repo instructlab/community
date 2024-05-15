@@ -43,7 +43,7 @@ def main(argv=None):
                 members = get_team_members(t["slug"])
                 members_sorted = sorted(members, key=lambda d: d["login"].lower())
                 for m in members_sorted:
-                    print("- [%s](https://github.com/%s)%s" % (
+                    print("- [`%s`](https://github.com/%s)%s" % (
                         m["login"], m["login"],
                         " - Chair" if "chair" in t and m["login"] == t["chair"] else ""))
 

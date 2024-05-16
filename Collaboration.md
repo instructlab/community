@@ -24,7 +24,7 @@ If you are new to the InstructLab project, the weekly community meeting is a gre
 
 We host weekly InstructLab meetings each Thursday at 14:00 UTC. ([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=14&hour=14&min=0&sec=0&p1=37&p2=43&p3=101&p4=224&p5=213&p6=771&p7=248&p8=2))
 
-Weekly InstructLab CLI meetings will feature announcements from the [CLI Maintainers](MAINTAINERS.md) team about the CLI project, overviews of the general roadmap the project is taking via our [Milestones](https://github.com/instructlab/instructlab/milestones) as well as the [Project Board](https://github.com/orgs/instructlab/projects/2), and dedicated time for members of community comment on and contribute to the direction of the project.
+Weekly InstructLab CLI meetings will feature announcements from the [CLI Maintainers](MAINTAINERS.md) team about the CLI project, overviews of the general roadmap the project is taking via our [Milestones](https://github.com/instructlab/instructlab/milestones) as well as the [Project Board](https://github.com/orgs/instructlab/projects/2), and dedicated time for discussing the direction of the project.
 
 If you are particularly interested in the CLI aspect of the InstructLab project, we encourage you to join this meeting!
 

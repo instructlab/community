@@ -15,7 +15,7 @@ All discussions in the InstructLab Slack are governed by our [project code of co
 
 - `#dev` Cross-project coordination discussion, such as topics that cover both frontend and backend development for InstructLab
 - `#admin` Place to get non-technical help. If you don't know where to go after reading this guide, join this channel for [air traffic control](https://en.wikipedia.org/wiki/Air_traffic_control).
-- `#announce` Project wide announcements such as releases, reminders about community calls, and celebrating new maintainers. This channel is moderated (only [Workspace Administrators](https://github.com/instructlab/community/blob/main/InstructLabSlackModerationGuide.md#workspace-administrators) can post) and low-traffic.
+- `#announce` Project wide announcements such as releases, reminders about community calls, and celebrating new maintainers. This channel is moderated (only [Workspace Administrators](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md) can post) and low-traffic.
 - `#backend` Backend work for the InstructLab project, including pipeline for synthetic data generation, training, model evaluation, and publishing.
 - `#community` Place to discuss community matters such as improving the contributor experience, getting help reviewing a presentation about InstructLab you want to give at a meetup, or learning how you can contribute to InstructLab beyond software development.
 - `#contribhelp` General questions about getting started as an InstructLab contributor. This channel is the place to go if you need help with your first pull request.
@@ -37,17 +37,15 @@ We are an open, welcoming, and inclusive community and expect our members to be 
 
 We take reports of harassment very seriously and will action any reports of inappropriate behavior as quickly as possible.
 
-To learn how to report abuse - and to whom you will be reporting - please see our [InstructLab slack Moderation Guide](https://github.com/instructlab/community/blob/main/InstructLabSlackModerationGuide.md).
+To learn how to report abuse - and to whom you will be reporting - please see our [InstructLab slack Moderation Guide](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md).
 
 ## Having Trouble Joining?
 
-If you are having trouble joining the InstructLab Slack, please file an issue in the [community repo](https://github.com/instructlab/community/issues) so we can help you.
-
-TODO: Update with email address to get help once these are set up.
+If you are having trouble joining the InstructLab Slack, please email our [Community email list](https://github.com/instructlab/community/blob/main/Collaboration.md#email-lists) for help.
 
 ## Private Channels
 
 InstructLab is an open source project and we value defaulting to open in all of our community communications. There are some cases where discussions must happen in private. For the sake of transparency, we are documenting these private channels and what they are used for.
 
 - `#code-of-conduct-committee` Space for the InstructLab [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md) to discuss any reports of harassment or other violations of the project Code of Conduct and how to respond to them.
-- `#mods` Space for the InstructLab [Workspace Administrators](https://github.com/instructlab/community/blob/main/InstructLabSlackModerationGuide.md#workspace-administrators) to confer privately only when necessary. We default to open and hold each other accountable to do so.
+- `#mods` Space for the InstructLab [Workspace Administrators](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_MODERATION_GUIDE.md#workspace-administrators) to confer privately only when necessary. We default to open and hold each other accountable to do so.

@@ -5,7 +5,7 @@ The mission of the InstructLab (**L**arge-scale **A**lignment for chat**B**ots) 
 InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. This repository shares InstructLab's activity and collaboration details across the community and include the most current information about the project. Related repositories include the following:
 
 * [taxonomy tree](https://github.com/instructlab/taxonomy) of knowledge and skills.
-* [ilab](https://github.com/instructlab/instructlab) command-line interface (CLI) tool for model fine-tuning.
+* [ilab](https://github.com/instructlab/instructlab) command-line interface (CLI) tool for model [fine-tuning](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)).
 
 Contributing new features, resolving bugs and issues, and refining the documentation experience through pull requests are welcome. More information about contributing to the InstructLab Project, contributor roles, governance and legal, and licenses can be found in proceeding sections of this document.
 

@@ -121,7 +121,6 @@ Mahbobi
 Maintainership
 maintainership
 mairin
-Máirín
 Maredia
 markstur
 Marymount
@@ -139,6 +138,7 @@ mrutkows
 mscherer
 Multivariable
 Musique
+Máirín
 nathan
 nerdalert
 Neth
@@ -176,6 +176,7 @@ repo
 resynthesizes
 RHLF
 Roadmap
+roadmap
 Roush
 russellb
 Saftey

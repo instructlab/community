@@ -1,6 +1,6 @@
 # Welcome to the InstructLab Community repository🔬
 
-The mission of the InstructLab (**L**arge-scale **A**lignment for chat**B**ots) project is to leverage innovative techniques that overcome challenges in Large Language Model (LLM) training. InstructLab uses a taxonomy based curation process, along with synthetic data generation, that allows the open source community to submit contributions to existing LLMs in an accessible way.
+The mission of the InstructLab (**L**arge-scale **A**lignment for chat**B**ots) project is to leverage innovative techniques that overcome challenges in Large Language Model (LLM) training. InstructLab uses a taxonomy based curation process, along with synthetic data generation, that allows the open source community to submit contributions to existing LLMs in an accessible way. You can find more details in article [What is InstructLab?](https://www.redhat.com/en/topics/ai/what-is-instructlab)
 
 InstructLab is made up of several projects that are defined as codebases and services with different release cycles. Collectively, these enable large-model development. This repository shares InstructLab's activity and collaboration details across the community and include the most current information about the project. Related repositories include the following:
 

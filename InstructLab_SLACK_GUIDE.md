@@ -37,7 +37,7 @@ We are an open, welcoming, and inclusive community and expect our members to be 
 
 We take reports of harassment very seriously and will action any reports of inappropriate behavior as quickly as possible.
 
-To learn how to report abuse - and to whom you will be reporting - please see our [InstructLab slack Moderation Guide](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md).
+To learn how to report abuse - and to whom you will be reporting - please see our [InstructLab slack Moderation Guide](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_MODERATION_GUIDE.md#workspace-administrators).
 
 ## Having Trouble Joining?
 

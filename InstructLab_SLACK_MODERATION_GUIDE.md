@@ -34,6 +34,7 @@ At time of writing, our workspace administrators/moderators are as follows:
 * Leslie Hawthorn +
 * Mo McElaney +
 * Máirín Duffy
+* Nathan Weinberg
 * Oleg Silkin
 * Russell Bryant
 

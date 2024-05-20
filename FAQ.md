@@ -129,7 +129,7 @@ InstructLab skills are broken down into two main categories:
 
 - [**Composition skills.**](https://github.com/instructlab/taxonomy/blob/main/docs/SKILLS_GUIDE.md#compositional-skills) Composition or _performative_ skills allow AI models to perform specific tasks or functions. With InstructLab, there are two types of composition skills:
   - [**Freeform compositional skills**](https://github.com/instructlab/taxonomy/blob/main/docs/SKILLS_GUIDE.md#freeform-compositional-skills) are performative skills that do not require additional context. For example, to train an AI model to write a poem, you would provide examples of poems.
-  - [**Grounded compositional skills**](https://github.com/instructlab/community/blob/main/docs/SKILLS_GUIDE.md#grounded-compositional-skills) are performative skills that require additional context. One example is how an AI model reads the value of a cell in a table layout. To create the grounded skill to read a table formatted in Markdown, the additional context might be an example table layout.
+  - [**Grounded compositional skills**](https://github.com/instructlab/taxonomy/blob/main/docs/SKILLS_GUIDE.md#grounded-compositional-skills) are performative skills that require additional context. One example is how an AI model reads the value of a cell in a table layout. To create the grounded skill to read a table formatted in Markdown, the additional context might be an example table layout.
 - **Foundational skills.** Foundational skills are skills like math, reasoning, and coding.
 **Note**: Foundational skills are not currently being accepted.
 

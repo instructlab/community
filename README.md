@@ -31,9 +31,9 @@ The `ilab` tool allows you to interact with the IBM AI model `Merlinite` or `Gra
 
 > **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations. Additionally, you should consider joining the [InstructLab community Slack channel](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md).
 
-1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instructlab/instructlab/blob/main/README.md). The README.md instructs you on how to perform the following:
+1. Navigate to the `ilab` repository and follow the instructions in the [README.md](https://github.com/instructlab/instructlab/blob/main/README.md). The README.md instructs you on how to perform the following:
 
-    a. In the [Getting started](https://github.com/instructlab/instructlab/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM Merlinite-7b (default) AI model. If you run into any issues, you can find many solutions in the [in the CLI repository's discussion board](https://github.com/instructlab/instructlab/discussions).
+    a. In the [Getting started](https://github.com/instructlab/instructlab/blob/main/README.md#-getting-started) section of the README.md file, you can install the `ilab` tool, set up your local environment, and download the IBM Merlinite-7b (default) AI model. If you run into any issues, you can find many solutions in the [in the `ilab` repository's discussion board](https://github.com/instructlab/instructlab/discussions).
 
     b. You can then create your own data sets to feed into and train the model. In the taxonomy project, there are two types of data you can serve to the model: skills and knowledge. There are a few different types of skills and knowledge you can create. For more detailed information on the types, see the Taxonomy [README.md](https://github.com/instructlab/taxonomy/blob/main/README.md#welcome-to-the-instructlab-taxonomy).
 
@@ -45,7 +45,7 @@ The `ilab` tool allows you to interact with the IBM AI model `Merlinite` or `Gra
 
 ### Opening a pull request in the taxonomy repository with your new skills or knowledge
 
-If your contributions improved the model locally, you can contribute your files to the main AI model through the taxonomy repository. For more information see [CONTRIBUTING.md](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#pull-request-review) in the taxonomy repository.
+If your contributions improve the model locally, you can contribute your files to the main AI model through the taxonomy repository. For more information see [CONTRIBUTING.md](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md#pull-request-review) in the taxonomy repository.
 
 1. To contribute your knowledge and skills to the taxonomy repository, follow the documentation in [Contribute knowledge and skills to the taxonomy](https://github.com/instructlab/taxonomy/blob/main/README.md#contribute-knowledge-and-skills-to-the-taxonomy).
 
@@ -67,7 +67,7 @@ To contribute code or documentation, please submit a pull request to the relevan
 
 * For more information about general contribution practices, see the [Contributing](https://github.com/instructlab/community/blob/main/CONTRIBUTING.md) guide.
 * For more information about contributing to the taxonomy repository, see the [Taxonomy's contribution guide](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md).
-* For more information about contributing to the InstructLab CLI repository, see the [InstructLab contribution guide](https://github.com/instructlab/instructlab/blob/main/CONTRIBUTING/CONTRIBUTING.md).
+* For more information about contributing to the InstructLab `ilab` repository, see the [InstructLab contribution guide](https://github.com/instructlab/instructlab/blob/main/CONTRIBUTING/CONTRIBUTING.md).
 
 ### Contributor roles
 

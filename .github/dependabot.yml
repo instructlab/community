@@ -19,3 +19,7 @@ updates:
     directory: "/tools/maintainers"
     schedule:
       interval: "daily"
+  - package-ecosystem: "pip"
+    directory: "/tools/triage"
+    schedule:
+      interval: "daily"

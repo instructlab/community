@@ -87,7 +87,7 @@ The InstructLab project seeks to democratize the contribution to AI and LLMs thr
 
 You can begin your contribution journey by reading over the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide and joining the [Community Slack Channel](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md).
 
-When you're ready to start contributing, you can follow the [Getting started](https://github.com/instruct-lab/community/blob/main/README.md#getting-started-with-the-instructlab-project-workstreams) guide. This guide shows you how to
+When you're ready to start contributing, you can follow the [Getting Started](https://github.com/instruct-lab/community/blob/main/README.md#getting-started-with-the-instructlab-project-workstreams) guide. This guide shows you how to
 
 - Install the `ilab` CLI.
 - Deploy the LLM locally.
@@ -107,11 +107,11 @@ When contributors write an addition to the existing taxonomy, make a pull reques
 
 ### What large language models (LLMs) am I contributing to through the InstructLab project?
 
-Contributions to the InstructLab project fine-tune Merlinite-7b or Granite-7b, an open source licensed LLM. Contributors have direct access to the model they are improving through [Hugging Face](https://huggingface.co/instructlab).
+Contributions to the InstructLab project include fine-tuning Merlinite-7b or Granite-7b, an open-source licensed LLM. Contributors have direct access to the model they are improving through [Hugging Face](https://huggingface.co/instructlab).
 
 ### What is Merlinite-7b?
 
-Merlinite-7b is a Mistral-7b derivative model fine tuned with the LAB (**L**arge-scale **A**lignment for chat**B**ots) method using Mixtral-8x7b-Instruct as a teacher model.
+Merlinite-7b is a Mistral-7b derivative model fine-tuned with the LAB (**L**arge-scale **A**lignment for chat**B**ots) method using Mixtral-8x7b-Instruct as a teacher model.
 
 More information about the Merlinite-7b can be found on the [Hugging Face project page](https://huggingface.co/instructlab/merlinite-7b-lab).
 
@@ -123,21 +123,21 @@ More information about the Granite-7b can be found on the [Hugging Face project 
 
 ### What is a “skill”?
 
-In the context of InstructLab, a [_skill_](https://github.com/instruct-lab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions) is a capability domain submitted by a contributor intending to train the AI model on the submitted information. In other words, when you submit a skill, you teach the AI model _how to do something_.
+In the context of InstructLab, a [_skill_](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-skill-contributions) is a capability domain submitted by a contributor intending to train the AI model on the submitted information. In other words, when you submit a skill, you teach the AI model _how to do something_.
 
 InstructLab skills are broken down into two main categories:
 
-- [**Composition skills.**](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#compositional-skills) Composition or _performative_ skills allow AI models to perform specific tasks or functions. With InstructLab, there are two types of composition skills:
-  - [**Freeform compositional skills**](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#freeform-compositional-skills) are performative skills that do not require additional context. For example, to train an AI model to write a poem, you would provide examples of poems.
-  - [**Grounded compositional skills**](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#grounded-compositional-skills) are performative skills that require additional context. One example is how an AI model reads the value of a cell in a table layout. To create the grounded skill to read a table formatted in Markdown, the additional context might be an example table layout.
+- [**Composition skills.**](https://github.com/instructlab/taxonomy/blob/main/docs/SKILLS_GUIDE.md#compositional-skills) Composition or _performative_ skills allow AI models to perform specific tasks or functions. With InstructLab, there are two types of composition skills:
+  - [**Freeform compositional skills**](https://github.com/instructlab/taxonomy/blob/main/docs/SKILLS_GUIDE.md#freeform-compositional-skills) are performative skills that do not require additional context. For example, to train an AI model to write a poem, you would provide examples of poems.
+  - [**Grounded compositional skills**](https://github.com/instructlab/taxonomy/blob/main/docs/SKILLS_GUIDE.md#grounded-compositional-skills) are performative skills that require additional context. One example is how an AI model reads the value of a cell in a table layout. To create the grounded skill to read a table formatted in Markdown, the additional context might be an example table layout.
 - **Foundational skills.** Foundational skills are skills like math, reasoning, and coding.
 **Note**: Foundational skills are not currently being accepted.
 
-Skills are written in a YAML file and submitted to the InstructLab upstream project for review. See the [Skills: YAML examples](https://github.com/instruct-lab/taxonomy/blob/main/README.md#skills-yaml-examples) for different types of examples.
+Skills are written in a YAML file and submitted to the InstructLab upstream project for review. See the [Skills: YAML examples](https://github.com/instructlab/taxonomy/blob/main/README.md#skills-yaml-examples) for different types of examples.
 
 ### What is “knowledge”?
 
-[_Knowledge_](https://github.com/instruct-lab/taxonomy/blob/main/README.md#getting-started-with-knowledge-contributions) consists of data and facts. When creating knowledge for an AI model, you are providing it with additional data and information to answer questions more accurately. Whereas skills are the information that trains an AI model on how to do something, knowledge is based on the AI model’s ability to answer questions that involve facts, data, or references.
+[_Knowledge_](https://github.com/instructlab/taxonomy/blob/main/README.md#getting-started-with-knowledge-contributions) consists of data and facts. When creating knowledge for an AI model, you are providing it with additional data and information to answer questions more accurately. Whereas skills are the information that trains an AI model on how to do something, knowledge is based on the AI model’s ability to answer questions that involve facts, data, or references.
 
 Like skills, knowledge submissions are submitted in YAML format to the InstructLab upstream project for review. See the [Knowledge: YAML examples](https://github.com/instruct-lab/taxonomy/blob/main/README.md#knowledge-yaml-examples) for different types of examples.
 
@@ -147,13 +147,13 @@ Currently, InstructLab only accepts compositional (_freeform_ and _grounded_) sk
 
 Foundational skills are not currently being accepted.
 
-For a list of accepted skills, see [Accepted Skills](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#accepted-skills).
+For a list of accepted skills, see [Accepted Skills](https://github.com/instructlab/taxonomy/blob/main/docs/SKILLS_GUIDE.md#accepted-skills).
 
 ### What are the acceptance criteria for a skills submission?
 
-Skills should seek to add capabilities or a knowledge domain to the AI model; in other words, a skills submission should teach the AI model _how to do something_ instead of providing information _about something_. A good skills submission might address something that the AI model does poorly and seek to enhance its ability to execute that capability better. For a list of commonly accepted skills, see [Accepted Skills](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#accepted-skills).
+Skills should seek to add capabilities or a knowledge domain to the AI model; in other words, a skills submission should teach the AI model _how to do something_ instead of providing information _about something_. A good skills submission might address something that the AI model does poorly and seek to enhance its ability to execute that capability better. For a list of commonly accepted skills, see [Accepted Skills](https://github.com/instructlab/taxonomy/blob/main/docs/SKILLS_GUIDE.md#accepted-skills).
 
-Skills submissions that are unlikely to be accepted include submitting a knowledge request instead of a skills request, submitting a skill that the model already does well, submitting a controversial skill, or submitting skills that do not execute pure math or coding. For a list of skills to avoid submitting, see [Skills to Avoid](https://github.com/instruct-lab/community/blob/main/docs/SKILLS_GUIDE.md#skills-to-avoid).
+Skills submissions that are unlikely to be accepted include submitting a knowledge request instead of a skills request, submitting a skill that the model already does well, submitting a controversial skill, or submitting skills that do not execute pure math or coding. For a list of skills to avoid submitting, see [Skills to Avoid](https://github.com/instructlab/taxonomy/blob/main/docs/SKILLS_GUIDE.md#skills-to-avoid).
 
 ### What are the acceptance criteria for a knowledge submission?
 

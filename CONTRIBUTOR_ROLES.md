@@ -142,7 +142,7 @@ As a project Maintainer, you have the following responsibilities and privileges:
 
 Life priorities, interests, and passions can change. Contributors can retire and move to _emeritus Maintainers_. If a contributor needs to step down from their current role, they should inform the appropriate project Maintainers.  No vote is required for a contributor to remove themselves, and any project Maintainer can approve the PR. Maintainers who step down become emeritus Maintainers.
 
-If a contributor has not been performing the duties of their role for a consecutive period of 12 months, they can be removed by the appropriate project's Maintainers. Maintainers will make reasonable efforts to contact the absent contributor. If the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md) recommends that a contributor be removed from their role, this will also be carried out by the project Maintainers.  
+If a contributor has not been performing the duties of their role for a consecutive period of 12 months, they can be removed by the appropriate project's Maintainers. Maintainers will make reasonable efforts to contact the absent contributor. If the [Code of Conduct Committee][committee] recommends that a contributor be removed from their role, this will also be carried out by the project Maintainers.  
 
 If an emeritus Maintainer or other retired contributor wants to regain an active role, they can do so by renewing their contributions, after which they can be re-instated by a decision of the appropriate project's Maintainers.
 
@@ -153,3 +153,5 @@ Changes to contributor roles must be approved by a vote of the Oversight Committ
 ## Acknowledgements
 
 Contributor roles and responsibilities were written based on various CNCF projects membership and the [Contributor Ladder Template](https://github.com/cncf/project-template/blob/main/CONTRIBUTOR_LADDER.md).
+
+[committee]: https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT_COMMITTEE.md

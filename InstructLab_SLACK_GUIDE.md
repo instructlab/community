@@ -49,5 +49,7 @@ TODO: Update with email address to get help once these are set up.
 
 InstructLab is an open source project and we value defaulting to open in all of our community communications. There are some cases where discussions must happen in private. For the sake of transparency, we are documenting these private channels and what they are used for.
 
-- `#code-of-conduct-committee` Space for the InstructLab [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md) to discuss any reports of harassment or other violations of the project Code of Conduct and how to respond to them.
+- `#code-of-conduct-committee` Space for the InstructLab [Code of Conduct Committee][committee] to discuss any reports of harassment or other violations of the project Code of Conduct and how to respond to them.
 - `#mods` Space for the InstructLab [Workspace Administrators](https://github.com/instructlab/community/blob/main/InstructLabSlackModerationGuide.md#workspace-administrators) to confer privately only when necessary. We default to open and hold each other accountable to do so.
+
+[committee]: https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT_COMMITTEE.md

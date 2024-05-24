@@ -38,7 +38,7 @@ At time of writing, our workspace administrators/moderators are as follows:
 * Oleg Silkin
 * Russell Bryant
 
-\+ Members of the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md)
+\+ Members of the [Code of Conduct Committee][committee]
 
 ## How We Moderate
 
@@ -74,3 +74,5 @@ If a user is a repeat offender, after being warned, their account can be [deacti
 ### Deactivating a member's account
 
 ![image](https://github.com/instructlab/community/assets/615883/456df717-9a76-4464-be0c-0ee50d8cc8b4)
+
+[committee]: https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT_COMMITTEE.md

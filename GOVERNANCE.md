@@ -43,7 +43,7 @@ The Oversight Committee is responsible for the following duties:
 * Resolving escalated project decisions when the team responsible is blocked
 * Managing the InstructLab brand
 * Controlling access to InstructLab assets such as source repositories and hosting
-* Appointing members to the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md)
+* Appointing members to the [Code of Conduct Committee][committee]
 * Deciding what projects are part of the InstructLab project
 * Overseeing the resolution and disclosure of security issues
 * Managing financial decisions related to the project
@@ -94,7 +94,7 @@ Many of the day-to-day project maintenance can be done through the lazy consensu
 
 The secondary decision-making process is done by voting. The following items are examples that must be called to a vote and conducted by the appropriate body:
 
-* Appointing or removing a member of the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md) (supermajority of the Oversight Committee)
+* Appointing or removing a member of the [Code of Conduct Committee][committee] (supermajority of the Oversight Committee)
 * Carrying out [Code of Conduct](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md) decisions requiring severe censure (majority of the Code of Conduct committee)
 * Removing a [Maintainer](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) for any reason other than inactivity (supermajority of the Oversight Committee)
 * Non-trivial changes to the governance (this document) (supermajority of the Oversight Committee)
@@ -105,11 +105,11 @@ Other decisions may be called out and put up for decision on the InstructLab [co
 
 ## Code of Conduct
 
-InstructLab's [Code of Conduct](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md) is enforced by the [Code of Conduct Committee (CoCC)](https://github.com/instructlab/community/blob/main/COCC.md). This committee will be appointed and removed by the Oversight Committee using a supermajority vote.
+InstructLab's [Code of Conduct](https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT.md) is enforced by the [Code of Conduct Committee (CoCC)][committee]. This committee will be appointed and removed by the Oversight Committee using a supermajority vote.
 
 The CoCC is responsible for investigating, evaluating, and recommending remedies for substantiated Code of Conduct incidents to the appropriate body. The CoCC will judge possible violations around principles of restorative justice rather than punishment. All teams within InstructLab are obligated to support the CoCC's recommendations on remedies.
 
-Current CoCC members can be found on the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md) page.
+Current CoCC members can be found on the [Code of Conduct Committee][committee] page.
 
 Possible Code of Conduct violations should be reported to the Code of Conduct Committee via the [Code of Conduct email alias](https://github.com/instructlab/community/blob/main/Collaboration.md#email-lists).
 
@@ -126,3 +126,5 @@ The following licenses and contributor agreements will be used for InstructLab p
 This governance may be modified by a supermajority vote of the Oversight Committee.
 
 Trivial changes that do not introduce policy changes may be approved by two members of the Oversight Committee.
+
+[committee]: https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT_COMMITTEE.md

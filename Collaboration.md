@@ -57,7 +57,7 @@ To join a list, click the list name in the table below to visit the list subscri
 Name | Topic(s)
 -- | --
 [announce](https://groups.google.com/a/instructlab.ai/g/announce) | announcements only list for news about releases and other project wide updates; very low traffic
-[coc](mailto:coc@instructlab.ai) | email alias for the [Code of Conduct Committee](https://github.com/instructlab/community/blob/main/COCC.md), used to report violations privately to the committee
+[coc](mailto:coc@instructlab.ai) | email alias for the [Code of Conduct Committee][committee], used to report violations privately to the committee
 [community](https://groups.google.com/a/instructlab.ai/g/community) | community discussions, such as sharing a tutorial link or getting help with a meetup talk
 [dev](https://groups.google.com/a/instructlab.ai/g/dev) | developer discussions, both front and backend
 [maintainers](https://groups.google.com/a/instructlab.ai/g/maintainers) | maintainer only discussions that must be private, to be used very sparingly
@@ -109,3 +109,5 @@ Subscribe to the [InstructLab YouTube channel](https://www.youtube.com/@Instruct
 Have you made a video tutorial, how to document, or other content that would be helpful to folks involved in the InstructLab community? Thank you!
 
 We would love to help you share it. Please [file an issue in the Community Repo](https://github.com/instructlab/community/issues) or send a note to the [community email](https://groups.google.com/a/instructlab.ai/g/community) list to let us know about what you have created.
+
+[committee]: https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT_COMMITTEE.md

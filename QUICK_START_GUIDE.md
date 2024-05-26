@@ -11,57 +11,92 @@
 This Quick Start Guide will help you get InstructLab
 working on your laptop or machine and is expected to take approximately XX minutes. If you'd like more details on this process, see [the Taxonomy README](https://github.com/instructlab/taxonomy/blob/main/README.md) or if you'd like more information on the `cli`, please see [the ilab CLI README](https://github.com/instructlab/instructlab/blob/main/README.md)
 
-### Install `ilab`
-
-## 📋 Requirements
-
-- **🍎 Apple M1/M2/M3 Mac or 🐧 Linux system** (tested on Fedora). We anticipate support for more operating systems in the future.
-- C++ compiler
-- Python 3.9+
-- Approximately 60GB disk space (entire process)
-
 ## ✅ Getting started
 
 ### 🧰 Installing `ilab`
 
-1. If you are on Fedora Linux, install C++, Python 3.9+, and other necessary tools by running the following command:
+1. When installing on Fedora Linux, install C++, Python 3.9+, and other necessary tools by running the following command:
 
-    ```bash
-    sudo dnf install g++ gcc make pip python3 python3-devel python3-GitPython
-    ```
+   ```shell
+   sudo dnf install g++ gcc make pip python3 python3-devel python3-GitPython
+   ```
 
-   Optional: If g++ is not found, try 'gcc-c++' by running the following command:
+   Optional: If `g++` is not found, try `gcc-c++` by running the following command:
 
-     ```bash
-     sudo dnf install gcc-c++ gcc make pip python3 python3-devel python3-GitPython
-     ```
+   ```shell
+   sudo dnf install gcc-c++ gcc make pip python3 python3-devel python3-GitPython
+   ```
 
-2. Create a new directory called `instructlab` to store the files the `ilab` CLI needs when running and CD into the directory by running the following command:
+   If you are running on macOS, this installation is not necessary and you can begin your process with the following step.  
 
-   ```bash
+2. Create a new directory called `instructlab` to store the files the `ilab` CLI needs when running and `cd` into the directory by running the following command:
+
+   ```shell
    mkdir instructlab
    cd instructlab
    ```
 
-   > **NOTE:** The following steps in this document use [Python venv](https://docs.python.org/3/library/venv.html) for virtual environments. However, if you use another tool such as [pyenv](https://github.com/pyenv/pyenv) or [Miniforge](https://github.com/conda-forge/miniforge) for managing Python environments on your machine continue to use that tool instead. Otherwise, you may have issues with packages that are installed but not found in `venv`.
+   > **NOTE:** The following steps in this document use [Python venv](https://docs.python.org/3/library/venv.html) for virtual environments. However, if you use another tool such as [pyenv](https://github.com/pyenv/pyenv) or [Conda Miniforge](https://github.com/conda-forge/miniforge) for managing Python environments on your machine continue to use that tool instead. Otherwise, you may have issues with packages that are installed but not found in `venv`.
 
 3. Install and activate your `venv` environment by running the following command:
 
-   ```bash
-   python3 -m venv venv
+   > **NOTE**: ⏳ `pip install` may take some time, depending on your internet connection. In case installation fails with error ``unsupported instruction `vpdpbusd'``, append `-C cmake.args="-DLLAMA_NATIVE=off"` to `pip install` command.
+
+   See [the GPU acceleration documentation](./docs/gpu-acceleration.md) for how to
+   to enable hardware acceleration for inference and training on AMD ROCm,
+   Apple Metal Performance Shaders (MPS), and Nvidia CUDA.
+
+   #### To install with no GPU acceleration and PyTorch without CUDA bindings
+
+   ```shell
+   python3 -m venv --upgrade-deps venv
    source venv/bin/activate
-   pip install https://github.com/instructlab/instructlab.git@stable
+   (venv) $ pip cache remove llama_cpp_python
+   (venv) $ pip install git+https://github.com/instructlab/instructlab.git@stable --extra-index-url=https://download.pytorch.org/whl/cpu
    ```
 
-   > **NOTE**: ⏳ `pip install` may take some time, depending on your internet connection.
+   #### To install with AMD ROCm
+
+   ```shell
+   python3 -m venv --upgrade-deps venv
+   source venv/bin/activate
+   (venv) $ pip cache remove llama_cpp_python
+   (venv) $ pip install git+https://github.com/instructlab/instructlab.git@stable \
+       --extra-index-url https://download.pytorch.org/whl/rocm6.0 \
+       -C cmake.args="-DLLAMA_HIPBLAS=on" \
+       -C cmake.args="-DAMDGPU_TARGETS=all" \
+       -C cmake.args="-DCMAKE_C_COMPILER=/opt/rocm/llvm/bin/clang" \
+       -C cmake.args="-DCMAKE_CXX_COMPILER=/opt/rocm/llvm/bin/clang++" \
+       -C cmake.args="-DCMAKE_PREFIX_PATH=/opt/rocm"
+   ```
+
+   On Fedora 40+, use `-DCMAKE_C_COMPILER=clang-17` and `-DCMAKE_CXX_COMPILER=clang++-17`.
+
+   #### To install with Apple Metal on M1/M2/M3 Mac
+
+   ```shell
+   python3 -m venv --upgrade-deps venv
+   source venv/bin/activate
+   (venv) $ pip cache remove llama_cpp_python
+   (venv) $ pip install git+https://github.com/instructlab/instructlab.git@stable -C cmake.args="-DLLAMA_METAL=on"
+   ```
+
+   #### To install with Nvidia CUDA
+
+   ```shell
+   python3 -m venv --upgrade-deps venv
+   source venv/bin/activate
+   (venv) $ pip cache remove llama_cpp_python
+   (venv) $ pip install git+https://github.com/instructlab/instructlab.git@stable -C cmake.args="-DLLAMA_CUBLAS=on"
+   ```
 
 4. From your `venv` environment, verify `ilab` is installed correctly, by running the `ilab` command.
 
-   ```bash
+   ```shell
    ilab
    ```
 
-#### Example output
+   #### Example output
 
    ```shell
    (venv) $ ilab
@@ -69,21 +104,22 @@ working on your laptop or machine and is expected to take approximately XX minut
 
    CLI for interacting with InstructLab.
 
-   If this is your first time running `ilab`, it's best to start with `ilab init`
-   to create the environment
+   If this is your first time running InstructLab, it's best to start with `ilab init` to create the environment.
 
    Options:
    --config PATH  Path to a configuration file.  [default: config.yaml]
+   --version      Show the version and exit.
    --help         Show this message and exit.
 
    Commands:
    chat      Run a chat using the modified model
-   check     Check that taxonomy is valid
+   check     (Deprecated) Check that taxonomy is valid
    convert   Converts model to GGUF
+   diff      Lists taxonomy files that have changed since <taxonomy-base>...
    download  Download the model(s) to train
    generate  Generates synthetic data to enhance your example data
    init      Initializes environment for InstructLab
-   list      Lists taxonomy files that have changed since a reference commit (default origin/main)
+   list      (Deprecated) Lists taxonomy files that have changed since <taxonomy-base>.
    serve     Start a local server
    test      Runs basic test to ensure model correctness
    train     Takes synthetic data generated locally with `ilab generate`...
@@ -91,21 +127,70 @@ working on your laptop or machine and is expected to take approximately XX minut
 
    > **IMPORTANT:** every `ilab` command needs to be run from within your Python virtual environment. To enter the Python environment, run the following command:
 
-   ```bash
+   ```shell
    source venv/bin/activate
+   ```
+
+5. You may optionally enable tab completion for the `ilab` command.
+
+   #### Bash (version 4.4 or newer)
+
+   Enable tab completion in `bash` with the following command:
+
+   ```sh
+   eval "$(_ILAB_COMPLETE=bash_source ilab)"
+   ```
+
+   To have this enabled automatically every time you open a new shell,
+   you can save the completion script and source it from `~/.bashrc`:
+
+   ```sh
+   _ILAB_COMPLETE=bash_source ilab > ~/.ilab-complete.bash
+   echo ". ~/.ilab-complete.bash" >> ~/.bashrc
+   ```
+
+   #### Zsh
+
+   Enable tab completion in `zsh` with the following command:
+
+   ```sh
+   eval "$(_ILAB_COMPLETE=zsh_source ilab)"
+   ```
+
+   To have this enabled automatically every time you open a new shell,
+   you can save the completion script and source it from `~/.zshrc`:
+
+   ```sh
+   _ILAB_COMPLETE=zsh_source ilab > ~/.ilab-complete.zsh
+   echo ". ~/.ilab-complete.zsh" >> ~/.zshrc
+   ```
+
+   #### Fish
+
+   Enable tab completion in `fish` with the following command:
+
+   ```sh
+   _ILAB_COMPLETE=fish_source ilab | source
+   ```
+
+   To have this enabled automatically every time you open a new shell,
+   you can save the completion script and source it from `~/.bashrc`:
+
+   ```sh
+   _ILAB_COMPLETE=fish_source ilab > ~/.config/fish/completions/ilab.fish
    ```
 
 ### 🏗️ Initialize `ilab`
 
 1. Initialize `ilab` by running the following command:
 
-   ```bash
+   ```shell
    ilab init
    ```
 
-   Example output:
+   #### Example output
 
-   ```bash
+   ```shell
    Welcome to InstructLab CLI. This guide will help you set up your environment.
    Please provide the following values to initiate the environment [press Enter for defaults]:
    Path to taxonomy repo [taxonomy]: <ENTER>
@@ -113,41 +198,51 @@ working on your laptop or machine and is expected to take approximately XX minut
 
 2. When prompted by the interface, press **Enter** to add a new default `config.yaml` file.
 
-3. When prompted, clone the `git@github.com:instructlab/taxonomy.git` repository into the current directory by typing **y**.
+3. When prompted, clone the `https://github.com/instructlab/taxonomy.git` repository into the current directory by typing **y**.
 
    **Optional**: If you want to point to an existing local clone of the `taxonomy` repository, you can pass the path interactively or alternatively with the `--taxonomy-path` flag.
 
-   Example output:
+   #### Example output
 
-   ```bash
+   ```shell
    (venv) $ ilab init
    Welcome to InstructLab CLI. This guide will help you set up your environment.
    Please provide the following values to initiate the environment [press Enter for defaults]:
    Path to taxonomy repo [taxonomy]: <ENTER>
-   `taxonomy` seems to not exists or is empty. Should I clone git@github.com:instructlab/taxonomy.git for you? [y/N]: y
-   Cloning git@github.com:instructlab/taxonomy.git...
+   `taxonomy` seems to not exists or is empty. Should I clone https://github.com/instructlab/taxonomy.git for you? [y/N]: y
+   Cloning https://github.com/instructlab/taxonomy.git...
    Generating `config.yaml` in the current directory...
-   Initialization completed successfully, you're ready to start using `lab`. Enjoy!
+   Initialization completed successfully, you're ready to start using `ilab`. Enjoy!
    ```
 
    `ilab` will use the default configuration file unless otherwise specified. You can override this behavior with the `--config` parameter for any `ilab` command.
+
+   The taxonomy repository uses [submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) to incorporate the [taxonomy schema](https://github.com/instructlab/schema.git).
+   When the `ilab init` command clones the taxonomy repository, it automatically handles the submodules.
+   If you clone the taxonomy repository yourself, be sure to use the [`--recurse-submodules`](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---recurse-submodulesltpathspecgt) option on the `git clone` command and the `git pull` command when pulling updates from the remote repository.
+   For example:
+
+   ```shell
+   git clone --recurse-submodules https://github.com/instructlab/taxonomy.git
+   git pull --recurse-submodules
+   ```
 
 ### 📥 Download the model
 
 - Run the `ilab download`command.
 
-  ```bash
+  ```shell
   ilab download
   ```
 
-  `ilab download` will download a pre-trained [model](https://huggingface.co/ibm/) (~4.4G) from HuggingFace and store it in a `models` directory:
+  `ilab download` will download a pre-trained [model](https://huggingface.co/instructlab/) (~4.4G) from HuggingFace and store it in a `models` directory:
 
-  ```bash
+  ```shell
   (venv) $ ilab download
-  Downloading model from ibm/merlinite-7b-GGUF@main to models...
+  Downloading model from instructlab/merlinite-7b-lab-GGUF@main to models...
   (venv) $ ls models
-  merlinite-7b-Q4_K_M.gguf
-   ```
+  merlinite-7b-lab-Q4_K_M.gguf
+  ```
 
   > **NOTE** ⏳ This command can take few minutes or immediately depending on your internet connection or model is cached. If you have issues connecting to Hugging Face, refer to the [Hugging Face discussion forum](https://discuss.huggingface.co/) for more details.
 
@@ -155,31 +250,47 @@ working on your laptop or machine and is expected to take approximately XX minut
 
 - Serve the model by running the following command:
 
-   ```bash
+   ```shell
    ilab serve
    ```
 
    Once the model is served and ready, you'll see the following output:
 
-   ```bash
+   ```shell
    (venv) $ ilab serve
-   INFO 2024-03-02 02:21:11,352 lab.py:201 Using model 'models/ggml-merlinite-7b-0302-Q4_K_M.gguf' with -1 gpu-layers and 4096 max context size.
+   INFO 2024-03-02 02:21:11,352 lab.py:201 Using model 'models/ggml-merlinite-7b-lab-Q4_K_M.gguf' with -1 gpu-layers and 4096 max context size.
    Starting server process
    After application startup complete see http://127.0.0.1:8000/docs for API.
    Press CTRL+C to shut down the server.
    ```
 
-   > **NOTE:** If multiple `ilab` clients try to connect to the same ilab server at the same time, the 1st will connect to the server while the others will start their own temporary server. This will require additional resources on the host machine.
+   > **NOTE:** If multiple `ilab` clients try to connect to the same InstructLab server at the same time, the 1st will connect to the server while the others will start their own temporary server. This will require additional resources on the host machine.
 
-### 📣 Chat with the model
+### 📣 Chat with the model (Optional)
 
 Because you're serving the model in one terminal window, you will have to create a new window and re-activate your Python virtual environment to run `ilab chat` command:
 
-   ```bash
-   source venv/bin/activate
-   ilab chat
-   ```
+```shell
+source venv/bin/activate
+ilab chat
+```
 
+Before you start adding new skills and knowledge to your model, you can check its baseline performance by asking it a question such as `what is the capital of Canada?`.
+
+> **NOTE:** the model needs to be trained with the generated synthetic data to use the new skills or knowledge
+
+```shell
+(venv) $ ilab chat
+╭────────────────────────────────────────────────────────────────────────────────────────────────────────────────── system ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ Welcome to InstructLab Chat w/ GGML-MERLINITE-7B-lab-Q4_K_M (type /h for help)                                                                                                                                                                    │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+>>b> what is the capital of Canada                                                                                                                                                                                                 [S][default]
+╭────────────────────────────────────────────────────────────────────────────────────────────────────── ggml-merlinite-7b-lab-Q4_K_M ───────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ The capital city of Canada is Ottawa. It is located in the province of Ontario, on the southern banks of the Ottawa River in the eastern portion of southern Ontario. The city serves as the political center for Canada, as it is home to │
+│ Parliament Hill, which houses the House of Commons, Senate, Supreme Court, and Cabinet of Canada. Ottawa has a rich history and cultural significance, making it an essential part of Canada's identity.                                   │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── elapsed 12.008 seconds ─╯
+>>>                                                                                                                                                                                                                               [S][default]
+```
 ### 🏋️ Training and interacting with the model
 
 Now that you have a working environment, you should see how we need to give it new knowledge.

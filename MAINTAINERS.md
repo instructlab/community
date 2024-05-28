@@ -30,6 +30,7 @@ Team which has full maintainer access to the CLI repository
 - [`joesepi`](https://github.com/joesepi)
 - [`kelbrown20`](https://github.com/kelbrown20)
 - [`khaledsulayman`](https://github.com/khaledsulayman)
+- [`leseb`](https://github.com/leseb)
 - [`mairin`](https://github.com/mairin)
 - [`markstur`](https://github.com/markstur)
 - [`mrutkows`](https://github.com/mrutkows)
@@ -37,6 +38,7 @@ Team which has full maintainer access to the CLI repository
 - [`russellb`](https://github.com/russellb)
 - [`soltysh`](https://github.com/soltysh)
 - [`spzala`](https://github.com/spzala)
+- [`tiran`](https://github.com/tiran)
 - [`xukai92`](https://github.com/xukai92)
 
 ### CLI Triagers

@@ -50,7 +50,9 @@ working on your laptop or machine and is expected to take approximately XX minut
    ```bash
    python3 -m venv venv
    source venv/bin/activate
-   pip install https://github.com/instructlab/instructlab.git@stable
+   pip install git+https://github.com/instructlab/instructlab.git@stable
+   # or
+   pip install instructlab
    ```
 
    > **NOTE**: ⏳ `pip install` may take some time, depending on your internet connection.

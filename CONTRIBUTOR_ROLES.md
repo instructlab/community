@@ -5,11 +5,11 @@ InstructLab is made up of several projects that are defined as codebases and ser
 * [`ilab` command-line interface (CLI) tool](https://github.com/instructlab/instructlab). This repository is responsible for the the `ilab` CLI tool.
 * [taxonomy tree](https://github.com/instructlab/taxonomy). This repository is responsible for the taxonomy tree that allows you to create models tuned with your data.
 
-This document outlines a core number of contributor roles for InstructLab projects, such as _Member_, _Triager_, _Reviewer_, and _Maintainer_. In the future, an _Oversight Committee_ will be formed, which will serve to supervise the overall InstructLab project and its health. Using transparent criteria, the journey between roles is based on individual participation.
+This document outlines a core number of contributor roles for InstructLab projects, such as _Member_, _Triager_, and _Maintainer_. In the future, an _Oversight Committee_ will be formed, which will serve to supervise the overall InstructLab project and its health. Using transparent criteria, the journey between roles is based on individual participation.
 
 Criteria will be reevaluated periodically to ensure that we can meet the needs of each project with the resources available to contribute. Each individual project may add to or change these criteria as necessary. Additional roles may also be added as required. Additional roles will be detailed in a _Contributor Roles_ file in the respective repository when necessary.
 
-Contributor roles are per-project. For example, being a Reviewer for the `ilab` CLI repository does not guarantee that you will have Reviewer rights for the taxonomy repository. Where applicable for InstructLab overall, contributor status is equal to the highest status that they have on any project.
+Contributor roles are per-project. For example, being a Maintainer for the `ilab` CLI repository does not guarantee that you will have Maintainer rights for the taxonomy repository. Where applicable for InstructLab overall, contributor status is equal to the highest status that they have on any project.
 
 InstructLab welcomes new contributors. Not all contributors are able to provide sustained contribution, but each contribution is welcome. Established contributors are expected to demonstrate their adherence to the criteria in this document, familiarity with project organization, roles, policies, etc., and technical and/or writing ability. Role-specific expectations, responsibilities, and requirements are explained below.
 
@@ -19,7 +19,7 @@ The following table provides information about the current roles available to th
 
 | Role       | Responsibilities                             | Requirements                                                  | Defined by                    |
 |------------|----------------------------------------------|---------------------------------------------------------------|-------------------------------|
-| Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 Maintainers or Reviewers            | InstructLab GitHub org member        |
+| Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 Maintainers         | InstructLab GitHub org member |
 | Triager    | Triaging issues and PRs                      | History of issue and PR triage and sponsored by 2 Maintainers           | InstructLab GitHub Triage team member        |
 | Maintainer | Sets direction and priorities for a project | Demonstrated responsibility and excellent technical judgement. Nominated and approved by Maintainers team. | [MAINTAINERS file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) Maintainer entry  |
 
@@ -56,9 +56,6 @@ As a project Member, you have the following responsibilities and privileges:
   * You provide code that consistently pass tests.
   * You consistently address bugs or issues that are discovered after code has been accepted.
 
-**Note:** Members who frequently contribute code are expected to proactively
-perform code reviews and work towards becoming a Reviewer for the project that they are active in.
-
 ### Triager
 
 Triagers are active contributors in the community through issue and pull request triage. Triagers are expected to remain active in this task.
@@ -74,7 +71,7 @@ To become a project Triager, you must meet the following requirements:
   * Authoring or reviewing PRs on GitHub.
   * Contributing to community discussions (e.g. meetings, Slack).
 
-* You have been sponsored by two Maintainers or Reviewers.
+* You have been sponsored by two Maintainers.
 
 Any person who meets the requirements may be nominated by a contributor, including themselves. To nominate a contributor or yourself:
 
@@ -126,7 +123,7 @@ As a project Maintainer, you have the following responsibilities and privileges:
 * You make and approve technical design decisions.
 * You set technical direction and priorities.
 * You define milestones and releases.
-* You mentor and guide contributors to the project.
+* You mentor and guide contributors to the project, including mentoring and sponsoring potential Triager and Maintainer candidates.
 * You ensure the continued health of the project.
 * You are responsive to review requests.
 * You review assigned PRs that are related to your area of expertise.

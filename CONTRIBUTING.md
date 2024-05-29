@@ -10,7 +10,7 @@ The following is a set of guidelines for contributing. These are just guidelines
 
 This project adheres to a [Code of Conduct](./CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
-Please report unacceptable behavior to one of the Code of Conduct [Committee members](./COCC.md).
+Please report unacceptable behavior to one of the Code of Conduct [Committee members][committee].
 
 ### Related repositories
 
@@ -142,3 +142,5 @@ The following resources include additional information about each repository, su
 * [Taxonomy README.md](https://github.com/instructlab/taxonomy/blob/main/README.md). This resource provides information about the taxonomy repository, including getting started, YAML examples for skills and knowledge pull requests, how to contribute, etc.
 
 * [Taxonomy CONTRIBUTING.md](https://github.com/instructlab/taxonomy/blob/main/CONTRIBUTING.md). This resource contains information and best practices for contributing to the taxonomy repository.
+
+[committee]: https://github.com/instructlab/community/blob/main/CODE_OF_CONDUCT_COMMITTEE.md

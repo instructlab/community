@@ -17,6 +17,10 @@ The goals of this open source community includes the following:
 * Grow an ecosystem of contribution driven open models
 * Establish deployable patterns, practices, and evidence for sophisticated use cases.
 
+## Project Communication Channels
+
+There are many ways to engage with InstructLab project maintainers and community members outside of GitHub. You can find all of these, including timing for our community meetings and office hours, on our [Collaboration page](https://github.com/instructlab/community/blob/main/Collaboration.md).
+
 ## Getting Started with the InstructLab Project workstreams🥼
 
 InstructLab (**L**arge-scale **A**lignment for chat**B**ots) is an open source initiative by Red Hat and IBM. It provides a platform for easy engagement with Large Language Models (LLM) by using the `ilab` command-line interface (CLI) tool. Users can augment the LLM's capabilities by submitting the skills and knowledge that they have tested to the project’s taxonomy repository on GitHub by creating a pull request.

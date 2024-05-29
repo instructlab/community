@@ -7,7 +7,7 @@ InstructLab is made up of several projects that are defined as codebases and ser
 
 This document outlines a core number of contributor roles for InstructLab projects, such as _Member_, _Triager_, and _Maintainer_. An _Oversight Committee_ also serves to supervise the overall InstructLab project and its health. Using transparent criteria, the journey between roles is based on individual participation.
 
-Criteria will be reevaluated periodically to ensure that we can meet the needs of each project with the resources available to contribute. Each individual project may add to or change these criteria as necessary. Additional roles may also be added as required. Additional roles will be detailed in a _Contributor Roles_ file in the respective repository when necessary.
+Criteria will be reevaluated periodically to ensure that we can meet the needs of each project with the resources available to contribute. Each individual project may add to or change these criteria as necessary. Additional roles may also be added as required. Additional roles will be detailed in a _Contributor Roles_ file in the respective repository when necessary. If no _Contributor Roles_ file exists in a repository, it is assumed to follow the scheme outlined here.
 
 Contributor roles are per-project. For example, being a Maintainer for the `ilab` CLI repository does not guarantee that you will have Maintainer rights for the taxonomy repository. Where applicable for InstructLab overall, contributor status is equal to the highest status that they have on any project.
 
@@ -107,12 +107,9 @@ To become a project Maintainer, you must meet the following requirements:
 * You have directly contributed to the project through implementation and/or review.
 * You have been sponsored by two Maintainers.
 
-If you meet the requirements, nominate yourself to become a Maintainer by sending an email to the Maintainers with your candidacy. You must:
+One of the sponsors should open an issue in the relevant repository to provide a nomination. The issue should use the provided nomination template if one exists in that repo. If one does not exist, the sponsor should create a template prior to creating the nomination.
 
-* Ensure that your sponsors are `@mentioned` on the email.
-* Include a list of contributions representative of your work on the project.
-
-Maintainers will vote privately and respond to the issue with either acceptance or with feedback for suggested improvement. Feedback may be given privately.
+Maintainers will vote publicly on the issue, expressing their support via a GitHub comment or emoji reaction to the nomination summary. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to be given to the nominee, the sponsor should provide that feedback privately.
 
 After a [decision has been made](https://github.com/instructlab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will create a PR to add you in the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) within three weeks.
 

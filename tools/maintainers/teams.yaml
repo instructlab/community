@@ -32,6 +32,11 @@ Schema:
   desc: Team which has full maintainer access to the Schema repository
   slug: schema-maintainers
 
+SDG:
+- name: SDG Maintainers
+  desc: Team which has full maintainer access to the SDG repository
+  slug: sdg-maintainers
+
 Taxonomy:
 - name: Taxonomy Approvers
   desc: Team which has approval permissions to the Taxonomy repository

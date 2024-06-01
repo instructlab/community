@@ -75,15 +75,6 @@ Team which has full maintainer access to the Community repository
 - [`mingxzhao`](https://github.com/mingxzhao)
 - [`mmcelaney`](https://github.com/mmcelaney)
 
-## Enhancements
-
-### Enhancements Triagers
-
-Team which has full maintainer access to the Enhancements repository
-
-- [`nathan-weinberg`](https://github.com/nathan-weinberg)
-- [`russellb`](https://github.com/russellb)
-
 ## InstructLabBot
 
 ### InstructLab Bot Maintainers

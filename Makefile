@@ -28,3 +28,8 @@ spellcheck: ## Spellcheck markdown files
 .PHONY: spellcheck-sort
 spellcheck-sort: .spellcheck-en-custom.txt ## Sort spellcheck directory
 	sort -d -f -o $< $<
+
+.PHONY: maintainers
+maintainers: tools/maintainers/teams.yaml ## Update MAINTAINERS.md
+	$(ECHO_PREFIX) printf "  %-12s $<\n" "[MAINTAINERS.md]"
+	$(CMD_PREFIX) python tools/maintainers/maintainers.py $< > MAINTAINERS.md

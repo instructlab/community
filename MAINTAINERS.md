@@ -75,15 +75,6 @@ Team which has full maintainer access to the Community repository
 - [`mingxzhao`](https://github.com/mingxzhao)
 - [`mmcelaney`](https://github.com/mmcelaney)
 
-## Enhancements
-
-### Enhancements Triagers
-
-Team which has full maintainer access to the Enhancements repository
-
-- [`nathan-weinberg`](https://github.com/nathan-weinberg)
-- [`russellb`](https://github.com/russellb)
-
 ## InstructLabBot
 
 ### InstructLab Bot Maintainers
@@ -113,6 +104,26 @@ Team which has full maintainer access to the Schema repository
 
 - [`bjhargrave`](https://github.com/bjhargrave)
 - [`jjasghar`](https://github.com/jjasghar)
+
+## SDG
+
+### SDG Maintainers
+
+Team which has full maintainer access to the SDG repository
+
+- [`aakankshaduggal`](https://github.com/aakankshaduggal)
+- [`abhi1092`](https://github.com/abhi1092)
+- [`alimaredia`](https://github.com/alimaredia)
+- [`alinaryan`](https://github.com/alinaryan)
+- [`cdoern`](https://github.com/cdoern)
+- [`jaideepr97`](https://github.com/jaideepr97)
+- [`JamesKunstle`](https://github.com/JamesKunstle)
+- [`khaledsulayman`](https://github.com/khaledsulayman)
+- [`nathan-weinberg`](https://github.com/nathan-weinberg)
+- [`oindrillac`](https://github.com/oindrillac)
+- [`RobotSail`](https://github.com/RobotSail)
+- [`russellb`](https://github.com/russellb)
+- [`xukai92`](https://github.com/xukai92)
 
 ## Taxonomy
 

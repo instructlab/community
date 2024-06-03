@@ -122,6 +122,7 @@ Mahbobi
 Maintainership
 maintainership
 mairin
+Máirín
 Maredia
 markstur
 Marymount
@@ -139,7 +140,6 @@ mrutkows
 mscherer
 Multivariable
 Musique
-Máirín
 nathan
 nerdalert
 Neth
@@ -185,6 +185,7 @@ Sandhills
 Sanny
 Schlicker
 Schneegurt
+SDG
 Seminario
 Sepi
 SETI

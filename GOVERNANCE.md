@@ -33,6 +33,8 @@ Advancement to the project Maintainer position, removal or stepping down, and du
 
 The initial Oversight Committee at the launch of the project was appointed by the founding sponsors of the InstructLab project. This bootstrap committee will serve until the first election of the Oversight Committee using processes and timing as determined by this group.
 
+The list of Oversight Committee members can be found in [MAINTAINERS.md](https://github.com/instructlab/community/blob/main/MAINTAINERS.md#oversight-committee).
+
 The Oversight Committee consists of 3 to 7 leaders on the InstructLab project.  These members will serve to supervise the overall project and its health. It will also consist of a selected Chair member who will set agendas and call meetings. These meetings can be public or private at the discretion of the Oversight Committee.
 
 The Oversight Committee is responsible for the following duties:

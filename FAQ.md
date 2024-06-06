@@ -33,6 +33,7 @@ Last updated: April 2024
   - [I have a question about the project. Where should I go?](#i-have-a-question-about-the-project-where-should-i-go)
   - [What are the software and hardware requirements for using InstructLab?](#what-are-the-software-and-hardware-requirements-for-using-instructlab)
 - [Additional Resources](#additional-resources)
+- [Glossary](#glossary)
 
 ## Document summary
 
@@ -253,7 +254,7 @@ To run and train InstructLab locally, you must meet the following requirements:
 | Checkpoints | Snapshots during training. They are scored individually and the best is selected. | N/A |
 | CUDA | “Compute Unified Device Architecture” - A parallel computing platform and API for general computing on GPUs by NVIDIA. | [Ref](https://www.nvidia.com/en-us/geforce/technologies/cuda/) |
 | DeepSpeed | Deep learning optimization library for PyTorch | [Ref](https://www.deepspeed.ai/) |
-| Granite | Open source licenced LLM released by IBM | [Ref](https://huggingface.co/ibm-granite) |
+| Granite | Open source LLM released by IBM | [Ref](https://huggingface.co/ibm-granite) |
 | FSDP | “Full Sharded Data Parallel” - A wrapper for sharding module parameters across data parallel workers, used within [PyTorch](https://pytorch.org/) | [Ref](https://pytorch.org/docs/stable/fsdp.html) |
 | LAB | “Large-Scale Alignment for ChatBots” | [Ref](https://arxiv.org/abs/2403.01081) |
 | Labradorite | LAB-enhanced Llama2 model | N/A |

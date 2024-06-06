@@ -116,7 +116,6 @@ Labradorite
 LGTM
 LGTMs
 lhawthorn
-licenced
 lignment
 LLM
 LLM's

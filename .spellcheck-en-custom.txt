@@ -26,6 +26,7 @@ arge
 Asghar
 Ashgar
 backend
+benchmarking
 Bernardino
 bjhargrave
 Boelkins
@@ -47,6 +48,8 @@ codebases
 compositional
 Conala
 Corbett
+CPP
+CUDA
 curation
 cybette
 danmcp
@@ -70,6 +73,7 @@ Freeform
 freeform
 Frontend
 frontend
+FSDP
 Gair
 gcc
 Greenlaw
@@ -108,9 +112,11 @@ Korol
 Kruse
 Kubernetes
 Kunstle
+Labradorite
 LGTM
 LGTMs
 lhawthorn
+licenced
 lignment
 LLM
 LLM's
@@ -122,7 +128,6 @@ Mahbobi
 Maintainership
 maintainership
 mairin
-Máirín
 Maredia
 markstur
 Marymount
@@ -133,13 +138,17 @@ Merlinite
 mingxzhao
 Miniforge
 Mixtral
+MLX
 mmcelaney
 MMLU
+mmlu
 Moebs
+MPS
 mrutkows
 mscherer
 Multivariable
 Musique
+Máirín
 nathan
 nerdalert
 Neth
@@ -156,6 +165,7 @@ Oleg
 openbookQA
 Oswego
 ots
+PEFT
 Pfannestiel
 PII
 Prahl
@@ -166,6 +176,7 @@ pyenv
 PyPI
 pypi
 qa
+Quantized
 Quinnipiac
 Rao
 README
@@ -190,6 +201,9 @@ Seminario
 Sepi
 SETI
 sexualized
+Shaders
+Sharded
+sharding
 shivchander
 signoff
 signoffs

@@ -32,6 +32,7 @@ Last updated: April 2024
   - [Where can I download updated models of InstructLab?](#where-can-i-download-updated-models-of-instructlab)
   - [I have a question about the project. Where should I go?](#i-have-a-question-about-the-project-where-should-i-go)
   - [What are the software and hardware requirements for using InstructLab?](#what-are-the-software-and-hardware-requirements-for-using-instructlab)
+- [Glossary](#glossary)
 - [Additional Resources](#additional-resources)
 
 ## Document summary
@@ -245,6 +246,36 @@ To run and train InstructLab locally, you must meet the following requirements:
 - Approximately 10GB of free disk space to get through the `ilab generate` step
 - Approximately 60GB of free disk space is needed to run the entire process locally on Apple hardware
 - About 32 GB RAM
+
+## Glossary
+
+| Term | Explanation | Additional Reference |
+| --- | --- | --- |
+| Checkpoints | Snapshots during training. They are scored individually and the best is selected. | N/A |
+| CUDA | “Compute Unified Device Architecture” - A parallel computing platform and API for general computing on GPUs by NVIDIA. | [Ref](https://www.nvidia.com/en-us/geforce/technologies/cuda/) |
+| DeepSpeed | Deep learning optimization library for PyTorch | [Ref](https://www.deepspeed.ai/) |
+| Granite | Open source licensed LLM released by IBM | [Ref](https://huggingface.co/ibm-granite) |
+| FSDP | “Full Sharded Data Parallel” - A wrapper for sharding module parameters across data parallel workers, used within [PyTorch](https://pytorch.org/) | [Ref](https://pytorch.org/docs/stable/fsdp.html) |
+| LAB | “Large-Scale Alignment for ChatBots” | [Ref](https://arxiv.org/abs/2403.01081) |
+| Labradorite | LAB-enhanced Llama2 model | N/A |
+| Llama | LLM released by Meta | N/A |
+| Llama CPP | A C++ library for inference of Llama models, similar to [vLLM](https://docs.vllm.ai/en/stable/) | [Ref](https://github.com/ggerganov/llama.cpp) |
+| LoRA | “Low Rank Adapter” - Fine-tuning algorithm used within PyTorch | [Ref](https://github.com/microsoft/LoRA) |
+| Merlinite | LAB-enhanced Mistral model developed by IBM | N/A |
+| Mistral | LLM released by Mistral AI | N/A |
+| Mixtral | LLM using Mixture of Experts by Mistral AI | N/A |
+| MMLU | “Massive Multitask Language Understanding” - An evaluation scheme used for knowledge benchmarking | [Ref](https://en.wikipedia.org/wiki/MMLU) |
+| MLX | An array framework for machine learning research on Apple Silicon chips | [Ref](https://github.com/ml-explore/mlx) |
+| MPS | “Metal Performance Shaders” - A MacOS hardware accelerator, similar to CUDA kernels | N/A |
+| MT-Bench | “Multi-turn benchmark” - An evaluation scheme used for skills benchmarking | [Ref](https://arxiv.org/abs/2306.05685) |
+| PEFT | “Parameter Efficient Fine-Tuning” | N/A |
+| PR-bench | Evaluation scheme used for skills PR benchmarking | N/A |
+| PR-mmlu | Evaluation scheme used for knowledge PR benchmarking | N/A |
+| PyTorch | Library supporting tensors and dynamic neural networks in Python with strong GPU acceleration | [Ref](https://pytorch.org/) |
+| QLoRA | "“Quantized Low Rank Adapter” - Fine tuning algorithm used within PyTorch | [Ref](https://wandb.ai/sauravmaheshkar/QLoRA/reports/What-is-QLoRA---Vmlldzo2MTI2OTc5) |
+| Quantization | Process of reducing resource needs for a model by decreasing the range of the data type | [Ref](https://huggingface.co/docs/optimum/en/concept_guides/quantization) |
+| SDG | “Synthetic Data Generation” - The process where a model artificially generates data based on provided examples. | N/A |
+| vLLM | A library for LLM inference and serving, similar to Llama CPP. Provides an OpenAI-compatible API. | [Ref](https://docs.vllm.ai/) |
 
 ## Additional Resources
 

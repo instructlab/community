@@ -127,45 +127,28 @@ Team which has full maintainer access to the SDG repository
 
 ## Taxonomy
 
-### Taxonomy Approvers
+### Taxonomy Administrators
 
-Team which has approval permissions to the Taxonomy repository
+Team which has full administrative permissions to the Taxonomy repository
 
-- [`aakankshaduggal`](https://github.com/aakankshaduggal)
-- [`abhi1092`](https://github.com/abhi1092)
-- [`akashgit`](https://github.com/akashgit)
 - [`bjhargrave`](https://github.com/bjhargrave)
-- [`darrellreimer`](https://github.com/darrellreimer)
-- [`jeremyeder`](https://github.com/jeremyeder)
+- [`ckadner`](https://github.com/ckadner)
 - [`jjasghar`](https://github.com/jjasghar)
-- [`mingxzhao`](https://github.com/mingxzhao)
-- [`obuzek`](https://github.com/obuzek)
-- [`oindrillac`](https://github.com/oindrillac)
-- [`shivchander`](https://github.com/shivchander)
-- [`xukai92`](https://github.com/xukai92)
+- [`juliadenham`](https://github.com/juliadenham)
 
 ### Taxonomy Maintainers
 
 Team which has full maintainer access to the Taxonomy repository
 
 - [`bjhargrave`](https://github.com/bjhargrave)
-- [`caradelia`](https://github.com/caradelia)
 - [`ckadner`](https://github.com/ckadner)
-- [`cybette`](https://github.com/cybette)
-- [`hickeyma`](https://github.com/hickeyma)
-- [`jeremyeder`](https://github.com/jeremyeder)
 - [`jjasghar`](https://github.com/jjasghar)
-- [`joesepi`](https://github.com/joesepi)
 - [`juliadenham`](https://github.com/juliadenham)
 - [`kelbrown20`](https://github.com/kelbrown20)
 - [`luke-inglis`](https://github.com/luke-inglis)
-- [`mairin`](https://github.com/mairin)
-- [`markstur`](https://github.com/markstur)
 - [`mingxzhao`](https://github.com/mingxzhao)
 - [`obuzek`](https://github.com/obuzek)
 - [`russellb`](https://github.com/russellb)
-- [`xukai92`](https://github.com/xukai92)
-- [`yhwang`](https://github.com/yhwang)
 
 ### Taxonomy Triagers
 
@@ -174,12 +157,10 @@ Team that can manage Issues and Pull Requests but cannot merge code to the Taxon
 - [`caradelia`](https://github.com/caradelia)
 - [`ckadner`](https://github.com/ckadner)
 - [`cybette`](https://github.com/cybette)
-- [`hickeyma`](https://github.com/hickeyma)
 - [`jjasghar`](https://github.com/jjasghar)
 - [`joesepi`](https://github.com/joesepi)
 - [`lhawthorn`](https://github.com/lhawthorn)
-- [`mairin`](https://github.com/mairin)
-- [`markstur`](https://github.com/markstur)
+- [`ljmwaugh`](https://github.com/ljmwaugh)
 - [`mingxzhao`](https://github.com/mingxzhao)
 - [`oindrillac`](https://github.com/oindrillac)
 - [`xukai92`](https://github.com/xukai92)

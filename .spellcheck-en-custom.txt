@@ -68,6 +68,8 @@ Duggal
 Eder
 Eggebrecht
 et
+Eval
+eval
 Fraknoi
 Freeform
 freeform
@@ -127,6 +129,7 @@ Mahbobi
 Maintainership
 maintainership
 mairin
+Máirín
 Maredia
 markstur
 Marymount
@@ -147,7 +150,6 @@ mrutkows
 mscherer
 Multivariable
 Musique
-Máirín
 nathan
 nerdalert
 Neth

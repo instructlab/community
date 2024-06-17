@@ -75,6 +75,27 @@ Team which has full maintainer access to the Community repository
 - [`mingxzhao`](https://github.com/mingxzhao)
 - [`mmcelaney`](https://github.com/mmcelaney)
 
+## Eval
+
+### Eval Maintainers
+
+Team which has full maintainer access to the eval repository
+
+- [`aakankshaduggal`](https://github.com/aakankshaduggal)
+- [`abhi1092`](https://github.com/abhi1092)
+- [`alimaredia`](https://github.com/alimaredia)
+- [`alinaryan`](https://github.com/alinaryan)
+- [`cdoern`](https://github.com/cdoern)
+- [`jaideepr97`](https://github.com/jaideepr97)
+- [`JamesKunstle`](https://github.com/JamesKunstle)
+- [`khaledsulayman`](https://github.com/khaledsulayman)
+- [`Maxusmusti`](https://github.com/Maxusmusti)
+- [`nathan-weinberg`](https://github.com/nathan-weinberg)
+- [`oindrillac`](https://github.com/oindrillac)
+- [`RobotSail`](https://github.com/RobotSail)
+- [`russellb`](https://github.com/russellb)
+- [`xukai92`](https://github.com/xukai92)
+
 ## InstructLabBot
 
 ### InstructLab Bot Maintainers
@@ -163,6 +184,27 @@ Team that can manage Issues and Pull Requests but cannot merge code to the Taxon
 - [`ljmwaugh`](https://github.com/ljmwaugh)
 - [`mingxzhao`](https://github.com/mingxzhao)
 - [`oindrillac`](https://github.com/oindrillac)
+- [`xukai92`](https://github.com/xukai92)
+
+## Training
+
+### Training Maintainers
+
+Team which has full maintainer access to the training repository
+
+- [`aakankshaduggal`](https://github.com/aakankshaduggal)
+- [`abhi1092`](https://github.com/abhi1092)
+- [`alimaredia`](https://github.com/alimaredia)
+- [`alinaryan`](https://github.com/alinaryan)
+- [`cdoern`](https://github.com/cdoern)
+- [`jaideepr97`](https://github.com/jaideepr97)
+- [`JamesKunstle`](https://github.com/JamesKunstle)
+- [`khaledsulayman`](https://github.com/khaledsulayman)
+- [`Maxusmusti`](https://github.com/Maxusmusti)
+- [`nathan-weinberg`](https://github.com/nathan-weinberg)
+- [`oindrillac`](https://github.com/oindrillac)
+- [`RobotSail`](https://github.com/RobotSail)
+- [`russellb`](https://github.com/russellb)
 - [`xukai92`](https://github.com/xukai92)
 
 ## Website

@@ -62,3 +62,8 @@ Website:
 - name: Website Maintainers
   desc: Team which has full maintainer access to the Website repository
   slug: website-maintainers
+
+UI:
+- name: UI Maintainers
+  desc: Team which has full maintainer access to the UI repository
+  slug: ui-maintainers

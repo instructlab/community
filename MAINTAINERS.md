@@ -217,3 +217,17 @@ Team which has full maintainer access to the Website repository
 - [`joesepi`](https://github.com/joesepi)
 - [`mairin`](https://github.com/mairin)
 - [`mscherer`](https://github.com/mscherer)
+
+## UI
+
+### UI Maintainers
+
+Team which has full maintainer access to the UI repository
+
+- [`chungtan`](https://github.com/chungtan)
+- [`Gregory-Pereira`](https://github.com/Gregory-Pereira)
+- [`juancappi`](https://github.com/juancappi)
+- [`nerdalert`](https://github.com/nerdalert)
+- [`renrenstart`](https://github.com/renrenstart)
+- [`russellb`](https://github.com/russellb)
+- [`vishnoianil`](https://github.com/vishnoianil)

@@ -140,6 +140,14 @@ If a contributor has not been performing the duties of their role for a consecut
 
 If an emeritus Maintainer or other retired contributor wants to regain an active role, they can do so by renewing their contributions, after which they can be re-instated by a decision of the appropriate project's Maintainers.
 
+## Changes by Oversight Committee Members
+
+The Oversight Committee has authority over all team membership. A member of the
+Oversight Committee may make changes to team membership, including adding or
+removing members, at their discretion. When such changes are made, the Oversight
+Committee member should notify the rest of the Oversight Committee so they are
+aware of the changes.
+
 ## Changes to contributor roles
 
 Changes to contributor roles must be approved by a vote of the Oversight Committee or a majority of the current project's Maintainers.

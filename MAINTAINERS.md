@@ -24,7 +24,6 @@ Team which has full maintainer access to the CLI repository
 
 - [`alimaredia`](https://github.com/alimaredia)
 - [`alinaryan`](https://github.com/alinaryan)
-- [`anik120`](https://github.com/anik120)
 - [`bjhargrave`](https://github.com/bjhargrave)
 - [`cdoern`](https://github.com/cdoern)
 - [`hickeyma`](https://github.com/hickeyma)
@@ -33,13 +32,11 @@ Team which has full maintainer access to the CLI repository
 - [`khaledsulayman`](https://github.com/khaledsulayman)
 - [`leseb`](https://github.com/leseb)
 - [`mairin`](https://github.com/mairin)
+- [`markmc`](https://github.com/markmc)
 - [`markstur`](https://github.com/markstur)
-- [`mrutkows`](https://github.com/mrutkows)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)
 - [`RobotSail`](https://github.com/RobotSail)
 - [`russellb`](https://github.com/russellb)
-- [`soltysh`](https://github.com/soltysh)
-- [`spzala`](https://github.com/spzala)
 - [`tiran`](https://github.com/tiran)
 - [`xukai92`](https://github.com/xukai92)
 
@@ -142,10 +139,12 @@ Team which has full maintainer access to the SDG repository
 - [`jaideepr97`](https://github.com/jaideepr97)
 - [`JamesKunstle`](https://github.com/JamesKunstle)
 - [`khaledsulayman`](https://github.com/khaledsulayman)
+- [`markmc`](https://github.com/markmc)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)
 - [`oindrillac`](https://github.com/oindrillac)
 - [`RobotSail`](https://github.com/RobotSail)
 - [`russellb`](https://github.com/russellb)
+- [`shivchander`](https://github.com/shivchander)
 - [`xukai92`](https://github.com/xukai92)
 
 ## Taxonomy

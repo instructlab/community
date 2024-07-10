@@ -40,7 +40,7 @@ If you have questions or ideas, we have an open door policy and would love for y
 
 ### [Weekly UI Team Meeting](#weekly-ui-team-meeting)
 
-We host a weekly meeting on Wednesdays at 17:00 UTC to review development underway to [create and iterate upon a GUI](https://github.com/instructlab/ui) for InstructLab. ([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=28&hour=17&min=0&sec=0&p1=37&p2=43&p3=224&p4=213&p5=771&p6=248&p7=2&p8=101&iv=1800)) 
+We host a weekly meeting on Wednesdays at 17:00 UTC ([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=28&hour=17&min=0&sec=0&p1=37&p2=43&p3=224&p4=213&p5=771&p6=248&p7=2&p8=101&iv=1800)) to review development underway to [create and iterate upon a GUI](https://github.com/instructlab/ui) for InstructLab.
 
 If you are interested in user interface design, user experience, and simplifying the contribution experience,
 you are welcome and encouraged to join.

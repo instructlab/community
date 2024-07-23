@@ -137,6 +137,7 @@ Team which has full maintainer access to the SDG repository
 - [`abhi1092`](https://github.com/abhi1092)
 - [`alimaredia`](https://github.com/alimaredia)
 - [`alinaryan`](https://github.com/alinaryan)
+- [`bbrowning`](https://github.com/bbrowning)
 - [`cdoern`](https://github.com/cdoern)
 - [`derekhiggins`](https://github.com/derekhiggins)
 - [`jaideepr97`](https://github.com/jaideepr97)

@@ -152,6 +152,11 @@ aware of the changes.
 
 Changes to contributor roles must be approved by a vote of the Oversight Committee or a majority of the current project's Maintainers.
 
+## Communication of contributor role changes
+
+Changes to contributor roles must be communicated by a member of the Oversight Committee to the community. This should be done via both
+Slack and Email to an appropriate channel/list respectively. The communication should happen as soon as the role change is made on GitHub.
+
 ## Acknowledgements
 
 Contributor roles and responsibilities were written based on various CNCF projects membership and the [Contributor Ladder Template](https://github.com/cncf/project-template/blob/main/CONTRIBUTOR_LADDER.md).

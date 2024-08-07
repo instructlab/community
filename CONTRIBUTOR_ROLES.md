@@ -17,11 +17,13 @@ InstructLab welcomes new contributors. Not all contributors are able to provide 
 
 The following table provides information about the current roles available to the InstructLab project.
 
-| Role       | Responsibilities                             | Requirements                                                  | Defined by                    |
-|------------|----------------------------------------------|---------------------------------------------------------------|-------------------------------|
-| Member     | Active contributor in the community          | Multiple contributions and sponsored by 2 Maintainers         | InstructLab GitHub org member |
-| Triager    | Triaging issues and PRs                      | History of issue and PR triage and sponsored by 2 Maintainers           | InstructLab GitHub Triage team member        |
-| Maintainer | Sets direction and priorities for a project | Demonstrated responsibility and excellent technical judgement. Nominated and approved by Maintainers team. | [MAINTAINERS file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) Maintainer entry  |
+| Role | Responsibilities | Requirements | Defined by |
+|---|---|---|---|
+| Member | Active contributor in the community | Multiple contributions and sponsored by 2 Maintainers | InstructLab GitHub org member |
+| Triager | Triaging issues and PRs | History of issue and PR triage and sponsored by 2 Maintainers | InstructLab GitHub Triage team member |
+| Maintainer | Sets direction and priorities for a project | Demonstrated responsibility and excellent technical judgement. Nominated and approved by Maintainers team. | InstructLab GitHub Maintainer team member |
+
+You can see all current team members via the automatically-updated [MAINTAINERS file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) in the Community repo.
 
 ### Member
 

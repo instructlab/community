@@ -25,6 +25,7 @@ Team which has full maintainer access to the CLI repository
 - [`alimaredia`](https://github.com/alimaredia)
 - [`alinaryan`](https://github.com/alinaryan)
 - [`bjhargrave`](https://github.com/bjhargrave)
+- [`booxter`](https://github.com/booxter)
 - [`cdoern`](https://github.com/cdoern)
 - [`derekhiggins`](https://github.com/derekhiggins)
 - [`hickeyma`](https://github.com/hickeyma)
@@ -49,7 +50,6 @@ Team that can manage Issues and Pull Requests but cannot merge code to the CLI r
 - [`aakankshaduggal`](https://github.com/aakankshaduggal)
 - [`abhi1092`](https://github.com/abhi1092)
 - [`alimaredia`](https://github.com/alimaredia)
-- [`booxter`](https://github.com/booxter)
 - [`cybette`](https://github.com/cybette)
 - [`hickeyma`](https://github.com/hickeyma)
 - [`jaideepr97`](https://github.com/jaideepr97)
@@ -230,6 +230,7 @@ Team which has full maintainer access to the Website repository
 
 Team which has full maintainer access to the UI repository
 
+- [`aevo98765`](https://github.com/aevo98765)
 - [`chungtan`](https://github.com/chungtan)
 - [`Gregory-Pereira`](https://github.com/Gregory-Pereira)
 - [`juancappi`](https://github.com/juancappi)

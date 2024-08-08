@@ -115,9 +115,13 @@ Maintainers will vote publicly on the issue, expressing their support via a GitH
 
 After a [decision has been made](https://github.com/instructlab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will create a PR to add you in the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) within three weeks.
 
+All Maintainers are Triagers. If a candidate is not a Triager at the time of the nomination, they should be added to both Triagers and Maintainers teams.
+
 #### Maintainer responsibilities and Privileges
 
-As a project Maintainer, you have the following responsibilities and privileges:
+All Maintainers are Triagers and share all of the appropriate [responsibilities and privileges](#triager-responsibilities-and-privileges).
+
+In addition, as a project Maintainer, you have the following responsibilities and privileges:
 
 * You make and approve technical design decisions.
 * You set technical direction and priorities.

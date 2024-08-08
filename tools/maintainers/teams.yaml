@@ -21,16 +21,16 @@ Community:
 
 Eval:
 - name: Eval Maintainers
-  desc: Team which has full maintainer access to the eval repository
+  desc: Team which has full maintainer access to the Eval repository
   slug: eval-maintainers
 
 InstructLabBot:
 - name: InstructLab Bot Maintainers
   desc: Team which has full maintainer access to the InstructLab Bot repository
-  slug: instruct-lab-bot-maintainers
+  slug: instructlab-bot-maintainers
 - name: InstructLab Bot Triagers
   desc: Team that can manage Issues and Pull Requests but cannot merge code to the InstructLab Bot repository
-  slug: instruct-lab-bot-triagers
+  slug: instructlab-bot-triagers
 
 Schema:
 - name: Schema Maintainers
@@ -55,7 +55,7 @@ Taxonomy:
 
 Training:
 - name: Training Maintainers
-  desc: Team which has full maintainer access to the training repository
+  desc: Team which has full maintainer access to the Training repository
   slug: training-maintainers
 
 Website:

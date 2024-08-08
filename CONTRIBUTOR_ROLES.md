@@ -25,6 +25,8 @@ The following table provides information about the current roles available to th
 
 You can see all current team members via the automatically-updated [MAINTAINERS file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) in the Community repo.
 
+After a [decision has been made](https://github.com/instructlab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will add you to the appropriate group within three weeks. In short time, a [bot](https://github.com/instructlab/community/blob/main/.github/workflows/periodic-maintainers-update.yml) should propose a PR to update the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) to reflect the membership.
+
 ### Member
 
 Members are active contributors in the community. They can have issues and pull requests (PRs) assigned to them. Members are expected to be active contributors to the community.
@@ -112,8 +114,6 @@ To become a project Maintainer, you must meet the following requirements:
 One of the sponsors should open an issue in the relevant repository to provide a nomination. The issue should use the provided nomination template if one exists in that repo. If one does not exist, the sponsor should create a template prior to creating the nomination.
 
 Maintainers will vote publicly on the issue, expressing their support via a GitHub comment or emoji reaction to the nomination summary. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to be given to the nominee, the sponsor should provide that feedback privately.
-
-After a [decision has been made](https://github.com/instructlab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will create a PR to add you in the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) within three weeks.
 
 #### Maintainer responsibilities and Privileges
 

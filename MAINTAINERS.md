@@ -56,7 +56,6 @@ Team that can manage Issues and Pull Requests but cannot merge code to the CLI r
 - [`JamesKunstle`](https://github.com/JamesKunstle)
 - [`juliadenham`](https://github.com/juliadenham)
 - [`mairin`](https://github.com/mairin)
-- [`oindrillac`](https://github.com/oindrillac)
 
 ## Community
 
@@ -80,7 +79,7 @@ Team which has full maintainer access to the Community repository
 
 ### Eval Maintainers
 
-Team which has full maintainer access to the eval repository
+Team which has full maintainer access to the Eval repository
 
 - [`aakankshaduggal`](https://github.com/aakankshaduggal)
 - [`abhi1092`](https://github.com/abhi1092)
@@ -92,7 +91,6 @@ Team which has full maintainer access to the eval repository
 - [`khaledsulayman`](https://github.com/khaledsulayman)
 - [`Maxusmusti`](https://github.com/Maxusmusti)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)
-- [`oindrillac`](https://github.com/oindrillac)
 - [`RobotSail`](https://github.com/RobotSail)
 - [`russellb`](https://github.com/russellb)
 - [`xukai92`](https://github.com/xukai92)
@@ -145,7 +143,6 @@ Team which has full maintainer access to the SDG repository
 - [`khaledsulayman`](https://github.com/khaledsulayman)
 - [`markmc`](https://github.com/markmc)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)
-- [`oindrillac`](https://github.com/oindrillac)
 - [`RobotSail`](https://github.com/RobotSail)
 - [`russellb`](https://github.com/russellb)
 - [`shivchander`](https://github.com/shivchander)
@@ -188,14 +185,13 @@ Team that can manage Issues and Pull Requests but cannot merge code to the Taxon
 - [`lhawthorn`](https://github.com/lhawthorn)
 - [`ljmwaugh`](https://github.com/ljmwaugh)
 - [`mingxzhao`](https://github.com/mingxzhao)
-- [`oindrillac`](https://github.com/oindrillac)
 - [`xukai92`](https://github.com/xukai92)
 
 ## Training
 
 ### Training Maintainers
 
-Team which has full maintainer access to the training repository
+Team which has full maintainer access to the Training repository
 
 - [`aakankshaduggal`](https://github.com/aakankshaduggal)
 - [`abhi1092`](https://github.com/abhi1092)
@@ -208,7 +204,6 @@ Team which has full maintainer access to the training repository
 - [`khaledsulayman`](https://github.com/khaledsulayman)
 - [`Maxusmusti`](https://github.com/Maxusmusti)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)
-- [`oindrillac`](https://github.com/oindrillac)
 - [`RobotSail`](https://github.com/RobotSail)
 - [`russellb`](https://github.com/russellb)
 - [`xukai92`](https://github.com/xukai92)

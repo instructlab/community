@@ -42,4 +42,4 @@ jobs:
           fetch-depth: 0
 
       - name: Spellcheck
-        uses: rojopolis/spellcheck-github-actions@cd079c0f6a24c326cb8a4fa5dc8bbf16227990bd # v0.40.0
+        uses: rojopolis/spellcheck-github-actions@a0fba0ca8b9e552d4241ea5ccfaa4ca4162622d0 # v0.41.0

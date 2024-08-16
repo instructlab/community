@@ -217,6 +217,7 @@ Team which has full maintainer access to the Website repository
 - [`cybette`](https://github.com/cybette)
 - [`joesepi`](https://github.com/joesepi)
 - [`mairin`](https://github.com/mairin)
+- [`Misjohns`](https://github.com/Misjohns)
 - [`mscherer`](https://github.com/mscherer)
 
 ## UI

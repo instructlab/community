@@ -41,7 +41,9 @@ The `ilab` tool allows you to interact with the IBM AI model `Merlinite` or `Gra
 
     b. You can then create your own data sets to feed into and train the model. In the taxonomy project, there are two types of data you can serve to the model: skills and knowledge. There are a few different types of skills and knowledge you can create. For more detailed information on the types, see the Taxonomy [README.md](https://github.com/instructlab/taxonomy/blob/main/README.md#welcome-to-the-instructlab-taxonomy).
 
-    c. In your local taxonomy repository, generated after the [Initialize ilab](https://github.com/instructlab/instructlab/blob/main/README.md#%EF%B8%8F-initialize-ilab) step, navigate to the path that you want to add information to. You can see a flow chart of the paths in this file [taxonomy_diagram](https://github.com/instructlab/taxonomy/blob/main/docs/taxonomy_diagram.png). Create a `qna.yaml` file in that path with your contributions.
+    c. In your local taxonomy repository, generated after the [Initialize ilab](https://github.com/instructlab/instructlab/blob/main/README.md#%EF%B8%8F-initialize-ilab) step, navigate to the path that you want to add information to.
+    You can see a flow chart of the paths in this file [taxonomy_diagram](https://github.com/instructlab/taxonomy/blob/main/docs/taxonomy_diagram.md).
+    Create a `qna.yaml` file in that path with your contributions.
 
     d. [Serve and train the model](https://github.com/instructlab/instructlab/blob/main/README.md#-train-the-model) with your contributions to see if the model can answer questions more accurately.
 

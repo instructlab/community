@@ -33,7 +33,8 @@ The following documentation shows you an overview of the workflow, and the resou
 
 The `ilab` tool allows you to interact with the IBM AI model `Merlinite` or `Granite`, contribute your own information, and train the model locally.
 
-> **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations. Additionally, you should consider joining the [InstructLab community Slack channel](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md).
+> **Note:** Before proceeding, it might be beneficial to check out the [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of contributing practices and expectations.
+Additionally, you should consider joining the [InstructLab community Slack channel](InstructLab_SLACK_GUIDE.md).
 
 1. Navigate to the `ilab` CLI repository and follow the instructions in the [README.md](https://github.com/instructlab/instructlab/blob/main/README.md). The README.md instructs you on how to perform the following:
 
@@ -114,7 +115,7 @@ If you would like to see the detailed LICENSE click, see [LICENSE](LICENSE).
 
 * [InstructLab Slack](https://instruct-lab.slack.com). See the InstructLab Slack Guide for directions on how to join.
 * [InstructLab Slack Guide](InstructLab_SLACK_GUIDE.md)
-* [InstructLab Slack Moderation Guide](InstructLabSlackModerationGuide.md)
+* [InstructLab Slack Moderation Guide](InstructLab_SLACK_MODERATION_GUIDE.md)
 * [InstructLab Mailing lists](https://github.com/instructlab/community/blob/main/Collaboration.md#aliases-and-mailing-lists-catalog)
 * [Discussion](https://github.com/orgs/instructlab/discussions).
 

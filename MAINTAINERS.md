@@ -199,6 +199,7 @@ Team which has full maintainer access to the Training repository
 - [`alinaryan`](https://github.com/alinaryan)
 - [`cdoern`](https://github.com/cdoern)
 - [`fabianlim`](https://github.com/fabianlim)
+- [`hanseungwook`](https://github.com/hanseungwook)
 - [`jaideepr97`](https://github.com/jaideepr97)
 - [`JamesKunstle`](https://github.com/JamesKunstle)
 - [`khaledsulayman`](https://github.com/khaledsulayman)

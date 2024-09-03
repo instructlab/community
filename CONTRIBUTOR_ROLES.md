@@ -25,7 +25,7 @@ The following table provides information about the current roles available to th
 
 You can see all current team members via the automatically-updated [MAINTAINERS file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) in the Community repo.
 
-After a [decision has been made](https://github.com/instructlab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will add you to the appropriate group within three weeks. In short time, a [bot](https://github.com/instructlab/community/blob/main/.github/workflows/periodic-maintainers-update.yml) should propose a PR to update the [MAINTAINER file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) to reflect the membership.
+After a [decision has been made](https://github.com/instructlab/community/blob/main/governance.md#decision-making-at-the-instructlab-org-level), a Maintainer will add you to the appropriate group within three weeks. A [workflow](https://github.com/instructlab/community/blob/main/.github/workflows/periodic-maintainers-update.yml) runs daily and will submit a PR to update the [MAINTAINERS file](https://github.com/instructlab/community/blob/main/MAINTAINERS.md) to reflect the membership.
 
 ### Member
 

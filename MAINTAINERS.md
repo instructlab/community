@@ -88,6 +88,7 @@ Team which has full maintainer access to the Eval repository
 - [`cdoern`](https://github.com/cdoern)
 - [`jaideepr97`](https://github.com/jaideepr97)
 - [`JamesKunstle`](https://github.com/JamesKunstle)
+- [`kelbrown20`](https://github.com/kelbrown20)
 - [`khaledsulayman`](https://github.com/khaledsulayman)
 - [`Maxusmusti`](https://github.com/Maxusmusti)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)

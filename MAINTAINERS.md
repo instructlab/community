@@ -13,7 +13,7 @@ The project-wide oversight committee
 - [`jjasghar`](https://github.com/jjasghar)
 - [`lhawthorn`](https://github.com/lhawthorn)
 - [`mairin`](https://github.com/mairin)
-- [`russellb`](https://github.com/russellb) - Chair
+- [`n1hility`](https://github.com/n1hility) - Chair
 - [`xukai92`](https://github.com/xukai92)
 
 ## CLI
@@ -186,6 +186,7 @@ Team that can manage Issues and Pull Requests but cannot merge code to the Taxon
 - [`lhawthorn`](https://github.com/lhawthorn)
 - [`ljmwaugh`](https://github.com/ljmwaugh)
 - [`mingxzhao`](https://github.com/mingxzhao)
+- [`n1hility`](https://github.com/n1hility)
 - [`xukai92`](https://github.com/xukai92)
 
 ## Training
@@ -232,6 +233,7 @@ Team which has full maintainer access to the UI repository
 - [`chungtan`](https://github.com/chungtan)
 - [`Gregory-Pereira`](https://github.com/Gregory-Pereira)
 - [`juancappi`](https://github.com/juancappi)
+- [`n1hility`](https://github.com/n1hility)
 - [`nerdalert`](https://github.com/nerdalert)
 - [`renrenstart`](https://github.com/renrenstart)
 - [`russellb`](https://github.com/russellb)

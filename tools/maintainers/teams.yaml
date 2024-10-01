@@ -4,7 +4,7 @@ InstructLab:
 - name: Oversight Committee
   desc: The project-wide oversight committee
   slug: oversight-committee
-  chair: russellb
+  chair: n1hility
 
 CLI:
 - name: CLI Maintainers

@@ -67,6 +67,7 @@ Team which has full maintainer access to the Community repository
 - [`caradelia`](https://github.com/caradelia)
 - [`ckadner`](https://github.com/ckadner)
 - [`cybette`](https://github.com/cybette)
+- [`dominikkawka`](https://github.com/dominikkawka)
 - [`hickeyma`](https://github.com/hickeyma)
 - [`jjasghar`](https://github.com/jjasghar)
 - [`joesepi`](https://github.com/joesepi)

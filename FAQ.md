@@ -335,19 +335,7 @@ TODO: Update with mailing list details once these are created. Related issue
 
 ### What are the software and hardware requirements for using InstructLab?
 
-The local training is the most hardware intensive part of this process. Your hardware determines how fast/slow training
-the model locally will take.
-
-To run and train InstructLab locally, you must meet the following requirements:
-
-- A supported operating system
-  - A Linux-based operating system
-  - An Apple Silicon M1, M2, or M3 system
-  - A Windows system with WSL (Windows Subsystem for Linux)
-- Python 3.9 or later, including the development headers
-- Approximately 10GB of free disk space to get through the `ilab generate` step
-- Approximately 60GB of free disk space is needed to run the entire process locally on Apple hardware
-- About 32 GB RAM
+Check out the [HARDWARE REQUIREMENTS](HW_REQS.md)
 
 ## Glossary
 

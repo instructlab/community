@@ -19,7 +19,7 @@ The project will host more meetings as it evolves, but those we have already set
 
 ### [Weekly All Community Meeting](#weekly-all-community-meeting)
 
-We host weekly community meetings each Tuesday at 14:00 UTC.
+We host weekly community meetings each Thursday at 14:00 UTC.
 ([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=14&hour=14&min=0&sec=0&p1=37&p2=43&p3=101&p4=224&p5=213&p6=771&p7=248&p8=2))
 
 Weekly community meetings will feature regular updates on project happenings, including announcements, demos, places to
@@ -30,7 +30,7 @@ If you are new to the InstructLab project, the weekly community meeting is a gre
 
 ### [Weekly InstructLab CLI Meeting](#weekly-instructlab-cli-meeting)
 
-We host weekly InstructLab CLI meetings each Thursday at 14:00 UTC.
+We host weekly InstructLab CLI meetings each Tuesday at 14:00 UTC.
 ([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=14&hour=14&min=0&sec=0&p1=37&p2=43&p3=101&p4=224&p5=213&p6=771&p7=248&p8=2))
 
 Weekly InstructLab CLI meetings will feature announcements from the [CLI Maintainers](MAINTAINERS.md) team

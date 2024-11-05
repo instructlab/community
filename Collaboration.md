@@ -47,8 +47,8 @@ the InstructLab project calendar to select which time works best for you.
 
 ### [Triager Standup](#triager-standup)
 
-We host daily Triage Team stand up meetings at 18:30 UTC.
-([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=29&hour=18&min=30&sec=0&p1=37&p2=43&p3=224&p4=213&p5=771&p6=248&p7=2&p8=101&iv=1800)).
+We host daily Triage Team stand up meetings at 20:00 UTC.
+([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=29&hour=20&min=00&sec=0&p1=37&p2=43&p3=224&p4=213&p5=771&p6=248&p7=2&p8=101&iv=1800)).
 In this meeting, [triagers](https://github.com/instructlab/community/blob/main/CONTRIBUTOR_ROLES.md#triager) speak and
 discuss possible issues or successes with the different PRs put into the <https://github.com/instructlab/taxonomy> repo.
 

@@ -146,9 +146,13 @@ Maintainers will vote publicly on the issue, expressing their support via a GitH
 nomination summary. Any concerns may be discussed privately amongst the existing Maintainer team. If feedback needs to
 be given to the nominee, the sponsor should provide that feedback privately.
 
+All Maintainers are Triagers. If a candidate is not a Triager at the time of the nomination, they should be added to both Triagers and Maintainers teams.
+
 #### Maintainer responsibilities and Privileges
 
-As a project Maintainer, you have the following responsibilities and privileges:
+All Maintainers are Triagers and share all of the appropriate [responsibilities and privileges](#triager-responsibilities-and-privileges).
+
+In addition, as a project Maintainer, you have the following responsibilities and privileges:
 
 - You make and approve technical design decisions.
 - You set technical direction and priorities.

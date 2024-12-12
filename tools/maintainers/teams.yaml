@@ -6,13 +6,13 @@ InstructLab:
   slug: oversight-committee
   chair: n1hility
 
-CLI:
-- name: CLI Maintainers
+Core:
+- name: Core Maintainers
   desc: Team which has full maintainer access to the CLI repository
-  slug: cli-maintainers
+  slug: core-maintainers
 - name: CLI Triagers
   desc: Team that can manage Issues and Pull Requests but cannot merge code to the CLI repository
-  slug: cli-triagers
+  slug: core-triagers
 
 Community:
 - name: Community Maintainers

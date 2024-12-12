@@ -16,14 +16,15 @@ The project-wide oversight committee
 - [`n1hility`](https://github.com/n1hility) - Chair
 - [`xukai92`](https://github.com/xukai92)
 
-## CLI
+## Core
 
-### CLI Maintainers
+### Core Maintainers
 
 Team which has full maintainer access to the CLI repository
 
 - [`alimaredia`](https://github.com/alimaredia)
 - [`alinaryan`](https://github.com/alinaryan)
+- [`bbrowning`](https://github.com/bbrowning)
 - [`bjhargrave`](https://github.com/bjhargrave)
 - [`booxter`](https://github.com/booxter)
 - [`cdoern`](https://github.com/cdoern)
@@ -37,6 +38,7 @@ Team which has full maintainer access to the CLI repository
 - [`mairin`](https://github.com/mairin)
 - [`markmc`](https://github.com/markmc)
 - [`markstur`](https://github.com/markstur)
+- [`Maxusmusti`](https://github.com/Maxusmusti)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)
 - [`RobotSail`](https://github.com/RobotSail)
 - [`russellb`](https://github.com/russellb)

@@ -6,7 +6,8 @@ fellow users, or subscribe for project updates.
 ## Getting Started with InstructLab
 
 If you need help getting started with using or contributing to InstructLab, the best way to do so is via our
-[project Slack workspace](#chat) or [email lists](#email-lists) rather than posts on social media.
+project [Discord](#discord-chat) or [Slack](#slack-chat) workspaces, or [email lists](#email-lists) rather than posts
+on social media.
 
 ## [Project Meetings](#project-meetings)
 
@@ -63,7 +64,14 @@ to review development underway to [create and iterate upon a GUI](https://github
 If you are interested in user interface design, user experience, and simplifying the contribution experience, you are
 welcome and encouraged to join.
 
-## [Chat](#chat)
+## [Discord Chat](#discord-chat)
+
+To participate in discussions about the project and chat with other community members, please join our
+[InstructLab Discord Server](https://instructlab.ai/discord).
+To learn more about our Discord server, see:
+[InstructLab Discord Guide](https://github.com/instructlab/community/blob/main/InstructLab_DISCORD_GUIDE.md)
+
+## [Slack Chat](#slack-chat)
 
 For real-time chat discussions, please join our
 [InstructLab Slack workspace](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md).
@@ -71,11 +79,11 @@ For real-time chat discussions, please join our
 Slack history is deleted after 90 days, so for conversations that should preserved for a longer period use the
 [project mailing lists](#email-lists).
 
+## [Email Lists](#email-lists)
+
 If you want to add feedback or think there is a "large issue" to discuss, a mailing list or a specific repository issue
 tracker is a good place to have the conversation rather than Slack. If you are unsure of where to comment,
 [users@instructlab.ai](https://groups.google.com/a/instructlab.ai/g/users) is the best place to start.
-
-## [Email Lists](#email-lists)
 
 We use the following email lists for project communications. Subscriptions requires a
 [Google account](https://www.google.com/account/about/).
@@ -118,7 +126,7 @@ We are using the GitHub discussion boards in each repo for cases where we need t
 ephemerally, such as working together as a community to squash a nasty bug. In that case, a link to the appropriate
 discussion board post will be sent to the relevant project mailing lists so folks can follow along on GitHub. Rather
 than use the discussion boards to discuss proposals for enhancements or to request help with using InstructLab, please
-reach out on the project [email lists](#email-lists) or [Slack](#chat).
+reach out on the project [email lists](#email-lists) or  on [Discord](#discord-chat) or [Slack](#slack-chat).
 
 ## [Hugging Face](#hugging-face)
 

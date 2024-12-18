@@ -61,7 +61,7 @@ To become a project Member, you must meet the following requirements:
 
   - Authoring or reviewing PRs on GitHub.
   - Filing or commenting on issues on GitHub.
-  - Contributing to community discussion, for example, meetings or on Slack.
+  - Contributing to community discussion, for example, meetings or on Discord/Slack.
 
 - You have been sponsored by two Maintainers.
 
@@ -96,7 +96,7 @@ To become a project Triager, you must meet the following requirements:
 
   - Triaging open issues or PRs.
   - Authoring or reviewing PRs on GitHub.
-  - Contributing to community discussions (e.g. meetings, Slack).
+  - Contributing to community discussions (e.g. meetings, Discord/Slack).
 
 - You have been sponsored by two Maintainers.
 
@@ -133,7 +133,7 @@ To become a project Maintainer, you must meet the following requirements:
 - You have a deep understanding of the technical domain of the project.
 - You have made sustained contributions to design and direction by:
   - Authoring and reviewing proposals.
-  - Initiating, contributing, and resolving discussions, such as emails, Slack, GitHub issues, meetings.
+  - Initiating, contributing, and resolving discussions, such as emails, Discord, Slack, GitHub issues, meetings.
   - Identifying subtle or complex issues in designs and implementation pull requests.
 - You have directly contributed to the project through implementation and/or review.
 - You have been sponsored by two Maintainers.
@@ -195,8 +195,8 @@ project's Maintainers.
 ## Communication of contributor role changes
 
 Changes to contributor roles must be communicated by a member of the Oversight Committee to the community. This should
-be done via both Slack and Email to an appropriate channel/list respectively. The communication should happen as soon as
-the role change is made on GitHub.
+be done via Discord, Slack and Email to an appropriate channel/list respectively. The communication should happen as
+soon as the role change is made on GitHub.
 
 ## Acknowledgements
 

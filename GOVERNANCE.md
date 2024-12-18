@@ -22,10 +22,14 @@ decisions that affect only one project, such as the taxonomy repository and not 
 the taxonomy project. While communication between the different project teams is important as they are all
 interconnected, minor decisions do not need organization-wide consensus and can be moved forward at the project level.
 
-Changes in maintainership and other governance are currently announced on the InstructLab community Slack channel.
-Directions to join the Slack channel can be found
-[here](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md). Changes are also announced to the
+Changes in maintainership and other governance are currently announced on the InstructLab community Discord server and
+Slack channel. Changes are also announced to the
 [announce mailing list](https://github.com/instructlab/community/blob/main/Collaboration.md#email-lists).
+
+For more information on how to join these channels, please see the following guides:
+
+- [InstructLab Discord Server](https://github.com/instructlab/community/blob/main/InstructLab_DISCORD_GUIDE.md)
+- [InstructLab Slack Server](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md)
 
 ## Project Maintainers overview
 

@@ -158,10 +158,9 @@ Team which has full maintainer access to the SDG repository
 
 Team which has full administrative permissions to the Taxonomy repository
 
-- [`bjhargrave`](https://github.com/bjhargrave)
-- [`ckadner`](https://github.com/ckadner)
 - [`jjasghar`](https://github.com/jjasghar)
 - [`juliadenham`](https://github.com/juliadenham)
+- [`nimbinatus`](https://github.com/nimbinatus)
 
 ### Taxonomy Maintainers
 

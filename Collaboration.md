@@ -46,12 +46,17 @@ If you are particularly interested in the CLI aspect of the InstructLab project,
 We have two dedicated Office Hours slots each Thursday so we're able to meet with folks across different time zones. See
 the InstructLab project calendar to select which time works best for you.
 
-### [Triager Standup](#triager-standup)
+### [Biweekly Taxonomy Meeting](#biweekly-taxonomy-meeting)
 
-We host daily Triage Team stand up meetings at 20:00 UTC.
-([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=29&hour=20&min=00&sec=0&p1=37&p2=43&p3=224&p4=213&p5=771&p6=248&p7=2&p8=101&iv=1800)).
-In this meeting, [triagers](https://github.com/instructlab/community/blob/main/CONTRIBUTOR_ROLES.md#triager) speak and
-discuss possible issues or successes with the different PRs put into the <https://github.com/instructlab/taxonomy> repo.
+We host biweekly Taxonomy meetings, one on Mondays and one on Thursdays to best cover different time zones. Reference the
+InstructLab project calendar to select which time works best for you.
+
+* 22:00 UTC Mondays ([converted](https://www.google.com/search?q=2200+utc))
+* 16:00 UTC Thursdays ([converted](https://www.google.com/search?q=1600+utc))
+
+In this meeting, taxonomy [triagers](https://github.com/instructlab/community/blob/main/CONTRIBUTOR_ROLES.md#triager)
+speak and discuss possible issues or successes with the different PRs put into the <https://github.com/instructlab/taxonomy>
+repo.
 
 If you have questions or ideas, we have an open door policy and would love for you to join us.
 

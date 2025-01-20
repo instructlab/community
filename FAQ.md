@@ -347,7 +347,7 @@ To run and train InstructLab locally, you must meet the following requirements:
   - A Linux-based operating system
   - An Apple Silicon M1, M2, or M3 system
   - A Windows system with WSL (Windows Subsystem for Linux)
-- Python 3.9 or later, including the development headers
+- Python 3.10 or 3.11, including the development headers
 - Approximately 10GB of free disk space to get through the `ilab generate` step
 - Approximately 60GB of free disk space is needed to run the entire process locally on Apple hardware
 - About 32 GB RAM

@@ -20,14 +20,14 @@ the `cli`, please see [the ilab CLI README](https://github.com/instructlab/instr
 - **🍎 Apple M1/M2/M3 Mac or 🐧 Linux system** (tested on Fedora). We anticipate support for more operating systems in
   the future.
 - C++ compiler
-- Python 3.9+
+- Python 3.10 or 3.11
 - Approximately 60GB disk space (entire process)
 
 ## ✅ Getting started
 
 ### 🧰 Installing `ilab`
 
-1. If you are on Fedora Linux, install C++, Python 3.9+, and other necessary tools by running the following command:
+1. If you are on Fedora Linux, install C++, Python 3.10 or 3.11, and other necessary tools by running the following command:
 
    ```bash
    sudo dnf install g++ gcc make pip python3 python3-devel python3-GitPython

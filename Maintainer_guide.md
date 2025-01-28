@@ -1,3 +1,13 @@
+As a triager or maintainer, your job is to ensure contributions such as issues, pull requests, bug reports, and forum discussions are addressed in a timely manner. Sometimes that means you handle it yourself, and sometimes that means tagging in a fellow triager or maintainer to help.
+
+- [Triage](#triage)
+  - [Process](#process) 
+  - [Labels](#labels)
+- [Responding to Contributions](#responding-to-contributions)
+  - [Example issue and PR responses](#example-issue-and-pr-responses)
+  - [Example forum responses](#example-forum-responses)
+  - [Handling difficult or contentious situations](#handling-difficult-or-contentious-situations)
+
 ## Triage
 
 Triage is useful to ensure no submission fails to get attention. It also
@@ -10,11 +20,28 @@ Triage is useful to ensure no submission fails to get attention. It also
 - builds prioritization, negotiation and decision-making skills, which are critical to most tech roles; and
 - reinforces community and culture.
 
+### Process
+
+Generally, triage proceeds as follows:
+
+1. Review new issues or PRs.
+2. Tag the issue or PR accordingly.
+3. Respond if possible on quick responses (close, comment on issues that are support requests, duplicates, or something that needs more information from the contributor like a lack of steps to reproduce or signing of the Developer Certificate of Origin [DCO]).
+4. Tag someone to help if you need it. Otherwise, on PRs, tag the appropriate reviewers.
+5. Follow up on all issues and PRs outstanding to see if there are updates (e.g., new labels needed, ready to merge). You may need to tag someone again, or reach out to them on Slack or Discord.
+
+    If a contributor has not responded to a request for updates wihtin the window for Stalebot, leave the `stale` tag and let it autoclose.
+
+    If an issue or PR is `stale` due to the project maintainers or triagers 
+     needing to take action, remove the `stale` label, leave a comment noting   that you are tracking down the appropriate person, and follow up.
+
+Each repository may have their own triage rules. Those rules supersede these guidelines.
+
 ### Labels
 
 Each repository should have a set of labels to use for triaging purposes.
 
-Usual labels include the following options in this table.
+Usual labels include the following options in this table:
 
 Label | Use
 --|--
@@ -23,6 +50,7 @@ Label | Use
 `kind-bug` | Indicates a bug that can be picked up
 `kind-support` | Indicates the issue is a question for how-to or troubleshooting help
 `needs-information` | Indicates the triager needs information from the contributor
+`stale` | Indicates there has been no activity in a set number of days (automatically applied)
 `triage-needed` | Indicates the issue or PR has not yet been touched (usually automatic)
 
 ## Responding to contributions
@@ -40,17 +68,21 @@ These responses were written with the understanding that sometimes there will be
 
 Start with this snippet:
 
-> Thanks for the <feedback/commits/bug report>!
+> Thanks for the `<feedback/commits/bug report>`!
 
-If you respond, provide an answer, code review, or information why we’re rejecting the PR (e.g., “We already went through this path back in <#>, and we decided that it would be better to avoid it because of X, Y, and Z. Thanks for the idea, though!”). If the author has more work to do on a PR to meet the standards from the repo like generating missing tests or linting the project, here’s a good starting point:
+If you respond, provide an answer, code review, or information why we’re rejecting the PR:
 
-> We really appreciate your contribution! Before we can merge this in, however, we need to ensure that this PR meets our contribution guidelines found in <link>. Namely, this PR <is missing tests/needs to be linted with this command/etc.>. Do you need help getting that part squared away?
+>We already went through this path back in `<#>`, and we decided that it would be better to avoid it because of X, Y, and Z. Thanks for the idea, though!
+ 
+If the author has more work to do on a PR to meet the standards from the repo like generating missing tests or linting the project, here’s a good starting point:
+
+> We really appreciate your contribution! Before we can merge this in, however, we need to ensure that this PR meets our contribution guidelines found in `<link>`. Namely, this PR `<is missing tests/needs to be linted with this command/etc.>`. Do you need help getting that part squared away?
 
 You may need to offer to help them with any workflows in Git or the command line, such as amending commits for signoff.
 
 If you can’t answer, add this snippet:
 
->I don’t have a great answer for you, but I am going to take this back to our team and have someone get back to you within <timeframe> so we can work together to figure out the next steps.
+>I don’t have a great answer for you, but I am going to take this back to our team and have someone get back to you within `<timeframe>` so we can work together to figure out the next steps.
 
 The key is that timeframe at the end. Ensure the timeframe is something you can make happen, even if it’s another reply that says you’re still working on getting the information, like this:
 
@@ -70,7 +102,7 @@ If you can answer, provide an answer.
 
 If you can’t answer, add this snippet:
 
-> I don’t have a great answer for you, but I am going to take this back to the rest of the maintainers and have someone get back to you within <timeframe>.
+> I don’t have a great answer for you, but I am going to take this back to the rest of the maintainers and have someone get back to you within `<timeframe>`.
 
 The key is that timeframe at the end. Ensure the timeframe is something you can make happen, even if it’s another reply that says you’re still working on getting the information, like this:
 
@@ -80,7 +112,7 @@ Ensure you always follow up until the contributor gets an answer. Generally in a
 
 ### Handling difficult or contentious situations
 
-Even experienced professionals need time to respond in a way to diffuse the situation, and sometimes you may need to go for a walk or talk with someone else to get some breathing room before crafting a response. That's normal; please find a peer maintainer or triager if you need a sounding board.
+Even experienced professionals need time to respond in a way to defuse the situation, and sometimes you may need to go for a walk or talk with someone else to get some breathing room before crafting a response. That's normal; please find a peer maintainer or triager if you need a sounding board.
 
 Always attempt to de-escalate a situation through calm, neutral responses.
 

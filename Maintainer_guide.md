@@ -1,7 +1,7 @@
 As a triager or maintainer, your job is to ensure contributions such as issues, pull requests, bug reports, and forum discussions are addressed in a timely manner. Sometimes that means you handle it yourself, and sometimes that means tagging in a fellow triager or maintainer to help.
 
 - [Triage](#triage)
-  - [Process](#process) 
+  - [Process](#process)
   - [Labels](#labels)
 - [Responding to Contributions](#responding-to-contributions)
   - [Example issue and PR responses](#example-issue-and-pr-responses)
@@ -32,8 +32,7 @@ Generally, triage proceeds as follows:
 
     If a contributor has not responded to a request for updates wihtin the window for Stalebot, leave the `stale` tag and let it autoclose.
 
-    If an issue or PR is `stale` due to the project maintainers or triagers 
-     needing to take action, remove the `stale` label, leave a comment noting   that you are tracking down the appropriate person, and follow up.
+    If an issue or PR is `stale` due to the project maintainers or triagers needing to take action, remove the `stale` label, leave a comment noting   that you are tracking down the appropriate person, and follow up.
 
 Each repository may have their own triage rules. Those rules supersede these guidelines.
 
@@ -59,6 +58,7 @@ Label | Use
 ## Responding to contributions
 
 Keep these ideas in mind:
+
 - When responding to any contributor in issues, pull requests, or a forum, remember that you are temporarily the public representative of the InstructLab project. **Be welcoming and friendly.** If you don't have an answer, always add someone else who might know in the comment in the reply.
 - **Respond within one week to any open contributions**, and use the triage labels to indicate what your response was. For Slack or Discord, use threads to respond to questions or comments as much as possible.
 - **Know when and how to say no.** Sometimes requests or contributions need to be declined, at least in their current form. Find and follow any guidelines in each repository to understand common issues or edge cases. Don't be afraid to link to them in your reply. Be polite, but firm in your response. It saves everyone's time and patience to make expectations clear early.
@@ -122,6 +122,7 @@ Always attempt to de-escalate a situation through calm, neutral responses.
 ---
 
 These guidelines have been adapted from the following sources:
-- The TLDR maintainer's guide ([CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)): https://github.com/tldr-pages/tldr/blob/main/contributing-guides/maintainers-guide.md
-- The Kubernetes project triage guides([Apache 2.0](https://github.com/kubernetes/community/blob/master/LICENSE)): https://github.com/kubernetes/community/blob/master/contributors/guide/issue-triage.md
+
+- [The TLDR maintainer's guide](https://github.com/tldr-pages/tldr/blob/main/contributing-guides/maintainers-guide.md) ([CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/))
+- [The Kubernetes project triage guides](https://github.com/kubernetes/community/blob/master/contributors/guide/issue-triage.md) ([Apache 2.0](https://github.com/kubernetes/community/blob/master/LICENSE))
 - Personal experience (@nimbinatus)

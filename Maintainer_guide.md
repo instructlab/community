@@ -87,7 +87,7 @@ If you can’t answer, add this snippet:
 
 >I don’t have a great answer for you, but I am going to take this back to our team and have someone get back to you within `<time frame>` so we can work together to figure out the next steps.
 
-The key is that timeframe at the end. Ensure the timeframe is something you can make happen, even if it’s another reply that says you’re still working on getting the information, like this:
+The key is that time frame at the end. Ensure the time frame is something you can make happen, even if it’s another reply that says you’re still working on getting the information, like this:
 
 > Just a quick note. I’m still tracking down an answer for you. We haven’t forgotten about you!
 
@@ -105,9 +105,9 @@ If you can answer, provide an answer.
 
 If you can’t answer, add this snippet:
 
-> I don’t have a great answer for you, but I am going to take this back to the rest of the maintainers and have someone get back to you within `<timeframe>`.
+> I don’t have a great answer for you, but I am going to take this back to the rest of the maintainers and have someone get back to you within `<time frame>`.
 
-The key is that timeframe at the end. Ensure the timeframe is something you can make happen, even if it’s another reply that says you’re still working on getting the information, like this:
+The key is that time frame at the end. Ensure the time frame is something you can make happen, even if it’s another reply that says you’re still working on getting the information, like this:
 
 >Just a quick note. I’m still tracking down an answer for you. We haven’t forgotten about you!
 

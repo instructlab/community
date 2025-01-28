@@ -30,7 +30,7 @@ Generally, triage proceeds as follows:
 4. Tag someone to help if you need it. Otherwise, on PRs, tag the appropriate reviewers.
 5. Follow up on all issues and PRs outstanding to see if there are updates (e.g., new labels needed, ready to merge). You may need to tag someone again, or reach out to them on Slack or Discord.
 
-    If a contributor has not responded to a request for updates wihtin the window for Stalebot, leave the `stale` tag and let it autoclose.
+    If a contributor has not responded to a request for updates within the window for Stale-bot, leave the `stale` tag and let it autoclose.
 
     If an issue or PR is `stale` due to the project maintainers or triagers needing to take action, remove the `stale` label, leave a comment noting   that you are tracking down the appropriate person, and follow up.
 
@@ -85,7 +85,7 @@ You may need to offer to help them with any workflows in Git or the command line
 
 If you can’t answer, add this snippet:
 
->I don’t have a great answer for you, but I am going to take this back to our team and have someone get back to you within `<timeframe>` so we can work together to figure out the next steps.
+>I don’t have a great answer for you, but I am going to take this back to our team and have someone get back to you within `<time frame>` so we can work together to figure out the next steps.
 
 The key is that timeframe at the end. Ensure the timeframe is something you can make happen, even if it’s another reply that says you’re still working on getting the information, like this:
 

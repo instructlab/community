@@ -28,6 +28,7 @@ Team which has full maintainer access to the CLI repository
 - [`bjhargrave`](https://github.com/bjhargrave)
 - [`booxter`](https://github.com/booxter)
 - [`cdoern`](https://github.com/cdoern)
+- [`courtneypacheco`](https://github.com/courtneypacheco)
 - [`derekhiggins`](https://github.com/derekhiggins)
 - [`hickeyma`](https://github.com/hickeyma)
 - [`jaideepr97`](https://github.com/jaideepr97)
@@ -52,12 +53,15 @@ Team that can manage Issues and Pull Requests but cannot merge code to the CLI r
 - [`aakankshaduggal`](https://github.com/aakankshaduggal)
 - [`abhi1092`](https://github.com/abhi1092)
 - [`alimaredia`](https://github.com/alimaredia)
+- [`anastasds`](https://github.com/anastasds)
 - [`cybette`](https://github.com/cybette)
 - [`hickeyma`](https://github.com/hickeyma)
 - [`jaideepr97`](https://github.com/jaideepr97)
 - [`JamesKunstle`](https://github.com/JamesKunstle)
 - [`juliadenham`](https://github.com/juliadenham)
+- [`jwm4`](https://github.com/jwm4)
 - [`mairin`](https://github.com/mairin)
+- [`reidliu41`](https://github.com/reidliu41)
 
 ## Community
 

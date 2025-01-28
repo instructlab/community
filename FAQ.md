@@ -1,7 +1,5 @@
 # InstructLab FAQ
 
-Last updated: April 2024
-
 ## Table of Contents
 
 - [Document summary](#document-summary)

@@ -37,6 +37,9 @@ Generally, triage proceeds as follows:
 
 Each repository may have their own triage rules. Those rules supersede these guidelines.
 
+> [!IMPORTANT]
+> Please respond to all initial contributions within one week, and follow up within 15 days.
+
 ### Labels
 
 Each repository should have a set of labels to use for triaging purposes.

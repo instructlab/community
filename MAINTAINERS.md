@@ -40,6 +40,7 @@ Team which has full maintainer access to the CLI repository
 - [`markmc`](https://github.com/markmc)
 - [`markstur`](https://github.com/markstur)
 - [`Maxusmusti`](https://github.com/Maxusmusti)
+- [`mbestavros`](https://github.com/mbestavros)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)
 - [`RobotSail`](https://github.com/RobotSail)
 - [`russellb`](https://github.com/russellb)

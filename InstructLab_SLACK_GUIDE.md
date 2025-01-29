@@ -6,7 +6,7 @@ channels therein. We look forward to meeting everyone and welcoming you on Slack
 ## Overview
 
 The InstructLab Slack workspace resides at <https://instruct-lab.slack.com>. You must join via this
-[invitation link](https://join.slack.com/t/instruct-lab/shared_invite/zt-2kieyqiz9-zhXSxGnXk6uL_f3hVbD53g)
+[invitation link](https://join.slack.com/t/instruct-lab/shared_invite/zt-2z3322740-DKbLnYQJ3UymjadDEaNzKw))
 
 Upon joining, you will automatically be added to our `#announce` channel. You are welcome and encouraged to join other
 channels.

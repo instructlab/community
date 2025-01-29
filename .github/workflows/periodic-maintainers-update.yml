@@ -61,7 +61,7 @@ jobs:
         git commit -s -m "MAINTAINERS.md: automated update"
         git push -u -f origin maintainers-update
         if ! (gh pr list --head maintainers-update --json number | grep -q "number") ; then
-          gh pr create --title "MAINTAINERS.md: automated update" --body "Automated update of MAINTAINERS.md"
+          gh pr create --title "MAINTAINERS.md: automated update" --body "Automated update of MAINTAINERS.md" --reviewer instructlab/community-maintainers
         fi
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -46,8 +46,8 @@ InstructLab.
 
 ### Installing and interacting with the `ilab` CLI tool
 
-The `ilab` tool allows you to interact with the IBM AI model `Merlinite` or `Granite`, contribute your own information,
-and train the model locally.
+The `ilab` tool allows you to interact with the [Granite](https://github.com/IBM-Granite) AI model,
+contribute your own information, and train the model locally.
 
 > **Note:** Before proceeding, it might be beneficial to check out the
 > [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of

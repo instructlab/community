@@ -1,7 +1,10 @@
 # SPDX-License-Identifier: Apache-2.0
 
 config:
-  line-length: false
+  line-length:
+    line_length: 120
+    tables: false
+    code_blocks: false
   no-emphasis-as-header: false
   first-line-heading: false
   code-block-style: false

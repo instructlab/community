@@ -13,20 +13,22 @@ The project-wide oversight committee
 - [`jjasghar`](https://github.com/jjasghar)
 - [`lhawthorn`](https://github.com/lhawthorn)
 - [`mairin`](https://github.com/mairin)
-- [`russellb`](https://github.com/russellb) - Chair
+- [`n1hility`](https://github.com/n1hility) - Chair
 - [`xukai92`](https://github.com/xukai92)
 
-## CLI
+## Core
 
-### CLI Maintainers
+### Core Maintainers
 
 Team which has full maintainer access to the CLI repository
 
 - [`alimaredia`](https://github.com/alimaredia)
 - [`alinaryan`](https://github.com/alinaryan)
+- [`bbrowning`](https://github.com/bbrowning)
 - [`bjhargrave`](https://github.com/bjhargrave)
 - [`booxter`](https://github.com/booxter)
 - [`cdoern`](https://github.com/cdoern)
+- [`courtneypacheco`](https://github.com/courtneypacheco)
 - [`derekhiggins`](https://github.com/derekhiggins)
 - [`hickeyma`](https://github.com/hickeyma)
 - [`jaideepr97`](https://github.com/jaideepr97)
@@ -37,6 +39,8 @@ Team which has full maintainer access to the CLI repository
 - [`mairin`](https://github.com/mairin)
 - [`markmc`](https://github.com/markmc)
 - [`markstur`](https://github.com/markstur)
+- [`Maxusmusti`](https://github.com/Maxusmusti)
+- [`mbestavros`](https://github.com/mbestavros)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)
 - [`RobotSail`](https://github.com/RobotSail)
 - [`russellb`](https://github.com/russellb)
@@ -50,12 +54,15 @@ Team that can manage Issues and Pull Requests but cannot merge code to the CLI r
 - [`aakankshaduggal`](https://github.com/aakankshaduggal)
 - [`abhi1092`](https://github.com/abhi1092)
 - [`alimaredia`](https://github.com/alimaredia)
+- [`anastasds`](https://github.com/anastasds)
 - [`cybette`](https://github.com/cybette)
 - [`hickeyma`](https://github.com/hickeyma)
 - [`jaideepr97`](https://github.com/jaideepr97)
 - [`JamesKunstle`](https://github.com/JamesKunstle)
 - [`juliadenham`](https://github.com/juliadenham)
+- [`jwm4`](https://github.com/jwm4)
 - [`mairin`](https://github.com/mairin)
+- [`reidliu41`](https://github.com/reidliu41)
 
 ## Community
 
@@ -67,6 +74,7 @@ Team which has full maintainer access to the Community repository
 - [`caradelia`](https://github.com/caradelia)
 - [`ckadner`](https://github.com/ckadner)
 - [`cybette`](https://github.com/cybette)
+- [`dominikkawka`](https://github.com/dominikkawka)
 - [`hickeyma`](https://github.com/hickeyma)
 - [`jjasghar`](https://github.com/jjasghar)
 - [`joesepi`](https://github.com/joesepi)
@@ -88,6 +96,7 @@ Team which has full maintainer access to the Eval repository
 - [`cdoern`](https://github.com/cdoern)
 - [`jaideepr97`](https://github.com/jaideepr97)
 - [`JamesKunstle`](https://github.com/JamesKunstle)
+- [`kelbrown20`](https://github.com/kelbrown20)
 - [`khaledsulayman`](https://github.com/khaledsulayman)
 - [`Maxusmusti`](https://github.com/Maxusmusti)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)
@@ -154,10 +163,9 @@ Team which has full maintainer access to the SDG repository
 
 Team which has full administrative permissions to the Taxonomy repository
 
-- [`bjhargrave`](https://github.com/bjhargrave)
-- [`ckadner`](https://github.com/ckadner)
 - [`jjasghar`](https://github.com/jjasghar)
 - [`juliadenham`](https://github.com/juliadenham)
+- [`nimbinatus`](https://github.com/nimbinatus)
 
 ### Taxonomy Maintainers
 
@@ -185,6 +193,7 @@ Team that can manage Issues and Pull Requests but cannot merge code to the Taxon
 - [`lhawthorn`](https://github.com/lhawthorn)
 - [`ljmwaugh`](https://github.com/ljmwaugh)
 - [`mingxzhao`](https://github.com/mingxzhao)
+- [`n1hility`](https://github.com/n1hility)
 - [`xukai92`](https://github.com/xukai92)
 
 ## Training
@@ -199,6 +208,7 @@ Team which has full maintainer access to the Training repository
 - [`alinaryan`](https://github.com/alinaryan)
 - [`cdoern`](https://github.com/cdoern)
 - [`fabianlim`](https://github.com/fabianlim)
+- [`hanseungwook`](https://github.com/hanseungwook)
 - [`jaideepr97`](https://github.com/jaideepr97)
 - [`JamesKunstle`](https://github.com/JamesKunstle)
 - [`khaledsulayman`](https://github.com/khaledsulayman)
@@ -230,6 +240,7 @@ Team which has full maintainer access to the UI repository
 - [`chungtan`](https://github.com/chungtan)
 - [`Gregory-Pereira`](https://github.com/Gregory-Pereira)
 - [`juancappi`](https://github.com/juancappi)
+- [`n1hility`](https://github.com/n1hility)
 - [`nerdalert`](https://github.com/nerdalert)
 - [`renrenstart`](https://github.com/renrenstart)
 - [`russellb`](https://github.com/russellb)

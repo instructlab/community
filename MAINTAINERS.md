@@ -178,6 +178,7 @@ Team which has full maintainer access to the Taxonomy repository
 - [`kelbrown20`](https://github.com/kelbrown20)
 - [`luke-inglis`](https://github.com/luke-inglis)
 - [`mingxzhao`](https://github.com/mingxzhao)
+- [`nimbinatus`](https://github.com/nimbinatus)
 - [`obuzek`](https://github.com/obuzek)
 - [`russellb`](https://github.com/russellb)
 
@@ -194,6 +195,7 @@ Team that can manage Issues and Pull Requests but cannot merge code to the Taxon
 - [`ljmwaugh`](https://github.com/ljmwaugh)
 - [`mingxzhao`](https://github.com/mingxzhao)
 - [`n1hility`](https://github.com/n1hility)
+- [`nimbinatus`](https://github.com/nimbinatus)
 - [`xukai92`](https://github.com/xukai92)
 
 ## Training
@@ -208,7 +210,6 @@ Team which has full maintainer access to the Training repository
 - [`alinaryan`](https://github.com/alinaryan)
 - [`cdoern`](https://github.com/cdoern)
 - [`fabianlim`](https://github.com/fabianlim)
-- [`hanseungwook`](https://github.com/hanseungwook)
 - [`jaideepr97`](https://github.com/jaideepr97)
 - [`JamesKunstle`](https://github.com/JamesKunstle)
 - [`khaledsulayman`](https://github.com/khaledsulayman)

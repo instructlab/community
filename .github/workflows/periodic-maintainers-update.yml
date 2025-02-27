@@ -22,17 +22,17 @@ jobs:
       pull-requests: write
     steps:
     - name: "Harden Runner"
-      uses: step-security/harden-runner@91182cccc01eb5e619899d80e4e971d6181294a7 # v2.10.1
+      uses: step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e # v2.10.4
       with:
         egress-policy: audit # TODO: change to 'egress-policy: block' after couple of runs
 
     - name: "Checkout"
-      uses: actions/checkout@eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871 # v4.2.1
+      uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       with:
         fetch-depth: 0
 
     - name: "Setup Python"
-      uses: actions/setup-python@f677139bbe7f9c59b41e40162b753c062f5d49a3 # v5.2.0
+      uses: actions/setup-python@42375524e23c412d93fb67b49958b491fce71c38 # v5.4.0
       with:
         python-version: "3.11"
 
@@ -61,7 +61,7 @@ jobs:
         git commit -s -m "MAINTAINERS.md: automated update"
         git push -u -f origin maintainers-update
         if ! (gh pr list --head maintainers-update --json number | grep -q "number") ; then
-          gh pr create --title "MAINTAINERS.md: automated update" --body "Automated update of MAINTAINERS.md"
+          gh pr create --title "MAINTAINERS.md: automated update" --body "Automated update of MAINTAINERS.md" --reviewer instructlab/community-maintainers
         fi
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

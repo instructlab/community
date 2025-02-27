@@ -1,7 +1,5 @@
 # InstructLab FAQ
 
-Last updated: April 2024
-
 ## Table of Contents
 
 - [Document summary](#document-summary)
@@ -116,7 +114,8 @@ are integrated while enriching the model’s capabilities over time.
 
 You can begin your contribution journey by reading over the
 [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide and joining the
-[Community Slack Channel](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md).
+[Community Discord Server](https://github.com/instructlab/community/blob/main/InstructLab_DISCORD_GUIDE.md) or
+[Community Slack Channel](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md).
 
 When you're ready to start contributing, you can follow the
 [Getting Started](https://github.com/instruct-lab/community/blob/main/README.md#getting-started-with-the-instructlab-project-workstreams)
@@ -326,8 +325,10 @@ The latest version of InstructLab can be downloaded using the `ilab download` CL
 
 ### I have a question about the project. Where should I go?
 
-Currently, the best method for communicating with peers and project maintainers is in the Community Slack Channel. Visit
-our [InstructLab Slack Workspace Guide](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md) for
+Currently, the best method for communicating with peers and project maintainers is in the Community Discord Server or
+Slack Channel. Visit our
+InstructLab [Discord Server Guide](https://github.com/instructlab/community/blob/main/InstructLab_DISCORD_GUIDE.md)
+or [Slack Workspace Guide](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md) for
 information on how to join.
 
 TODO: Update with mailing list details once these are created. Related issue
@@ -370,7 +371,7 @@ Check out the [HARDWARE REQUIREMENTS](HW_REQS.md)
 ## Additional Resources
 
 Additional resources, including the Code of Conduct, Code of Conduct Committee members, how to contribute, how to join
-the Slack channel, and more, can be found in the following repositories:
+the Discord server, Slack channel, and more, can be found in the following repositories:
 
 [InstructLab Taxonomy Repository](https://github.com/instructlab/taxonomy)
 
@@ -378,7 +379,9 @@ the Slack channel, and more, can be found in the following repositories:
 
 [InstructLab Community Repository](https://github.com/instructlab/community)
 
-Slack and communication
+Discord, Slack and communication
 
+- [Joining the Discord Server](https://github.com/instructlab/community/blob/main/InstructLab_DISCORD_GUIDE.md)
+- [Discord Moderation](https://github.com/instructlab/community/blob/main/InstructLab_DISCORD_MODERATION_GUIDE.md)
 - [Joining the Slack Channel](https://github.com/instructlab/community/blob/main/InstructLabSlackGuide.md)
 - [Slack Moderation](https://github.com/instructlab/community/blob/main/InstructLabSlackModerationGuide.md)

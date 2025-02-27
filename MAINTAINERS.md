@@ -16,17 +16,19 @@ The project-wide oversight committee
 - [`n1hility`](https://github.com/n1hility) - Chair
 - [`xukai92`](https://github.com/xukai92)
 
-## CLI
+## Core
 
-### CLI Maintainers
+### Core Maintainers
 
 Team which has full maintainer access to the CLI repository
 
 - [`alimaredia`](https://github.com/alimaredia)
 - [`alinaryan`](https://github.com/alinaryan)
+- [`bbrowning`](https://github.com/bbrowning)
 - [`bjhargrave`](https://github.com/bjhargrave)
 - [`booxter`](https://github.com/booxter)
 - [`cdoern`](https://github.com/cdoern)
+- [`courtneypacheco`](https://github.com/courtneypacheco)
 - [`derekhiggins`](https://github.com/derekhiggins)
 - [`hickeyma`](https://github.com/hickeyma)
 - [`jaideepr97`](https://github.com/jaideepr97)
@@ -37,6 +39,8 @@ Team which has full maintainer access to the CLI repository
 - [`mairin`](https://github.com/mairin)
 - [`markmc`](https://github.com/markmc)
 - [`markstur`](https://github.com/markstur)
+- [`Maxusmusti`](https://github.com/Maxusmusti)
+- [`mbestavros`](https://github.com/mbestavros)
 - [`nathan-weinberg`](https://github.com/nathan-weinberg)
 - [`RobotSail`](https://github.com/RobotSail)
 - [`russellb`](https://github.com/russellb)
@@ -50,12 +54,15 @@ Team that can manage Issues and Pull Requests but cannot merge code to the CLI r
 - [`aakankshaduggal`](https://github.com/aakankshaduggal)
 - [`abhi1092`](https://github.com/abhi1092)
 - [`alimaredia`](https://github.com/alimaredia)
+- [`anastasds`](https://github.com/anastasds)
 - [`cybette`](https://github.com/cybette)
 - [`hickeyma`](https://github.com/hickeyma)
 - [`jaideepr97`](https://github.com/jaideepr97)
 - [`JamesKunstle`](https://github.com/JamesKunstle)
 - [`juliadenham`](https://github.com/juliadenham)
+- [`jwm4`](https://github.com/jwm4)
 - [`mairin`](https://github.com/mairin)
+- [`reidliu41`](https://github.com/reidliu41)
 
 ## Community
 
@@ -156,10 +163,9 @@ Team which has full maintainer access to the SDG repository
 
 Team which has full administrative permissions to the Taxonomy repository
 
-- [`bjhargrave`](https://github.com/bjhargrave)
-- [`ckadner`](https://github.com/ckadner)
 - [`jjasghar`](https://github.com/jjasghar)
 - [`juliadenham`](https://github.com/juliadenham)
+- [`nimbinatus`](https://github.com/nimbinatus)
 
 ### Taxonomy Maintainers
 

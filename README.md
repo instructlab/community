@@ -46,13 +46,16 @@ InstructLab.
 
 ### Installing and interacting with the `ilab` CLI tool
 
-The `ilab` tool allows you to interact with the IBM AI model `Merlinite` or `Granite`, contribute your own information,
-and train the model locally.
+The `ilab` tool allows you to interact with the [Granite](https://github.com/IBM-Granite) AI model,
+contribute your own information, and train the model locally.
 
 > **Note:** Before proceeding, it might be beneficial to check out the
 > [Contributing](https://github.com/instruct-lab/community/blob/main/CONTRIBUTING.md) guide for an overview of
-> contributing practices and expectations. Additionally, you should consider joining the
-> [InstructLab community Slack channel](InstructLab_SLACK_GUIDE.md).
+> contributing practices and expectations. Additionally, you should consider joining the InstructLab Discord & Slack
+> spaces:
+>
+> - [InstructLab community Discord server](InstructLab_DISCORD_GUIDE.md)
+> - [InstructLab community Slack channel](InstructLab_SLACK_GUIDE.md).
 
 1. Navigate to the `ilab` CLI repository and follow the instructions in the
    [README.md](https://github.com/instructlab/instructlab/blob/main/README.md). The README.md instructs you on how to
@@ -179,6 +182,10 @@ If you would like to see the detailed LICENSE click, see [LICENSE](LICENSE).
 
 ## Contact resources
 
+- [InstructLab Discord](https://instructlab.ai/discord). See the InstructLab Discord Guide for more information on
+the server.
+- [InstructLab Discord Guide](InstructLab_DISCORD_GUIDE.md)
+- [InstructLab Discord Moderation Guide](InstructLab_DISCORD_MODERATION_GUIDE.md)
 - [InstructLab Slack](https://instruct-lab.slack.com). See the InstructLab Slack Guide for directions on how to join.
 - [InstructLab Slack Guide](InstructLab_SLACK_GUIDE.md)
 - [InstructLab Slack Moderation Guide](InstructLab_SLACK_MODERATION_GUIDE.md)

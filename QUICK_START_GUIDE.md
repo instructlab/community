@@ -23,7 +23,7 @@ Check out the [HARDWARE REQUIREMENTS](HW_REQS.md)
 
 ### 🧰 Installing `ilab`
 
-1. If you are on Fedora Linux, install C++, Python 3.9+, and other necessary tools by running the following command:
+1. If you are on Fedora Linux, install C++, Python 3.10 or 3.11, and other necessary tools by running the following command:
 
    ```bash
    sudo dnf install g++ gcc make pip python3 python3-devel python3-GitPython

@@ -6,7 +6,8 @@ fellow users, or subscribe for project updates.
 ## Getting Started with InstructLab
 
 If you need help getting started with using or contributing to InstructLab, the best way to do so is via our
-[project Slack workspace](#chat) or [email lists](#email-lists) rather than posts on social media.
+project [Discord](#discord-chat) or [Slack](#slack-chat) workspaces, or [email lists](#email-lists) rather than posts
+on social media.
 
 ## [Project Meetings](#project-meetings)
 
@@ -33,11 +34,10 @@ If you are new to the InstructLab project, the weekly community meeting is a gre
 We host weekly InstructLab CLI meetings each Thursday at 14:00 UTC.
 ([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=14&hour=14&min=0&sec=0&p1=37&p2=43&p3=101&p4=224&p5=213&p6=771&p7=248&p8=2))
 
-Weekly InstructLab CLI meetings will feature announcements from the [CLI Maintainers](MAINTAINERS.md) team about the CLI
-project, overviews of the general roadmap the project is taking via our
-[Milestones](https://github.com/instructlab/instructlab/milestones) as well as the
-[Project Board](https://github.com/orgs/instructlab/projects/2), and dedicated time for discussing the direction of the
-project.
+Weekly InstructLab CLI meetings will feature announcements from the [CLI Maintainers](MAINTAINERS.md) team
+about the CLI project, overviews of the general roadmap the project is taking via our
+[Milestones](https://github.com/instructlab/instructlab/milestones) and dedicated time for discussing the
+direction of the project.
 
 If you are particularly interested in the CLI aspect of the InstructLab project, we encourage you to join this meeting!
 
@@ -46,12 +46,17 @@ If you are particularly interested in the CLI aspect of the InstructLab project,
 We have two dedicated Office Hours slots each Thursday so we're able to meet with folks across different time zones. See
 the InstructLab project calendar to select which time works best for you.
 
-### [Triager Standup](#triager-standup)
+### [Biweekly Taxonomy Meeting](#biweekly-taxonomy-meeting)
 
-We host daily Triage Team stand up meetings at 18:30 UTC.
-([time zone converter](https://www.timeanddate.com/worldclock/meetingdetails.html?year=2024&month=5&day=29&hour=18&min=30&sec=0&p1=37&p2=43&p3=224&p4=213&p5=771&p6=248&p7=2&p8=101&iv=1800)).
-In this meeting, [triagers](https://github.com/instructlab/community/blob/main/CONTRIBUTOR_ROLES.md#triager) speak and
-discuss possible issues or successes with the different PRs put into the <https://github.com/instructlab/taxonomy> repo.
+We host biweekly Taxonomy meetings, one on Mondays and one on Thursdays to best cover different time zones. Reference the
+InstructLab project calendar to select which time works best for you.
+
+* 22:00 UTC Mondays ([converted](https://www.google.com/search?q=2200+utc))
+* 16:00 UTC Thursdays ([converted](https://www.google.com/search?q=1600+utc))
+
+In this meeting, taxonomy [triagers](https://github.com/instructlab/community/blob/main/CONTRIBUTOR_ROLES.md#triager)
+speak and discuss possible issues or successes with the different PRs put into the <https://github.com/instructlab/taxonomy>
+repo.
 
 If you have questions or ideas, we have an open door policy and would love for you to join us.
 
@@ -64,7 +69,14 @@ to review development underway to [create and iterate upon a GUI](https://github
 If you are interested in user interface design, user experience, and simplifying the contribution experience, you are
 welcome and encouraged to join.
 
-## [Chat](#chat)
+## [Discord Chat](#discord-chat)
+
+To participate in discussions about the project and chat with other community members, please join our
+[InstructLab Discord Server](https://instructlab.ai/discord).
+To learn more about our Discord server, see:
+[InstructLab Discord Guide](https://github.com/instructlab/community/blob/main/InstructLab_DISCORD_GUIDE.md)
+
+## [Slack Chat](#slack-chat)
 
 For real-time chat discussions, please join our
 [InstructLab Slack workspace](https://github.com/instructlab/community/blob/main/InstructLab_SLACK_GUIDE.md).
@@ -72,11 +84,11 @@ For real-time chat discussions, please join our
 Slack history is deleted after 90 days, so for conversations that should preserved for a longer period use the
 [project mailing lists](#email-lists).
 
+## [Email Lists](#email-lists)
+
 If you want to add feedback or think there is a "large issue" to discuss, a mailing list or a specific repository issue
 tracker is a good place to have the conversation rather than Slack. If you are unsure of where to comment,
 [users@instructlab.ai](https://groups.google.com/a/instructlab.ai/g/users) is the best place to start.
-
-## [Email Lists](#email-lists)
 
 We use the following email lists for project communications. Subscriptions requires a
 [Google account](https://www.google.com/account/about/).
@@ -119,7 +131,7 @@ We are using the GitHub discussion boards in each repo for cases where we need t
 ephemerally, such as working together as a community to squash a nasty bug. In that case, a link to the appropriate
 discussion board post will be sent to the relevant project mailing lists so folks can follow along on GitHub. Rather
 than use the discussion boards to discuss proposals for enhancements or to request help with using InstructLab, please
-reach out on the project [email lists](#email-lists) or [Slack](#chat).
+reach out on the project [email lists](#email-lists) or  on [Discord](#discord-chat) or [Slack](#slack-chat).
 
 ## [Hugging Face](#hugging-face)
 

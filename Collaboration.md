@@ -148,14 +148,13 @@ Follow us on [Bluesky](https://bsky.app/profile/instructlab.bsky.social). This c
 
 ### [Reddit](#reddit)
 
-Check out the [InstructLab subreddit](https://reddit.com/r/instructlab) - feel free to share your experience with using and contributing to InstructLab. Every article is welcomed! 
-
+Check out the [InstructLab subreddit](https://reddit.com/r/instructlab) 
+- feel free to share your experience with using and contributing to InstructLab. Every article is welcomed!
 
 ### [YouTube](#youtube)
 
 Subscribe to the [InstructLab YouTube channel](https://www.youtube.com/@InstructLab) for regular updates when we post
 video tutorials or playlists of talks about InstructLab from conferences and meetups.
-
 
 ## [Submitting content](#submitting-content)
 

@@ -152,16 +152,18 @@ Follow us on [X](https://twitter.com/instructlab) for our latest Tweets. Er, Xes
 
 ### [Mastodon](#mastodon)
 
-Join the [InstructLab Mastodon server](https://mastodon.social/@InstructLab) to find out what's going on in the InstructLab world.
+Join the [InstructLab Mastodon server](https://mastodon.social/@InstructLab) 
+to find out what's going on in the InstructLab world.
 
 ### [Bluesky](#bluesky)
 
-Follow us on [Bluesky](https://bsky.app/profile/instructlab.bsky.social). This channel is currently inactive, but stay tuned for our next updates. 
+Follow us on [Bluesky](https://bsky.app/profile/instructlab.bsky.social). 
+This channel is currently inactive, but stay tuned for our next updates. 
 
 ### [Reddit](#reddit)
 
-Check out the [InstructLab subreddit](https://reddit.com/r/instructlab) 
-- feel free to share your experience with using and contributing to InstructLab. Every article is welcomed!
+Check out the [InstructLab subreddit](https://reddit.com/r/instructlab)- feel free to share 
+your experience with using and contributing to InstructLab. Every article is welcomed!
 
 ### [YouTube](#youtube)
 

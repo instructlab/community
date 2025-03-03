@@ -17,11 +17,7 @@ the `cli`, please see [the ilab CLI README](https://github.com/instructlab/instr
 
 ## 📋 Requirements
 
-- **🍎 Apple M1/M2/M3 Mac or 🐧 Linux system** (tested on Fedora). We anticipate support for more operating systems in
-  the future.
-- C++ compiler
-- Python 3.10 or 3.11
-- Approximately 60GB disk space (entire process)
+Check out the [HARDWARE REQUIREMENTS](HW_REQS.md)
 
 ## ✅ Getting started
 

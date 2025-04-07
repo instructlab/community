@@ -155,7 +155,6 @@ and conducted by the appropriate body:
 - Adding, archiving, or removing projects (majority of the Oversight Committee)
 - Resolving contentious [dev-docs](https://github.com/instructlab/dev-docs/blob/main/README.md#governance) proposals
 
-
 Other decisions may be called out and put up for decision on the InstructLab
 [community mailing list](https://github.com/instructlab/community/blob/main/Collaboration.md#email-lists). This can be
 done by anyone at any time. By default, any decisions called to a vote will be for a _simple majority_ vote of the

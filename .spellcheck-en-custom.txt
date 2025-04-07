@@ -28,6 +28,7 @@ Ashgar
 backend
 benchmarking
 Bernardino
+Bluesky
 bjhargrave
 Boelkins
 Byars
@@ -184,6 +185,7 @@ README
 Rebecca
 Redbooks
 redbooks
+Reddit
 Repo
 repo
 resynthesizes
@@ -217,6 +219,7 @@ Spielman
 spzala
 Stanberry
 Standup
+subreddit
 Sudalairaj
 supermajority
 Tatlock

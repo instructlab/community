@@ -1,6 +1,6 @@
 ## 📋 Hardware requirements
 
-The local training is the most hardware intensive part of this process. 
+The local training is the most hardware intensive part of this process.
 Your hardware determines how fast/slow training the model locally will take.
 To run and train InstructLab locally, you must meet the following requirements:
 
@@ -20,5 +20,5 @@ To run and train InstructLab locally, you must meet the following requirements:
 
 > **NOTE:** Python 3.12 is currently not supported, because some dependencies don't work on Python 3.12, yet.
 <!-- -->
-> **NOTE:** When installing the `ilab` CLI on macOS, you may have to run the 
+> **NOTE:** When installing the `ilab` CLI on macOS, you may have to run the
 > `xcode-select --install` command, installing the required packages previously listed.

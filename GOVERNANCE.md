@@ -153,6 +153,8 @@ and conducted by the appropriate body:
 - Non-trivial changes to the governance (this document) (supermajority of the Oversight Committee)
 - Licensing and intellectual property changes such as new logos or wordmarks (majority of the Oversight Committee)
 - Adding, archiving, or removing projects (majority of the Oversight Committee)
+- Resolving contentious [dev-docs](https://github.com/instructlab/dev-docs/blob/main/README.md#governance) proposals
+
 
 Other decisions may be called out and put up for decision on the InstructLab
 [community mailing list](https://github.com/instructlab/community/blob/main/Collaboration.md#email-lists). This can be

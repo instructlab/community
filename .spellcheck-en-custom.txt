@@ -25,6 +25,8 @@ ARB
 arge
 Asghar
 Ashgar
+async
+autoclose
 backend
 benchmarking
 Bernardino
@@ -59,6 +61,7 @@ datasets
 dave
 DCO
 De
+de
 deployable
 DeSaix
 dev
@@ -126,6 +129,7 @@ luke
 Lund
 Lyryx
 Mahbobi
+maintainer's
 Maintainership
 maintainership
 mairin
@@ -224,10 +228,13 @@ templated
 Theopold
 Thi
 Tiemann
+TLDR
 TODO
 Triager
+triager
 triagers
 Triaging
+triaging
 UI
 Urone
 USC

@@ -1,5 +1,5 @@
 certifi==2024.12.14
-cffi==1.17.1
+cffi==2.0.0
 charset-normalizer==3.4.1
 cryptography==44.0.2
 Deprecated==1.2.18
